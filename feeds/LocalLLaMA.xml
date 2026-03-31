@@ -2,49 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-03-31T01:14:35+00:00</updated>
+  <updated>2026-03-31T02:03:15+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
   <entry>
-    <id>t3_1s8925x</id>
-    <title>People with low VRAM, I have something for you that won't help.</title>
-    <updated>2026-03-31T01:01:36+00:00</updated>
+    <id>t3_1s88x5g</id>
+    <title>Is Q4_K_M the best practical quantization method</title>
+    <updated>2026-03-31T00:55:30+00:00</updated>
     <author>
-      <name>/u/Uncle___Marty</name>
-      <uri>https://old.reddit.com/user/Uncle___Marty</uri>
+      <name>/u/More_Chemistry3746</name>
+      <uri>https://old.reddit.com/user/More_Chemistry3746</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;*hug*&lt;/p&gt; &lt;p&gt;I'm one of your kind. I Struggle like you do but I promise you. If you get more VRAM you'll think you screwed yourself of by not getting more.&lt;/p&gt; &lt;p&gt;VRAM is the new crack for AI enthusiasts. We're screwed because the control falls upon one major company. Whats the answer? I'm not sure but more cat pics seems like a good time passer until we gain more data.&lt;/p&gt; &lt;p&gt;Just remember. More VRAM doesnt instantly mean better results, sometimes it just means higher class hallucinations ;)&lt;/p&gt; &lt;p&gt;Hats off to the wonderful and amazing &lt;a href="/r/localllama"&gt;r/localllama&lt;/a&gt; community who constantly help people in need, get into WILD discussions and make the world of AI chit chat pretty god damn amazing for myself. I hope others find the same. Cheers everyone, thanks for teaching me so much and being so great along the way.&lt;/p&gt; &lt;p&gt;Low VRAM? No problem, 2 years ago you couldnt run a damn thing that worked well, now you can download qwen3.5 and have a &amp;quot;genius&amp;quot; running on your own *^$!.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Uncle___Marty"&gt; /u/Uncle___Marty &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8925x/people_with_low_vram_i_have_something_for_you/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8925x/people_with_low_vram_i_have_something_for_you/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8925x/people_with_low_vram_i_have_something_for_you/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Q4_K_M is ollama's default&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/More_Chemistry3746"&gt; /u/More_Chemistry3746 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s88x5g/is_q4_k_m_the_best_practical_quantization_method/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s88x5g/is_q4_k_m_the_best_practical_quantization_method/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s88x5g/is_q4_k_m_the_best_practical_quantization_method/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T01:01:36+00:00</published>
+    <published>2026-03-31T00:55:30+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s7g8ov</id>
-    <title>Autoresearch on Qwen3.5-397B, 36 experiments to reach 20.34 tok/s on M5 Max, honest results</title>
-    <updated>2026-03-30T04:01:40+00:00</updated>
+    <id>t3_1s89udc</id>
+    <title>H2H testing of Jackrong's Claude-4.6-Opus-Reasoning-Distilled versions vs regular Qwen3.5 GGUF?</title>
+    <updated>2026-03-31T01:36:45+00:00</updated>
     <author>
-      <name>/u/Equivalent-Buy1706</name>
-      <uri>https://old.reddit.com/user/Equivalent-Buy1706</uri>
+      <name>/u/rm-rf-rm</name>
+      <uri>https://old.reddit.com/user/rm-rf-rm</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I spent the past week trying to push Qwen3.5-397B faster on my M5 Max 128GB. Dan Woods' (@danveloper) original baseline was 4.36 tok/s on M3 Max. On M5 Max the starting point was already 10.61 tok/s due to better hardware. My optimizations pushed it to 20.34 tok/s, roughly 2x through software alone, and 4.67x over Dan's original result.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Hardware:&lt;/strong&gt; MacBook Pro M5 Max, 128GB unified memory, 40-Core GPU&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Model config:&lt;/strong&gt; Qwen3.5-397B-A17B, Q3-GGUF experts (Unsloth IQ3_XXS/IQ4_XS mixed precision), Q8_0 embedding, Q6_K LM head. Decode: 20.34 tok/s. Prefill: 5.52 tok/s. The model is 209GB on disk, 4x larger than the 128GB RAM — everything streams from SSD.&lt;/p&gt; &lt;p&gt;Screenshot of an actual run below. You can see individual tokens hitting 20+ tok/s once the page cache warms up!&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Methodology:&lt;/strong&gt; I used the autoresearch loop methodology originally developed by Dan Woods &lt;a href="http://github.com/danveloper/flash-moe"&gt;github.com/danveloper/flash-moe&lt;/a&gt;, running it with Claude Code (Anthropic) to systematically run and evaluate experiments on M5 Max. Each experiment was logged with its result before moving to the next, with automatic quality gating via perplexity threshold to catch regressions. Human-AI collaboration: I directed the research, provided the hardware, and made all scientific decisions. Claude Code implemented and benchmarked under my direction. This let me cover 36 experiments in a few days instead of weeks. Full paper PDF available in the repo.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Built on:&lt;/strong&gt; Dan Woods' original flash-moe paper &lt;a href="http://github.com/danveloper/flash-moe"&gt;github.com/danveloper/flash-moe&lt;/a&gt; and Anemll's fork &lt;a href="http://github.com/Anemll/flash-moe"&gt;github.com/Anemll/flash-moe.&lt;/a&gt; A pure C/Metal inference engine for running Qwen3.5-397B via SSD streaming on Apple Silicon. The Anemll fork added Q3-GGUF expert support which was essential to these results. My work adds further Metal-level optimizations on top.&lt;/p&gt; &lt;p&gt;One thing that became clear during autoresearch: every time you break through one wall, another one appears. SSD I/O was the bottleneck, then GPU encoding overhead, then projection kernels. Classic shifting bottleneck problem.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What actually moved the needle:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Note: gains are not perfectly additive since some optimizations interact with each other.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What failed (78% discard rate):&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;NAX offloading, tile padding overhead cancelled gains&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Honest limitations:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Single hardware platform, results may not generalize&lt;/li&gt; &lt;li&gt;This is a speed research project, not a production quality claim&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Future work:&lt;/strong&gt; One surprising finding: Apple's Neural Engine (ANE) was completely idle the entire time, drawing 0W. That's 38 TOPS of compute sitting unused. The problem is MoE inference needs to decide which experts to activate dynamically, and ANE only works with static pre-compiled graphs. There may be an opportunity for batch prefill though. Full analysis in the paper.&lt;br /&gt; &lt;a href="https://github.com/gorroai/flash-moe/"&gt;https://github.com/gorroai/flash-moe/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/gorroai/flash-moe/blob/main/paper/flash_moe.pdf"&gt;https://github.com/gorroai/flash-moe/blob/main/paper/flash_moe.pdf&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://drive.google.com/file/d/1xPu6bXD0-hzV1qUavhXMd0XEa0-hkoP0/view?usp=sharing"&gt;https://drive.google.com/file/d/1xPu6bXD0-hzV1qUavhXMd0XEa0-hkoP0/view?usp=sharing&lt;/a&gt;&lt;/p&gt; &lt;p&gt;X/Twitter: DrPhoto&lt;/p&gt; &lt;p&gt;Thanks for reading. Happy to answer questions.&lt;/p&gt; &lt;p&gt;If anyone has ideas for further optimizations I am all ears. The ANE opportunity in particular feels underexplored.&lt;/p&gt; &lt;p&gt;Is this publishing worthy? Is so please endorse me: &lt;a href="https://arxiv.org/auth/endorse?x=P3TBDF"&gt;https://arxiv.org/auth/endorse?x=P3TBDF&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Equivalent-Buy1706"&gt; /u/Equivalent-Buy1706 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7g8ov/autoresearch_on_qwen35397b_36_experiments_to/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7g8ov/autoresearch_on_qwen35397b_36_experiments_to/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7g8ov/autoresearch_on_qwen35397b_36_experiments_to/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89udc/h2h_testing_of_jackrongs/"&gt; &lt;img alt="H2H testing of Jackrong's Claude-4.6-Opus-Reasoning-Distilled versions vs regular Qwen3.5 GGUF?" src="https://preview.redd.it/fexstcd1basg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=d9d73897602b66c5b3cfe017369b5ba2f64e8f2c" title="H2H testing of Jackrong's Claude-4.6-Opus-Reasoning-Distilled versions vs regular Qwen3.5 GGUF?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Jackrong's Claude-4.6-Opus-Reasoning-Distilled versions of Qwen3.5 quants seem to be wildly popular (going of off HF likes and downloads as pictured). &lt;/p&gt; &lt;p&gt;I havent seen any head to head comparison of these versions vs regular GGUFs. Given how small the dataset is, im quite suspicious that it is actually any better. Has anyone done/seen A/B or head to head tests? &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/rm-rf-rm"&gt; /u/rm-rf-rm &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/fexstcd1basg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89udc/h2h_testing_of_jackrongs/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s89udc/h2h_testing_of_jackrongs/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-30T04:01:40+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s7w8on</id>
-    <title>How do chatbots (like ChatGPT, Claude) browse the internet?</title>
-    <updated>2026-03-30T16:54:33+00:00</updated>
-    <author>
-      <name>/u/Such_Ad_7545</name>
-      <uri>https://old.reddit.com/user/Such_Ad_7545</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I mean, I know you can literally send requests or even use a headless browser, but that’s not really the point. There are so many different things that don’t align cleanly or make it easy. I get that.&lt;/p&gt; &lt;p&gt;There’s robot verification, and a lot more stuff like that.&lt;/p&gt; &lt;p&gt;But as far as I know, these chatbots are surprisingly good at browsing (like acting as a browser).&lt;/p&gt; &lt;p&gt;I always think about how I’d build something like that. Not just basic browsing, but doing it in a smart way, like OpenAI or Anthropic level smart.&lt;/p&gt; &lt;p&gt;Not like, “yeah let’s just use LangChain and some browsing API for LLMs.” Not that.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Such_Ad_7545"&gt; /u/Such_Ad_7545 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7w8on/how_do_chatbots_like_chatgpt_claude_browse_the/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7w8on/how_do_chatbots_like_chatgpt_claude_browse_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7w8on/how_do_chatbots_like_chatgpt_claude_browse_the/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-30T16:54:33+00:00</published>
+    <published>2026-03-31T01:36:45+00:00</published>
   </entry>
   <entry>
     <id>t3_1s7xv6u</id>
@@ -73,19 +60,6 @@
     <published>2026-03-30T18:17:18+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s89745</id>
-    <title>I just want to catch up on local LLM's after work..</title>
-    <updated>2026-03-31T01:07:40+00:00</updated>
-    <author>
-      <name>/u/ForsookComparison</name>
-      <uri>https://old.reddit.com/user/ForsookComparison</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89745/i_just_want_to_catch_up_on_local_llms_after_work/"&gt; &lt;img alt="I just want to catch up on local LLM's after work.." src="https://preview.redd.it/n7pm5trg5asg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=58f55a56fb1c15d358dae2165f1540ce49432040" title="I just want to catch up on local LLM's after work.." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ForsookComparison"&gt; /u/ForsookComparison &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/n7pm5trg5asg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89745/i_just_want_to_catch_up_on_local_llms_after_work/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s89745/i_just_want_to_catch_up_on_local_llms_after_work/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T01:07:40+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s867mp</id>
     <title>Built a controllable computer-use VLM harness for Civilization VI (voice &amp; natural language strategy → UI actions)</title>
     <updated>2026-03-30T22:58:25+00:00</updated>
@@ -99,30 +73,17 @@
     <published>2026-03-30T22:58:25+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s812cs</id>
-    <title>[[R] The loophole in Turboquant: It saves reasoning outliers by permanently polluting the semantic noise floor.</title>
-    <updated>2026-03-30T19:43:30+00:00</updated>
+    <id>t3_1s89h7f</id>
+    <title>Best coding LLM for Mac Mini M4 16GB? Currently using Qwen 3.5 9B</title>
+    <updated>2026-03-31T01:20:17+00:00</updated>
     <author>
-      <name>/u/D_E_V_25</name>
-      <uri>https://old.reddit.com/user/D_E_V_25</uri>
+      <name>/u/host3000</name>
+      <uri>https://old.reddit.com/user/host3000</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s812cs/r_the_loophole_in_turboquant_it_saves_reasoning/"&gt; &lt;img alt="[[R] The loophole in Turboquant: It saves reasoning outliers by permanently polluting the semantic noise floor." src="https://preview.redd.it/hgbu6t4ek8sg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=683389ac4f3867734be021886a9b3c51cf2f7129" title="[[R] The loophole in Turboquant: It saves reasoning outliers by permanently polluting the semantic noise floor." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;Just like everyone else I have also came across Turboquant,Rabitq,Quip, recent llama.cpp and others.I've been profiling what global rotation is actually doing to hidden states during low-bit quantization, something I think is worth discussing and directly hits almost every global rotation concepts and I have tried explaining the &amp;quot;why&amp;quot; nerve to the intuitions that I have traced in the community discussions in the paper. &lt;/p&gt; &lt;p&gt;The usual story is: • naive low-bit quantization destroys outliers • rotation spreads them out • scalar quantization works much better after that&lt;/p&gt; &lt;p&gt;That part seems true.&lt;/p&gt; &lt;p&gt;But when I measured the reconstructed hidden states directly on Qwen-2.5-1.5B at 3-bit, I found this tradeoff :&lt;/p&gt; &lt;p&gt;• outlier reconstruction gets dramatically better with rotation • cosine similarity gets better • MSE on the big spikes gets much better • but sparsity gets wrecked&lt;/p&gt; &lt;p&gt;I measured 381,999 ghost activations after rotation + quantization: neurons that were effectively quiet in FP16 but became strongly active after the rotated reconstruction.&lt;/p&gt; &lt;p&gt;So rotation seems to solve one problem by creating another : ** it prevents hard clipping, but it fills the quiet part of the manifold with false firings.&lt;/p&gt; &lt;p&gt;I have tried this till 7b parameters of qwen models bcs of computation limits and for the 20b results I have utilised Gerganov (llama.cpp) recent PR and have explained that in the paper as well.. &lt;/p&gt; &lt;p&gt;If anyone wants to poke holes in this, reproduce it, or suggest better sparsity metrics, I'd genuinely appreciate it.&lt;/p&gt; &lt;p&gt;• Code: &lt;a href="https://github.com/pheonix-delta/llm-isotropic-tradeoff"&gt;https://github.com/pheonix-delta/llm-isotropic-tradeoff&lt;/a&gt; Easy to run On Collab . I have fixed the sampling seeds so that u get exact metrics and read the paper ahead..also in case u want to try with random seeds I have commented what to dlt as well.. &lt;/p&gt; &lt;p&gt;• Draft: &lt;a href="https://doi.org/10.5281/zenodo.19338651"&gt;https://doi.org/10.5281/zenodo.19338651&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The same has been shared on the GitHub as well..This isn't the end of my work. I am posting here to get more feedbacks and discussion around it further improve the repo and strengthen the paper.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/D_E_V_25"&gt; /u/D_E_V_25 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/hgbu6t4ek8sg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s812cs/r_the_loophole_in_turboquant_it_saves_reasoning/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s812cs/r_the_loophole_in_turboquant_it_saves_reasoning/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;I’m using a Mac Mini M4 (16GB RAM, 256GB) for local coding LLMs.&lt;/p&gt; &lt;p&gt;Right now I’m using Qwen 3.5 9B, and honestly it is super good for its size. It works really well for small coding tasks, quick fixes, and code explanation.&lt;/p&gt; &lt;p&gt;But when it comes to medium-level tasks like handling bigger files, multi-step logic changes, or slightly complex debugging, the performance is not that good.&lt;/p&gt; &lt;p&gt;The main limitation is I can’t run models larger than 9B smoothly on my setup.&lt;/p&gt; &lt;p&gt;So I wanted suggestions from people using similar hardware:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Which model gives the best coding performance under 9B?&lt;/li&gt; &lt;li&gt;Is there any model better than Qwen 3.5 9B for coding in this size range?&lt;/li&gt; &lt;li&gt;Any good quantized model recommendations for llama.cpp / Ollama / Cline?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Would love to hear real-world suggestions.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/host3000"&gt; /u/host3000 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89h7f/best_coding_llm_for_mac_mini_m4_16gb_currently/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89h7f/best_coding_llm_for_mac_mini_m4_16gb_currently/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s89h7f/best_coding_llm_for_mac_mini_m4_16gb_currently/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-30T19:43:30+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s7tn5s</id>
-    <title>PSA: Using Claude Code without Anthropic: How to fix the 60-second local KV cache invalidation issue.</title>
-    <updated>2026-03-30T15:23:35+00:00</updated>
-    <author>
-      <name>/u/One-Cheesecake389</name>
-      <uri>https://old.reddit.com/user/One-Cheesecake389</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Claude Code injects dynamic telemetry headers and &lt;code&gt;git status&lt;/code&gt; updates into the system prompt on &lt;em&gt;every single request&lt;/em&gt;. If you are using a local inference backend like &lt;code&gt;llama.cpp&lt;/code&gt; downstream &lt;code&gt;llama-server&lt;/code&gt; or &lt;code&gt;LM Studio&lt;/code&gt;, this dynamic injection instantly breaks prefix matching, flushes your entire KV cache, and forces your hardware to re-process a 20K+ token system prompt from scratch for every minor tool call. You can fix this in ~/.claude/settings.json.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The Background&lt;/strong&gt; As I have previously posted, &lt;a href="https://www.reddit.com/r/ClaudeCode/comments/1rshmq8/claude_code_isnt_stupid_now_its_being_system/"&gt;Claude Code now inserts anti-reasoning system prompting that cannot be overridden, but only appended by, --system-prompt-file&lt;/a&gt;. I've ultimately given up on Anthropic, canceling my subscription entirely for this kind of corporate behavior and finally taking the step to pivot to open weights models locally using &lt;code&gt;llama-server&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;However, I noticed that llama-server was invalidating its persistent KV cache on every tool call, forcing a 100-token tool call to re-process &lt;em&gt;all&lt;/em&gt; of a minimum 20Ktok of system and tool prompting. The server log explicitly calls out to the effect of, &lt;code&gt;forcing full prompt re-processing due to lack of cache data&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The Root Cause&lt;/strong&gt; &lt;code&gt;llama.cpp&lt;/code&gt; relies on exact string matching to use its KV cache. If the beginning of the prompt matches, it reuses the cache and only processes the delta (the new tokens).&lt;/p&gt; &lt;p&gt;Claude Code (&amp;gt;= 2.1.36) is doing two things that mutate the prompt on every turn:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;&lt;strong&gt;The Telemetry Hash:&lt;/strong&gt; It injects a billing/telemetry header (&lt;code&gt;x-anthropic-billing-header: cch=xxxxx&lt;/code&gt;) that changes its hash on &lt;em&gt;every single request&lt;/em&gt;.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;The Git Snapshot:&lt;/strong&gt; It injects the output of &lt;code&gt;git status&lt;/code&gt; into the environment block. Every time a file is touched, the prompt changes.&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;strong&gt;The Fix&lt;/strong&gt; You cannot always just &lt;code&gt;export&lt;/code&gt; these variables in your terminal, as Claude Code will often swallow them. To fix the unnecessarily-dynamic system prompt and route the CLI to your own hardware, adjust your Claude Code configuration as follows.&lt;/p&gt; &lt;p&gt;Open &lt;code&gt;~/.claude/settings.json&lt;/code&gt; (or your project's local config) and ensure the following is in the &lt;code&gt;env&lt;/code&gt; block:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;{ &amp;quot;includeGitInstructions&amp;quot;: false, &amp;quot;env&amp;quot;: { &amp;quot;ANTHROPIC_BASE_URL&amp;quot;: &amp;quot;&amp;lt;your-llama-server-here&amp;gt;&amp;quot;, &amp;quot;ANTHROPIC_API_KEY&amp;quot;: &amp;quot;&amp;lt;any-string&amp;gt;&amp;quot;, &amp;quot;CLAUDE_CODE_ATTRIBUTION_HEADER&amp;quot;: &amp;quot;0&amp;quot;, &amp;quot;DISABLE_TELEMETRY&amp;quot;: &amp;quot;1&amp;quot;, &amp;quot;DISABLE_ERROR_REPORTING&amp;quot;: &amp;quot;1&amp;quot;, &amp;quot;CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC&amp;quot;: &amp;quot;1&amp;quot; } } &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Once you restart Claude Code and make a tool call, watch your &lt;code&gt;llama-server&lt;/code&gt; or &lt;code&gt;LM Studio&lt;/code&gt; logs. Instead of a 24,000 token prefill taking 60+ seconds, you will see something like this:&lt;/p&gt; &lt;p&gt;&lt;code&gt;selected slot by LCP similarity, sim_best = 0.973...&lt;/code&gt;&lt;/p&gt; &lt;p&gt;...followed not by 2Ktok batches processing, but directly to:&lt;/p&gt; &lt;p&gt;&lt;code&gt;prompt processing progress, n_tokens = 24270, batch.n_tokens = 4&lt;/code&gt;&lt;/p&gt; &lt;p&gt;It recognized 97.3% of the prompt as identical. Instead of reprocessing 24,000 tokens, it only processed a 600-token delta. Local tool calls go from taking over a minute down to ~4 seconds even on my Turing-era Quadro RTX-8000.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I've had &lt;code&gt;cctrace&lt;/code&gt; recommended to try to address my original Anthropic hardcoded system prompt issue. I'd rather just be done with the frontier subscriptions. What's the next sudden, undocumented, unannounced, unrequested change going to be?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/One-Cheesecake389"&gt; /u/One-Cheesecake389 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7tn5s/psa_using_claude_code_without_anthropic_how_to/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7tn5s/psa_using_claude_code_without_anthropic_how_to/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7tn5s/psa_using_claude_code_without_anthropic_how_to/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-30T15:23:35+00:00</published>
+    <published>2026-03-31T01:20:17+00:00</published>
   </entry>
   <entry>
     <id>t3_1s7qzmi</id>
@@ -151,6 +112,19 @@
     <published>2026-03-30T13:23:39+00:00</published>
   </entry>
   <entry>
+    <id>t3_1s812cs</id>
+    <title>[[R] The loophole in Turboquant: It saves reasoning outliers by permanently polluting the semantic noise floor.</title>
+    <updated>2026-03-30T19:43:30+00:00</updated>
+    <author>
+      <name>/u/D_E_V_25</name>
+      <uri>https://old.reddit.com/user/D_E_V_25</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s812cs/r_the_loophole_in_turboquant_it_saves_reasoning/"&gt; &lt;img alt="[[R] The loophole in Turboquant: It saves reasoning outliers by permanently polluting the semantic noise floor." src="https://preview.redd.it/hgbu6t4ek8sg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=683389ac4f3867734be021886a9b3c51cf2f7129" title="[[R] The loophole in Turboquant: It saves reasoning outliers by permanently polluting the semantic noise floor." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;Just like everyone else I have also came across Turboquant,Rabitq,Quip, recent llama.cpp and others.I've been profiling what global rotation is actually doing to hidden states during low-bit quantization, something I think is worth discussing and directly hits almost every global rotation concepts and I have tried explaining the &amp;quot;why&amp;quot; nerve to the intuitions that I have traced in the community discussions in the paper. &lt;/p&gt; &lt;p&gt;The usual story is: • naive low-bit quantization destroys outliers • rotation spreads them out • scalar quantization works much better after that&lt;/p&gt; &lt;p&gt;That part seems true.&lt;/p&gt; &lt;p&gt;But when I measured the reconstructed hidden states directly on Qwen-2.5-1.5B at 3-bit, I found this tradeoff :&lt;/p&gt; &lt;p&gt;• outlier reconstruction gets dramatically better with rotation • cosine similarity gets better • MSE on the big spikes gets much better • but sparsity gets wrecked&lt;/p&gt; &lt;p&gt;I measured 381,999 ghost activations after rotation + quantization: neurons that were effectively quiet in FP16 but became strongly active after the rotated reconstruction.&lt;/p&gt; &lt;p&gt;So rotation seems to solve one problem by creating another : ** it prevents hard clipping, but it fills the quiet part of the manifold with false firings.&lt;/p&gt; &lt;p&gt;I have tried this till 7b parameters of qwen models bcs of computation limits and for the 20b results I have utilised Gerganov (llama.cpp) recent PR and have explained that in the paper as well.. &lt;/p&gt; &lt;p&gt;If anyone wants to poke holes in this, reproduce it, or suggest better sparsity metrics, I'd genuinely appreciate it.&lt;/p&gt; &lt;p&gt;• Code: &lt;a href="https://github.com/pheonix-delta/llm-isotropic-tradeoff"&gt;https://github.com/pheonix-delta/llm-isotropic-tradeoff&lt;/a&gt; Easy to run On Collab . I have fixed the sampling seeds so that u get exact metrics and read the paper ahead..also in case u want to try with random seeds I have commented what to dlt as well.. &lt;/p&gt; &lt;p&gt;• Draft: &lt;a href="https://doi.org/10.5281/zenodo.19338651"&gt;https://doi.org/10.5281/zenodo.19338651&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The same has been shared on the GitHub as well..This isn't the end of my work. I am posting here to get more feedbacks and discussion around it further improve the repo and strengthen the paper.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/D_E_V_25"&gt; /u/D_E_V_25 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/hgbu6t4ek8sg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s812cs/r_the_loophole_in_turboquant_it_saves_reasoning/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s812cs/r_the_loophole_in_turboquant_it_saves_reasoning/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-30T19:43:30+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s7xnd2</id>
     <title>llamafile v0.10.0</title>
     <updated>2026-03-30T17:42:42+00:00</updated>
@@ -162,6 +136,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7xnd2/llamafile_v0100/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-30T17:42:42+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s7tn5s</id>
+    <title>PSA: Using Claude Code without Anthropic: How to fix the 60-second local KV cache invalidation issue.</title>
+    <updated>2026-03-30T15:23:35+00:00</updated>
+    <author>
+      <name>/u/One-Cheesecake389</name>
+      <uri>https://old.reddit.com/user/One-Cheesecake389</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Claude Code injects dynamic telemetry headers and &lt;code&gt;git status&lt;/code&gt; updates into the system prompt on &lt;em&gt;every single request&lt;/em&gt;. If you are using a local inference backend like &lt;code&gt;llama.cpp&lt;/code&gt; downstream &lt;code&gt;llama-server&lt;/code&gt; or &lt;code&gt;LM Studio&lt;/code&gt;, this dynamic injection instantly breaks prefix matching, flushes your entire KV cache, and forces your hardware to re-process a 20K+ token system prompt from scratch for every minor tool call. You can fix this in ~/.claude/settings.json.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The Background&lt;/strong&gt; As I have previously posted, &lt;a href="https://www.reddit.com/r/ClaudeCode/comments/1rshmq8/claude_code_isnt_stupid_now_its_being_system/"&gt;Claude Code now inserts anti-reasoning system prompting that cannot be overridden, but only appended by, --system-prompt-file&lt;/a&gt;. I've ultimately given up on Anthropic, canceling my subscription entirely for this kind of corporate behavior and finally taking the step to pivot to open weights models locally using &lt;code&gt;llama-server&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;However, I noticed that llama-server was invalidating its persistent KV cache on every tool call, forcing a 100-token tool call to re-process &lt;em&gt;all&lt;/em&gt; of a minimum 20Ktok of system and tool prompting. The server log explicitly calls out to the effect of, &lt;code&gt;forcing full prompt re-processing due to lack of cache data&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The Root Cause&lt;/strong&gt; &lt;code&gt;llama.cpp&lt;/code&gt; relies on exact string matching to use its KV cache. If the beginning of the prompt matches, it reuses the cache and only processes the delta (the new tokens).&lt;/p&gt; &lt;p&gt;Claude Code (&amp;gt;= 2.1.36) is doing two things that mutate the prompt on every turn:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;&lt;strong&gt;The Telemetry Hash:&lt;/strong&gt; It injects a billing/telemetry header (&lt;code&gt;x-anthropic-billing-header: cch=xxxxx&lt;/code&gt;) that changes its hash on &lt;em&gt;every single request&lt;/em&gt;.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;The Git Snapshot:&lt;/strong&gt; It injects the output of &lt;code&gt;git status&lt;/code&gt; into the environment block. Every time a file is touched, the prompt changes.&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;strong&gt;The Fix&lt;/strong&gt; You cannot always just &lt;code&gt;export&lt;/code&gt; these variables in your terminal, as Claude Code will often swallow them. To fix the unnecessarily-dynamic system prompt and route the CLI to your own hardware, adjust your Claude Code configuration as follows.&lt;/p&gt; &lt;p&gt;Open &lt;code&gt;~/.claude/settings.json&lt;/code&gt; (or your project's local config) and ensure the following is in the &lt;code&gt;env&lt;/code&gt; block:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;{ &amp;quot;includeGitInstructions&amp;quot;: false, &amp;quot;env&amp;quot;: { &amp;quot;ANTHROPIC_BASE_URL&amp;quot;: &amp;quot;&amp;lt;your-llama-server-here&amp;gt;&amp;quot;, &amp;quot;ANTHROPIC_API_KEY&amp;quot;: &amp;quot;&amp;lt;any-string&amp;gt;&amp;quot;, &amp;quot;CLAUDE_CODE_ATTRIBUTION_HEADER&amp;quot;: &amp;quot;0&amp;quot;, &amp;quot;DISABLE_TELEMETRY&amp;quot;: &amp;quot;1&amp;quot;, &amp;quot;DISABLE_ERROR_REPORTING&amp;quot;: &amp;quot;1&amp;quot;, &amp;quot;CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC&amp;quot;: &amp;quot;1&amp;quot; } } &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Once you restart Claude Code and make a tool call, watch your &lt;code&gt;llama-server&lt;/code&gt; or &lt;code&gt;LM Studio&lt;/code&gt; logs. Instead of a 24,000 token prefill taking 60+ seconds, you will see something like this:&lt;/p&gt; &lt;p&gt;&lt;code&gt;selected slot by LCP similarity, sim_best = 0.973...&lt;/code&gt;&lt;/p&gt; &lt;p&gt;...followed not by 2Ktok batches processing, but directly to:&lt;/p&gt; &lt;p&gt;&lt;code&gt;prompt processing progress, n_tokens = 24270, batch.n_tokens = 4&lt;/code&gt;&lt;/p&gt; &lt;p&gt;It recognized 97.3% of the prompt as identical. Instead of reprocessing 24,000 tokens, it only processed a 600-token delta. Local tool calls go from taking over a minute down to ~4 seconds even on my Turing-era Quadro RTX-8000.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I've had &lt;code&gt;cctrace&lt;/code&gt; recommended to try to address my original Anthropic hardcoded system prompt issue. I'd rather just be done with the frontier subscriptions. What's the next sudden, undocumented, unannounced, unrequested change going to be?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/One-Cheesecake389"&gt; /u/One-Cheesecake389 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7tn5s/psa_using_claude_code_without_anthropic_how_to/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s7tn5s/psa_using_claude_code_without_anthropic_how_to/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7tn5s/psa_using_claude_code_without_anthropic_how_to/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-30T15:23:35+00:00</published>
   </entry>
   <entry>
     <id>t3_1s7ycug</id>
@@ -190,19 +177,6 @@
     <published>2026-03-31T00:20:05+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s835d5</id>
-    <title>New - Apple Neural Engine (ANE) backend for llama.cpp</title>
-    <updated>2026-03-30T20:59:13+00:00</updated>
-    <author>
-      <name>/u/PracticlySpeaking</name>
-      <uri>https://old.reddit.com/user/PracticlySpeaking</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;This just showed up a couple of days ago on GitHub. Note that &lt;strong&gt;ANE is the NPU in all Apple Silicon&lt;/strong&gt;, &lt;em&gt;not&lt;/em&gt; the new 'Neural Accelerator' GPU cores that are only in M5.&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/issues/10453#issuecomment-4148905254"&gt;(ggml-org/llama.cpp#10453)&lt;/a&gt; - Comment by &lt;strong&gt;arozanov&lt;/strong&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Built a working ggml ANE backend. Dispatches MUL_MAT to ANE via private API.&lt;/p&gt; &lt;p&gt;M4 Pro results:&lt;br /&gt; 4.0 TFLOPS peak at N=256, 16.8x faster than CPU&lt;br /&gt; MIL-side transpose, kernel cache, quantized weight support&lt;br /&gt; ANE for prefill (N&amp;gt;=64), Metal/CPU for decode&lt;/p&gt; &lt;p&gt;Code: &lt;a href="https://github.com/arozanov/ggml-ane"&gt;https://github.com/arozanov/ggml-ane&lt;/a&gt;&lt;br /&gt; Based on maderix/ANE bridge.&lt;/p&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/PracticlySpeaking"&gt; /u/PracticlySpeaking &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s835d5/new_apple_neural_engine_ane_backend_for_llamacpp/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s835d5/new_apple_neural_engine_ane_backend_for_llamacpp/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s835d5/new_apple_neural_engine_ane_backend_for_llamacpp/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-30T20:59:13+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s7p0u9</id>
     <title>Running Qwen3.5-27B locally as the primary model in OpenCode</title>
     <updated>2026-03-30T12:22:32+00:00</updated>
@@ -214,6 +188,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7p0u9/running_qwen3527b_locally_as_the_primary_model_in/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-30T12:22:32+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s835d5</id>
+    <title>New - Apple Neural Engine (ANE) backend for llama.cpp</title>
+    <updated>2026-03-30T20:59:13+00:00</updated>
+    <author>
+      <name>/u/PracticlySpeaking</name>
+      <uri>https://old.reddit.com/user/PracticlySpeaking</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;This just showed up a couple of days ago on GitHub. Note that &lt;strong&gt;ANE is the NPU in all Apple Silicon&lt;/strong&gt;, &lt;em&gt;not&lt;/em&gt; the new 'Neural Accelerator' GPU cores that are only in M5.&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/issues/10453#issuecomment-4148905254"&gt;(ggml-org/llama.cpp#10453)&lt;/a&gt; - Comment by &lt;strong&gt;arozanov&lt;/strong&gt;&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Built a working ggml ANE backend. Dispatches MUL_MAT to ANE via private API.&lt;/p&gt; &lt;p&gt;M4 Pro results:&lt;br /&gt; 4.0 TFLOPS peak at N=256, 16.8x faster than CPU&lt;br /&gt; MIL-side transpose, kernel cache, quantized weight support&lt;br /&gt; ANE for prefill (N&amp;gt;=64), Metal/CPU for decode&lt;/p&gt; &lt;p&gt;Code: &lt;a href="https://github.com/arozanov/ggml-ane"&gt;https://github.com/arozanov/ggml-ane&lt;/a&gt;&lt;br /&gt; Based on maderix/ANE bridge.&lt;/p&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/PracticlySpeaking"&gt; /u/PracticlySpeaking &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s835d5/new_apple_neural_engine_ane_backend_for_llamacpp/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s835d5/new_apple_neural_engine_ane_backend_for_llamacpp/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s835d5/new_apple_neural_engine_ane_backend_for_llamacpp/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-30T20:59:13+00:00</published>
   </entry>
   <entry>
     <id>t3_1s7r9wu</id>
@@ -240,6 +227,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s7pxie/what_is_the_secret_sauce_claude_has_and_why_hasnt/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-30T13:01:38+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s89745</id>
+    <title>I just want to catch up on local LLM's after work..</title>
+    <updated>2026-03-31T01:07:40+00:00</updated>
+    <author>
+      <name>/u/ForsookComparison</name>
+      <uri>https://old.reddit.com/user/ForsookComparison</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89745/i_just_want_to_catch_up_on_local_llms_after_work/"&gt; &lt;img alt="I just want to catch up on local LLM's after work.." src="https://preview.redd.it/n7pm5trg5asg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=58f55a56fb1c15d358dae2165f1540ce49432040" title="I just want to catch up on local LLM's after work.." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ForsookComparison"&gt; /u/ForsookComparison &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/n7pm5trg5asg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s89745/i_just_want_to_catch_up_on_local_llms_after_work/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s89745/i_just_want_to_catch_up_on_local_llms_after_work/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-31T01:07:40+00:00</published>
   </entry>
   <entry>
     <id>t3_1s7u4fr</id>
