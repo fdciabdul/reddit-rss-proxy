@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/ollama/.rss</id>
   <title>ollama</title>
-  <updated>2026-03-31T15:10:11+00:00</updated>
+  <updated>2026-03-31T15:43:02+00:00</updated>
   <link href="https://old.reddit.com/r/ollama/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Atom feed for r/ollama</subtitle>
-  <entry>
-    <id>t3_1s7rq42</id>
-    <title>Vector RAG is bloated. We rebuilt our local memory graph to run on edge silicon using integer-based temporal decay.</title>
-    <updated>2026-03-30T14:12:38+00:00</updated>
-    <author>
-      <name>/u/BERTmacklyn</name>
-      <uri>https://old.reddit.com/user/BERTmacklyn</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/ollama/comments/1s7rq42/vector_rag_is_bloated_we_rebuilt_our_local_memory/"&gt; &lt;img alt="Vector RAG is bloated. We rebuilt our local memory graph to run on edge silicon using integer-based temporal decay." src="https://external-preview.redd.it/qcVsbZvEmjAV38tVIu3tKRv18NFsPoz1slxAyz40LY4.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bdf2d995cd9c8ab591d8967babde78c249f41801" title="Vector RAG is bloated. We rebuilt our local memory graph to run on edge silicon using integer-based temporal decay." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/BERTmacklyn"&gt; /u/BERTmacklyn &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="/r/LocalLLaMA/comments/1s7q8at/vector_rag_is_bloated_we_rebuilt_our_local_memory/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s7rq42/vector_rag_is_bloated_we_rebuilt_our_local_memory/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s7rq42/vector_rag_is_bloated_we_rebuilt_our_local_memory/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-03-30T14:12:38+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s7t9bu</id>
-    <title>What would you want from an Ollama-style AI hub with built-in memory?</title>
-    <updated>2026-03-30T15:09:53+00:00</updated>
-    <author>
-      <name>/u/Upper-Promotion8574</name>
-      <uri>https://old.reddit.com/user/Upper-Promotion8574</uri>
-    </author>
-    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Upper-Promotion8574"&gt; /u/Upper-Promotion8574 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="/r/Rag/comments/1s7jn43/what_would_you_want_from_an_ollamastyle_ai_hub/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s7t9bu/what_would_you_want_from_an_ollamastyle_ai_hub/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s7t9bu/what_would_you_want_from_an_ollamastyle_ai_hub/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-03-30T15:09:53+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s7tjaq</id>
     <title>Ollama + claude code setup help</title>
@@ -305,6 +279,32 @@
     <link href="https://old.reddit.com/r/ollama/comments/1s7sg3i/i_spent_48_hours_saturating_qwen_35_with_2000000/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-03-30T14:39:54+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s8qtwb</id>
+    <title>Can anyone suggest me an ollama alternative?</title>
+    <updated>2026-03-31T15:34:43+00:00</updated>
+    <author>
+      <name>/u/QueasyCarBoy</name>
+      <uri>https://old.reddit.com/user/QueasyCarBoy</uri>
+    </author>
+    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/QueasyCarBoy"&gt; /u/QueasyCarBoy &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="/r/ollama/comments/1rqwqev/can_anyone_suggest_me_an_ollama_alternative/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s8qtwb/can_anyone_suggest_me_an_ollama_alternative/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1s8qtwb/can_anyone_suggest_me_an_ollama_alternative/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-03-31T15:34:43+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s8r1ok</id>
+    <title>I built a system where Ollama is the brain and a tree is the body</title>
+    <updated>2026-03-31T15:42:44+00:00</updated>
+    <author>
+      <name>/u/ParamedicAble225</name>
+      <uri>https://old.reddit.com/user/ParamedicAble225</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;LLMs are brains without bodies. They think but they don't &lt;/p&gt; &lt;p&gt;remember where they are, what they did yesterday, or what &lt;/p&gt; &lt;p&gt;tools they have access to.&lt;/p&gt; &lt;p&gt;I built the body. A tree structure where every position &lt;/p&gt; &lt;p&gt;has different tools, different context, different behavior. &lt;/p&gt; &lt;p&gt;Navigate to your fitness branch and the AI becomes a coach. &lt;/p&gt; &lt;p&gt;Navigate to your food branch and it becomes a nutritionist. &lt;/p&gt; &lt;p&gt;Navigate to your knowledge base and it answers from what &lt;/p&gt; &lt;p&gt;you told it last month.&lt;/p&gt; &lt;p&gt;Any OpenAI-compatible endpoint. Ollama works. The AI runs &lt;/p&gt; &lt;p&gt;on your hardware. Your tree. Your data. Your model.&lt;/p&gt; &lt;p&gt;&lt;code&gt;$ fitness &amp;quot;bench 135x10x10x8&amp;quot;&lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;Logged. Up from 130. Volume trending up 8% this month.&lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;$ food &amp;quot;what should I eat before training&amp;quot;&lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;You've had 1100 cal today and chest day is next.&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;40g protein in the next hour.&lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;$ kb &amp;quot;what's the procedure for a power alarm&amp;quot;&lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;From your notes: Check UPS panel east wall. Above 85°F&lt;/code&gt; &lt;/p&gt; &lt;p&gt;&lt;code&gt;call facilities ext 4401.&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Same command. Different position. Different AI. One local &lt;/p&gt; &lt;p&gt;model powering all of it.&lt;/p&gt; &lt;p&gt;&lt;a href="https://treeos.ai"&gt;https://treeos.ai&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/taborgreat/create-treeos"&gt;https://github.com/taborgreat/create-treeos&lt;/a&gt;&lt;/p&gt; &lt;p&gt;npx create-treeos-land my-land&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ParamedicAble225"&gt; /u/ParamedicAble225 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s8r1ok/i_built_a_system_where_ollama_is_the_brain_and_a/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s8r1ok/i_built_a_system_where_ollama_is_the_brain_and_a/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1s8r1ok/i_built_a_system_where_ollama_is_the_brain_and_a/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-03-31T15:42:44+00:00</published>
   </entry>
   <entry>
     <id>t3_1s7s3oq</id>
