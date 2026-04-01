@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-01T12:54:14+00:00</updated>
+  <updated>2026-04-01T13:37:09+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
   <entry>
-    <id>t3_1s9eqy2</id>
-    <title>Pure C implementation of the TurboQuant paper (ICLR 2026) for KV cache compression in LLM inference.</title>
-    <updated>2026-04-01T08:37:24+00:00</updated>
+    <id>t3_1s9gds2</id>
+    <title>Yo-GPT - a model you can run locally to replicate the iconic app</title>
+    <updated>2026-04-01T10:11:39+00:00</updated>
     <author>
-      <name>/u/Suitable-Song-302</name>
-      <uri>https://old.reddit.com/user/Suitable-Song-302</uri>
+      <name>/u/Rob</name>
+      <uri>https://old.reddit.com/user/Rob</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pure C implementation of the TurboQuant paper (ICLR 2026) for KV cache compression in LLM inference.&lt;/p&gt; &lt;p&gt;Key vectors compressed to 1 bit via randomized Hadamard transform + sign hashing. Attention via XOR + popcount. Values independently quantized to Q4 or Q2. Total K+V: 4.9x–7.1x compression on Gemma 3 4B, saving up to 3.7 GB at 32K context.&lt;/p&gt; &lt;p&gt;1-bit attention cosine = 0.634, matching the 2/pi theoretical limit. All NEON paths verified against scalar reference. ASan clean, 26 test suites. No external dependencies.&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/quantumaikr/TurboQuant.cpp"&gt;https://github.com/quantumaikr/TurboQuant.cpp&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Suitable-Song-302"&gt; /u/Suitable-Song-302 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9eqy2/pure_c_implementation_of_the_turboquant_paper/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9eqy2/pure_c_implementation_of_the_turboquant_paper/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9eqy2/pure_c_implementation_of_the_turboquant_paper/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Today we have a huge announcement out of Neurometric. Our AI research team has spent months trying to train a model to replicate one of the most iconic apps of the web 2.0 wave. We figured it out, and so today we are sharing that with the world. Excited to announce the launch today of &amp;quot;Yo-GPT&amp;quot; - an extremely efficient AI model that, when prompted, says &amp;quot;Yo&amp;quot;. Super low latency, super cheap to run, no hallucinations. Just &amp;quot;Yo&amp;quot;. Read more about it here &lt;a href="https://www.neurometric.ai/products/yo-gpt"&gt;https://www.neurometric.ai/products/yo-gpt&lt;/a&gt; and note today's date before you comment ;)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Rob"&gt; /u/Rob &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T08:37:24+00:00</published>
+    <published>2026-04-01T10:11:39+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8weo2</id>
@@ -32,6 +32,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T18:52:35+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9jzb3</id>
+    <title>Released: Meditation-Agent-SmolLM3-3B-v2-GGUF — 3B contemplative model trained on new Emotional-atoms corpus</title>
+    <updated>2026-04-01T13:04:44+00:00</updated>
+    <author>
+      <name>/u/No_Standard4198</name>
+      <uri>https://old.reddit.com/user/No_Standard4198</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just released &lt;strong&gt;Meditation-Agent-SmolLM3-3B-v2-GGUF&lt;/strong&gt;:&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/Sathman/Meditation-Agent-SmolLM3-3B-v2-GGUF"&gt;https://huggingface.co/Sathman/Meditation-Agent-SmolLM3-3B-v2-GGUF&lt;/a&gt;&lt;/p&gt; &lt;p&gt;This is the first public &lt;strong&gt;Meditation Agent v2&lt;/strong&gt; multi-teacher release.&lt;/p&gt; &lt;p&gt;What changed in v2:&lt;/p&gt; &lt;p&gt;- trained on newer Emotional-atoms (E-Atom_ corpus&lt;/p&gt; &lt;p&gt;- input is `question_iio + concept_relations`&lt;/p&gt; &lt;p&gt;- target is pure `teaching_e`&lt;/p&gt; &lt;p&gt;- less generic spiritual-AI smoothing&lt;/p&gt; &lt;p&gt;- sharper contemplative response than our earlier release line&lt;/p&gt; &lt;p&gt;A few sample outputs from the smoke eval:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Prompt:&lt;/strong&gt; How does fear relate to thought? &lt;/p&gt; &lt;p&gt;&amp;gt; Look closely at what you're asking. You want to know if fear is separate from thinking, or whether one causes the other? But notice this: when there's no thought about danger, when it simply arrives uninvited in your awareness, what do you call that feeling? The mind hasn't named it yet; only pure sensation exists then. Fear doesn't arise from thought as a cause, but thought immediately rushes forward with its interpretations and judgments. It says &amp;quot;danger&amp;quot; and suddenly you're afraid of something that may never come.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Prompt:&lt;/strong&gt; Can the mind be completely silent? &lt;/p&gt; &lt;p&gt;&amp;gt; Watch what happens when you try to make your mind quiet. You're using another thought, &amp;quot;I want silence&amp;quot;, and that very effort creates noise, doesn't it? The watcher becomes part of the watched. Now consider this: can there be any movement at all without a mover behind it?&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Prompt:&lt;/strong&gt; What is the sense of &amp;quot;I Am&amp;quot; before it becomes &amp;quot;I am this&amp;quot; or &amp;quot;I am that&amp;quot;? &lt;/p&gt; &lt;p&gt;&amp;gt; Look at what you're asking. You want to know about awareness as a thing, but that's like trying to grasp water with your hands, you can only feel the wetness. The &amp;quot;I Am&amp;quot; doesn't become anything; there never was any becoming in it. It simply is.&lt;/p&gt; &lt;p&gt;Training:&lt;/p&gt; &lt;p&gt;- base: `HuggingFaceTB/SmolLM3-3B-Base`&lt;/p&gt; &lt;p&gt;- format: `V6E`&lt;/p&gt; &lt;p&gt;- examples: `23,968`&lt;/p&gt; &lt;p&gt;- split: `22,769 train / 1,199 eval`&lt;/p&gt; &lt;p&gt;- recipe: `QDoRA + rsLoRA`&lt;/p&gt; &lt;p&gt;- rank: `32`&lt;/p&gt; &lt;p&gt;Run metrics:&lt;/p&gt; &lt;p&gt;- eval loss: `1.8358 -&amp;gt; 1.7230 -&amp;gt; 1.6826 -&amp;gt; 1.6608`&lt;/p&gt; &lt;p&gt;- eval token accuracy: `0.5411 -&amp;gt; 0.5603 -&amp;gt; 0.5679 -&amp;gt; 0.5725`&lt;/p&gt; &lt;p&gt;Included files:&lt;/p&gt; &lt;p&gt;- `Q3_K_M`&lt;/p&gt; &lt;p&gt;- `Q5_K_M`&lt;/p&gt; &lt;p&gt;- `Q8_0`&lt;/p&gt; &lt;p&gt;- `BF16`&lt;/p&gt; &lt;p&gt;Honest note:&lt;/p&gt; &lt;p&gt;- still a multi-teacher model, so some teacher blending remains&lt;/p&gt; &lt;p&gt;- some openings still repeat more than I want&lt;/p&gt; &lt;p&gt;- but it is meaningfully better than our earlier line&lt;/p&gt; &lt;p&gt;New v2 / E-atoms collection:&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/collections/Sathman/meditation-agent-v2-eatoms-teacher-series"&gt;https://huggingface.co/collections/Sathman/meditation-agent-v2-eatoms-teacher-series&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Previous Meditation Agent collection:&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/collections/Sathman/meditation-agent-non-dual-self-realization-teacher-series"&gt;https://huggingface.co/collections/Sathman/meditation-agent-non-dual-self-realization-teacher-series&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Would love feedback from anyone who tries it locally.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No_Standard4198"&gt; /u/No_Standard4198 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9jzb3/released_meditationagentsmollm33bv2gguf_3b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9jzb3/released_meditationagentsmollm33bv2gguf_3b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9jzb3/released_meditationagentsmollm33bv2gguf_3b/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T13:04:44+00:00</published>
   </entry>
   <entry>
     <id>t3_1s91jxl</id>
@@ -60,19 +73,6 @@
     <published>2026-04-01T05:05:07+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9gds2</id>
-    <title>Yo-GPT - a model you can run locally to replicate the iconic app</title>
-    <updated>2026-04-01T10:11:39+00:00</updated>
-    <author>
-      <name>/u/Rob</name>
-      <uri>https://old.reddit.com/user/Rob</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Today we have a huge announcement out of Neurometric. Our AI research team has spent months trying to train a model to replicate one of the most iconic apps of the web 2.0 wave. We figured it out, and so today we are sharing that with the world. Excited to announce the launch today of &amp;quot;Yo-GPT&amp;quot; - an extremely efficient AI model that, when prompted, says &amp;quot;Yo&amp;quot;. Super low latency, super cheap to run, no hallucinations. Just &amp;quot;Yo&amp;quot;. Read more about it here &lt;a href="https://www.neurometric.ai/products/yo-gpt"&gt;https://www.neurometric.ai/products/yo-gpt&lt;/a&gt; and note today's date before you comment ;)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Rob"&gt; /u/Rob &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T10:11:39+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s951bw</id>
     <title>1-bit llms on device?!</title>
     <updated>2026-04-01T00:22:14+00:00</updated>
@@ -86,19 +86,6 @@
     <published>2026-04-01T00:22:14+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9hqxa</id>
-    <title>Someone who's using Qwen 3.5 on real code bases how good is it?</title>
-    <updated>2026-04-01T11:24:01+00:00</updated>
-    <author>
-      <name>/u/Commercial_Ear_6989</name>
-      <uri>https://old.reddit.com/user/Commercial_Ear_6989</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I never used qwen 3.5 on a real codebase I checked codebases I want real-human experience with this model and how good is it the agentic calling etc; &lt;/p&gt; &lt;p&gt;I am thinking to buy GPU and connect it to my mac Mini using tinygrad to run it.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Commercial_Ear_6989"&gt; /u/Commercial_Ear_6989 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hqxa/someone_whos_using_qwen_35_on_real_code_bases_how/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hqxa/someone_whos_using_qwen_35_on_real_code_bases_how/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hqxa/someone_whos_using_qwen_35_on_real_code_bases_how/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T11:24:01+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s95cpa</id>
     <title>New build</title>
     <updated>2026-04-01T00:36:10+00:00</updated>
@@ -110,6 +97,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s95cpa/new_build/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T00:36:10+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9hqxa</id>
+    <title>Someone who's using Qwen 3.5 on real code bases how good is it?</title>
+    <updated>2026-04-01T11:24:01+00:00</updated>
+    <author>
+      <name>/u/Commercial_Ear_6989</name>
+      <uri>https://old.reddit.com/user/Commercial_Ear_6989</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I never used qwen 3.5 on a real codebase I checked codebases I want real-human experience with this model and how good is it the agentic calling etc; &lt;/p&gt; &lt;p&gt;I am thinking to buy GPU and connect it to my mac Mini using tinygrad to run it.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Commercial_Ear_6989"&gt; /u/Commercial_Ear_6989 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hqxa/someone_whos_using_qwen_35_on_real_code_bases_how/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hqxa/someone_whos_using_qwen_35_on_real_code_bases_how/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hqxa/someone_whos_using_qwen_35_on_real_code_bases_how/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T11:24:01+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9irdk</id>
@@ -151,19 +151,6 @@
     <published>2026-04-01T06:39:18+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9i1gn</id>
-    <title>A Reminder, Guys, Undervolt your GPUs Immediately. You will Significantly Decrease Wattage without Hitting Performance.</title>
-    <updated>2026-04-01T11:38:21+00:00</updated>
-    <author>
-      <name>/u/Iory1998</name>
-      <uri>https://old.reddit.com/user/Iory1998</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I am sure many of you already know this, but using MSI Afterburner, you can change the voltage your single or multiple GPUs can draw, which can drastically decrease power consumption, decrease temperature, and may even increase performance.&lt;/p&gt; &lt;p&gt;I have a setup of 2 GPUs: A water cooled RTX 3090 and an RTX 5070ti. The former consumes 350-380W and the latter 250-300W, at stock performance. Undervolting both to 0.900V resulted in decrease in power consumption for the RTX 3090 to 290-300W, and for the RTX 5070ti to 180-200W at full load.&lt;/p&gt; &lt;p&gt;Both cards are tightly sandwiched having a gap as little as 2 mm, yet temperatures never exceed 60C for the air-cooled RTX 5070ti and 50C for the RTX 3090. I also used FanControl to change the behavior of my fans. There was no change in performance, and I even gained a few FPS gaming on the RTX 5070ti.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Iory1998"&gt; /u/Iory1998 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9i1gn/a_reminder_guys_undervolt_your_gpus_immediately/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9i1gn/a_reminder_guys_undervolt_your_gpus_immediately/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9i1gn/a_reminder_guys_undervolt_your_gpus_immediately/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T11:38:21+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s92x7z</id>
     <title>attn-rot (ggerganov's "TurboQuant lite") is on the cusp of getting merged into llama.cpp</title>
     <updated>2026-03-31T22:54:32+00:00</updated>
@@ -175,19 +162,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s92x7z/attnrot_ggerganovs_turboquant_lite_is_on_the_cusp/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T22:54:32+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s90wo4</id>
-    <title>PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs</title>
-    <updated>2026-03-31T21:34:29+00:00</updated>
-    <author>
-      <name>/u/brown2green</name>
-      <uri>https://old.reddit.com/user/brown2green</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt; &lt;img alt="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" src="https://external-preview.redd.it/2MPuWzoesFag6DCF_VFzPwvyl7OF67TTNQpyVCauVaM.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=affc7807966287e6afa631a610e5ee9d92411731" title="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/brown2green"&gt; /u/brown2green &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://prismml.com/news/bonsai-8b"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T21:34:29+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8uerc</id>
@@ -203,6 +177,19 @@
     <published>2026-03-31T17:42:16+00:00</published>
   </entry>
   <entry>
+    <id>t3_1s90wo4</id>
+    <title>PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs</title>
+    <updated>2026-03-31T21:34:29+00:00</updated>
+    <author>
+      <name>/u/brown2green</name>
+      <uri>https://old.reddit.com/user/brown2green</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt; &lt;img alt="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" src="https://external-preview.redd.it/2MPuWzoesFag6DCF_VFzPwvyl7OF67TTNQpyVCauVaM.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=affc7807966287e6afa631a610e5ee9d92411731" title="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/brown2green"&gt; /u/brown2green &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://prismml.com/news/bonsai-8b"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-31T21:34:29+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s8xj2e</id>
     <title>Claude Code's source just leaked — I extracted its multi-agent orchestration system into an open-source framework that works with any LLM</title>
     <updated>2026-03-31T19:32:02+00:00</updated>
@@ -214,19 +201,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8xj2e/claude_codes_source_just_leaked_i_extracted_its/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T19:32:02+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9gol0</id>
-    <title>Does the Claude “leak” actually change anything in practice?</title>
-    <updated>2026-04-01T10:28:42+00:00</updated>
-    <author>
-      <name>/u/chetnasinghx</name>
-      <uri>https://old.reddit.com/user/chetnasinghx</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Putting aside the hype for a second, I’m trying to understand the real impact here.&lt;/p&gt; &lt;p&gt;From what I’ve gathered, it doesn’t seem like full source code was leaked, but maybe some internal pieces or discussions? If that’s the case, does it actually matter in a meaningful way (for devs, researchers, etc.)?&lt;/p&gt; &lt;p&gt;Or is this more of an internet overreaction?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/chetnasinghx"&gt; /u/chetnasinghx &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T10:28:42+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8r3w3</id>
@@ -242,17 +216,17 @@
     <published>2026-03-31T15:45:00+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s93n1j</id>
-    <title>FOR ME, Qwen3.5-27B is better than Gemini 3.1 Pro and GPT-5.3 Codex</title>
-    <updated>2026-03-31T23:23:55+00:00</updated>
+    <id>t3_1s9i1gn</id>
+    <title>A Reminder, Guys, Undervolt your GPUs Immediately. You will Significantly Decrease Wattage without Hitting Performance.</title>
+    <updated>2026-04-01T11:38:21+00:00</updated>
     <author>
-      <name>/u/EffectiveCeilingFan</name>
-      <uri>https://old.reddit.com/user/EffectiveCeilingFan</uri>
+      <name>/u/Iory1998</name>
+      <uri>https://old.reddit.com/user/Iory1998</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;There's something I hate about the big SOTA proprietary models. In order to make them better for people who don't know how to program, they're optimized to solve problems entirely autonomously. Yeah, this makes people over on &lt;a href="/r/ChatGPT"&gt;r/ChatGPT&lt;/a&gt; soypog when it writes a 7z parser in Python because the binary is missing, however, for me, this makes them suck. If something isn't matching up, Qwen3.5-27B will just give up. If you're trying to vibecode some slop this is annoying, but for me this is much, much better. I'm forced to use GitHub Copilot in university, and whenever there's a problem, it goes completely off the rails and does some absolute hogwash. Like, for example, it was struggling to write to a file that had some broken permissions (my fault) and it kept failing. I watched as Claude began trying to write unrestricted, dangerous Perl scripts to forceably solve the issue. I created a fresh session and tried GPT-5.3 Codex and it did lSiiterally the exact same thing with the Perl scripts. Even when I told it to stop writing Perl scripts, it just started writing NodeJS scripts. The problem is that it isn't always obvious when your agent is going off the rails and tunnel visioning on nonsense. So, even if you're watching closely, you could still be wasting a ton of time. Meanwhile, if some bullshit happens, Qwen3.5 doesn't even try, it just gives up and tells me it couldn't write to the file for some reason.&lt;/p&gt; &lt;p&gt;Please, research labs, this is what I want, more of this please.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Since several people have asked, here is my config and measured speeds.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Harness: Qwen Code&lt;/li&gt; &lt;li&gt;Quant: Bartowski Q4_K_M&lt;/li&gt; &lt;li&gt;Context: 65536 @ F16&lt;/li&gt; &lt;li&gt;GPUs: RX7900GRE + RX6650XT&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Command:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;llama-server --host 0.0.0.0 --port 8080 \ -np 1 \ --no-mmap \ -dev Vulkan1,Vulkan2 \ -c 65536 \ -m bartowski__Qwen_Qwen3.5-27B-GGUF/Qwen_Qwen3.5-27B-Q4_K_M.gguf \ --temperature 0.6 --top-p 0.95 --top-k 20 --min-p 0.0 --presence-penalty 0.0 --repeat-penalty 1.0 &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Performance -- llama-bench behaves much worse on my machine than llama-server, so here are the avererage speeds from hitting the chat completions endpoint directly with an 11k token prompt:&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;test&lt;/th&gt; &lt;th align="left"&gt;t/s&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;pp&lt;/td&gt; &lt;td align="left"&gt;340.17&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;tg&lt;/td&gt; &lt;td align="left"&gt;15.21&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;Not great, but perfectly usable for what I do.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/EffectiveCeilingFan"&gt; /u/EffectiveCeilingFan &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I am sure many of you already know this, but using MSI Afterburner, you can change the voltage your single or multiple GPUs can draw, which can drastically decrease power consumption, decrease temperature, and may even increase performance.&lt;/p&gt; &lt;p&gt;I have a setup of 2 GPUs: A water cooled RTX 3090 and an RTX 5070ti. The former consumes 350-380W and the latter 250-300W, at stock performance. Undervolting both to 0.900V resulted in decrease in power consumption for the RTX 3090 to 290-300W, and for the RTX 5070ti to 180-200W at full load.&lt;/p&gt; &lt;p&gt;Both cards are tightly sandwiched having a gap as little as 2 mm, yet temperatures never exceed 60C for the air-cooled RTX 5070ti and 50C for the RTX 3090. I also used FanControl to change the behavior of my fans. There was no change in performance, and I even gained a few FPS gaming on the RTX 5070ti.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Iory1998"&gt; /u/Iory1998 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9i1gn/a_reminder_guys_undervolt_your_gpus_immediately/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9i1gn/a_reminder_guys_undervolt_your_gpus_immediately/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9i1gn/a_reminder_guys_undervolt_your_gpus_immediately/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T23:23:55+00:00</published>
+    <published>2026-04-01T11:38:21+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8ijfb</id>
@@ -268,6 +242,19 @@
     <published>2026-03-31T09:25:04+00:00</published>
   </entry>
   <entry>
+    <id>t3_1s93n1j</id>
+    <title>FOR ME, Qwen3.5-27B is better than Gemini 3.1 Pro and GPT-5.3 Codex</title>
+    <updated>2026-03-31T23:23:55+00:00</updated>
+    <author>
+      <name>/u/EffectiveCeilingFan</name>
+      <uri>https://old.reddit.com/user/EffectiveCeilingFan</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;There's something I hate about the big SOTA proprietary models. In order to make them better for people who don't know how to program, they're optimized to solve problems entirely autonomously. Yeah, this makes people over on &lt;a href="/r/ChatGPT"&gt;r/ChatGPT&lt;/a&gt; soypog when it writes a 7z parser in Python because the binary is missing, however, for me, this makes them suck. If something isn't matching up, Qwen3.5-27B will just give up. If you're trying to vibecode some slop this is annoying, but for me this is much, much better. I'm forced to use GitHub Copilot in university, and whenever there's a problem, it goes completely off the rails and does some absolute hogwash. Like, for example, it was struggling to write to a file that had some broken permissions (my fault) and it kept failing. I watched as Claude began trying to write unrestricted, dangerous Perl scripts to forceably solve the issue. I created a fresh session and tried GPT-5.3 Codex and it did lSiiterally the exact same thing with the Perl scripts. Even when I told it to stop writing Perl scripts, it just started writing NodeJS scripts. The problem is that it isn't always obvious when your agent is going off the rails and tunnel visioning on nonsense. So, even if you're watching closely, you could still be wasting a ton of time. Meanwhile, if some bullshit happens, Qwen3.5 doesn't even try, it just gives up and tells me it couldn't write to the file for some reason.&lt;/p&gt; &lt;p&gt;Please, research labs, this is what I want, more of this please.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Since several people have asked, here is my config and measured speeds.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Harness: Qwen Code&lt;/li&gt; &lt;li&gt;Quant: Bartowski Q4_K_M&lt;/li&gt; &lt;li&gt;Context: 65536 @ F16&lt;/li&gt; &lt;li&gt;GPUs: RX7900GRE + RX6650XT&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Command:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;llama-server --host 0.0.0.0 --port 8080 \ -np 1 \ --no-mmap \ -dev Vulkan1,Vulkan2 \ -c 65536 \ -m bartowski__Qwen_Qwen3.5-27B-GGUF/Qwen_Qwen3.5-27B-Q4_K_M.gguf \ --temperature 0.6 --top-p 0.95 --top-k 20 --min-p 0.0 --presence-penalty 0.0 --repeat-penalty 1.0 &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Performance -- llama-bench behaves much worse on my machine than llama-server, so here are the avererage speeds from hitting the chat completions endpoint directly with an 11k token prompt:&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;test&lt;/th&gt; &lt;th align="left"&gt;t/s&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;pp&lt;/td&gt; &lt;td align="left"&gt;340.17&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;tg&lt;/td&gt; &lt;td align="left"&gt;15.21&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;Not great, but perfectly usable for what I do.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/EffectiveCeilingFan"&gt; /u/EffectiveCeilingFan &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-31T23:23:55+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s8rb48</id>
     <title>Just a helpful open-source contributor</title>
     <updated>2026-03-31T15:52:25+00:00</updated>
@@ -279,6 +266,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8rb48/just_a_helpful_opensource_contributor/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T15:52:25+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9gol0</id>
+    <title>Does the Claude “leak” actually change anything in practice?</title>
+    <updated>2026-04-01T10:28:42+00:00</updated>
+    <author>
+      <name>/u/chetnasinghx</name>
+      <uri>https://old.reddit.com/user/chetnasinghx</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Putting aside the hype for a second, I’m trying to understand the real impact here.&lt;/p&gt; &lt;p&gt;From what I’ve gathered, it doesn’t seem like full source code was leaked, but maybe some internal pieces or discussions? If that’s the case, does it actually matter in a meaningful way (for devs, researchers, etc.)?&lt;/p&gt; &lt;p&gt;Or is this more of an internet overreaction?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/chetnasinghx"&gt; /u/chetnasinghx &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T10:28:42+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9hdye</id>
