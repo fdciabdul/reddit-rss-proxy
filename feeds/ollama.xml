@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/ollama/.rss</id>
   <title>ollama</title>
-  <updated>2026-04-01T21:53:15+00:00</updated>
+  <updated>2026-04-01T22:16:04+00:00</updated>
   <link href="https://old.reddit.com/r/ollama/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Atom feed for r/ollama</subtitle>
-  <entry>
-    <id>t3_1s99ccn</id>
-    <title>Does anyone know if Ollama cloud models work via MCP bridge in Antigravity?</title>
-    <updated>2026-04-01T03:34:31+00:00</updated>
-    <author>
-      <name>/u/qualitative_balls</name>
-      <uri>https://old.reddit.com/user/qualitative_balls</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I'm in the middle of a project in Antigravity and having run out of tokens I thought... lemme see what Ollama is all about and I was able to able to get a Qwen 3.5 model up and running as a server on my PC while I use my Mac remotely. &lt;/p&gt; &lt;p&gt;It's interesting... not entirely useful since I only have a 12GB GPU. So I bought the pro plan and was thinking maybe I could use the cloud models via MCP as well in Antigravity? &lt;/p&gt; &lt;p&gt;I don't know much but man... I've spent about 2 hours now trying to get this up and running. I'm having Gemini help me establish the MCP bridge but it's not working. &lt;/p&gt; &lt;p&gt;Is this even possible? All the info I get searching is everyone is MCP very easily using models locally, which I've also done. But I'd love to use something like qwen3.5:397b-cloud &lt;/p&gt; &lt;p&gt;Thanks for any ideas!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/qualitative_balls"&gt; /u/qualitative_balls &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s99ccn/does_anyone_know_if_ollama_cloud_models_work_via/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s99ccn/does_anyone_know_if_ollama_cloud_models_work_via/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s99ccn/does_anyone_know_if_ollama_cloud_models_work_via/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-04-01T03:34:31+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s94sjv</id>
     <title>Egpu for running a rag setup, worth it the cost?</title>
@@ -281,17 +268,17 @@
     <published>2026-04-01T19:04:31+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9t3pu</id>
-    <title>What are the best uncensored / unrestricted AI models right now? Is Qwen3.5 (HauhauCS) the best?</title>
-    <updated>2026-04-01T18:32:02+00:00</updated>
+    <id>t3_1s9yqls</id>
+    <title>ollama hallucinations for simple tasks</title>
+    <updated>2026-04-01T21:55:39+00:00</updated>
     <author>
-      <name>/u/S-m-a-r-t-y</name>
-      <uri>https://old.reddit.com/user/S-m-a-r-t-y</uri>
+      <name>/u/Fit_Royal_4288</name>
+      <uri>https://old.reddit.com/user/Fit_Royal_4288</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;I’m looking for recommendations on the best uncensored or less restricted AI models available right now, especially for local use or self-hosting.&lt;/p&gt; &lt;p&gt;I recently came across &lt;strong&gt;Qwen3.5 Uncensored (HauhauCS)&lt;/strong&gt; and wanted to ask :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Is this currently one of the best options?&lt;/li&gt; &lt;li&gt;How does it compare to other uncensored models in terms of quality, reasoning, and usability?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Would appreciate suggestions based on real experience rather than just benchmarks.&lt;/p&gt; &lt;p&gt;Thanks!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/S-m-a-r-t-y"&gt; /u/S-m-a-r-t-y &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9t3pu/what_are_the_best_uncensored_unrestricted_ai/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9t3pu/what_are_the_best_uncensored_unrestricted_ai/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s9t3pu/what_are_the_best_uncensored_unrestricted_ai/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I have recently installed ollama so I can analyze long email threads locally. It was not giving me the output I expected. So I started asking it very simple questions about my file, like &amp;quot;how many lines are in this file?&amp;quot; or &amp;quot;remove this column.&amp;quot; I attached my small test csv file to the prompt.&lt;/p&gt; &lt;p&gt;The thinking output reads the file, but makes up all or part of my prompt. For example, I said &amp;quot;remove the column named 'this_one&amp;quot; in this file.&amp;quot; This is the first line of the output:&lt;/p&gt; &lt;p&gt;&lt;em&gt;Serious problem: I'm supposed to remove the email addresses from a CSV file, but the input here is actually a text string that appears to be a CSV file with email data. However, the user says &amp;quot;remove the email addresses,&amp;quot; but the context is unclear.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;I am clearly fundamentally misunderstanding something about ollama but I don't know what it is. &lt;/p&gt; &lt;p&gt;Can someone point me to the right direction here? &lt;/p&gt; &lt;p&gt;I'm testing with qwen3:4b if that is important &lt;/p&gt; &lt;p&gt;,&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Fit_Royal_4288"&gt; /u/Fit_Royal_4288 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9yqls/ollama_hallucinations_for_simple_tasks/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9yqls/ollama_hallucinations_for_simple_tasks/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1s9yqls/ollama_hallucinations_for_simple_tasks/"/>
     <category term="ollama" label="r/ollama"/>
-    <published>2026-04-01T18:32:02+00:00</published>
+    <published>2026-04-01T21:55:39+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9tskr</id>
@@ -305,6 +292,19 @@
     <link href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-04-01T18:55:48+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9t3pu</id>
+    <title>What are the best uncensored / unrestricted AI models right now? Is Qwen3.5 (HauhauCS) the best?</title>
+    <updated>2026-04-01T18:32:02+00:00</updated>
+    <author>
+      <name>/u/S-m-a-r-t-y</name>
+      <uri>https://old.reddit.com/user/S-m-a-r-t-y</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;I’m looking for recommendations on the best uncensored or less restricted AI models available right now, especially for local use or self-hosting.&lt;/p&gt; &lt;p&gt;I recently came across &lt;strong&gt;Qwen3.5 Uncensored (HauhauCS)&lt;/strong&gt; and wanted to ask :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Is this currently one of the best options?&lt;/li&gt; &lt;li&gt;How does it compare to other uncensored models in terms of quality, reasoning, and usability?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Would appreciate suggestions based on real experience rather than just benchmarks.&lt;/p&gt; &lt;p&gt;Thanks!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/S-m-a-r-t-y"&gt; /u/S-m-a-r-t-y &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9t3pu/what_are_the_best_uncensored_unrestricted_ai/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9t3pu/what_are_the_best_uncensored_unrestricted_ai/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1s9t3pu/what_are_the_best_uncensored_unrestricted_ai/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-04-01T18:32:02+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9qluu</id>
