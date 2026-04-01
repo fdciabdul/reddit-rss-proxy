@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-01T20:03:09+00:00</updated>
+  <updated>2026-04-01T20:30:28+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
+  <entry>
+    <id>t3_1s9csov</id>
+    <title>Found references to "models/gemma-4" hiding in AI Studio's code. Release imminent? 👀</title>
+    <updated>2026-04-01T06:39:18+00:00</updated>
+    <author>
+      <name>/u/Sadman782</name>
+      <uri>https://old.reddit.com/user/Sadman782</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt; &lt;img alt="Found references to &amp;quot;models/gemma-4&amp;quot; hiding in AI Studio's code. Release imminent? 👀" src="https://preview.redd.it/dluo2rk7yisg1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=0e8edb3b31e51796a076514dbafa71d25fbbed27" title="Found references to &amp;quot;models/gemma-4&amp;quot; hiding in AI Studio's code. Release imminent? 👀" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://preview.redd.it/dluo2rk7yisg1.png?width=550&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc257ec3f280a11025032af59aba0d54da20e030"&gt;https://preview.redd.it/dluo2rk7yisg1.png?width=550&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc257ec3f280a11025032af59aba0d54da20e030&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://www.kaggle.com/models/google/gemma-4"&gt;https://www.kaggle.com/models/google/gemma-4&lt;/a&gt; there is kaggle link too&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/l1hmjfbayisg1.png?width=530&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28300f4a0b18f844740ea46144201a92f3a42c9c"&gt;https://preview.redd.it/l1hmjfbayisg1.png?width=530&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28300f4a0b18f844740ea46144201a92f3a42c9c&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;⚡ Two Gemma models&lt;/strong&gt;: &lt;strong&gt;Significant-Otter&lt;/strong&gt; and &lt;strong&gt;Pteronura&lt;/strong&gt; are being tested on LMArena and are quite strong for vision and coding. Pteronura seems to be a dense model (likely 27B) with factual knowledge below Flash 3.1 Lite but reasoning close to 3.1 Flash. Meanwhile, Significant-Otter seems to be the 120B model, which has good factual accuracy but is unstable, sometimes showing good reasoning, and sometimes performing way worse than Pteronura. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Sadman782"&gt; /u/Sadman782 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T06:39:18+00:00</published>
+  </entry>
   <entry>
     <id>t3_1s8uerc</id>
     <title>Analyzing Claude Code Source Code. Write "WTF" and Anthropic knows.</title>
@@ -21,17 +34,17 @@
     <published>2026-03-31T17:42:16+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9u1eg</id>
-    <title>New Qwen3.5-9b (full and GGUF quantized) fine-tuned for agentic harness (OpenClaw, AgentScope) derived from Copaw-9B (Qwen's official agentic harness) + Opus 4.6 Reasoning - Appreciate your quick tests (use recommended generation parameters)</title>
-    <updated>2026-04-01T19:04:07+00:00</updated>
+    <id>t3_1s9vzry</id>
+    <title>APEX MoE quantized models boost with 33% faster inference and TurboQuant (14% of speedup in prompt processing)</title>
+    <updated>2026-04-01T20:13:55+00:00</updated>
     <author>
-      <name>/u/yehyakar</name>
-      <uri>https://old.reddit.com/user/yehyakar</uri>
+      <name>/u/mudler_it</name>
+      <uri>https://old.reddit.com/user/mudler_it</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;ykarout/Qwen3.5-9b-Opus-Openclaw-Distilled&lt;br /&gt; ykarout/Qwen3.5-9b-Opus-Openclaw-Distilled-GGUF&lt;/p&gt; &lt;p&gt;Inspired from the trending Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/yehyakar"&gt; /u/yehyakar &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9u1eg/new_qwen359b_full_and_gguf_quantized_finetuned/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9u1eg/new_qwen359b_full_and_gguf_quantized_finetuned/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9u1eg/new_qwen359b_full_and_gguf_quantized_finetuned/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9vzry/apex_moe_quantized_models_boost_with_33_faster/"&gt; &lt;img alt="APEX MoE quantized models boost with 33% faster inference and TurboQuant (14% of speedup in prompt processing)" src="https://external-preview.redd.it/j-uHBhklf_waxs6drRoVJcJ50U_Se0-tyUnlQ3ENgPU.png?width=140&amp;amp;height=70&amp;amp;auto=webp&amp;amp;s=c15499b173a2b89a8db60593cc1fc9970208dea0" title="APEX MoE quantized models boost with 33% faster inference and TurboQuant (14% of speedup in prompt processing)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I've just released APEX (Adaptive Precision for EXpert Models): a novel MoE quantization technique that outperforms Unsloth Dynamic 2.0 on accuracy while being 2x smaller for MoE architectures. &lt;/p&gt; &lt;p&gt;Benchmarked on Qwen3.5-35B-A3B, but the method applies to any MoE model. Half the size of Q8. Perplexity comparable to F16. &lt;/p&gt; &lt;p&gt;Works with stock llama.cpp with no patches. Open source (of course!), with &amp;lt;3 from the &lt;a href="http://github.com/mudler/LocalAI"&gt;github.com/mudler/LocalAI&lt;/a&gt; team!&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/uv2bnfheymsg1.jpg?width=1632&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=3eca979e8f9ca6b75d206eecdf29308b74aed530"&gt;https://preview.redd.it/uv2bnfheymsg1.jpg?width=1632&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=3eca979e8f9ca6b75d206eecdf29308b74aed530&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Perplexity by itself doesn't say the full story. KL divergence tells a story perplexity doesn't:&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/jn9ua2ksymsg1.jpg?width=1617&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=7df969308e10aa6b6d31098c92fca1c14bb42a40"&gt;https://preview.redd.it/jn9ua2ksymsg1.jpg?width=1617&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=7df969308e10aa6b6d31098c92fca1c14bb42a40&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Tiers for every GPU:&lt;/p&gt; &lt;p&gt;- I-Quality: 21.3 GB -- best accuracy&lt;/p&gt; &lt;p&gt;- I-Balanced: 23.6 GB -- best all-rounder&lt;/p&gt; &lt;p&gt;- I-Compact: 16.1 GB -- fits 24GB GPUs&lt;/p&gt; &lt;p&gt;- Mini: 12.2 GB -- fits 16GB VRAM&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/zv3t6qynymsg1.jpg?width=1632&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=6cb830e889dbeeda768f32be41b2bb02ce3bc11f"&gt;https://preview.redd.it/zv3t6qynymsg1.jpg?width=1632&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=6cb830e889dbeeda768f32be41b2bb02ce3bc11f&lt;/a&gt;&lt;/p&gt; &lt;p&gt;With TurboQuant, at 8K context, every APEX tier gets ~14% faster prompt processing (this is being benchmarked with a DGX Spark):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/gtib0wkbzmsg1.png?width=534&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f87f7e4e97fd6fbe11449a3d691b017e92a05e20"&gt;https://preview.redd.it/gtib0wkbzmsg1.png?width=534&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f87f7e4e97fd6fbe11449a3d691b017e92a05e20&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Models: &lt;a href="http://huggingface.co/mudler/Qwen3.5-35B-A3B-APEX-GGUF"&gt;http://huggingface.co/mudler/Qwen3.5-35B-A3B-APEX-GGUF&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Method + technical paper: &lt;a href="http://github.com/mudler/apex-quant"&gt;http://github.com/mudler/apex-quant&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Run locally: &lt;a href="http://github.com/mudler/LocalAI"&gt;http://github.com/mudler/LocalAI&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Original post on twitter/X: &lt;a href="https://x.com/mudler_it/status/2039364812463853708"&gt;https://x.com/mudler_it/status/2039364812463853708&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/mudler_it"&gt; /u/mudler_it &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9vzry/apex_moe_quantized_models_boost_with_33_faster/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9vzry/apex_moe_quantized_models_boost_with_33_faster/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9vzry/apex_moe_quantized_models_boost_with_33_faster/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T19:04:07+00:00</published>
+    <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9hqxa</id>
@@ -99,19 +112,6 @@
     <published>2026-03-31T09:25:04+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9irdk</id>
-    <title>"The Child That Surpassed Both Parents" Darwin-35B-A3B-Opus (35B/3B MoE) with Model MRI Technique</title>
-    <updated>2026-04-01T12:12:03+00:00</updated>
-    <author>
-      <name>/u/Own-Potential-2308</name>
-      <uri>https://old.reddit.com/user/Own-Potential-2308</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Darwin-35B-A3B-Opus is a 35B MoE model (only 3B parameters active) created by SeaWolf-AI / VIDRAFT_LAB using their new Darwin V5 merging engine.&lt;/p&gt; &lt;p&gt;They built a system that does a deep &amp;quot;CT-scan&amp;quot; (Model MRI) of the parent models layer by layer to figure out what actually works.&lt;/p&gt; &lt;p&gt;Father: Qwen3.5-35B-A3B (strong generalist)&lt;/p&gt; &lt;p&gt;Mother: Claude 4.6 Opus distilled (strong reasoning but apparently had a lot of &amp;quot;dead experts&amp;quot; after distillation)&lt;/p&gt; &lt;p&gt;The merge strategy: transplant the mother's strong reasoning layers (especially L34–L38), swap in the father's healthy experts, and let the father's router handle the output.&lt;/p&gt; &lt;p&gt;Reported results:&lt;/p&gt; &lt;p&gt;GPQA Diamond: 90.0% 🔥&lt;/p&gt; &lt;p&gt;→ Father: 84.2%&lt;/p&gt; &lt;p&gt;→ Mother: 85.0%&lt;/p&gt; &lt;p&gt;→ That's a solid +5.8–5.9% jump with no major trade-offs&lt;/p&gt; &lt;p&gt;MMMLU: 85.0% (basically the same as Father at 85.2%)&lt;/p&gt; &lt;p&gt;Fully preserves multimodal (image + video) and 201 languages&lt;/p&gt; &lt;p&gt;262K native context&lt;/p&gt; &lt;p&gt;Blazing fast: ~148 tok/s on H100, and it runs on a single RTX 4090 in Q4&lt;/p&gt; &lt;p&gt;License: Apache 2.0 — fully open.&lt;/p&gt; &lt;p&gt;They call it &amp;quot;the child that surpassed both parents&amp;quot; and plan to release the full Darwin V5 algorithm + paper soon.&lt;/p&gt; &lt;p&gt;Model page: &lt;a href="https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus"&gt;https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Own-Potential-2308"&gt; /u/Own-Potential-2308 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T12:12:03+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9sh9a</id>
     <title>The third party effect: source framing to reduce sycophantic engagement</title>
     <updated>2026-04-01T18:11:36+00:00</updated>
@@ -149,6 +149,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T12:17:04+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9irdk</id>
+    <title>"The Child That Surpassed Both Parents" Darwin-35B-A3B-Opus (35B/3B MoE) with Model MRI Technique</title>
+    <updated>2026-04-01T12:12:03+00:00</updated>
+    <author>
+      <name>/u/Own-Potential-2308</name>
+      <uri>https://old.reddit.com/user/Own-Potential-2308</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Darwin-35B-A3B-Opus is a 35B MoE model (only 3B parameters active) created by SeaWolf-AI / VIDRAFT_LAB using their new Darwin V5 merging engine.&lt;/p&gt; &lt;p&gt;They built a system that does a deep &amp;quot;CT-scan&amp;quot; (Model MRI) of the parent models layer by layer to figure out what actually works.&lt;/p&gt; &lt;p&gt;Father: Qwen3.5-35B-A3B (strong generalist)&lt;/p&gt; &lt;p&gt;Mother: Claude 4.6 Opus distilled (strong reasoning but apparently had a lot of &amp;quot;dead experts&amp;quot; after distillation)&lt;/p&gt; &lt;p&gt;The merge strategy: transplant the mother's strong reasoning layers (especially L34–L38), swap in the father's healthy experts, and let the father's router handle the output.&lt;/p&gt; &lt;p&gt;Reported results:&lt;/p&gt; &lt;p&gt;GPQA Diamond: 90.0% 🔥&lt;/p&gt; &lt;p&gt;→ Father: 84.2%&lt;/p&gt; &lt;p&gt;→ Mother: 85.0%&lt;/p&gt; &lt;p&gt;→ That's a solid +5.8–5.9% jump with no major trade-offs&lt;/p&gt; &lt;p&gt;MMMLU: 85.0% (basically the same as Father at 85.2%)&lt;/p&gt; &lt;p&gt;Fully preserves multimodal (image + video) and 201 languages&lt;/p&gt; &lt;p&gt;262K native context&lt;/p&gt; &lt;p&gt;Blazing fast: ~148 tok/s on H100, and it runs on a single RTX 4090 in Q4&lt;/p&gt; &lt;p&gt;License: Apache 2.0 — fully open.&lt;/p&gt; &lt;p&gt;They call it &amp;quot;the child that surpassed both parents&amp;quot; and plan to release the full Darwin V5 algorithm + paper soon.&lt;/p&gt; &lt;p&gt;Model page: &lt;a href="https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus"&gt;https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Own-Potential-2308"&gt; /u/Own-Potential-2308 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T12:12:03+00:00</published>
   </entry>
   <entry>
     <id>t3_1s93n1j</id>
@@ -292,19 +305,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9pe0w/arceeaitrinitylargethinking_hugging_face/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T16:24:31+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9o3g3</id>
-    <title>The source code to Aider has just leaked after being committed to github</title>
-    <updated>2026-04-01T15:39:01+00:00</updated>
-    <author>
-      <name>/u/TOO_MUCH_BRAVERY</name>
-      <uri>https://old.reddit.com/user/TOO_MUCH_BRAVERY</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9o3g3/the_source_code_to_aider_has_just_leaked_after/"&gt; &lt;img alt="The source code to Aider has just leaked after being committed to github" src="https://external-preview.redd.it/nEkWU_iRPHcIypRX18tqK7LINGrqAvGclSxnrrFqHsg.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=1b87139ba73ec26030aa16907dcdee78436286df" title="The source code to Aider has just leaked after being committed to github" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/TOO_MUCH_BRAVERY"&gt; /u/TOO_MUCH_BRAVERY &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://github.com/Aider-AI/aider"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9o3g3/the_source_code_to_aider_has_just_leaked_after/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9o3g3/the_source_code_to_aider_has_just_leaked_after/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T15:39:01+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9ig5r</id>

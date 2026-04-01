@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/mcp/.rss</id>
   <title>Model Context Protocol (MCP)</title>
-  <updated>2026-04-01T20:03:10+00:00</updated>
+  <updated>2026-04-01T20:30:30+00:00</updated>
   <link href="https://old.reddit.com/r/mcp/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -71,6 +71,19 @@
     <link href="https://old.reddit.com/r/mcp/comments/1s9khwu/i_built_mcpspec_openapilike_docs_and_specs_for/"/>
     <category term="mcp" label="r/mcp"/>
     <published>2026-04-01T13:24:37+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9vexv</id>
+    <title>MCP is like paved roads</title>
+    <updated>2026-04-01T19:52:53+00:00</updated>
+    <author>
+      <name>/u/guyernest</name>
+      <uri>https://old.reddit.com/user/guyernest</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"&gt; &lt;img alt="MCP is like paved roads" src="https://preview.redd.it/u5bztb3ttmsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=d392448c32693f3e09db996f7ce78234743f4cd4" title="MCP is like paved roads" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The following note is related to MCP in enterprise environments.&lt;/p&gt; &lt;p&gt;In every enterprise company I see, dozens of agents are built for various use cases, and very few MCP servers are built to support them. This trend is driven by vendors pushing their &amp;quot;agentic frameworks&amp;quot; (AgentForce from Salesforce, AgentCore from AWS, Vertex AI Agent Builder from Google, and many others). &lt;/p&gt; &lt;p&gt;Since my approach is to first get the (MCP) tools, then add the LLM and its instructions, to build agents, I find it hard to explain how important MCP is for safe and scalable AI adoption in large companies. A good analogy I found helpful is the image above, which highlights the order and control that MCP servers can bring to a company, at lower cost and with fewer risks, compared to the rogue agent development we have today. &lt;/p&gt; &lt;p&gt;If you have more analogies or other ways to explain to IT people at a large enterprise why they should stop building rogue agents and start building clean MCP servers, it would be great to hear them. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/guyernest"&gt; /u/guyernest &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/u5bztb3ttmsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-01T19:52:53+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9lmrj</id>
@@ -151,19 +164,6 @@
     <published>2026-04-01T17:18:25+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9r03h</id>
-    <title>I built a transparent proxy to stop my agents from exfiltrating API keys</title>
-    <updated>2026-04-01T17:20:52+00:00</updated>
-    <author>
-      <name>/u/Durovilla</name>
-      <uri>https://old.reddit.com/user/Durovilla</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s9r03h/i_built_a_transparent_proxy_to_stop_my_agents/"&gt; &lt;img alt="I built a transparent proxy to stop my agents from exfiltrating API keys" src="https://external-preview.redd.it/jH-rKo64W9rIkExtfOFeRgN98hxo1Xw0pNJ55jNd6Gk.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=369a04f394a4afafb1fb0998a30343237b5e52fc" title="I built a transparent proxy to stop my agents from exfiltrating API keys" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Been building a lot of MCPs and agentic stuff lately and kept running into the same problem: I don't want my coding agent to have access to API keys, or worse, exfiltrate them.&lt;/p&gt; &lt;p&gt;So I built &lt;code&gt;nv&lt;/code&gt; - a local HTTPS proxy that sits between your agent and the internet. It silently injects the right credentials when an agent makes HTTPS request.&lt;/p&gt; &lt;p&gt;Secrets are AES-256-GCM encrypted, locally. And since the agent doesn't know the proxy exists or that keys are being injected, it can't exfiltrate your secrets even if it wanted to.&lt;/p&gt; &lt;p&gt;Here's an example flow:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;$ nv init $ nv activate [project] $ nv add api.stripe.com --bearer Bearer token: •••••••• [project] $ nv add &amp;quot;*.googleapis.com&amp;quot; --query key Value for query param 'key': •••••••• [project] $ claude &amp;quot;call some APIs&amp;quot; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Works with virtually any API that respects HTTP_PROXY. Zero dependencies, just a 7MB Rust binary. This is not meant as a replacement for MCPs, but rather a tool to make coding agents safer.&lt;/p&gt; &lt;p&gt;GitHub: &lt;a href="https://github.com/statespace-tech/nv"&gt;https://github.com/statespace-tech/nv&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Would love some feedback, especially from anyone else dealing with secrets &amp;amp; agents!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Durovilla"&gt; /u/Durovilla &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://github.com/statespace-tech/nv"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9r03h/i_built_a_transparent_proxy_to_stop_my_agents/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s9r03h/i_built_a_transparent_proxy_to_stop_my_agents/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T17:20:52+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9s4r7</id>
     <title>Marketgenius – Marketgenius MCP Server offering our free investment tools as live, interactive React apps. Directly inside your AI client.</title>
     <updated>2026-04-01T18:00:02+00:00</updated>
@@ -177,19 +177,6 @@
     <published>2026-04-01T18:00:02+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9tmk4</id>
-    <title>8 free MCP servers for data access — sanctions, weather, company search, crypto, domains (50 free calls/day)</title>
-    <updated>2026-04-01T18:50:04+00:00</updated>
-    <author>
-      <name>/u/Leather_Rip8691</name>
-      <uri>https://old.reddit.com/user/Leather_Rip8691</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Published 8 MCP server packages on npm that give agents access to real-world data. 50 free API calls per day, no signup or API key needed.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Install any of them:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt; npx @vbotholemu/mcp-sanctions-check # OFAC/EU/UK/UN sanctions screening npx @vbotholemu/mcp-marine-weather # NOAA marine forecasts npx @vbotholemu/mcp-aviation-weather # METAR/TAF reports npx @vbotholemu/mcp-charter-planner # BVI sailing itineraries npx @vbotholemu/mcp-company-search # Corporate registry lookups npx @vbotholemu/mcp-domain-intel # WHOIS + availability npx @vbotholemu/mcp-crypto-data # Prices, fees, Lightning stats npx @vbotholemu/mcp-llm-inference # LLM chat/generation &lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Or just curl the API directly:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt; curl &amp;quot;https://api.nautdev.com/api/v1/sanctions/check?name=John+Doe&amp;amp;lists=ofac&amp;quot; curl &amp;quot;https://api.nautdev.com/api/v1/weather/marine?lat=18.4&amp;amp;lon=-64.6&amp;quot; curl &amp;quot;https://api.nautdev.com/api/v1/crypto/price?coin=bitcoin&amp;quot; curl &amp;quot;https://api.nautdev.com/api/v1/free-tier/status&amp;quot; &lt;/code&gt;&lt;/p&gt; &lt;p&gt;50 free calls/day per IP, resets at midnight UTC. After that, unlimited access via L402 Lightning micropayments (5-100 sats per call).&lt;/p&gt; &lt;p&gt;The sanctions checker searches OFAC, EU, UK, and UN lists simultaneously. Marine weather pulls from NOAA. These are real data sources, not wrappers around other paid APIs.&lt;/p&gt; &lt;p&gt;Source: &lt;a href="https://github.com/HaveBlue997/l402-apis"&gt;https://github.com/HaveBlue997/l402-apis&lt;/a&gt; All endpoints: &lt;a href="https://api.nautdev.com/api/v1/pricing"&gt;https://api.nautdev.com/api/v1/pricing&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Leather_Rip8691"&gt; /u/Leather_Rip8691 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9tmk4/8_free_mcp_servers_for_data_access_sanctions/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9tmk4/8_free_mcp_servers_for_data_access_sanctions/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s9tmk4/8_free_mcp_servers_for_data_access_sanctions/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T18:50:04+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9vd0h</id>
     <title>Memento MCP: Long-Term Memory Server for AI Agents</title>
     <updated>2026-04-01T19:50:53+00:00</updated>
@@ -201,19 +188,6 @@
     <link href="https://old.reddit.com/r/mcp/comments/1s9vd0h/memento_mcp_longterm_memory_server_for_ai_agents/"/>
     <category term="mcp" label="r/mcp"/>
     <published>2026-04-01T19:50:53+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9vexv</id>
-    <title>MCP is like paved roads</title>
-    <updated>2026-04-01T19:52:53+00:00</updated>
-    <author>
-      <name>/u/guyernest</name>
-      <uri>https://old.reddit.com/user/guyernest</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"&gt; &lt;img alt="MCP is like paved roads" src="https://preview.redd.it/u5bztb3ttmsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=d392448c32693f3e09db996f7ce78234743f4cd4" title="MCP is like paved roads" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The following note is related to MCP in enterprise environments.&lt;/p&gt; &lt;p&gt;In every enterprise company I see, dozens of agents are built for various use cases, and very few MCP servers are built to support them. This trend is driven by vendors pushing their &amp;quot;agentic frameworks&amp;quot; (AgentForce from Salesforce, AgentCore from AWS, Vertex AI Agent Builder from Google, and many others). &lt;/p&gt; &lt;p&gt;Since my approach is to first get the (MCP) tools, then add the LLM and its instructions, to build agents, I find it hard to explain how important MCP is for safe and scalable AI adoption in large companies. A good analogy I found helpful is the image above, which highlights the order and control that MCP servers can bring to a company, at lower cost and with fewer risks, compared to the rogue agent development we have today. &lt;/p&gt; &lt;p&gt;If you have more analogies or other ways to explain to IT people at a large enterprise why they should stop building rogue agents and start building clean MCP servers, it would be great to hear them. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/guyernest"&gt; /u/guyernest &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/u5bztb3ttmsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T19:52:53+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9pszc</id>
@@ -240,6 +214,32 @@
     <link href="https://old.reddit.com/r/mcp/comments/1s9js10/atomic_selfhosted_aiaugmented_knowledge_base_with/"/>
     <category term="mcp" label="r/mcp"/>
     <published>2026-04-01T12:56:50+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9r03h</id>
+    <title>I built a transparent proxy to stop my agents from exfiltrating API keys</title>
+    <updated>2026-04-01T17:20:52+00:00</updated>
+    <author>
+      <name>/u/Durovilla</name>
+      <uri>https://old.reddit.com/user/Durovilla</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s9r03h/i_built_a_transparent_proxy_to_stop_my_agents/"&gt; &lt;img alt="I built a transparent proxy to stop my agents from exfiltrating API keys" src="https://external-preview.redd.it/jH-rKo64W9rIkExtfOFeRgN98hxo1Xw0pNJ55jNd6Gk.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=369a04f394a4afafb1fb0998a30343237b5e52fc" title="I built a transparent proxy to stop my agents from exfiltrating API keys" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Been building a lot of MCPs and agentic stuff lately and kept running into the same problem: I don't want my coding agent to have access to API keys, or worse, exfiltrate them.&lt;/p&gt; &lt;p&gt;So I built &lt;code&gt;nv&lt;/code&gt; - a local HTTPS proxy that sits between your agent and the internet. It silently injects the right credentials when an agent makes HTTPS request.&lt;/p&gt; &lt;p&gt;Secrets are AES-256-GCM encrypted, locally. And since the agent doesn't know the proxy exists or that keys are being injected, it can't exfiltrate your secrets even if it wanted to.&lt;/p&gt; &lt;p&gt;Here's an example flow:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;$ nv init $ nv activate [project] $ nv add api.stripe.com --bearer Bearer token: •••••••• [project] $ nv add &amp;quot;*.googleapis.com&amp;quot; --query key Value for query param 'key': •••••••• [project] $ claude &amp;quot;call some APIs&amp;quot; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Works with virtually any API that respects HTTP_PROXY. Zero dependencies, just a 7MB Rust binary. This is not meant as a replacement for MCPs, but rather a tool to make coding agents safer.&lt;/p&gt; &lt;p&gt;GitHub: &lt;a href="https://github.com/statespace-tech/nv"&gt;https://github.com/statespace-tech/nv&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Would love some feedback, especially from anyone else dealing with secrets &amp;amp; agents!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Durovilla"&gt; /u/Durovilla &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://github.com/statespace-tech/nv"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9r03h/i_built_a_transparent_proxy_to_stop_my_agents/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1s9r03h/i_built_a_transparent_proxy_to_stop_my_agents/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-01T17:20:52+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9tmk4</id>
+    <title>8 free MCP servers for data access — sanctions, weather, company search, crypto, domains (50 free calls/day)</title>
+    <updated>2026-04-01T18:50:04+00:00</updated>
+    <author>
+      <name>/u/Leather_Rip8691</name>
+      <uri>https://old.reddit.com/user/Leather_Rip8691</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Published 8 MCP server packages on npm that give agents access to real-world data. 50 free API calls per day, no signup or API key needed.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Install any of them:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt; npx @vbotholemu/mcp-sanctions-check # OFAC/EU/UK/UN sanctions screening npx @vbotholemu/mcp-marine-weather # NOAA marine forecasts npx @vbotholemu/mcp-aviation-weather # METAR/TAF reports npx @vbotholemu/mcp-charter-planner # BVI sailing itineraries npx @vbotholemu/mcp-company-search # Corporate registry lookups npx @vbotholemu/mcp-domain-intel # WHOIS + availability npx @vbotholemu/mcp-crypto-data # Prices, fees, Lightning stats npx @vbotholemu/mcp-llm-inference # LLM chat/generation &lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Or just curl the API directly:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt; curl &amp;quot;https://api.nautdev.com/api/v1/sanctions/check?name=John+Doe&amp;amp;lists=ofac&amp;quot; curl &amp;quot;https://api.nautdev.com/api/v1/weather/marine?lat=18.4&amp;amp;lon=-64.6&amp;quot; curl &amp;quot;https://api.nautdev.com/api/v1/crypto/price?coin=bitcoin&amp;quot; curl &amp;quot;https://api.nautdev.com/api/v1/free-tier/status&amp;quot; &lt;/code&gt;&lt;/p&gt; &lt;p&gt;50 free calls/day per IP, resets at midnight UTC. After that, unlimited access via L402 Lightning micropayments (5-100 sats per call).&lt;/p&gt; &lt;p&gt;The sanctions checker searches OFAC, EU, UK, and UN lists simultaneously. Marine weather pulls from NOAA. These are real data sources, not wrappers around other paid APIs.&lt;/p&gt; &lt;p&gt;Source: &lt;a href="https://github.com/HaveBlue997/l402-apis"&gt;https://github.com/HaveBlue997/l402-apis&lt;/a&gt; All endpoints: &lt;a href="https://api.nautdev.com/api/v1/pricing"&gt;https://api.nautdev.com/api/v1/pricing&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Leather_Rip8691"&gt; /u/Leather_Rip8691 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9tmk4/8_free_mcp_servers_for_data_access_sanctions/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9tmk4/8_free_mcp_servers_for_data_access_sanctions/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1s9tmk4/8_free_mcp_servers_for_data_access_sanctions/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-01T18:50:04+00:00</published>
   </entry>
   <entry>
     <id>t3_1s94a85</id>
