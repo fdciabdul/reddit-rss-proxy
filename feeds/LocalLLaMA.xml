@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-01T09:47:20+00:00</updated>
+  <updated>2026-04-01T10:27:34+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1s8wios</id>
-    <title>Anyone tried models created by AMD?</title>
-    <updated>2026-03-31T18:56:45+00:00</updated>
-    <author>
-      <name>/u/pmttyji</name>
-      <uri>https://old.reddit.com/user/pmttyji</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I had question that why AMD is not creating models like how NVIDIA doing it. NVIDIA's Nemotron models are so popular(Ex: Nemotron-3-Nano-30B-A3B, Llama-3_3-Nemotron-Super-49B &amp;amp; recent Nemotron-3-Super-120B-A12B).&lt;/p&gt; &lt;p&gt;Not sure, anyone brought this topic here before or not.&lt;/p&gt; &lt;p&gt;But when I searched HF, I found AMD's page which has 400 models.&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/amd/models?sort=created"&gt;https://huggingface.co/amd/models?sort=created&lt;/a&gt;&lt;/p&gt; &lt;p&gt;But little bit surprised to see that they released 20+ models in MXFP4 format.&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/amd/models?sort=created&amp;amp;search=mxfp4"&gt;https://huggingface.co/amd/models?sort=created&amp;amp;search=mxfp4&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Anyone tested these models? I see models such as Qwen3.5-397B-A17B-MXFP4, GLM-5-MXFP4, MiniMax-M2.5-MXFP4, Kimi-K2.5-MXFP4, Qwen3-Coder-Next-MXFP4. Wish they released MXFP4 for more small &amp;amp; medium models. Hope they do now onwards.&lt;/p&gt; &lt;p&gt;I hope these MXFP4 models would be better(as these coming from AMD itself) than typical MXFP4 models by quanters.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/pmttyji"&gt; /u/pmttyji &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8wios/anyone_tried_models_created_by_amd/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8wios/anyone_tried_models_created_by_amd/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8wios/anyone_tried_models_created_by_amd/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T18:56:45+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s8nhft</id>
     <title>I was able to build Claude Code from source and I'm attaching the instructions.</title>
@@ -32,6 +19,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8nhft/i_was_able_to_build_claude_code_from_source_and/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T13:29:55+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9gds2</id>
+    <title>Yo-GPT - a model you can run locally to replicate the iconic app</title>
+    <updated>2026-04-01T10:11:39+00:00</updated>
+    <author>
+      <name>/u/Rob</name>
+      <uri>https://old.reddit.com/user/Rob</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Today we have a huge announcement out of Neurometric. Our AI research team has spent months trying to train a model to replicate one of the most iconic apps of the web 2.0 wave. We figured it out, and so today we are sharing that with the world. Excited to announce the launch today of &amp;quot;Yo-GPT&amp;quot; - an extremely efficient AI model that, when prompted, says &amp;quot;Yo&amp;quot;. Super low latency, super cheap to run, no hallucinations. Just &amp;quot;Yo&amp;quot;. Read more about it here &lt;a href="https://www.neurometric.ai/products/yo-gpt"&gt;https://www.neurometric.ai/products/yo-gpt&lt;/a&gt; and note today's date before you comment ;)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Rob"&gt; /u/Rob &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gds2/yogpt_a_model_you_can_run_locally_to_replicate/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T10:11:39+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8zmbc</id>
@@ -60,19 +60,6 @@
     <published>2026-04-01T08:37:24+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s8mm4j</id>
-    <title>PSA: Please stop using nohurry/Opus-4.6-Reasoning-3000x-filtered</title>
-    <updated>2026-03-31T12:54:52+00:00</updated>
-    <author>
-      <name>/u/Kahvana</name>
-      <uri>https://old.reddit.com/user/Kahvana</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone, nohurry here on hf.&lt;/p&gt; &lt;p&gt;I noticed the dataset ( &lt;a href="https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"&gt;https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered&lt;/a&gt; ) got popular, but honestly it shouldn't be used anymore. It was meant as a quick filter to remove refusals of Crownelius's dataset. He has since filtered his original release. Yet, my dataset is still used.&lt;/p&gt; &lt;p&gt;Here is the original discussion here that led to the creation of my filtered version:&lt;br /&gt; &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1r0v0y1/opus_46_reasoning_distill_3k_prompts/"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1r0v0y1/opus_46_reasoning_distill_3k_prompts/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;So I want to ask if people could use the original dataset from now on. You can find the original here:&lt;br /&gt; &lt;a href="https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3000x"&gt;https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3000x&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I will keep my version online as-is to not break existing links. I'm not sure what other steps I should take (besides the README edit I've done) to redirect users to the original dataset.&lt;/p&gt; &lt;p&gt;If you have used my dataset, please consider donating to Crownelius, his dataset was expensive to make. You can donate to him here:&lt;br /&gt; &lt;a href="https://ko-fi.com/abcuo"&gt;https://ko-fi.com/abcuo&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Kahvana"&gt; /u/Kahvana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8mm4j/psa_please_stop_using/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8mm4j/psa_please_stop_using/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8mm4j/psa_please_stop_using/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T12:54:52+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9apij</id>
     <title>How do we actually guarantee sandbox isolation when local LLMs have tool access?</title>
     <updated>2026-04-01T04:42:15+00:00</updated>
@@ -84,6 +71,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T04:42:15+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s8mm4j</id>
+    <title>PSA: Please stop using nohurry/Opus-4.6-Reasoning-3000x-filtered</title>
+    <updated>2026-03-31T12:54:52+00:00</updated>
+    <author>
+      <name>/u/Kahvana</name>
+      <uri>https://old.reddit.com/user/Kahvana</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone, nohurry here on hf.&lt;/p&gt; &lt;p&gt;I noticed the dataset ( &lt;a href="https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered"&gt;https://huggingface.co/datasets/nohurry/Opus-4.6-Reasoning-3000x-filtered&lt;/a&gt; ) got popular, but honestly it shouldn't be used anymore. It was meant as a quick filter to remove refusals of Crownelius's dataset. He has since filtered his original release. Yet, my dataset is still used.&lt;/p&gt; &lt;p&gt;Here is the original discussion here that led to the creation of my filtered version:&lt;br /&gt; &lt;a href="https://www.reddit.com/r/LocalLLaMA/comments/1r0v0y1/opus_46_reasoning_distill_3k_prompts/"&gt;https://www.reddit.com/r/LocalLLaMA/comments/1r0v0y1/opus_46_reasoning_distill_3k_prompts/&lt;/a&gt;&lt;/p&gt; &lt;p&gt;So I want to ask if people could use the original dataset from now on. You can find the original here:&lt;br /&gt; &lt;a href="https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3000x"&gt;https://huggingface.co/datasets/crownelius/Opus-4.6-Reasoning-3000x&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I will keep my version online as-is to not break existing links. I'm not sure what other steps I should take (besides the README edit I've done) to redirect users to the original dataset.&lt;/p&gt; &lt;p&gt;If you have used my dataset, please consider donating to Crownelius, his dataset was expensive to make. You can donate to him here:&lt;br /&gt; &lt;a href="https://ko-fi.com/abcuo"&gt;https://ko-fi.com/abcuo&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Kahvana"&gt; /u/Kahvana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8mm4j/psa_please_stop_using/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8mm4j/psa_please_stop_using/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8mm4j/psa_please_stop_using/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-31T12:54:52+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9exbk</id>
@@ -125,19 +125,6 @@
     <published>2026-03-31T13:31:11+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9b585</id>
-    <title>I think we should have sticky post about security and risks and safe practices as agentic become more prominent.</title>
-    <updated>2026-04-01T05:05:07+00:00</updated>
-    <author>
-      <name>/u/ResponsibleTruck4717</name>
-      <uri>https://old.reddit.com/user/ResponsibleTruck4717</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Many started with ollama / llama.cpp and other simple framework / backends that are relatively safe&lt;/p&gt; &lt;p&gt;But in recent months agentic ai has became more popular and accessible to which in my opinion is very welcoming.&lt;/p&gt; &lt;p&gt;But if one is to go watch youtube videos or simple guide they will find simple set of instruction that will simply instruct them to install without mentioning security at all. &lt;/p&gt; &lt;p&gt;I think this is where this sub can step in.&lt;/p&gt; &lt;p&gt;We should have a sticky post with discussion about security people can post guides like how to install docker or to secure it and etc, and in time we will some sort of faq / guide lines for new comer.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ResponsibleTruck4717"&gt; /u/ResponsibleTruck4717 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T05:05:07+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s91jxl</id>
     <title>You guys seen this? 1-bit model with an MMLU-R of 65.7, 8B params</title>
     <updated>2026-03-31T21:59:42+00:00</updated>
@@ -162,6 +149,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T18:52:35+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9b585</id>
+    <title>I think we should have sticky post about security and risks and safe practices as agentic become more prominent.</title>
+    <updated>2026-04-01T05:05:07+00:00</updated>
+    <author>
+      <name>/u/ResponsibleTruck4717</name>
+      <uri>https://old.reddit.com/user/ResponsibleTruck4717</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Many started with ollama / llama.cpp and other simple framework / backends that are relatively safe&lt;/p&gt; &lt;p&gt;But in recent months agentic ai has became more popular and accessible to which in my opinion is very welcoming.&lt;/p&gt; &lt;p&gt;But if one is to go watch youtube videos or simple guide they will find simple set of instruction that will simply instruct them to install without mentioning security at all. &lt;/p&gt; &lt;p&gt;I think this is where this sub can step in.&lt;/p&gt; &lt;p&gt;We should have a sticky post with discussion about security people can post guides like how to install docker or to secure it and etc, and in time we will some sort of faq / guide lines for new comer.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ResponsibleTruck4717"&gt; /u/ResponsibleTruck4717 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T05:05:07+00:00</published>
   </entry>
   <entry>
     <id>t3_1s95cpa</id>
@@ -197,7 +197,7 @@
       <name>/u/Sadman782</name>
       <uri>https://old.reddit.com/user/Sadman782</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt; &lt;img alt="Found references to &amp;quot;models/gemma-4&amp;quot; hiding in AI Studio's code. Release imminent? 👀" src="https://preview.redd.it/dluo2rk7yisg1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=0e8edb3b31e51796a076514dbafa71d25fbbed27" title="Found references to &amp;quot;models/gemma-4&amp;quot; hiding in AI Studio's code. Release imminent? 👀" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://preview.redd.it/dluo2rk7yisg1.png?width=550&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc257ec3f280a11025032af59aba0d54da20e030"&gt;https://preview.redd.it/dluo2rk7yisg1.png?width=550&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc257ec3f280a11025032af59aba0d54da20e030&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://www.kaggle.com/models/google/gemma-4"&gt;https://www.kaggle.com/models/google/gemma-4&lt;/a&gt; there is kaggle link too&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/l1hmjfbayisg1.png?width=530&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28300f4a0b18f844740ea46144201a92f3a42c9c"&gt;https://preview.redd.it/l1hmjfbayisg1.png?width=530&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28300f4a0b18f844740ea46144201a92f3a42c9c&lt;/a&gt;&lt;/p&gt; &lt;p&gt;2 Gemma models: Significant-Otter and Pteronura are being tested on LMArena and are quite strong for vision and coding. Pteronura seems to be a dense model (likely 27B) with factual knowledge below Flash 3.1 Lite but reasoning close to 3.1 Flash. Meanwhile, Significant-Otter seems to be the 120B model, which has good factual accuracy but is unstable, sometimes showing good reasoning, and sometimes performing way worse than Pteronura.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Sadman782"&gt; /u/Sadman782 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt; &lt;img alt="Found references to &amp;quot;models/gemma-4&amp;quot; hiding in AI Studio's code. Release imminent? 👀" src="https://preview.redd.it/dluo2rk7yisg1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=0e8edb3b31e51796a076514dbafa71d25fbbed27" title="Found references to &amp;quot;models/gemma-4&amp;quot; hiding in AI Studio's code. Release imminent? 👀" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://preview.redd.it/dluo2rk7yisg1.png?width=550&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc257ec3f280a11025032af59aba0d54da20e030"&gt;https://preview.redd.it/dluo2rk7yisg1.png?width=550&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc257ec3f280a11025032af59aba0d54da20e030&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://www.kaggle.com/models/google/gemma-4"&gt;https://www.kaggle.com/models/google/gemma-4&lt;/a&gt; there is kaggle link too&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/l1hmjfbayisg1.png?width=530&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28300f4a0b18f844740ea46144201a92f3a42c9c"&gt;https://preview.redd.it/l1hmjfbayisg1.png?width=530&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28300f4a0b18f844740ea46144201a92f3a42c9c&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;⚡ Two Gemma models&lt;/strong&gt;: &lt;strong&gt;Significant-Otter&lt;/strong&gt; and &lt;strong&gt;Pteronura&lt;/strong&gt; are being tested on LMArena and are quite strong for vision and coding. Pteronura seems to be a dense model (likely 27B) with factual knowledge below Flash 3.1 Lite but reasoning close to 3.1 Flash. Meanwhile, Significant-Otter seems to be the 120B model, which has good factual accuracy but is unstable, sometimes showing good reasoning, and sometimes performing way worse than Pteronura. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Sadman782"&gt; /u/Sadman782 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9csov/found_references_to_modelsgemma4_hiding_in_ai/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T06:39:18+00:00</published>
@@ -255,19 +255,6 @@
     <published>2026-03-31T19:32:02+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s93n1j</id>
-    <title>FOR ME, Qwen3.5-27B is better than Gemini 3.1 Pro and GPT-5.3 Codex</title>
-    <updated>2026-03-31T23:23:55+00:00</updated>
-    <author>
-      <name>/u/EffectiveCeilingFan</name>
-      <uri>https://old.reddit.com/user/EffectiveCeilingFan</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;There's something I hate about the big SOTA proprietary models. In order to make them better for people who don't know how to program, they're optimized to solve problems entirely autonomously. Yeah, this makes people over on &lt;a href="/r/ChatGPT"&gt;/r/ChatGPT&lt;/a&gt; soypog when it writes a 7z parser in Python because the binary is missing, however, for me, this makes them suck. If something isn't matching up, Qwen3.5-27B will just give up. If you're trying to vibecode some slop this is annoying, but for me this is much, much better. I'm forced to use GitHub Copilot in university, and whenever there's a problem, it goes completely off the rails and does some absolute hogwash. Like, for example, it was struggling to write to a file that had some broken permissions (my fault) and it kept failing. I watched as Claude began trying to write unrestricted, dangerous Perl scripts to forceably solve the issue. I created a fresh session and tried GPT-5.3 Codex and it did literally the exact same thing with the Perl scripts. Even when I told it to stop writing Perl scripts, it just started writing NodeJS scripts. The problem is that it isn't always obvious when your agent is going off the rails and tunnel visioning on nonsense. So, even if you're watching closely, you could still be wasting a ton of time. Meanwhile, if some bullshit happens, Qwen3.5 doesn't even try, it just gives up and tells me it couldn't write to the file for some reason.&lt;/p&gt; &lt;p&gt;Please, research labs, this is what I want, more of this please.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/EffectiveCeilingFan"&gt; /u/EffectiveCeilingFan &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T23:23:55+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s8r3w3</id>
     <title>How it started vs How it's going</title>
     <updated>2026-03-31T15:45:00+00:00</updated>
@@ -279,6 +266,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8r3w3/how_it_started_vs_how_its_going/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T15:45:00+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s93n1j</id>
+    <title>FOR ME, Qwen3.5-27B is better than Gemini 3.1 Pro and GPT-5.3 Codex</title>
+    <updated>2026-03-31T23:23:55+00:00</updated>
+    <author>
+      <name>/u/EffectiveCeilingFan</name>
+      <uri>https://old.reddit.com/user/EffectiveCeilingFan</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;There's something I hate about the big SOTA proprietary models. In order to make them better for people who don't know how to program, they're optimized to solve problems entirely autonomously. Yeah, this makes people over on &lt;a href="/r/ChatGPT"&gt;r/ChatGPT&lt;/a&gt; soypog when it writes a 7z parser in Python because the binary is missing, however, for me, this makes them suck. If something isn't matching up, Qwen3.5-27B will just give up. If you're trying to vibecode some slop this is annoying, but for me this is much, much better. I'm forced to use GitHub Copilot in university, and whenever there's a problem, it goes completely off the rails and does some absolute hogwash. Like, for example, it was struggling to write to a file that had some broken permissions (my fault) and it kept failing. I watched as Claude began trying to write unrestricted, dangerous Perl scripts to forceably solve the issue. I created a fresh session and tried GPT-5.3 Codex and it did lSiiterally the exact same thing with the Perl scripts. Even when I told it to stop writing Perl scripts, it just started writing NodeJS scripts. The problem is that it isn't always obvious when your agent is going off the rails and tunnel visioning on nonsense. So, even if you're watching closely, you could still be wasting a ton of time. Meanwhile, if some bullshit happens, Qwen3.5 doesn't even try, it just gives up and tells me it couldn't write to the file for some reason.&lt;/p&gt; &lt;p&gt;Please, research labs, this is what I want, more of this please.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Since several people have asked, here is my config and measured speeds.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Harness: Qwen Code&lt;/li&gt; &lt;li&gt;Quant: Bartowski Q4_K_M&lt;/li&gt; &lt;li&gt;Context: 65536 @ F16&lt;/li&gt; &lt;li&gt;GPUs: RX7900GRE + RX6650XT&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Command:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;llama-server --host 0.0.0.0 --port 8080 \ -np 1 \ --no-mmap \ -dev Vulkan1,Vulkan2 \ -c 65536 \ -m bartowski__Qwen_Qwen3.5-27B-GGUF/Qwen_Qwen3.5-27B-Q4_K_M.gguf \ --temperature 0.6 --top-p 0.95 --top-k 20 --min-p 0.0 --presence-penalty 0.0 --repeat-penalty 1.0 &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Performance -- llama-bench behaves much worse on my machine than llama-server, so here are the avererage speeds from hitting the chat completions endpoint directly with an 11k token prompt:&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;test&lt;/th&gt; &lt;th align="left"&gt;t/s&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;pp&lt;/td&gt; &lt;td align="left"&gt;340.17&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;tg&lt;/td&gt; &lt;td align="left"&gt;15.21&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;Not great, but perfectly usable for what I do.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/EffectiveCeilingFan"&gt; /u/EffectiveCeilingFan &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s93n1j/for_me_qwen3527b_is_better_than_gemini_31_pro_and/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-31T23:23:55+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8ijfb</id>
