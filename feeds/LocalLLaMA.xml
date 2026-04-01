@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-01T17:08:24+00:00</updated>
+  <updated>2026-04-01T17:34:57+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -60,19 +60,6 @@
     <published>2026-04-01T06:39:18+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9irdk</id>
-    <title>"The Child That Surpassed Both Parents" Darwin-35B-A3B-Opus (35B/3B MoE) with Model MRI Technique</title>
-    <updated>2026-04-01T12:12:03+00:00</updated>
-    <author>
-      <name>/u/Own-Potential-2308</name>
-      <uri>https://old.reddit.com/user/Own-Potential-2308</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Darwin-35B-A3B-Opus is a 35B MoE model (only 3B parameters active) created by SeaWolf-AI / VIDRAFT_LAB using their new Darwin V5 merging engine.&lt;/p&gt; &lt;p&gt;They built a system that does a deep &amp;quot;CT-scan&amp;quot; (Model MRI) of the parent models layer by layer to figure out what actually works.&lt;/p&gt; &lt;p&gt;Father: Qwen3.5-35B-A3B (strong generalist)&lt;/p&gt; &lt;p&gt;Mother: Claude 4.6 Opus distilled (strong reasoning but apparently had a lot of &amp;quot;dead experts&amp;quot; after distillation)&lt;/p&gt; &lt;p&gt;The merge strategy: transplant the mother's strong reasoning layers (especially L34–L38), swap in the father's healthy experts, and let the father's router handle the output.&lt;/p&gt; &lt;p&gt;Reported results:&lt;/p&gt; &lt;p&gt;GPQA Diamond: 90.0% 🔥&lt;/p&gt; &lt;p&gt;→ Father: 84.2%&lt;/p&gt; &lt;p&gt;→ Mother: 85.0%&lt;/p&gt; &lt;p&gt;→ That's a solid +5.8–5.9% jump with no major trade-offs&lt;/p&gt; &lt;p&gt;MMMLU: 85.0% (basically the same as Father at 85.2%)&lt;/p&gt; &lt;p&gt;Fully preserves multimodal (image + video) and 201 languages&lt;/p&gt; &lt;p&gt;262K native context&lt;/p&gt; &lt;p&gt;Blazing fast: ~148 tok/s on H100, and it runs on a single RTX 4090 in Q4&lt;/p&gt; &lt;p&gt;License: Apache 2.0 — fully open.&lt;/p&gt; &lt;p&gt;They call it &amp;quot;the child that surpassed both parents&amp;quot; and plan to release the full Darwin V5 algorithm + paper soon.&lt;/p&gt; &lt;p&gt;Model page: &lt;a href="https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus"&gt;https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Own-Potential-2308"&gt; /u/Own-Potential-2308 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T12:12:03+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s8uerc</id>
     <title>Analyzing Claude Code Source Code. Write "WTF" and Anthropic knows.</title>
     <updated>2026-03-31T17:42:16+00:00</updated>
@@ -97,6 +84,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T21:34:29+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9irdk</id>
+    <title>"The Child That Surpassed Both Parents" Darwin-35B-A3B-Opus (35B/3B MoE) with Model MRI Technique</title>
+    <updated>2026-04-01T12:12:03+00:00</updated>
+    <author>
+      <name>/u/Own-Potential-2308</name>
+      <uri>https://old.reddit.com/user/Own-Potential-2308</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Darwin-35B-A3B-Opus is a 35B MoE model (only 3B parameters active) created by SeaWolf-AI / VIDRAFT_LAB using their new Darwin V5 merging engine.&lt;/p&gt; &lt;p&gt;They built a system that does a deep &amp;quot;CT-scan&amp;quot; (Model MRI) of the parent models layer by layer to figure out what actually works.&lt;/p&gt; &lt;p&gt;Father: Qwen3.5-35B-A3B (strong generalist)&lt;/p&gt; &lt;p&gt;Mother: Claude 4.6 Opus distilled (strong reasoning but apparently had a lot of &amp;quot;dead experts&amp;quot; after distillation)&lt;/p&gt; &lt;p&gt;The merge strategy: transplant the mother's strong reasoning layers (especially L34–L38), swap in the father's healthy experts, and let the father's router handle the output.&lt;/p&gt; &lt;p&gt;Reported results:&lt;/p&gt; &lt;p&gt;GPQA Diamond: 90.0% 🔥&lt;/p&gt; &lt;p&gt;→ Father: 84.2%&lt;/p&gt; &lt;p&gt;→ Mother: 85.0%&lt;/p&gt; &lt;p&gt;→ That's a solid +5.8–5.9% jump with no major trade-offs&lt;/p&gt; &lt;p&gt;MMMLU: 85.0% (basically the same as Father at 85.2%)&lt;/p&gt; &lt;p&gt;Fully preserves multimodal (image + video) and 201 languages&lt;/p&gt; &lt;p&gt;262K native context&lt;/p&gt; &lt;p&gt;Blazing fast: ~148 tok/s on H100, and it runs on a single RTX 4090 in Q4&lt;/p&gt; &lt;p&gt;License: Apache 2.0 — fully open.&lt;/p&gt; &lt;p&gt;They call it &amp;quot;the child that surpassed both parents&amp;quot; and plan to release the full Darwin V5 algorithm + paper soon.&lt;/p&gt; &lt;p&gt;Model page: &lt;a href="https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus"&gt;https://huggingface.co/FINAL-Bench/Darwin-35B-A3B-Opus&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Own-Potential-2308"&gt; /u/Own-Potential-2308 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9irdk/the_child_that_surpassed_both_parents/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T12:12:03+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9mkm1</id>
@@ -125,19 +125,6 @@
     <published>2026-03-31T15:45:00+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9ivgl</id>
-    <title>16x AMD MI50 32GB at 32 t/s (tg) &amp; 2k t/s (pp) with Qwen3.5 397B (vllm-gfx906-mobydick)</title>
-    <updated>2026-04-01T12:17:04+00:00</updated>
-    <author>
-      <name>/u/ai-infos</name>
-      <uri>https://old.reddit.com/user/ai-infos</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"&gt; &lt;img alt="16x AMD MI50 32GB at 32 t/s (tg) &amp;amp; 2k t/s (pp) with Qwen3.5 397B (vllm-gfx906-mobydick)" src="https://preview.redd.it/ks09zjwnmksg1.jpg?width=140&amp;amp;height=105&amp;amp;auto=webp&amp;amp;s=204fb1b109ad7170cf97b08dc4874803c785be9d" title="16x AMD MI50 32GB at 32 t/s (tg) &amp;amp; 2k t/s (pp) with Qwen3.5 397B (vllm-gfx906-mobydick)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Qwen3.5 397B A17B GPTQ 4-bit @ 32 tok/s (output)&lt;/strong&gt; and 2000 tok/s (input of 20k tok) on &lt;strong&gt;vllm-gfx906-mobydick&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/ks09zjwnmksg1.jpg?width=800&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=a9225e3ef12f98e6eb7f585ea562e0976b5eeb1a"&gt;16 mi50 32gb setup&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Github link of vllm fork&lt;/strong&gt;: &lt;a href="https://github.com/ai-infos/vllm-gfx906-mobydick"&gt;https://github.com/ai-infos/vllm-gfx906-mobydick&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Power draw&lt;/strong&gt;: 550W (idle) / 2400W (peak inference)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: run Qwen3.5 397B A17B GPTQ 4-bit on most cost effective hardware like 16*MI50 at decent speed (token generation &amp;amp; prompt processing)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Coming next&lt;/strong&gt;: open source a future test setup of 32 AMD MI50 32GB for Kimi K2.5 Thinking and/or GLM-5&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;: BIG thanks to the Global Open source Community!&lt;/p&gt; &lt;p&gt;&lt;strong&gt;All setup details here:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/ai-infos/guidances-setup-16-mi50-qwen35-397b"&gt;https://github.com/ai-infos/guidances-setup-16-mi50-qwen35-397b&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Feel free to ask any questions and/or share any comments.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps&lt;/strong&gt;: it might be a good alternative to mix CPU/GPU hardwares as RAM/VRAM price increases and the token generation/prompt processing speed will be much better with 16 TB/s bandwidth + tensor parallelism + mtp (multi token prediction)!&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps2&lt;/strong&gt;: few months ago I did a similar post for deepseek v3.2. The initial goal of the vllm-gfx906-mobydick was actually to run big models like deepseek but previously, the fork wasn't steady enough using FP16 activation. &lt;strong&gt;&lt;em&gt;Now the fork is pretty steady for both models deepseek v3.2 and qwen3.5 397B at big context using FP32 activation (with some FP16 attention computations for perf)&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps3&lt;/strong&gt;: With the vllm-gfx906-mobydick fork, you can also run smaller recent models (as the base is vllm v0.17.1) like &lt;strong&gt;Qwen3.5 27B&lt;/strong&gt; (reaching &lt;strong&gt;56 tok/s&lt;/strong&gt; at MTP5 and TP4 but it fits also on 1 MI50 32GB with 65k context; maybe later, if you are interested in, I can also make another posts showing benchmarks with smaller setups)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps4&lt;/strong&gt;: the idea of using FP32 activation (with a mix of FP16 attention computations) instead of full BF16 for old consumer GPU that do not support BF16 can obviously be extended to other GPU than AMD MI50. So I guess this vllm-gfx906-mobydick fork can be reused for other older GPU (with or without some adaptations)&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/b27cpsfvlksg1.png?width=1330&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=5bdcbb8ded34cb325d53a202b0699604a05f8a3c"&gt;rocm-smi&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps5&lt;/strong&gt;: the image above (rocm-smi) show the temps/power when vllm idle (after some generation; peak is around 71°C /120W per gpu)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ai-infos"&gt; /u/ai-infos &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T12:17:04+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s8xj2e</id>
     <title>Claude Code's source just leaked — I extracted its multi-agent orchestration system into an open-source framework that works with any LLM</title>
     <updated>2026-03-31T19:32:02+00:00</updated>
@@ -149,6 +136,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8xj2e/claude_codes_source_just_leaked_i_extracted_its/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T19:32:02+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9ivgl</id>
+    <title>16x AMD MI50 32GB at 32 t/s (tg) &amp; 2k t/s (pp) with Qwen3.5 397B (vllm-gfx906-mobydick)</title>
+    <updated>2026-04-01T12:17:04+00:00</updated>
+    <author>
+      <name>/u/ai-infos</name>
+      <uri>https://old.reddit.com/user/ai-infos</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"&gt; &lt;img alt="16x AMD MI50 32GB at 32 t/s (tg) &amp;amp; 2k t/s (pp) with Qwen3.5 397B (vllm-gfx906-mobydick)" src="https://preview.redd.it/ks09zjwnmksg1.jpg?width=140&amp;amp;height=105&amp;amp;auto=webp&amp;amp;s=204fb1b109ad7170cf97b08dc4874803c785be9d" title="16x AMD MI50 32GB at 32 t/s (tg) &amp;amp; 2k t/s (pp) with Qwen3.5 397B (vllm-gfx906-mobydick)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Qwen3.5 397B A17B GPTQ 4-bit @ 32 tok/s (output)&lt;/strong&gt; and 2000 tok/s (input of 20k tok) on &lt;strong&gt;vllm-gfx906-mobydick&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/ks09zjwnmksg1.jpg?width=800&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=a9225e3ef12f98e6eb7f585ea562e0976b5eeb1a"&gt;16 mi50 32gb setup&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Github link of vllm fork&lt;/strong&gt;: &lt;a href="https://github.com/ai-infos/vllm-gfx906-mobydick"&gt;https://github.com/ai-infos/vllm-gfx906-mobydick&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Power draw&lt;/strong&gt;: 550W (idle) / 2400W (peak inference)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: run Qwen3.5 397B A17B GPTQ 4-bit on most cost effective hardware like 16*MI50 at decent speed (token generation &amp;amp; prompt processing)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Coming next&lt;/strong&gt;: open source a future test setup of 32 AMD MI50 32GB for Kimi K2.5 Thinking and/or GLM-5&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;: BIG thanks to the Global Open source Community!&lt;/p&gt; &lt;p&gt;&lt;strong&gt;All setup details here:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/ai-infos/guidances-setup-16-mi50-qwen35-397b"&gt;https://github.com/ai-infos/guidances-setup-16-mi50-qwen35-397b&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Feel free to ask any questions and/or share any comments.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps&lt;/strong&gt;: it might be a good alternative to mix CPU/GPU hardwares as RAM/VRAM price increases and the token generation/prompt processing speed will be much better with 16 TB/s bandwidth + tensor parallelism + mtp (multi token prediction)!&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps2&lt;/strong&gt;: few months ago I did a similar post for deepseek v3.2. The initial goal of the vllm-gfx906-mobydick was actually to run big models like deepseek but previously, the fork wasn't steady enough using FP16 activation. &lt;strong&gt;&lt;em&gt;Now the fork is pretty steady for both models deepseek v3.2 and qwen3.5 397B at big context using FP32 activation (with some FP16 attention computations for perf)&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps3&lt;/strong&gt;: With the vllm-gfx906-mobydick fork, you can also run smaller recent models (as the base is vllm v0.17.1) like &lt;strong&gt;Qwen3.5 27B&lt;/strong&gt; (reaching &lt;strong&gt;56 tok/s&lt;/strong&gt; at MTP5 and TP4 but it fits also on 1 MI50 32GB with 65k context; maybe later, if you are interested in, I can also make another posts showing benchmarks with smaller setups)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps4&lt;/strong&gt;: the idea of using FP32 activation (with a mix of FP16 attention computations) instead of full BF16 for old consumer GPU that do not support BF16 can obviously be extended to other GPU than AMD MI50. So I guess this vllm-gfx906-mobydick fork can be reused for other older GPU (with or without some adaptations)&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/b27cpsfvlksg1.png?width=1330&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=5bdcbb8ded34cb325d53a202b0699604a05f8a3c"&gt;rocm-smi&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ps5&lt;/strong&gt;: the image above (rocm-smi) show the temps/power when vllm idle (after some generation; peak is around 71°C /120W per gpu)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ai-infos"&gt; /u/ai-infos &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ivgl/16x_amd_mi50_32gb_at_32_ts_tg_2k_ts_pp_with/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T12:17:04+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8ijfb</id>
@@ -190,19 +190,6 @@
     <published>2026-03-31T15:52:25+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9kf23</id>
-    <title>Anyone else notice qwen 3.5 is a lying little shit</title>
-    <updated>2026-04-01T13:21:30+00:00</updated>
-    <author>
-      <name>/u/Cat5edope</name>
-      <uri>https://old.reddit.com/user/Cat5edope</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Any time I catch it messing up it just lies and tries to hide it’s mistakes . This is the 1st model I’m caught doing this multiple times. I’m have llms hallucinate or be just completely wrong but qwen will say it did something, I call it out then it goes and double downs on its lie “I did do it like you asked “ and when I call it out it 1/2 admits to being wrong. It’s kinda funny how much it doesn’t want to admit it didn’t do what it was supposed to.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Cat5edope"&gt; /u/Cat5edope &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T13:21:30+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9i1gn</id>
     <title>A Reminder, Guys, Undervolt your GPUs Immediately. You will Significantly Decrease Wattage without Hitting Performance.</title>
     <updated>2026-04-01T11:38:21+00:00</updated>
@@ -216,6 +203,19 @@
     <published>2026-04-01T11:38:21+00:00</published>
   </entry>
   <entry>
+    <id>t3_1s9kf23</id>
+    <title>Anyone else notice qwen 3.5 is a lying little shit</title>
+    <updated>2026-04-01T13:21:30+00:00</updated>
+    <author>
+      <name>/u/Cat5edope</name>
+      <uri>https://old.reddit.com/user/Cat5edope</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Any time I catch it messing up it just lies and tries to hide it’s mistakes . This is the 1st model I’m caught doing this multiple times. I’m have llms hallucinate or be just completely wrong but qwen will say it did something, I call it out then it goes and double downs on its lie “I did do it like you asked “ and when I call it out it 1/2 admits to being wrong. It’s kinda funny how much it doesn’t want to admit it didn’t do what it was supposed to.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Cat5edope"&gt; /u/Cat5edope &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T13:21:30+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9gol0</id>
     <title>Does the Claude “leak” actually change anything in practice?</title>
     <updated>2026-04-01T10:28:42+00:00</updated>
@@ -227,6 +227,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9gol0/does_the_claude_leak_actually_change_anything_in/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T10:28:42+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9hdye</id>
+    <title>Falcon-OCR and Falcon-Perception</title>
+    <updated>2026-04-01T11:05:58+00:00</updated>
+    <author>
+      <name>/u/Automatic_Truth_6666</name>
+      <uri>https://old.reddit.com/user/Automatic_Truth_6666</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"&gt; &lt;img alt="Falcon-OCR and Falcon-Perception" src="https://external-preview.redd.it/cnF6aWtmcGw5a3NnMUU0NqX5owReaZu6hbuChPHa9iIytAh9FproC0TRXtsR.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b5a933e82ed2d1d8c28342b5a1b81ff2afa4fad7" title="Falcon-OCR and Falcon-Perception" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;blogpost: &lt;a href="https://huggingface.co/blog/tiiuae/falcon-perception"&gt;https://huggingface.co/blog/tiiuae/falcon-perception&lt;/a&gt; &lt;/p&gt; &lt;p&gt;HF collection: &lt;a href="https://huggingface.co/collections/tiiuae/falcon-perception"&gt;https://huggingface.co/collections/tiiuae/falcon-perception&lt;/a&gt; &lt;/p&gt; &lt;p&gt;Ongoing llama.cpp support: &lt;a href="https://github.com/ggml-org/llama.cpp/pull/21045"&gt;https://github.com/ggml-org/llama.cpp/pull/21045&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Automatic_Truth_6666"&gt; /u/Automatic_Truth_6666 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/i9vlaiol9ksg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T11:05:58+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9nri7</id>
@@ -253,19 +266,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9pe0w/arceeaitrinitylargethinking_hugging_face/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T16:24:31+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9hdye</id>
-    <title>Falcon-OCR and Falcon-Perception</title>
-    <updated>2026-04-01T11:05:58+00:00</updated>
-    <author>
-      <name>/u/Automatic_Truth_6666</name>
-      <uri>https://old.reddit.com/user/Automatic_Truth_6666</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"&gt; &lt;img alt="Falcon-OCR and Falcon-Perception" src="https://external-preview.redd.it/cnF6aWtmcGw5a3NnMUU0NqX5owReaZu6hbuChPHa9iIytAh9FproC0TRXtsR.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b5a933e82ed2d1d8c28342b5a1b81ff2afa4fad7" title="Falcon-OCR and Falcon-Perception" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;blogpost: &lt;a href="https://huggingface.co/blog/tiiuae/falcon-perception"&gt;https://huggingface.co/blog/tiiuae/falcon-perception&lt;/a&gt; &lt;/p&gt; &lt;p&gt;HF collection: &lt;a href="https://huggingface.co/collections/tiiuae/falcon-perception"&gt;https://huggingface.co/collections/tiiuae/falcon-perception&lt;/a&gt; &lt;/p&gt; &lt;p&gt;Ongoing llama.cpp support: &lt;a href="https://github.com/ggml-org/llama.cpp/pull/21045"&gt;https://github.com/ggml-org/llama.cpp/pull/21045&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Automatic_Truth_6666"&gt; /u/Automatic_Truth_6666 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/i9vlaiol9ksg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T11:05:58+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9lge6</id>
