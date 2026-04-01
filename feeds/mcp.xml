@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/mcp/.rss</id>
   <title>Model Context Protocol (MCP)</title>
-  <updated>2026-04-01T15:35:00+00:00</updated>
+  <updated>2026-04-01T16:09:52+00:00</updated>
   <link href="https://old.reddit.com/r/mcp/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>The Model Context Protocol is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools</subtitle>
-  <entry>
-    <id>t3_1s974ne</id>
-    <title>What are you using to track usage analytics?</title>
-    <updated>2026-04-01T01:54:46+00:00</updated>
-    <author>
-      <name>/u/Sea-Lake2214</name>
-      <uri>https://old.reddit.com/user/Sea-Lake2214</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Was thinking of dropping in Google Analytics events, but I'm curious what others are doing. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Sea-Lake2214"&gt; /u/Sea-Lake2214 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s974ne/what_are_you_using_to_track_usage_analytics/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s974ne/what_are_you_using_to_track_usage_analytics/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s974ne/what_are_you_using_to_track_usage_analytics/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T01:54:46+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s8w9ib</id>
     <title>Monzo mcp / claude code plugin - I was tired of manually managing my monzo expenses</title>
@@ -34,19 +21,6 @@
     <published>2026-03-31T18:47:27+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s98lrl</id>
-    <title>MCP OpenClaw – An MCP server that integrates with the OpenClaw API to enable AI assistants to send messages across multiple platforms, execute system commands, and manage calendar events and emails.</title>
-    <updated>2026-04-01T03:00:04+00:00</updated>
-    <author>
-      <name>/u/modelcontextprotocol</name>
-      <uri>https://old.reddit.com/user/modelcontextprotocol</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s98lrl/mcp_openclaw_an_mcp_server_that_integrates_with/"&gt; &lt;img alt="MCP OpenClaw – An MCP server that integrates with the OpenClaw API to enable AI assistants to send messages across multiple platforms, execute system commands, and manage calendar events and emails." src="https://external-preview.redd.it/RhNKX0JdKvq2wHtNJCAQTMvLTynf-fw005upGDo_c94.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=06ae684bc2838c53d165a08948eaa106393612d6" title="MCP OpenClaw – An MCP server that integrates with the OpenClaw API to enable AI assistants to send messages across multiple platforms, execute system commands, and manage calendar events and emails." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/modelcontextprotocol"&gt; /u/modelcontextprotocol &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://glama.ai/mcp/servers/starlink-awaken/mcp-openclaw"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s98lrl/mcp_openclaw_an_mcp_server_that_integrates_with/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s98lrl/mcp_openclaw_an_mcp_server_that_integrates_with/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T03:00:04+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s8t6t2</id>
     <title>I scanned 10 popular developer tools for AI agent-readiness. Only one passed.</title>
     <updated>2026-03-31T16:59:26+00:00</updated>
@@ -58,6 +32,19 @@
     <link href="https://old.reddit.com/r/mcp/comments/1s8t6t2/i_scanned_10_popular_developer_tools_for_ai/"/>
     <category term="mcp" label="r/mcp"/>
     <published>2026-03-31T16:59:26+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s98lrl</id>
+    <title>MCP OpenClaw – An MCP server that integrates with the OpenClaw API to enable AI assistants to send messages across multiple platforms, execute system commands, and manage calendar events and emails.</title>
+    <updated>2026-04-01T03:00:04+00:00</updated>
+    <author>
+      <name>/u/modelcontextprotocol</name>
+      <uri>https://old.reddit.com/user/modelcontextprotocol</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s98lrl/mcp_openclaw_an_mcp_server_that_integrates_with/"&gt; &lt;img alt="MCP OpenClaw – An MCP server that integrates with the OpenClaw API to enable AI assistants to send messages across multiple platforms, execute system commands, and manage calendar events and emails." src="https://external-preview.redd.it/RhNKX0JdKvq2wHtNJCAQTMvLTynf-fw005upGDo_c94.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=06ae684bc2838c53d165a08948eaa106393612d6" title="MCP OpenClaw – An MCP server that integrates with the OpenClaw API to enable AI assistants to send messages across multiple platforms, execute system commands, and manage calendar events and emails." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/modelcontextprotocol"&gt; /u/modelcontextprotocol &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://glama.ai/mcp/servers/starlink-awaken/mcp-openclaw"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s98lrl/mcp_openclaw_an_mcp_server_that_integrates_with/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1s98lrl/mcp_openclaw_an_mcp_server_that_integrates_with/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-01T03:00:04+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9c4op</id>
@@ -281,6 +268,19 @@
     <published>2026-04-01T12:56:50+00:00</published>
   </entry>
   <entry>
+    <id>t3_1s94a85</id>
+    <title>What's your "must-have" MCP server that you use daily?</title>
+    <updated>2026-03-31T23:50:10+00:00</updated>
+    <author>
+      <name>/u/Aggravating_Cow_136</name>
+      <uri>https://old.reddit.com/user/Aggravating_Cow_136</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Curious what servers people are actually running in production vs. just testing. I've been digging through the ecosystem and there's a massive gap between what gets stars on GitHub and what's actually reliable day-to-day. What's in your stack and what did you drop?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Aggravating_Cow_136"&gt; /u/Aggravating_Cow_136 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-03-31T23:50:10+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9hxh5</id>
     <title>MCP isn’t dead, it just smells funny</title>
     <updated>2026-04-01T11:32:57+00:00</updated>
@@ -294,17 +294,17 @@
     <published>2026-04-01T11:32:57+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s94a85</id>
-    <title>What's your "must-have" MCP server that you use daily?</title>
-    <updated>2026-03-31T23:50:10+00:00</updated>
+    <id>t3_1s9o4x4</id>
+    <title>I built a menu bar app that watches how you work and turns your workflows into self-improving Skills that any of AI agents can execute without you explaining how to do your work. Open source, fully local</title>
+    <updated>2026-04-01T15:40:27+00:00</updated>
     <author>
-      <name>/u/Aggravating_Cow_136</name>
-      <uri>https://old.reddit.com/user/Aggravating_Cow_136</uri>
+      <name>/u/Objective_River_5218</name>
+      <uri>https://old.reddit.com/user/Objective_River_5218</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Curious what servers people are actually running in production vs. just testing. I've been digging through the ecosystem and there's a massive gap between what gets stars on GitHub and what's actually reliable day-to-day. What's in your stack and what did you drop?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Aggravating_Cow_136"&gt; /u/Aggravating_Cow_136 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/"/>
+    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Objective_River_5218"&gt; /u/Objective_River_5218 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="/r/ArtificialInteligence/comments/1s9ntzt/i_built_a_menu_bar_app_that_watches_how_you_work/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9o4x4/i_built_a_menu_bar_app_that_watches_how_you_work/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1s9o4x4/i_built_a_menu_bar_app_that_watches_how_you_work/"/>
     <category term="mcp" label="r/mcp"/>
-    <published>2026-03-31T23:50:10+00:00</published>
+    <published>2026-04-01T15:40:27+00:00</published>
   </entry>
   <entry>
     <id>t3_1h7pl2v</id>
