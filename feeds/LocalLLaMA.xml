@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-01T08:02:26+00:00</updated>
+  <updated>2026-04-01T08:43:28+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -47,19 +47,6 @@
     <published>2026-03-31T18:56:45+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s8zmbc</id>
-    <title>GLM 5.1 vs Minimax 2.7</title>
-    <updated>2026-03-31T20:46:26+00:00</updated>
-    <author>
-      <name>/u/Cute_Dragonfruit4738</name>
-      <uri>https://old.reddit.com/user/Cute_Dragonfruit4738</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Ok so I've paid for both at their cheapest plans and I have high-level anecdotal feedback on these models.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;MiniMax 2.7&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- Extremely Fast&lt;/p&gt; &lt;p&gt;- Usage is insane, even at its lowest tier I feel like I could run multiple instances at once without running into session/weekly limits. &lt;/p&gt; &lt;p&gt;- Seem to be pivoting themselves into an OpenClaw provider. Their price packges say 'Can power x1 OpenClaw Agent // Can power x2-3 OpenClaw Agents' etc. etc&lt;/p&gt; &lt;p&gt;- Not the greatest at understanding codebases and building from scratch. Probably better for smaller tweaks.&lt;/p&gt; &lt;p&gt;Overall, I would say this model is worse than Sonnet 4.6 in terms of capability, but price to volume of what you get is absolutely insane, and even its cheapest tier (I think off-peak 100 TPS), worked fantastic for me.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;GLM 5.1&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- Extremely capable model.&lt;/p&gt; &lt;p&gt;- Able to work across multiple files and stitch things together.&lt;/p&gt; &lt;p&gt;- Not as fast as MiniMax, but far more capable. Didn't run into usage limits, but used a far greater % of allocation compared to Minimax.&lt;/p&gt; &lt;p&gt;- HORRENDOUS customer service/sales. Before they made 5.1 available to everyone, they would funnel people from the GLM 5 paper into account types that didn't provide access. Best case for them is that a real company buys them and professionalizes their operations.&lt;/p&gt; &lt;p&gt;Overall, I'm a huge fan of this model. This is closer to frontier models in terms of coding capability, and if quality is more important than volume, I would go with this one.&lt;/p&gt; &lt;p&gt;Both models are great and showing fantastic promise but still far away from Opus. If I had to pick one as a coding assistant, it would be GLM. While they have horrendous business practices in my opinion, the model is far closer to frontier models and extremely capable. If I wanted to power my openclaw agent for pretty cheap and it being fairly capable and fast for that price, minimax is not a bad choice. Also keep in mind MiniMax has great image/video generation, so that may be a plus for them if that's something you want.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Bottom line, GLM for coding, Minimax for general purpose&lt;/strong&gt;. Both are cost effective alternatives to frontier models. &lt;/p&gt; &lt;p&gt;Thanks for reading!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Cute_Dragonfruit4738"&gt; /u/Cute_Dragonfruit4738 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8zmbc/glm_51_vs_minimax_27/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8zmbc/glm_51_vs_minimax_27/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8zmbc/glm_51_vs_minimax_27/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T20:46:26+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s8nhft</id>
     <title>I was able to build Claude Code from source and I'm attaching the instructions.</title>
     <updated>2026-03-31T13:29:55+00:00</updated>
@@ -73,17 +60,17 @@
     <published>2026-03-31T13:29:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9apij</id>
-    <title>How do we actually guarantee sandbox isolation when local LLMs have tool access?</title>
-    <updated>2026-04-01T04:42:15+00:00</updated>
+    <id>t3_1s8zmbc</id>
+    <title>GLM 5.1 vs Minimax 2.7</title>
+    <updated>2026-03-31T20:46:26+00:00</updated>
     <author>
-      <name>/u/Careful_Equal8851</name>
-      <uri>https://old.reddit.com/user/Careful_Equal8851</uri>
+      <name>/u/Cute_Dragonfruit4738</name>
+      <uri>https://old.reddit.com/user/Cute_Dragonfruit4738</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Maybe this is a very basic question. But we know that giving local models tool call access and filesystem mounts is inherently risky — the model itself might hallucinate into a dangerous action, or get hit with a prompt injection from external content it reads. We usually just rely on the agent framework's built-in sandboxing to catch whatever slips through.&lt;/p&gt; &lt;p&gt;I was reading through the recent OpenClaw security audit by Ant AI Security Lab, and it got me thinking. They found that the framework's message tool could be tricked into reading arbitrary local files from the host machine by bypassing the sandbox parameter validation (reference: &lt;a href="https://github.com/openclaw/openclaw/security/advisories/GHSA-v8wv-jg3q-qwpq"&gt;https://github.com/openclaw/openclaw/security/advisories/GHSA-v8wv-jg3q-qwpq&lt;/a&gt;).&lt;/p&gt; &lt;p&gt;If a framework's own parameter validation can fail like this, and a local model gets prompt-injected or goes rogue — how are you all actually securing your local agent setups?&lt;/p&gt; &lt;p&gt;Are you relying on strict Docker configs? Dedicated VMs? Or just trusting the framework's built-in isolation?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Careful_Equal8851"&gt; /u/Careful_Equal8851 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Ok so I've paid for both at their cheapest plans and I have high-level anecdotal feedback on these models.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;MiniMax 2.7&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- Extremely Fast&lt;/p&gt; &lt;p&gt;- Usage is insane, even at its lowest tier I feel like I could run multiple instances at once without running into session/weekly limits. &lt;/p&gt; &lt;p&gt;- Seem to be pivoting themselves into an OpenClaw provider. Their price packges say 'Can power x1 OpenClaw Agent // Can power x2-3 OpenClaw Agents' etc. etc&lt;/p&gt; &lt;p&gt;- Not the greatest at understanding codebases and building from scratch. Probably better for smaller tweaks.&lt;/p&gt; &lt;p&gt;Overall, I would say this model is worse than Sonnet 4.6 in terms of capability, but price to volume of what you get is absolutely insane, and even its cheapest tier (I think off-peak 100 TPS), worked fantastic for me.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;GLM 5.1&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- Extremely capable model.&lt;/p&gt; &lt;p&gt;- Able to work across multiple files and stitch things together.&lt;/p&gt; &lt;p&gt;- Not as fast as MiniMax, but far more capable. Didn't run into usage limits, but used a far greater % of allocation compared to Minimax.&lt;/p&gt; &lt;p&gt;- HORRENDOUS customer service/sales. Before they made 5.1 available to everyone, they would funnel people from the GLM 5 paper into account types that didn't provide access. Best case for them is that a real company buys them and professionalizes their operations.&lt;/p&gt; &lt;p&gt;Overall, I'm a huge fan of this model. This is closer to frontier models in terms of coding capability, and if quality is more important than volume, I would go with this one.&lt;/p&gt; &lt;p&gt;Both models are great and showing fantastic promise but still far away from Opus. If I had to pick one as a coding assistant, it would be GLM. While they have horrendous business practices in my opinion, the model is far closer to frontier models and extremely capable. If I wanted to power my openclaw agent for pretty cheap and it being fairly capable and fast for that price, minimax is not a bad choice. Also keep in mind MiniMax has great image/video generation, so that may be a plus for them if that's something you want.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Bottom line, GLM for coding, Minimax for general purpose&lt;/strong&gt;. Both are cost effective alternatives to frontier models. &lt;/p&gt; &lt;p&gt;Thanks for reading!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Cute_Dragonfruit4738"&gt; /u/Cute_Dragonfruit4738 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8zmbc/glm_51_vs_minimax_27/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8zmbc/glm_51_vs_minimax_27/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8zmbc/glm_51_vs_minimax_27/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T04:42:15+00:00</published>
+    <published>2026-03-31T20:46:26+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8mm4j</id>
@@ -138,17 +125,17 @@
     <published>2026-03-31T13:31:11+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s8weo2</id>
-    <title>ByteShape Qwen 3.5 9B: A Guide to Picking the Best Quant for Your Hardware</title>
-    <updated>2026-03-31T18:52:35+00:00</updated>
+    <id>t3_1s9apij</id>
+    <title>How do we actually guarantee sandbox isolation when local LLMs have tool access?</title>
+    <updated>2026-04-01T04:42:15+00:00</updated>
     <author>
-      <name>/u/ali_byteshape</name>
-      <uri>https://old.reddit.com/user/ali_byteshape</uri>
+      <name>/u/Careful_Equal8851</name>
+      <uri>https://old.reddit.com/user/Careful_Equal8851</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"&gt; &lt;img alt="ByteShape Qwen 3.5 9B: A Guide to Picking the Best Quant for Your Hardware" src="https://preview.redd.it/rdaoe5qudfsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f6b1c3b27aaa6c79d3e48ad77fb6e3e0f4c2f493" title="ByteShape Qwen 3.5 9B: A Guide to Picking the Best Quant for Your Hardware" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt;&lt;/p&gt; &lt;p&gt;We’ve released our ByteShape Qwen 3.5 9B quantizations.&lt;/p&gt; &lt;p&gt;&lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/"&gt;Read our Blog&lt;/a&gt; / &lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF"&gt;Download Models&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The goal is not just to &lt;em&gt;publish files&lt;/em&gt;, but to &lt;strong&gt;compare&lt;/strong&gt; our quants against other popular quantized variants and the original model, and see which &lt;strong&gt;quality&lt;/strong&gt;, &lt;strong&gt;speed&lt;/strong&gt;, and &lt;strong&gt;size trade-offs&lt;/strong&gt; actually hold up across hardware.&lt;/p&gt; &lt;p&gt;For this release, we benchmarked across a wide range of devices: &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-5090-32-gb"&gt;5090&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-4080-16-gb"&gt;4080&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-3090-24-gb"&gt;3090&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-5060ti-16-gb"&gt;5060Ti&lt;/a&gt;, plus &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#intel-core-i7-12700kf"&gt;Intel i7&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#ultra-7-265kf"&gt;Ultra 7&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#ryzen-9-5900x"&gt;Ryzen 9&lt;/a&gt;, and &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rpi-5-16gb"&gt;RIP5&lt;/a&gt; (yes, not RPi5 16GB, skip this model on the Pi this time…).&lt;/p&gt; &lt;p&gt;Across GPUs, the story is surprisingly consistent. The same few ByteShape models keep showing up as the best trade-offs across devices. However, here’s the &lt;strong&gt;key finding&lt;/strong&gt; for this release: Across CPUs, things are much less uniform. Each CPU had its own favorite models and clear dislikes, so we are releasing variants for all of them and highlighting the best ones in the plots. The broader point is clear: &lt;strong&gt;optimization really needs to be done for the exact device. A model that runs well on one CPU can run surprisingly badly on another.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;TL;DR in practice for GPU:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF/blob/main/Qwen3.5-9B-Q5_K_S-5.10bpw.gguf"&gt;5.10 bpw&lt;/a&gt; is the near-baseline quality pick&lt;/li&gt; &lt;li&gt;&lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF/blob/main/Qwen3.5-9B-IQ4_XS-4.43bpw.gguf"&gt;4.43 bpw&lt;/a&gt; is the best overall balance&lt;/li&gt; &lt;li&gt;&lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF/blob/main/Qwen3.5-9B-IQ4_XS-3.60bpw.gguf"&gt;3.60 bpw&lt;/a&gt; is the faster choice if you are willing to give up a bit more quality&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;And TL;DR for CPU: really really check our &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/"&gt;blog’s interactive graphs&lt;/a&gt; and pick the models based on what is closer to your hardware.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;So the key takeaway:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Overall, performance depends heavily on the exact kernels used at different quantization levels and the underlying hardware&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The blog has the full graphs across multiple hardware types, plus more detailed comparisons and methodology. We will keep Reddit short, so if you want to pick the best model for your hardware, check the blog and interactive graphs.&lt;/p&gt; &lt;p&gt;This is our first Qwen 3.5 drop, with more coming soon.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ali_byteshape"&gt; /u/ali_byteshape &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/rdaoe5qudfsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Maybe this is a very basic question. But we know that giving local models tool call access and filesystem mounts is inherently risky — the model itself might hallucinate into a dangerous action, or get hit with a prompt injection from external content it reads. We usually just rely on the agent framework's built-in sandboxing to catch whatever slips through.&lt;/p&gt; &lt;p&gt;I was reading through the recent OpenClaw security audit by Ant AI Security Lab, and it got me thinking. They found that the framework's message tool could be tricked into reading arbitrary local files from the host machine by bypassing the sandbox parameter validation (reference: &lt;a href="https://github.com/openclaw/openclaw/security/advisories/GHSA-v8wv-jg3q-qwpq"&gt;https://github.com/openclaw/openclaw/security/advisories/GHSA-v8wv-jg3q-qwpq&lt;/a&gt;).&lt;/p&gt; &lt;p&gt;If a framework's own parameter validation can fail like this, and a local model gets prompt-injected or goes rogue — how are you all actually securing your local agent setups?&lt;/p&gt; &lt;p&gt;Are you relying on strict Docker configs? Dedicated VMs? Or just trusting the framework's built-in isolation?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Careful_Equal8851"&gt; /u/Careful_Equal8851 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9apij/how_do_we_actually_guarantee_sandbox_isolation/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T18:52:35+00:00</published>
+    <published>2026-04-01T04:42:15+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9b585</id>
@@ -162,6 +149,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9b585/i_think_we_should_have_sticky_post_about_security/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T05:05:07+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s8weo2</id>
+    <title>ByteShape Qwen 3.5 9B: A Guide to Picking the Best Quant for Your Hardware</title>
+    <updated>2026-03-31T18:52:35+00:00</updated>
+    <author>
+      <name>/u/ali_byteshape</name>
+      <uri>https://old.reddit.com/user/ali_byteshape</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"&gt; &lt;img alt="ByteShape Qwen 3.5 9B: A Guide to Picking the Best Quant for Your Hardware" src="https://preview.redd.it/rdaoe5qudfsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f6b1c3b27aaa6c79d3e48ad77fb6e3e0f4c2f493" title="ByteShape Qwen 3.5 9B: A Guide to Picking the Best Quant for Your Hardware" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt;&lt;/p&gt; &lt;p&gt;We’ve released our ByteShape Qwen 3.5 9B quantizations.&lt;/p&gt; &lt;p&gt;&lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/"&gt;Read our Blog&lt;/a&gt; / &lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF"&gt;Download Models&lt;/a&gt;&lt;/p&gt; &lt;p&gt;The goal is not just to &lt;em&gt;publish files&lt;/em&gt;, but to &lt;strong&gt;compare&lt;/strong&gt; our quants against other popular quantized variants and the original model, and see which &lt;strong&gt;quality&lt;/strong&gt;, &lt;strong&gt;speed&lt;/strong&gt;, and &lt;strong&gt;size trade-offs&lt;/strong&gt; actually hold up across hardware.&lt;/p&gt; &lt;p&gt;For this release, we benchmarked across a wide range of devices: &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-5090-32-gb"&gt;5090&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-4080-16-gb"&gt;4080&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-3090-24-gb"&gt;3090&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rtx-5060ti-16-gb"&gt;5060Ti&lt;/a&gt;, plus &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#intel-core-i7-12700kf"&gt;Intel i7&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#ultra-7-265kf"&gt;Ultra 7&lt;/a&gt;, &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#ryzen-9-5900x"&gt;Ryzen 9&lt;/a&gt;, and &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/#rpi-5-16gb"&gt;RIP5&lt;/a&gt; (yes, not RPi5 16GB, skip this model on the Pi this time…).&lt;/p&gt; &lt;p&gt;Across GPUs, the story is surprisingly consistent. The same few ByteShape models keep showing up as the best trade-offs across devices. However, here’s the &lt;strong&gt;key finding&lt;/strong&gt; for this release: Across CPUs, things are much less uniform. Each CPU had its own favorite models and clear dislikes, so we are releasing variants for all of them and highlighting the best ones in the plots. The broader point is clear: &lt;strong&gt;optimization really needs to be done for the exact device. A model that runs well on one CPU can run surprisingly badly on another.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;TL;DR in practice for GPU:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF/blob/main/Qwen3.5-9B-Q5_K_S-5.10bpw.gguf"&gt;5.10 bpw&lt;/a&gt; is the near-baseline quality pick&lt;/li&gt; &lt;li&gt;&lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF/blob/main/Qwen3.5-9B-IQ4_XS-4.43bpw.gguf"&gt;4.43 bpw&lt;/a&gt; is the best overall balance&lt;/li&gt; &lt;li&gt;&lt;a href="https://huggingface.co/byteshape/Qwen3.5-9B-GGUF/blob/main/Qwen3.5-9B-IQ4_XS-3.60bpw.gguf"&gt;3.60 bpw&lt;/a&gt; is the faster choice if you are willing to give up a bit more quality&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;And TL;DR for CPU: really really check our &lt;a href="https://byteshape.com/blogs/Qwen3.5-9B/"&gt;blog’s interactive graphs&lt;/a&gt; and pick the models based on what is closer to your hardware.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;So the key takeaway:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Overall, performance depends heavily on the exact kernels used at different quantization levels and the underlying hardware&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;The blog has the full graphs across multiple hardware types, plus more detailed comparisons and methodology. We will keep Reddit short, so if you want to pick the best model for your hardware, check the blog and interactive graphs.&lt;/p&gt; &lt;p&gt;This is our first Qwen 3.5 drop, with more coming soon.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ali_byteshape"&gt; /u/ali_byteshape &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/rdaoe5qudfsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8weo2/byteshape_qwen_35_9b_a_guide_to_picking_the_best/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-03-31T18:52:35+00:00</published>
   </entry>
   <entry>
     <id>t3_1s951bw</id>
@@ -203,17 +203,17 @@
     <published>2026-04-01T06:39:18+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9dy62</id>
-    <title>Llama.cpp developers right now</title>
-    <updated>2026-04-01T07:48:12+00:00</updated>
+    <id>t3_1s90wo4</id>
+    <title>PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs</title>
+    <updated>2026-03-31T21:34:29+00:00</updated>
     <author>
-      <name>/u/ML-Future</name>
-      <uri>https://old.reddit.com/user/ML-Future</uri>
+      <name>/u/brown2green</name>
+      <uri>https://old.reddit.com/user/brown2green</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9dy62/llamacpp_developers_right_now/"&gt; &lt;img alt="Llama.cpp developers right now" src="https://preview.redd.it/qvni8jzkajsg1.jpeg?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bf7e32c806cdd20075281fce9a06baf0db2e4e08" title="Llama.cpp developers right now" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Also me, waiting for 1-bit Bonsai, TurboQwan, and Qwen 3.6 in the next llama.cpp release in five minutes or so...&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ML-Future"&gt; /u/ML-Future &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/qvni8jzkajsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9dy62/llamacpp_developers_right_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9dy62/llamacpp_developers_right_now/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt; &lt;img alt="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" src="https://external-preview.redd.it/2MPuWzoesFag6DCF_VFzPwvyl7OF67TTNQpyVCauVaM.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=affc7807966287e6afa631a610e5ee9d92411731" title="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/brown2green"&gt; /u/brown2green &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://prismml.com/news/bonsai-8b"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T07:48:12+00:00</published>
+    <published>2026-03-31T21:34:29+00:00</published>
   </entry>
   <entry>
     <id>t3_1s92x7z</id>
@@ -227,19 +227,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s92x7z/attnrot_ggerganovs_turboquant_lite_is_on_the_cusp/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T22:54:32+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s90wo4</id>
-    <title>PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs</title>
-    <updated>2026-03-31T21:34:29+00:00</updated>
-    <author>
-      <name>/u/brown2green</name>
-      <uri>https://old.reddit.com/user/brown2green</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt; &lt;img alt="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" src="https://external-preview.redd.it/2MPuWzoesFag6DCF_VFzPwvyl7OF67TTNQpyVCauVaM.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=affc7807966287e6afa631a610e5ee9d92411731" title="PrismML — Announcing 1-bit Bonsai: The First Commercially Viable 1-bit LLMs" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/brown2green"&gt; /u/brown2green &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://prismml.com/news/bonsai-8b"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s90wo4/prismml_announcing_1bit_bonsai_the_first/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-03-31T21:34:29+00:00</published>
   </entry>
   <entry>
     <id>t3_1s8uerc</id>
@@ -318,6 +305,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s8rb48/just_a_helpful_opensource_contributor/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-03-31T15:52:25+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9dy62</id>
+    <title>Llama.cpp developers right now</title>
+    <updated>2026-04-01T07:48:12+00:00</updated>
+    <author>
+      <name>/u/ML-Future</name>
+      <uri>https://old.reddit.com/user/ML-Future</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9dy62/llamacpp_developers_right_now/"&gt; &lt;img alt="Llama.cpp developers right now" src="https://preview.redd.it/qvni8jzkajsg1.jpeg?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bf7e32c806cdd20075281fce9a06baf0db2e4e08" title="Llama.cpp developers right now" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Also me, waiting for 1-bit Bonsai, TurboQwan, and Qwen 3.6 in the next llama.cpp release in five minutes or so...&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ML-Future"&gt; /u/ML-Future &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/qvni8jzkajsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9dy62/llamacpp_developers_right_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9dy62/llamacpp_developers_right_now/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T07:48:12+00:00</published>
   </entry>
   <entry>
     <id>t3_1mpk2va</id>
