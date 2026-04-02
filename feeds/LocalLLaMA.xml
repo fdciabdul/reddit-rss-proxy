@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T10:49:11+00:00</updated>
+  <updated>2026-04-02T11:21:20+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
+  <entry>
+    <id>t3_1s9whv7</id>
+    <title>Bonsai 1-Bit + Turboquant?</title>
+    <updated>2026-04-01T20:32:05+00:00</updated>
+    <author>
+      <name>/u/rm-rf-rm</name>
+      <uri>https://old.reddit.com/user/rm-rf-rm</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just been playing around with PrismML's 1-bit 8B LLM and its legit. Now the question is can turboquant be used with it? seemingly yes? &lt;/p&gt; &lt;p&gt;(If so, then I'm really not seeing any real hurdles to agentic tasks done on device on today's smartphones..)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/rm-rf-rm"&gt; /u/rm-rf-rm &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T20:32:05+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sadhcw</id>
+    <title>A bug in Bun may have been the root cause of the Claude Code source code leak.</title>
+    <updated>2026-04-02T10:20:07+00:00</updated>
+    <author>
+      <name>/u/Successful_Bowl2564</name>
+      <uri>https://old.reddit.com/user/Successful_Bowl2564</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://github.com/oven-sh/bun/issues/28001"&gt;https://github.com/oven-sh/bun/issues/28001&lt;/a&gt; &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Successful_Bowl2564"&gt; /u/Successful_Bowl2564 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadhcw/a_bug_in_bun_may_have_been_the_root_cause_of_the/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadhcw/a_bug_in_bun_may_have_been_the_root_cause_of_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadhcw/a_bug_in_bun_may_have_been_the_root_cause_of_the/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T10:20:07+00:00</published>
+  </entry>
   <entry>
     <id>t3_1s9lge6</id>
     <title>llama : rotate activations for better quantization by ggerganov · Pull Request #21038 · ggml-org/llama.cpp</title>
@@ -21,17 +47,17 @@
     <published>2026-04-01T14:01:52+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sadvqq</id>
-    <title>new AI agent just got API access to our stack and nobody can tell me what it can write to</title>
-    <updated>2026-04-02T10:42:21+00:00</updated>
+    <id>t3_1sadadw</id>
+    <title>Is 1-bit and TurboQuant the future of OSS? A simulation for Qwen3.5 models.</title>
+    <updated>2026-04-02T10:09:12+00:00</updated>
     <author>
-      <name>/u/KarmaChameleon07</name>
-      <uri>https://old.reddit.com/user/KarmaChameleon07</uri>
+      <name>/u/GizmoR13</name>
+      <uri>https://old.reddit.com/user/GizmoR13</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;got pulled into a meeting today. apparently we're adding an Agentic AI to the team. it will learn our environment, handle tasks autonomously, and integrate via API. it does not need onboarding, a desk, or health insurance. Great.&lt;/p&gt; &lt;p&gt;i have one question nobody in that meeting could answer. how does it actually work?&lt;br /&gt; not philosophically. like what is the system. because from what i can tell it's an LLM with tools strapped to it, some kind of memory layer nobody can fully explain, and a control loop that lets it run without a human saying yes to every step. which means somewhere in my company's stack there is now a process with access to our tools, our data, and apparently a better performance review than me, and i genuinely do not understand the architecture.&lt;br /&gt; the memory part especially. is it reading our docs at runtime, is it storing embeddings somewhere, is it getting fine tuned on our internal data. these feel like important questions. my manager said &amp;quot;it learns over time&amp;quot; and moved on to the next slide.&lt;br /&gt; can someone who actually understands how these systems are built explain it to me like i'm a senior engineer who is totally fine and not at all spiraling.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/KarmaChameleon07"&gt; /u/KarmaChameleon07 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Simulation what the Qwen3.5 model family would look like using 1-bit technology and TurboQuant. The table below shows the results, this would be a revolution:&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;Model&lt;/th&gt; &lt;th align="left"&gt;Parameters&lt;/th&gt; &lt;th align="left"&gt;Q4_K_M File (Current)&lt;/th&gt; &lt;th align="left"&gt;KV Cache (256K) (Current)&lt;/th&gt; &lt;th align="left"&gt;Hypothetical 1-bit Weights&lt;/th&gt; &lt;th align="left"&gt;KV Cache 256K with TurboQuant&lt;/th&gt; &lt;th align="left"&gt;Hypothetical Total Memory Usage&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-122B-A10B&lt;/td&gt; &lt;td align="left"&gt;122B total / 10B active&lt;/td&gt; &lt;td align="left"&gt;74.99 GB&lt;/td&gt; &lt;td align="left"&gt;81.43 GB&lt;/td&gt; &lt;td align="left"&gt;17.13 GB&lt;/td&gt; &lt;td align="left"&gt;1.07 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;18.20 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-35B-A3B&lt;/td&gt; &lt;td align="left"&gt;35B total / 3B active&lt;/td&gt; &lt;td align="left"&gt;21.40 GB&lt;/td&gt; &lt;td align="left"&gt;26.77 GB&lt;/td&gt; &lt;td align="left"&gt;4.91 GB&lt;/td&gt; &lt;td align="left"&gt;0.89 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;5.81 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-27B&lt;/td&gt; &lt;td align="left"&gt;27B&lt;/td&gt; &lt;td align="left"&gt;17.13 GB&lt;/td&gt; &lt;td align="left"&gt;34.31 GB&lt;/td&gt; &lt;td align="left"&gt;3.79 GB&lt;/td&gt; &lt;td align="left"&gt;2.86 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;6.65 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-9B&lt;/td&gt; &lt;td align="left"&gt;9B&lt;/td&gt; &lt;td align="left"&gt;5.89 GB&lt;/td&gt; &lt;td align="left"&gt;14.48 GB&lt;/td&gt; &lt;td align="left"&gt;1.26 GB&lt;/td&gt; &lt;td align="left"&gt;1.43 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;2.69 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-4B&lt;/td&gt; &lt;td align="left"&gt;4B&lt;/td&gt; &lt;td align="left"&gt;2.87 GB&lt;/td&gt; &lt;td align="left"&gt;11.46 GB&lt;/td&gt; &lt;td align="left"&gt;0.56 GB&lt;/td&gt; &lt;td align="left"&gt;1.43 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;1.99 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-2B&lt;/td&gt; &lt;td align="left"&gt;2B&lt;/td&gt; &lt;td align="left"&gt;1.33 GB&lt;/td&gt; &lt;td align="left"&gt;4.55 GB&lt;/td&gt; &lt;td align="left"&gt;0.28 GB&lt;/td&gt; &lt;td align="left"&gt;0.54 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;0.82 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/GizmoR13"&gt; /u/GizmoR13 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T10:42:21+00:00</published>
+    <published>2026-04-02T10:09:12+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9kf23</id>
@@ -60,19 +86,6 @@
     <published>2026-04-01T21:37:38+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sadhcw</id>
-    <title>A bug in Bun may have been the root cause of the Claude Code source code leak.</title>
-    <updated>2026-04-02T10:20:07+00:00</updated>
-    <author>
-      <name>/u/Successful_Bowl2564</name>
-      <uri>https://old.reddit.com/user/Successful_Bowl2564</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://github.com/oven-sh/bun/issues/28001"&gt;https://github.com/oven-sh/bun/issues/28001&lt;/a&gt; &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Successful_Bowl2564"&gt; /u/Successful_Bowl2564 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadhcw/a_bug_in_bun_may_have_been_the_root_cause_of_the/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadhcw/a_bug_in_bun_may_have_been_the_root_cause_of_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadhcw/a_bug_in_bun_may_have_been_the_root_cause_of_the/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T10:20:07+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9vzry</id>
     <title>APEX MoE quantized models boost with 33% faster inference and TurboQuant (14% of speedup in prompt processing)</title>
     <updated>2026-04-01T20:13:55+00:00</updated>
@@ -86,17 +99,17 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sadrou</id>
-    <title>ai agent token costs are getting out of control and nobody is talking about the context efficiency problem</title>
-    <updated>2026-04-02T10:36:17+00:00</updated>
+    <id>t3_1sadvqq</id>
+    <title>new AI agent just got API access to our stack and nobody can tell me what it can write to</title>
+    <updated>2026-04-02T10:42:21+00:00</updated>
     <author>
-      <name>/u/whatever_blag</name>
-      <uri>https://old.reddit.com/user/whatever_blag</uri>
+      <name>/u/KarmaChameleon07</name>
+      <uri>https://old.reddit.com/user/KarmaChameleon07</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;been overseeing our AI agent deployment and the numbers are alarming. we have ~400 developers using AI coding agents (mixture of copilot and cursor). based on our API billing, each developer generates roughly 50,000-80,000 tokens per day in inference requests. at our scale that's about 20-30 million tokens per day.&lt;/p&gt; &lt;p&gt;the thing that kills me is how wasteful the token usage is. every time a developer asks the agent for help, the tool sends a massive context payload: the current file, surrounding files, relevant snippets, conversation history. most of this context is redundant across requests. if you ask the agent about the same service three times in an hour, it sends largely the same context payload each time.&lt;/p&gt; &lt;p&gt;rough math on our current spend: at ~25 million tokens/day across GPT-4 class models, we're looking at roughly $15,000-20,000/month just in inference costs. annually that's $180,000-240,000. and this is BEFORE the agents get more capable and developers start using them more heavily. i've seen projections that agent-heavy workflows could 3-5x token consumption as agents take on more autonomous tasks.&lt;/p&gt; &lt;p&gt;for companies with 1000+ developers, these numbers become genuinely insane. i've heard of orgs hitting seven-figure annual token bills. there HAS to be a better approach than &amp;quot;send everything to the model every time.&amp;quot; some kind of persistent context layer that maintains understanding of the codebase so you're not re-sending the same context with every request. has anyone found solutions that meaningfully reduce token consumption without degrading quality?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/whatever_blag"&gt; /u/whatever_blag &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadrou/ai_agent_token_costs_are_getting_out_of_control/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadrou/ai_agent_token_costs_are_getting_out_of_control/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadrou/ai_agent_token_costs_are_getting_out_of_control/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;got pulled into a meeting today. apparently we're adding an Agentic AI to the team. it will learn our environment, handle tasks autonomously, and integrate via API. it does not need onboarding, a desk, or health insurance. Great.&lt;/p&gt; &lt;p&gt;i have one question nobody in that meeting could answer. how does it actually work?&lt;br /&gt; not philosophically. like what is the system. because from what i can tell it's an LLM with tools strapped to it, some kind of memory layer nobody can fully explain, and a control loop that lets it run without a human saying yes to every step. which means somewhere in my company's stack there is now a process with access to our tools, our data, and apparently a better performance review than me, and i genuinely do not understand the architecture.&lt;br /&gt; the memory part especially. is it reading our docs at runtime, is it storing embeddings somewhere, is it getting fine tuned on our internal data. these feel like important questions. my manager said &amp;quot;it learns over time&amp;quot; and moved on to the next slide.&lt;br /&gt; can someone who actually understands how these systems are built explain it to me like i'm a senior engineer who is totally fine and not at all spiraling.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/KarmaChameleon07"&gt; /u/KarmaChameleon07 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T10:36:17+00:00</published>
+    <published>2026-04-02T10:42:21+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9nri7</id>
@@ -112,19 +125,6 @@
     <published>2026-04-01T15:27:20+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sa3b9n</id>
-    <title>Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)</title>
-    <updated>2026-04-02T01:10:09+00:00</updated>
-    <author>
-      <name>/u/MLPhDStudent</name>
-      <uri>https://old.reddit.com/user/MLPhDStudent</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt; &lt;img alt="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" src="https://external-preview.redd.it/L7SdqDjqfOukg9Olyn3nDbFIlrzS1itmXC4ncj-dIHE.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f749a2aba8dfe37d675b1ac9aa82793cbea5b37f" title="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Tl;dr: One of Stanford's hottest AI seminar courses. We open the course to the public. Lectures start tomorrow (Thursdays), 4:30-5:50pm PDT, at Skilling Auditorium and&lt;/strong&gt; &lt;strong&gt;Zoom&lt;/strong&gt;&lt;strong&gt;. Talks will be&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/recordings/"&gt;recorded&lt;/a&gt;&lt;strong&gt;. Course website:&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/"&gt;&lt;strong&gt;https://web.stanford.edu/class/cs25/&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Interested in Transformers, the deep learning model that has taken the world by storm? Want to have intimate discussions with researchers? If so, this course is for you!&lt;/p&gt; &lt;p&gt;Each week, we invite folks at the forefront of Transformers research to discuss the latest breakthroughs, from LLM architectures like GPT and Gemini to creative use cases in generating art (e.g. DALL-E and Sora), biology and neuroscience applications, robotics, and more!&lt;/p&gt; &lt;p&gt;CS25 has become one of Stanford's hottest AI courses. We invite the coolest speakers such as &lt;strong&gt;Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani&lt;/strong&gt;, and folks from &lt;strong&gt;OpenAI, Anthropic, Google, NVIDIA&lt;/strong&gt;, etc.&lt;/p&gt; &lt;p&gt;Our class has a global audience, and millions of total views on &lt;a href="https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM"&gt;YouTube&lt;/a&gt;. Our class with Andrej Karpathy was the second most popular &lt;a href="https://www.youtube.com/watch?v=XfpMkf4rD6E&amp;amp;ab_channel=StanfordOnline"&gt;YouTube video&lt;/a&gt; uploaded by Stanford in 2023!&lt;/p&gt; &lt;p&gt;Livestreaming and auditing (in-person or &lt;a href="https://stanford.zoom.us/j/92196729352?pwd=Z2hX1bsP2HvjolPX4r23mbHOof5Y9f.1"&gt;Zoom&lt;/a&gt;) are available to all! And join our 6000+ member Discord server (link on website).&lt;/p&gt; &lt;p&gt;Thanks to Modal, AGI House, and MongoDB for sponsoring this iteration of the course.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLPhDStudent"&gt; /u/MLPhDStudent &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://web.stanford.edu/class/cs25/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T01:10:09+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sa7jo2</id>
     <title>Has anyone used Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled for agents? How did it fair?</title>
     <updated>2026-04-02T04:28:30+00:00</updated>
@@ -138,17 +138,17 @@
     <published>2026-04-02T04:28:30+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sadadw</id>
-    <title>Is 1-bit and TurboQuant the future of OSS? A simulation for Qwen3.5 models.</title>
-    <updated>2026-04-02T10:09:12+00:00</updated>
+    <id>t3_1sa3b9n</id>
+    <title>Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)</title>
+    <updated>2026-04-02T01:10:09+00:00</updated>
     <author>
-      <name>/u/GizmoR13</name>
-      <uri>https://old.reddit.com/user/GizmoR13</uri>
+      <name>/u/MLPhDStudent</name>
+      <uri>https://old.reddit.com/user/MLPhDStudent</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Simulation what the Qwen3.5 model family would look like using 1-bit technology and TurboQuant. The table below shows the results, this would be a revolution:&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;Model&lt;/th&gt; &lt;th align="left"&gt;Parameters&lt;/th&gt; &lt;th align="left"&gt;Q4_K_M File (Current)&lt;/th&gt; &lt;th align="left"&gt;KV Cache (256K) (Current)&lt;/th&gt; &lt;th align="left"&gt;Hypothetical 1-bit Weights&lt;/th&gt; &lt;th align="left"&gt;KV Cache 256K with TurboQuant&lt;/th&gt; &lt;th align="left"&gt;Hypothetical Total Memory Usage&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-122B-A10B&lt;/td&gt; &lt;td align="left"&gt;122B total / 10B active&lt;/td&gt; &lt;td align="left"&gt;74.99 GB&lt;/td&gt; &lt;td align="left"&gt;81.43 GB&lt;/td&gt; &lt;td align="left"&gt;17.13 GB&lt;/td&gt; &lt;td align="left"&gt;1.07 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;18.20 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-35B-A3B&lt;/td&gt; &lt;td align="left"&gt;35B total / 3B active&lt;/td&gt; &lt;td align="left"&gt;21.40 GB&lt;/td&gt; &lt;td align="left"&gt;26.77 GB&lt;/td&gt; &lt;td align="left"&gt;4.91 GB&lt;/td&gt; &lt;td align="left"&gt;0.89 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;5.81 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-27B&lt;/td&gt; &lt;td align="left"&gt;27B&lt;/td&gt; &lt;td align="left"&gt;17.13 GB&lt;/td&gt; &lt;td align="left"&gt;34.31 GB&lt;/td&gt; &lt;td align="left"&gt;3.79 GB&lt;/td&gt; &lt;td align="left"&gt;2.86 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;6.65 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-9B&lt;/td&gt; &lt;td align="left"&gt;9B&lt;/td&gt; &lt;td align="left"&gt;5.89 GB&lt;/td&gt; &lt;td align="left"&gt;14.48 GB&lt;/td&gt; &lt;td align="left"&gt;1.26 GB&lt;/td&gt; &lt;td align="left"&gt;1.43 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;2.69 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-4B&lt;/td&gt; &lt;td align="left"&gt;4B&lt;/td&gt; &lt;td align="left"&gt;2.87 GB&lt;/td&gt; &lt;td align="left"&gt;11.46 GB&lt;/td&gt; &lt;td align="left"&gt;0.56 GB&lt;/td&gt; &lt;td align="left"&gt;1.43 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;1.99 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-2B&lt;/td&gt; &lt;td align="left"&gt;2B&lt;/td&gt; &lt;td align="left"&gt;1.33 GB&lt;/td&gt; &lt;td align="left"&gt;4.55 GB&lt;/td&gt; &lt;td align="left"&gt;0.28 GB&lt;/td&gt; &lt;td align="left"&gt;0.54 GB&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;0.82 GB&lt;/strong&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/GizmoR13"&gt; /u/GizmoR13 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt; &lt;img alt="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" src="https://external-preview.redd.it/L7SdqDjqfOukg9Olyn3nDbFIlrzS1itmXC4ncj-dIHE.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f749a2aba8dfe37d675b1ac9aa82793cbea5b37f" title="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Tl;dr: One of Stanford's hottest AI seminar courses. We open the course to the public. Lectures start tomorrow (Thursdays), 4:30-5:50pm PDT, at Skilling Auditorium and&lt;/strong&gt; &lt;strong&gt;Zoom&lt;/strong&gt;&lt;strong&gt;. Talks will be&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/recordings/"&gt;recorded&lt;/a&gt;&lt;strong&gt;. Course website:&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/"&gt;&lt;strong&gt;https://web.stanford.edu/class/cs25/&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Interested in Transformers, the deep learning model that has taken the world by storm? Want to have intimate discussions with researchers? If so, this course is for you!&lt;/p&gt; &lt;p&gt;Each week, we invite folks at the forefront of Transformers research to discuss the latest breakthroughs, from LLM architectures like GPT and Gemini to creative use cases in generating art (e.g. DALL-E and Sora), biology and neuroscience applications, robotics, and more!&lt;/p&gt; &lt;p&gt;CS25 has become one of Stanford's hottest AI courses. We invite the coolest speakers such as &lt;strong&gt;Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani&lt;/strong&gt;, and folks from &lt;strong&gt;OpenAI, Anthropic, Google, NVIDIA&lt;/strong&gt;, etc.&lt;/p&gt; &lt;p&gt;Our class has a global audience, and millions of total views on &lt;a href="https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM"&gt;YouTube&lt;/a&gt;. Our class with Andrej Karpathy was the second most popular &lt;a href="https://www.youtube.com/watch?v=XfpMkf4rD6E&amp;amp;ab_channel=StanfordOnline"&gt;YouTube video&lt;/a&gt; uploaded by Stanford in 2023!&lt;/p&gt; &lt;p&gt;Livestreaming and auditing (in-person or &lt;a href="https://stanford.zoom.us/j/92196729352?pwd=Z2hX1bsP2HvjolPX4r23mbHOof5Y9f.1"&gt;Zoom&lt;/a&gt;) are available to all! And join our 6000+ member Discord server (link on website).&lt;/p&gt; &lt;p&gt;Thanks to Modal, AGI House, and MongoDB for sponsoring this iteration of the course.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLPhDStudent"&gt; /u/MLPhDStudent &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://web.stanford.edu/class/cs25/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T10:09:12+00:00</published>
+    <published>2026-04-02T01:10:09+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9pe0w</id>
@@ -164,19 +164,6 @@
     <published>2026-04-01T16:24:31+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sad0kg</id>
-    <title>SOTA Language Models Under 14B?</title>
-    <updated>2026-04-02T09:53:44+00:00</updated>
-    <author>
-      <name>/u/No-Mud-1902</name>
-      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:53:44+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9xvtb</id>
     <title>64Gb ram mac falls right into the local llm dead zone</title>
     <updated>2026-04-01T21:22:51+00:00</updated>
@@ -190,17 +177,17 @@
     <published>2026-04-01T21:22:51+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sacbi6</id>
-    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
-    <updated>2026-04-02T09:11:14+00:00</updated>
+    <id>t3_1sad0kg</id>
+    <title>SOTA Language Models Under 14B?</title>
+    <updated>2026-04-02T09:53:44+00:00</updated>
     <author>
-      <name>/u/LH-Tech_AI</name>
-      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
+      <name>/u/No-Mud-1902</name>
+      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:11:14+00:00</published>
+    <published>2026-04-02T09:53:44+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9ig5r</id>
@@ -214,6 +201,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ig5r/turboquant_isnt_just_for_kv_qwen3527b_at_nearq4_0/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T11:58:02+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sacbi6</id>
+    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
+    <updated>2026-04-02T09:11:14+00:00</updated>
+    <author>
+      <name>/u/LH-Tech_AI</name>
+      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T09:11:14+00:00</published>
   </entry>
   <entry>
     <id>t3_1sabiux</id>
