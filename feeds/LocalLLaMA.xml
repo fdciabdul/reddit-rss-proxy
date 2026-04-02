@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T20:27:23+00:00</updated>
+  <updated>2026-04-02T20:48:43+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
+  <entry>
+    <id>t3_1sa16q9</id>
+    <title>Gemma time! What are your wishes ?</title>
+    <updated>2026-04-01T23:36:38+00:00</updated>
+    <author>
+      <name>/u/Specter_Origin</name>
+      <uri>https://old.reddit.com/user/Specter_Origin</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt; &lt;img alt="Gemma time! What are your wishes ?" src="https://preview.redd.it/fcz39ejjznsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8979b10bc8f7c4b11013ea5baba8ca04fde3f130" title="Gemma time! What are your wishes ?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gamma 4 drops most likely tomorrow! what will it take to make it a good release for you?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Specter_Origin"&gt; /u/Specter_Origin &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/fcz39ejjznsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T23:36:38+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sao3w9</id>
+    <title>Gemma 4 is available on HuggingChat (26B-A4B &amp; 31B dense)</title>
+    <updated>2026-04-02T17:37:06+00:00</updated>
+    <author>
+      <name>/u/paf1138</name>
+      <uri>https://old.reddit.com/user/paf1138</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"&gt; &lt;img alt="Gemma 4 is available on HuggingChat (26B-A4B &amp;amp; 31B dense)" src="https://external-preview.redd.it/N4Dua8HwXot-9evIcJtop16GdFXLX4UFPWYqHL77uCg.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=17e41bcef3d703630900a506c674c43a14b9c632" title="Gemma 4 is available on HuggingChat (26B-A4B &amp;amp; 31B dense)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/paf1138"&gt; /u/paf1138 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/chat/models/google/gemma-4-26B-A4B-it"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T17:37:06+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sab5zy</id>
+    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
+    <updated>2026-04-02T08:00:05+00:00</updated>
+    <author>
+      <name>/u/zdy132</name>
+      <uri>https://old.reddit.com/user/zdy132</uri>
+    </author>
+    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:00:05+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sagulj</id>
+    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
+    <updated>2026-04-02T13:05:09+00:00</updated>
+    <author>
+      <name>/u/Infrared12</name>
+      <uri>https://old.reddit.com/user/Infrared12</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T13:05:09+00:00</published>
+  </entry>
   <entry>
     <id>t3_1sapdue</id>
     <title>700KB embedding model that actually works, built a full family of static models from 0.7MB to 125MB</title>
@@ -34,32 +86,6 @@
     <published>2026-04-02T19:13:46+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sao3w9</id>
-    <title>Gemma 4 is available on HuggingChat (26B-A4B &amp; 31B dense)</title>
-    <updated>2026-04-02T17:37:06+00:00</updated>
-    <author>
-      <name>/u/paf1138</name>
-      <uri>https://old.reddit.com/user/paf1138</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"&gt; &lt;img alt="Gemma 4 is available on HuggingChat (26B-A4B &amp;amp; 31B dense)" src="https://external-preview.redd.it/N4Dua8HwXot-9evIcJtop16GdFXLX4UFPWYqHL77uCg.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=17e41bcef3d703630900a506c674c43a14b9c632" title="Gemma 4 is available on HuggingChat (26B-A4B &amp;amp; 31B dense)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/paf1138"&gt; /u/paf1138 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/chat/models/google/gemma-4-26B-A4B-it"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T17:37:06+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sa16q9</id>
-    <title>Gemma time! What are your wishes ?</title>
-    <updated>2026-04-01T23:36:38+00:00</updated>
-    <author>
-      <name>/u/Specter_Origin</name>
-      <uri>https://old.reddit.com/user/Specter_Origin</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt; &lt;img alt="Gemma time! What are your wishes ?" src="https://preview.redd.it/fcz39ejjznsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8979b10bc8f7c4b11013ea5baba8ca04fde3f130" title="Gemma time! What are your wishes ?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gamma 4 drops most likely tomorrow! what will it take to make it a good release for you?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Specter_Origin"&gt; /u/Specter_Origin &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/fcz39ejjznsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T23:36:38+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1samd3m</id>
     <title>Gemma 4 WebGPU: Run Google's new open model locally in your browser</title>
     <updated>2026-04-02T16:34:26+00:00</updated>
@@ -71,32 +97,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T16:34:26+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sagulj</id>
-    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
-    <updated>2026-04-02T13:05:09+00:00</updated>
-    <author>
-      <name>/u/Infrared12</name>
-      <uri>https://old.reddit.com/user/Infrared12</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T13:05:09+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sab5zy</id>
-    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
-    <updated>2026-04-02T08:00:05+00:00</updated>
-    <author>
-      <name>/u/zdy132</name>
-      <uri>https://old.reddit.com/user/zdy132</uri>
-    </author>
-    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:00:05+00:00</published>
   </entry>
   <entry>
     <id>t3_1sajwnx</id>
@@ -151,17 +151,17 @@
     <published>2026-04-02T15:26:50+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sap6f9</id>
-    <title>The 'Running Doom' of AI: Qwen3.5-27B on a 512MB Raspberry Pi Zero 2W</title>
-    <updated>2026-04-02T18:15:47+00:00</updated>
+    <id>t3_1sakndu</id>
+    <title>Qwen 3.6 will have oss models</title>
+    <updated>2026-04-02T15:31:54+00:00</updated>
     <author>
-      <name>/u/Apprehensive-Court47</name>
-      <uri>https://old.reddit.com/user/Apprehensive-Court47</uri>
+      <name>/u/MR_-_501</name>
+      <uri>https://old.reddit.com/user/MR_-_501</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sap6f9/the_running_doom_of_ai_qwen3527b_on_a_512mb/"&gt; &lt;img alt="The 'Running Doom' of AI: Qwen3.5-27B on a 512MB Raspberry Pi Zero 2W" src="https://preview.redd.it/o9ryhfsfitsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=741d490540accc5e3ef0c53c49f1bb9993319489" title="The 'Running Doom' of AI: Qwen3.5-27B on a 512MB Raspberry Pi Zero 2W" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Yes, seriously, no API calls or word tricks. I was wondering what the absolute lower bound is if you want a truly offline AI. Just like people trying to run Doom on everything, why can't we run a Large Language Model purely on a $15 device with only 512MB of memory?&lt;/p&gt; &lt;p&gt;I know it's incredibly slow (we're talking just a few tokens per hour), but the point is, it runs! You can literally watch the CPU computing each matrix and, boom, you have local inference.&lt;/p&gt; &lt;p&gt;Maybe next we can make an AA battery-powered or solar-powered LLM, or hook it up to a hand-crank generator. Total wasteland punk style.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This isn't just relying on simple &lt;code&gt;mmap&lt;/code&gt; and swap memory to load the model. Everything is custom-designed and implemented to stream the weights directly from the SD card to memory, do the calculation, and then clear it out.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Apprehensive-Court47"&gt; /u/Apprehensive-Court47 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/o9ryhfsfitsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sap6f9/the_running_doom_of_ai_qwen3527b_on_a_512mb/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sap6f9/the_running_doom_of_ai_qwen3527b_on_a_512mb/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakndu/qwen_36_will_have_oss_models/"&gt; &lt;img alt="Qwen 3.6 will have oss models" src="https://preview.redd.it/lc27knq8qssg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=02d45354e2e0d8436c0d82a54921e6f2a7964273" title="Qwen 3.6 will have oss models" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MR_-_501"&gt; /u/MR_-_501 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/lc27knq8qssg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakndu/qwen_36_will_have_oss_models/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sakndu/qwen_36_will_have_oss_models/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T18:15:47+00:00</published>
+    <published>2026-04-02T15:31:54+00:00</published>
   </entry>
   <entry>
     <id>t3_1sakcjw</id>
@@ -177,17 +177,17 @@
     <published>2026-04-02T15:20:59+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sakndu</id>
-    <title>Qwen 3.6 will have oss models</title>
-    <updated>2026-04-02T15:31:54+00:00</updated>
+    <id>t3_1sap6f9</id>
+    <title>The 'Running Doom' of AI: Qwen3.5-27B on a 512MB Raspberry Pi Zero 2W</title>
+    <updated>2026-04-02T18:15:47+00:00</updated>
     <author>
-      <name>/u/MR_-_501</name>
-      <uri>https://old.reddit.com/user/MR_-_501</uri>
+      <name>/u/Apprehensive-Court47</name>
+      <uri>https://old.reddit.com/user/Apprehensive-Court47</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakndu/qwen_36_will_have_oss_models/"&gt; &lt;img alt="Qwen 3.6 will have oss models" src="https://preview.redd.it/lc27knq8qssg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=02d45354e2e0d8436c0d82a54921e6f2a7964273" title="Qwen 3.6 will have oss models" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MR_-_501"&gt; /u/MR_-_501 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/lc27knq8qssg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakndu/qwen_36_will_have_oss_models/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sakndu/qwen_36_will_have_oss_models/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sap6f9/the_running_doom_of_ai_qwen3527b_on_a_512mb/"&gt; &lt;img alt="The 'Running Doom' of AI: Qwen3.5-27B on a 512MB Raspberry Pi Zero 2W" src="https://preview.redd.it/o9ryhfsfitsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=741d490540accc5e3ef0c53c49f1bb9993319489" title="The 'Running Doom' of AI: Qwen3.5-27B on a 512MB Raspberry Pi Zero 2W" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Yes, seriously, no API calls or word tricks. I was wondering what the absolute lower bound is if you want a truly offline AI. Just like people trying to run Doom on everything, why can't we run a Large Language Model purely on a $15 device with only 512MB of memory?&lt;/p&gt; &lt;p&gt;I know it's incredibly slow (we're talking just a few tokens per hour), but the point is, it runs! You can literally watch the CPU computing each matrix and, boom, you have local inference.&lt;/p&gt; &lt;p&gt;Maybe next we can make an AA battery-powered or solar-powered LLM, or hook it up to a hand-crank generator. Total wasteland punk style.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This isn't just relying on simple &lt;code&gt;mmap&lt;/code&gt; and swap memory to load the model. Everything is custom-designed and implemented to stream the weights directly from the SD card to memory, do the calculation, and then clear it out.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Apprehensive-Court47"&gt; /u/Apprehensive-Court47 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/o9ryhfsfitsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sap6f9/the_running_doom_of_ai_qwen3527b_on_a_512mb/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sap6f9/the_running_doom_of_ai_qwen3527b_on_a_512mb/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T15:31:54+00:00</published>
+    <published>2026-04-02T18:15:47+00:00</published>
   </entry>
   <entry>
     <id>t3_1sapl6k</id>
@@ -201,19 +201,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T18:30:42+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sarlb8</id>
-    <title>Gemma 4 running on Raspberry Pi5</title>
-    <updated>2026-04-02T19:44:50+00:00</updated>
-    <author>
-      <name>/u/jslominski</name>
-      <uri>https://old.reddit.com/user/jslominski</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt; &lt;img alt="Gemma 4 running on Raspberry Pi5" src="https://external-preview.redd.it/ZHI2ZnhoNnl5dHNnMQUamWUJMmuaaFY497OR6QB91XSFgpNp7CSXVLLkfDVE.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=12083c12569c7959e98fddc732cf583842c075c3" title="Gemma 4 running on Raspberry Pi5" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;To be specific: RP5 8GB with SSD (but the speed is the same on the non-ssd one), running &lt;a href="https://github.com/slomin/potato-os"&gt;Potato OS&lt;/a&gt; with latest llama.cpp branch compiled. This is Gemma 4 e2b, the Unsloth variety. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/jslominski"&gt; /u/jslominski &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/fxjr1y5yytsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T19:44:50+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa7sfw</id>
@@ -240,6 +227,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sak9f6/bankai_卍解_the_first_posttraining_adaptation/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T15:17:46+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sarlb8</id>
+    <title>Gemma 4 running on Raspberry Pi5</title>
+    <updated>2026-04-02T19:44:50+00:00</updated>
+    <author>
+      <name>/u/jslominski</name>
+      <uri>https://old.reddit.com/user/jslominski</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt; &lt;img alt="Gemma 4 running on Raspberry Pi5" src="https://external-preview.redd.it/ZHI2ZnhoNnl5dHNnMQUamWUJMmuaaFY497OR6QB91XSFgpNp7CSXVLLkfDVE.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=12083c12569c7959e98fddc732cf583842c075c3" title="Gemma 4 running on Raspberry Pi5" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;To be specific: RP5 8GB with SSD (but the speed is the same on the non-ssd one), running &lt;a href="https://github.com/slomin/potato-os"&gt;Potato OS&lt;/a&gt; with latest llama.cpp branch compiled. This is Gemma 4 e2b, the Unsloth variety. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/jslominski"&gt; /u/jslominski &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/fxjr1y5yytsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T19:44:50+00:00</published>
   </entry>
   <entry>
     <id>t3_1sabx6b</id>
