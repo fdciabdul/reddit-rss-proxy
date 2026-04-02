@@ -2,50 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/mcp/.rss</id>
   <title>Model Context Protocol (MCP)</title>
-  <updated>2026-04-01T23:46:11+00:00</updated>
+  <updated>2026-04-02T00:39:31+00:00</updated>
   <link href="https://old.reddit.com/r/mcp/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>The Model Context Protocol is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools</subtitle>
-  <entry>
-    <id>t3_1s9khwu</id>
-    <title>I built mcpspec — OpenAPI-like docs and specs for MCP servers (TypeScript + Python)</title>
-    <updated>2026-04-01T13:24:37+00:00</updated>
-    <author>
-      <name>/u/Dependent-Disaster14</name>
-      <uri>https://old.reddit.com/user/Dependent-Disaster14</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I've been building MCP servers and kept running into the same problem: there's no standardized way to document what a server exposes. Clients have to connect and discover tools at runtime, and there's no way to browse what a server offers before wiring it up.&lt;/p&gt; &lt;p&gt;So I built &lt;strong&gt;mcpspec&lt;/strong&gt;. It wraps your MCP server, introspects its tools/resources/prompts via the protocol itself, and serves:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;code&gt;/docs&lt;/code&gt; — interactive HTML documentation with dark/light themes&lt;/li&gt; &lt;li&gt;&lt;code&gt;/mcpspec.yaml&lt;/code&gt; — machine-readable spec (think OpenAPI but for MCP)&lt;/li&gt; &lt;li&gt;&lt;code&gt;/mcp&lt;/code&gt; — proxied MCP endpoint via Streamable HTTP&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;How it works:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Connects to your server in-memory using &lt;code&gt;InMemoryTransport&lt;/code&gt;&lt;/li&gt; &lt;li&gt;Only calls &lt;code&gt;tools/list&lt;/code&gt;, &lt;code&gt;resources/list&lt;/code&gt;, &lt;code&gt;prompts/list&lt;/code&gt; — never executes anything&lt;/li&gt; &lt;li&gt;Lazy introspection on first request, then cached&lt;/li&gt; &lt;li&gt;You can include/exclude specific tools from the spec&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Quick start (TypeScript):&lt;/strong&gt;&lt;/p&gt; &lt;pre&gt;&lt;code&gt;npm install @mcpspec-dev/typescript const app = mcpspec(server, { info: { title: &amp;quot;My Server&amp;quot;, version: &amp;quot;1.0.0&amp;quot; }, }); app.listen(3000); &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;&lt;strong&gt;Python:&lt;/strong&gt;&lt;/p&gt; &lt;pre&gt;&lt;code&gt;pip install mcpspec-dev &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Both packages are published and working. The project is MIT licensed.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;GitHub: &lt;a href="https://github.com/namishsaxena/mcpspec"&gt;https://github.com/namishsaxena/mcpspec&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Website: &lt;a href="https://mcpspec.dev"&gt;https://mcpspec.dev&lt;/a&gt;&lt;/li&gt; &lt;li&gt;npm: &lt;a href="https://www.npmjs.com/package/@mcpspec-dev/typescript"&gt;https://www.npmjs.com/package/@mcpspec-dev/typescript&lt;/a&gt;&lt;/li&gt; &lt;li&gt;PyPI: &lt;a href="https://pypi.org/project/mcpspec-dev/"&gt;https://pypi.org/project/mcpspec-dev/&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;I'm looking for early adopters to try it on their servers and tell me what's missing or broken. Happy to answer any questions.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Dependent-Disaster14"&gt; /u/Dependent-Disaster14 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9khwu/i_built_mcpspec_openapilike_docs_and_specs_for/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9khwu/i_built_mcpspec_openapilike_docs_and_specs_for/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s9khwu/i_built_mcpspec_openapilike_docs_and_specs_for/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T13:24:37+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9vexv</id>
-    <title>MCP is like paved roads</title>
-    <updated>2026-04-01T19:52:53+00:00</updated>
-    <author>
-      <name>/u/guyernest</name>
-      <uri>https://old.reddit.com/user/guyernest</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"&gt; &lt;img alt="MCP is like paved roads" src="https://preview.redd.it/u5bztb3ttmsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=d392448c32693f3e09db996f7ce78234743f4cd4" title="MCP is like paved roads" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The following note is related to MCP in enterprise environments.&lt;/p&gt; &lt;p&gt;In every enterprise company I see, dozens of agents are built for various use cases, and very few MCP servers are built to support them. This trend is driven by vendors pushing their &amp;quot;agentic frameworks&amp;quot; (AgentForce from Salesforce, AgentCore from AWS, Vertex AI Agent Builder from Google, and many others). &lt;/p&gt; &lt;p&gt;Since my approach is to first get the (MCP) tools, then add the LLM and its instructions, to build agents, I find it hard to explain how important MCP is for safe and scalable AI adoption in large companies. A good analogy I found helpful is the image above, which highlights the order and control that MCP servers can bring to a company, at lower cost and with fewer risks, compared to the rogue agent development we have today. &lt;/p&gt; &lt;p&gt;If you have more analogies or other ways to explain to IT people at a large enterprise why they should stop building rogue agents and start building clean MCP servers, it would be great to hear them. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/guyernest"&gt; /u/guyernest &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/u5bztb3ttmsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s9vexv/mcp_is_like_paved_roads/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T19:52:53+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9lmrj</id>
-    <title>Bespoke Commerce at Scale with Crystallize MCP Server</title>
-    <updated>2026-04-01T14:08:34+00:00</updated>
-    <author>
-      <name>/u/ainu011</name>
-      <uri>https://old.reddit.com/user/ainu011</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1s9lmrj/bespoke_commerce_at_scale_with_crystallize_mcp/"&gt; &lt;img alt="Bespoke Commerce at Scale with Crystallize MCP Server" src="https://external-preview.redd.it/kieQVFanZuPW8W8Llme2K5HjWBbtde4lEdplJvPqkno.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=9eeeab953239250658d856bec23e939fe6952059" title="Bespoke Commerce at Scale with Crystallize MCP Server" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Crystallize MCP gives AI agents:&lt;br /&gt; → schema-aware product data&lt;br /&gt; → zero-shot understanding of your catalog&lt;br /&gt; → natural language → real queries&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ainu011"&gt; /u/ainu011 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://crystallize.com/blog/commerce-mcp-server"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1s9lmrj/bespoke_commerce_at_scale_with_crystallize_mcp/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1s9lmrj/bespoke_commerce_at_scale_with_crystallize_mcp/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-01T14:08:34+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s9mzwt</id>
     <title>Korean Stock Market Data – Korean stock market data - prices, dividends, short selling, financial disclosures</title>
@@ -227,6 +188,45 @@
     <link href="https://old.reddit.com/r/mcp/comments/1s9s4ss/mcp_web_search_tool_a_model_context_protocol/"/>
     <category term="mcp" label="r/mcp"/>
     <published>2026-04-01T18:00:04+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sa1pyc</id>
+    <title>Anaplan MCP – An MCP server that connects AI assistants to Anaplan's Integration API v2, enabling users to browse workspaces, manage model data, and execute bulk operations like imports and exports. It provides 25 structured tools to navigate model hierarchies and perform transactional tasks through</title>
+    <updated>2026-04-02T00:00:01+00:00</updated>
+    <author>
+      <name>/u/modelcontextprotocol</name>
+      <uri>https://old.reddit.com/user/modelcontextprotocol</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1sa1pyc/anaplan_mcp_an_mcp_server_that_connects_ai/"&gt; &lt;img alt="Anaplan MCP – An MCP server that connects AI assistants to Anaplan's Integration API v2, enabling users to browse workspaces, manage model data, and execute bulk operations like imports and exports. It provides 25 structured tools to navigate model hierarchies and perform transactional tasks through" src="https://external-preview.redd.it/7rVfdSW9SMyuaKP5ETMWp0Xwp2PcVJppf8CKabRqpOk.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=af10a9de17649ccdbdd58630ea2d23984b69e2fd" title="Anaplan MCP – An MCP server that connects AI assistants to Anaplan's Integration API v2, enabling users to browse workspaces, manage model data, and execute bulk operations like imports and exports. It provides 25 structured tools to navigate model hierarchies and perform transactional tasks through" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/modelcontextprotocol"&gt; /u/modelcontextprotocol &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://glama.ai/mcp/servers/larasrinath/anaplan-mcp"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sa1pyc/anaplan_mcp_an_mcp_server_that_connects_ai/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1sa1pyc/anaplan_mcp_an_mcp_server_that_connects_ai/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-02T00:00:01+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sa1q7i</id>
+    <title>xpay✦ Media Studio – 25+ AI media generation tools — FLUX Pro, Ideogram v3, Recraft v3, Stable Diffusion XL, MiniMax video, and Kokoro TTS. Images, video, and audio from one server. $0.01/call.</title>
+    <updated>2026-04-02T00:00:17+00:00</updated>
+    <author>
+      <name>/u/modelcontextprotocol</name>
+      <uri>https://old.reddit.com/user/modelcontextprotocol</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1sa1q7i/xpay_media_studio_25_ai_media_generation_tools/"&gt; &lt;img alt="xpay✦ Media Studio – 25+ AI media generation tools — FLUX Pro, Ideogram v3, Recraft v3, Stable Diffusion XL, MiniMax video, and Kokoro TTS. Images, video, and audio from one server. $0.01/call." src="https://external-preview.redd.it/3S_-WZ2iKgpJNM1-8a-zDw0U9blGRqugRt9gIoHbrmw.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=56ffb5623f729400bc51788889201c62c0c6cf99" title="xpay✦ Media Studio – 25+ AI media generation tools — FLUX Pro, Ideogram v3, Recraft v3, Stable Diffusion XL, MiniMax video, and Kokoro TTS. Images, video, and audio from one server. $0.01/call." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/modelcontextprotocol"&gt; /u/modelcontextprotocol &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://glama.ai/mcp/connectors/sh.xpay.mcp.media/xpay-media-studio"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sa1q7i/xpay_media_studio_25_ai_media_generation_tools/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1sa1q7i/xpay_media_studio_25_ai_media_generation_tools/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-02T00:00:17+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sa26i6</id>
+    <title>Let your MCP agent deploy sites (no signup)</title>
+    <updated>2026-04-02T00:19:41+00:00</updated>
+    <author>
+      <name>/u/shipstatic</name>
+      <uri>https://old.reddit.com/user/shipstatic</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;launched an MCP server that lets agents publish static sites directly: call it, upload files, get a live URL back.&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/shipstatic/mcp"&gt;@shipstatic/mcp&lt;/a&gt;&lt;/p&gt; &lt;p&gt;idea was simple: agents can already generate sites, but can’t really &lt;em&gt;ship&lt;/em&gt; them without a human in the loop. This just closes that gap.&lt;/p&gt; &lt;p&gt;works with Cursor / Claude / VS Code MCP setups.&lt;/p&gt; &lt;p&gt;curious if others are exploring “agents as publishers” too.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/shipstatic"&gt; /u/shipstatic &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sa26i6/let_your_mcp_agent_deploy_sites_no_signup/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sa26i6/let_your_mcp_agent_deploy_sites_no_signup/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1sa26i6/let_your_mcp_agent_deploy_sites_no_signup/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-02T00:19:41+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9y962</id>
