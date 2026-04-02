@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/ollama/.rss</id>
   <title>ollama</title>
-  <updated>2026-04-02T12:52:49+00:00</updated>
+  <updated>2026-04-02T13:36:39+00:00</updated>
   <link href="https://old.reddit.com/r/ollama/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Atom feed for r/ollama</subtitle>
-  <entry>
-    <id>t3_1s9kyms</id>
-    <title>Best practices for technical subtitle translation [translategemma &amp; ollama]</title>
-    <updated>2026-04-01T13:42:33+00:00</updated>
-    <author>
-      <name>/u/OrbitalWalker</name>
-      <uri>https://old.reddit.com/user/OrbitalWalker</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hi all, I’ve been experimenting with translating technical subtitles using &lt;code&gt;translategemma:12b&lt;/code&gt; and &lt;code&gt;Ollama&lt;/code&gt; via &lt;code&gt;Subtitle Edit&lt;/code&gt; (AutoTranslate function). DeepL seems to handle technical context very well, but my local setup sometimes misinterprets context.&lt;/p&gt; &lt;p&gt;For example, the sentence:&lt;/p&gt; &lt;p&gt;&lt;code&gt;“Development is an iterative process.”&lt;/code&gt;&lt;/p&gt; &lt;p&gt;DeepL correctly translates it to something like:&lt;/p&gt; &lt;p&gt;&lt;code&gt;“Building software is an iterative process.”&lt;/code&gt;&lt;/p&gt; &lt;p&gt;But my local stack produces a translation closer to “developing” as in personal growth, which is wrong for this technical context.&lt;/p&gt; &lt;p&gt;Does anyone have recommendations for handling &lt;code&gt;.vtt&lt;/code&gt; subtitle files and preserve technical context accurately?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/OrbitalWalker"&gt; /u/OrbitalWalker &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9kyms/best_practices_for_technical_subtitle_translation/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9kyms/best_practices_for_technical_subtitle_translation/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s9kyms/best_practices_for_technical_subtitle_translation/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-04-01T13:42:33+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s9v52k</id>
     <title>Tesla M10 drivers?</title>
@@ -86,6 +73,19 @@
     <published>2026-03-31T18:58:05+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sabcly</id>
+    <title>Update!</title>
+    <updated>2026-04-02T08:11:21+00:00</updated>
+    <author>
+      <name>/u/Ok-Alfalfa-1478</name>
+      <uri>https://old.reddit.com/user/Ok-Alfalfa-1478</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Update: 195+ installs in 24 hours — Parmana now has persistent memory&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Memory system is live. Parmana remembers you across sessions. Still fully local, zero API, one-line install.&lt;/p&gt; &lt;p&gt;&lt;a href="http://github.com/EleshVaishnav/PARMANA"&gt;github.com/EleshVaishnav/PARMANA&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Ok-Alfalfa-1478"&gt; /u/Ok-Alfalfa-1478 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sabcly/update/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sabcly/update/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1sabcly/update/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-04-02T08:11:21+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9u1si</id>
     <title>New Qwen3.5-9b (full and GGUF quantized) fine-tuned for agentic harness (OpenClaw, AgentScope) derived from Copaw-9B (Qwen's official agentic harness) + Opus 4.6 Reasoning - Appreciate your quick tests (use recommended generation parameters)</title>
     <updated>2026-04-01T19:04:31+00:00</updated>
@@ -138,19 +138,6 @@
     <published>2026-04-02T03:37:02+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sabcly</id>
-    <title>Update!</title>
-    <updated>2026-04-02T08:11:21+00:00</updated>
-    <author>
-      <name>/u/Ok-Alfalfa-1478</name>
-      <uri>https://old.reddit.com/user/Ok-Alfalfa-1478</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Update: 195+ installs in 24 hours — Parmana now has persistent memory&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Memory system is live. Parmana remembers you across sessions. Still fully local, zero API, one-line install.&lt;/p&gt; &lt;p&gt;&lt;a href="http://github.com/EleshVaishnav/PARMANA"&gt;github.com/EleshVaishnav/PARMANA&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Ok-Alfalfa-1478"&gt; /u/Ok-Alfalfa-1478 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sabcly/update/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sabcly/update/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1sabcly/update/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-04-02T08:11:21+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sa7nof</id>
     <title>I attempted to build a git for AI reasoning behind code changes. And no, I'm not promoting a product.</title>
     <updated>2026-04-02T04:34:21+00:00</updated>
@@ -162,19 +149,6 @@
     <link href="https://old.reddit.com/r/ollama/comments/1sa7nof/i_attempted_to_build_a_git_for_ai_reasoning/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-04-02T04:34:21+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9tskr</id>
-    <title>what are you actually using ollama for daily that isn't just chatting</title>
-    <updated>2026-04-01T18:55:48+00:00</updated>
-    <author>
-      <name>/u/scheemunai_</name>
-      <uri>https://old.reddit.com/user/scheemunai_</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;i feel like most tutorials and youtube videos show ollama as a local chatgpt replacement but that seems like a waste of what it can do.&lt;/p&gt; &lt;p&gt;right now i'm using it for:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;summarizing meeting notes before i send them out (run the transcript through llama 3 and it pulls out action items)&lt;/li&gt; &lt;li&gt;generating commit messages from git diffs (piped through a bash script, saves me like 30 seconds per commit but it adds up)&lt;/li&gt; &lt;li&gt;reviewing my own code before pushing. i paste functions in and ask it to find bugs or suggest improvements. catches stuff i miss when i'm tired&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;all of these are basically &amp;quot;pipe text in, get text out&amp;quot; workflows running locally. nothing fancy.&lt;/p&gt; &lt;p&gt;i know people are doing rag setups and agentic stuff but i'm curious about the simple everyday uses. what's your most boring but useful ollama workflow?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/scheemunai_"&gt; /u/scheemunai_ &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-04-01T18:55:48+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9qluu</id>
@@ -201,6 +175,19 @@
     <link href="https://old.reddit.com/r/ollama/comments/1s9yqls/ollama_hallucinations_for_simple_tasks/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-04-01T21:55:39+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9tskr</id>
+    <title>what are you actually using ollama for daily that isn't just chatting</title>
+    <updated>2026-04-01T18:55:48+00:00</updated>
+    <author>
+      <name>/u/scheemunai_</name>
+      <uri>https://old.reddit.com/user/scheemunai_</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;i feel like most tutorials and youtube videos show ollama as a local chatgpt replacement but that seems like a waste of what it can do.&lt;/p&gt; &lt;p&gt;right now i'm using it for:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;summarizing meeting notes before i send them out (run the transcript through llama 3 and it pulls out action items)&lt;/li&gt; &lt;li&gt;generating commit messages from git diffs (piped through a bash script, saves me like 30 seconds per commit but it adds up)&lt;/li&gt; &lt;li&gt;reviewing my own code before pushing. i paste functions in and ask it to find bugs or suggest improvements. catches stuff i miss when i'm tired&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;all of these are basically &amp;quot;pipe text in, get text out&amp;quot; workflows running locally. nothing fancy.&lt;/p&gt; &lt;p&gt;i know people are doing rag setups and agentic stuff but i'm curious about the simple everyday uses. what's your most boring but useful ollama workflow?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/scheemunai_"&gt; /u/scheemunai_ &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1s9tskr/what_are_you_actually_using_ollama_for_daily_that/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-04-01T18:55:48+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa3s35</id>
@@ -305,6 +292,19 @@
     <link href="https://old.reddit.com/r/ollama/comments/1sag9b9/what_model_to_use_in_combination_with_tesseract/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-04-02T12:39:27+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sagwrt</id>
+    <title>Is there any small llm capable of implying changes live with copilot in vscode</title>
+    <updated>2026-04-02T13:07:39+00:00</updated>
+    <author>
+      <name>/u/Budget-Weekend5080</name>
+      <uri>https://old.reddit.com/user/Budget-Weekend5080</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;So i have tried qwen3.5:4b model and ministral-3:3b model. &lt;/p&gt; &lt;p&gt;Both cannot imply the changes directly..instead they can only just read and print the changes in the vscode copilot chat. Only thing working is the gpt-oss cloud with 120b parameters which can perform changes , but this is not local , and not free.&lt;/p&gt; &lt;p&gt;Does anyone know any model that you can run for free that is capable of doing changes like it should ?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Budget-Weekend5080"&gt; /u/Budget-Weekend5080 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sagwrt/is_there_any_small_llm_capable_of_implying/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sagwrt/is_there_any_small_llm_capable_of_implying/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1sagwrt/is_there_any_small_llm_capable_of_implying/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-04-02T13:07:39+00:00</published>
   </entry>
   <entry>
     <id>t3_1saaral</id>

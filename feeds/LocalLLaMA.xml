@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T12:52:48+00:00</updated>
+  <updated>2026-04-02T13:36:38+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1s9kf23</id>
-    <title>Anyone else notice qwen 3.5 is a lying little shit</title>
-    <updated>2026-04-01T13:21:30+00:00</updated>
-    <author>
-      <name>/u/Cat5edope</name>
-      <uri>https://old.reddit.com/user/Cat5edope</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Any time I catch it messing up it just lies and tries to hide it’s mistakes . This is the 1st model I’m caught doing this multiple times. I’m have llms hallucinate or be just completely wrong but qwen will say it did something, I call it out then it goes and double downs on its lie “I did do it like you asked “ and when I call it out it 1/2 admits to being wrong. It’s kinda funny how much it doesn’t want to admit it didn’t do what it was supposed to.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Cat5edope"&gt; /u/Cat5edope &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9kf23/anyone_else_notice_qwen_35_is_a_lying_little_shit/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T13:21:30+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9y9rn</id>
-    <title>Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯</title>
-    <updated>2026-04-01T21:37:38+00:00</updated>
-    <author>
-      <name>/u/clem59480</name>
-      <uri>https://old.reddit.com/user/clem59480</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"&gt; &lt;img alt="Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯" src="https://external-preview.redd.it/adbenqsgGIjZCxZJrsgwfbPuvL2IWQfbI_Q9dBRZfl4.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=51e4ea32daa23aad0c40caca20fd84a055ba23ce" title="Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/clem59480"&gt; /u/clem59480 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/blog/trl-v1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T21:37:38+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s9vzry</id>
     <title>APEX MoE quantized models boost with 33% faster inference and TurboQuant (14% of speedup in prompt processing)</title>
@@ -47,6 +21,19 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sagzql</id>
+    <title>I analyzed 2,181 remote MCP server endpoints — here's the state of MCP reliability in April 2026</title>
+    <updated>2026-04-02T13:11:07+00:00</updated>
+    <author>
+      <name>/u/avibouhadana</name>
+      <uri>https://old.reddit.com/user/avibouhadana</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;With all the &amp;quot;MCP is dead&amp;quot; discourse lately, I got curious about what the actual data looks like. So I set up automated health checks against every remote-capable MCP server I could find across the official registry, &lt;a href="http://mcp.so"&gt;mcp.so&lt;/a&gt;, PulseMCP, and Smithery.&lt;/p&gt; &lt;p&gt;Results from checking 2,181 remote endpoints:&lt;/p&gt; &lt;p&gt;- 52% are completely dead (timeout, connection refused, 404)&lt;/p&gt; &lt;p&gt;- 37% respond but require authentication (401/403)&lt;/p&gt; &lt;p&gt;- 9% are confirmed up and healthy&lt;/p&gt; &lt;p&gt;- 1.5% are degraded (slow or intermittent errors)&lt;/p&gt; &lt;p&gt;- Among the live ones, 516 maintain 99%+ uptime&lt;/p&gt; &lt;p&gt;- 58% of servers with GitHub repos haven't had a commit in 30 days&lt;/p&gt; &lt;p&gt;The category breakdown is interesting too — dev-tools has the most servers (1,238) but finance has the worst avg latency (2,558ms). Security servers have the lowest avg uptime at 27%.&lt;/p&gt; &lt;p&gt;Fastest servers I found: GitHub MCP (101ms), Timescale pg-aiguide (104ms), Supabase (109ms).&lt;/p&gt; &lt;p&gt;I'm publishing the full data if anyone wants to dig in. Happy to answer questions about methodology or specific servers.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/avibouhadana"&gt; /u/avibouhadana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagzql/i_analyzed_2181_remote_mcp_server_endpoints_heres/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagzql/i_analyzed_2181_remote_mcp_server_endpoints_heres/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagzql/i_analyzed_2181_remote_mcp_server_endpoints_heres/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T13:11:07+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9nri7</id>
     <title>attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp</title>
     <updated>2026-04-01T15:27:20+00:00</updated>
@@ -58,6 +45,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T15:27:20+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sad0kg</id>
+    <title>SOTA Language Models Under 14B?</title>
+    <updated>2026-04-02T09:53:44+00:00</updated>
+    <author>
+      <name>/u/No-Mud-1902</name>
+      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T09:53:44+00:00</published>
   </entry>
   <entry>
     <id>t3_1saf6dd</id>
@@ -99,19 +99,6 @@
     <published>2026-04-02T01:10:09+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sad0kg</id>
-    <title>SOTA Language Models Under 14B?</title>
-    <updated>2026-04-02T09:53:44+00:00</updated>
-    <author>
-      <name>/u/No-Mud-1902</name>
-      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:53:44+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9pe0w</id>
     <title>arcee-ai/Trinity-Large-Thinking · Hugging Face</title>
     <updated>2026-04-01T16:24:31+00:00</updated>
@@ -151,17 +138,17 @@
     <published>2026-04-01T11:58:02+00:00</published>
   </entry>
   <entry>
-    <id>t3_1safc5d</id>
-    <title>Why does Qwen struggle so much with coding SVGs?</title>
-    <updated>2026-04-02T11:57:08+00:00</updated>
+    <id>t3_1sagulj</id>
+    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
+    <updated>2026-04-02T13:05:09+00:00</updated>
     <author>
-      <name>/u/Repulsive-Mall-2665</name>
-      <uri>https://old.reddit.com/user/Repulsive-Mall-2665</uri>
+      <name>/u/Infrared12</name>
+      <uri>https://old.reddit.com/user/Infrared12</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt; &lt;img alt="Why does Qwen struggle so much with coding SVGs?" src="https://preview.redd.it/1o3mv8hsnrsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a67ff165e6486bc526595a1f9483be37338f1e58" title="Why does Qwen struggle so much with coding SVGs?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Repulsive-Mall-2665"&gt; /u/Repulsive-Mall-2665 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/1o3mv8hsnrsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:57:08+00:00</published>
+    <published>2026-04-02T13:05:09+00:00</published>
   </entry>
   <entry>
     <id>t3_1sadvqq</id>
@@ -177,19 +164,6 @@
     <published>2026-04-02T10:42:21+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sabiux</id>
-    <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
-    <updated>2026-04-02T08:22:01+00:00</updated>
-    <author>
-      <name>/u/RecognitionFlat1470</name>
-      <uri>https://old.reddit.com/user/RecognitionFlat1470</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve got SmolLM2‑360M running on a Samsung Galaxy Watch 4 Classic (about 380MB free RAM) by tweaking llama.cpp and the underlying ggml memory model. By default, the model was being loaded twice in RAM: once via the APK’s mmap page cache and again via ggml’s tensor allocations, peaking at 524MB for a 270MB model.&lt;/p&gt; &lt;p&gt;The fix: I pass &lt;code&gt;host_ptr&lt;/code&gt; into &lt;code&gt;llama_model_params&lt;/code&gt;, so CPU tensors point directly into the mmap region and only Vulkan tensors are copied. On real hardware this gives:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Peak RAM: &lt;strong&gt;524MB → 142MB&lt;/strong&gt; (74% reduction)&lt;/li&gt; &lt;li&gt;First boot: &lt;strong&gt;19s → 11s&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;Second boot: &lt;strong&gt;~2.5s&lt;/strong&gt; (mmap + KV cache warm)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Code:&lt;br /&gt; &lt;a href="https://github.com/Perinban/llama.cpp/tree/axon%E2%80%91dev"&gt;https://github.com/Perinban/llama.cpp/tree/axon‑dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Longer write‑up with &lt;code&gt;VmRSS&lt;/code&gt; traces and design notes:&lt;br /&gt; &lt;a href="https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o"&gt;https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I’m planning a PR to &lt;code&gt;ggml‑org/llama.cpp&lt;/code&gt;; feedback on the host‑ptr / mmap pattern is welcome.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RecognitionFlat1470"&gt; /u/RecognitionFlat1470 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:22:01+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sacbi6</id>
     <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
     <updated>2026-04-02T09:11:14+00:00</updated>
@@ -203,6 +177,19 @@
     <published>2026-04-02T09:11:14+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sabiux</id>
+    <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
+    <updated>2026-04-02T08:22:01+00:00</updated>
+    <author>
+      <name>/u/RecognitionFlat1470</name>
+      <uri>https://old.reddit.com/user/RecognitionFlat1470</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve got SmolLM2‑360M running on a Samsung Galaxy Watch 4 Classic (about 380MB free RAM) by tweaking llama.cpp and the underlying ggml memory model. By default, the model was being loaded twice in RAM: once via the APK’s mmap page cache and again via ggml’s tensor allocations, peaking at 524MB for a 270MB model.&lt;/p&gt; &lt;p&gt;The fix: I pass &lt;code&gt;host_ptr&lt;/code&gt; into &lt;code&gt;llama_model_params&lt;/code&gt;, so CPU tensors point directly into the mmap region and only Vulkan tensors are copied. On real hardware this gives:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Peak RAM: &lt;strong&gt;524MB → 142MB&lt;/strong&gt; (74% reduction)&lt;/li&gt; &lt;li&gt;First boot: &lt;strong&gt;19s → 11s&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;Second boot: &lt;strong&gt;~2.5s&lt;/strong&gt; (mmap + KV cache warm)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Code:&lt;br /&gt; &lt;a href="https://github.com/Perinban/llama.cpp/tree/axon%E2%80%91dev"&gt;https://github.com/Perinban/llama.cpp/tree/axon‑dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Longer write‑up with &lt;code&gt;VmRSS&lt;/code&gt; traces and design notes:&lt;br /&gt; &lt;a href="https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o"&gt;https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I’m planning a PR to &lt;code&gt;ggml‑org/llama.cpp&lt;/code&gt;; feedback on the host‑ptr / mmap pattern is welcome.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RecognitionFlat1470"&gt; /u/RecognitionFlat1470 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:22:01+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1sa4lzt</id>
     <title>I benchmarked quants of Qwen 3 .6b from q2-q8, here's the results:</title>
     <updated>2026-04-02T02:08:28+00:00</updated>
@@ -214,6 +201,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa4lzt/i_benchmarked_quants_of_qwen_3_6b_from_q2q8_heres/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T02:08:28+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1safc5d</id>
+    <title>Why does Qwen struggle so much with coding SVGs?</title>
+    <updated>2026-04-02T11:57:08+00:00</updated>
+    <author>
+      <name>/u/Repulsive-Mall-2665</name>
+      <uri>https://old.reddit.com/user/Repulsive-Mall-2665</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt; &lt;img alt="Why does Qwen struggle so much with coding SVGs?" src="https://preview.redd.it/1o3mv8hsnrsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a67ff165e6486bc526595a1f9483be37338f1e58" title="Why does Qwen struggle so much with coding SVGs?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Repulsive-Mall-2665"&gt; /u/Repulsive-Mall-2665 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/1o3mv8hsnrsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T11:57:08+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa24tl</id>
@@ -242,17 +242,17 @@
     <published>2026-04-02T08:00:05+00:00</published>
   </entry>
   <entry>
-    <id>t3_1saeuv2</id>
-    <title>Omnivoice - 600+ Language Open-Source TTS with Voice Cloning and Design</title>
-    <updated>2026-04-02T11:33:25+00:00</updated>
+    <id>t3_1sa16q9</id>
+    <title>Gemma time! What are your wishes ?</title>
+    <updated>2026-04-01T23:36:38+00:00</updated>
     <author>
-      <name>/u/HelpfulHand3</name>
-      <uri>https://old.reddit.com/user/HelpfulHand3</uri>
+      <name>/u/Specter_Origin</name>
+      <uri>https://old.reddit.com/user/Specter_Origin</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;OmniVoice is a state-of-the-art zero-shot multilingual TTS model supporting more than 600 languages. Built on a novel diffusion language model architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;600+ Languages Supported&lt;/strong&gt;: The broadest language coverage among zero-shot TTS models&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Cloning&lt;/strong&gt;: State-of-the-art voice cloning quality.&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Design&lt;/strong&gt;: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Fast Inference&lt;/strong&gt;: RTF as low as 0.025 (40x faster than real-time).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Diffusion Language Model Architecture&lt;/strong&gt;: A clean, streamlined, and scalable design that delivers both quality and speed.&lt;/p&gt; &lt;p&gt;Demo: &lt;a href="https://huggingface.co/spaces/k2-fsa/OmniVoice"&gt;https://huggingface.co/spaces/k2-fsa/OmniVoice&lt;/a&gt;&lt;br /&gt; HuggingFace: &lt;a href="https://huggingface.co/k2-fsa/OmniVoice"&gt;https://huggingface.co/k2-fsa/OmniVoice&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Model card claims Apache-2.0 but the tokenizer is Higgs Audio and so inherits &lt;a href="https://huggingface.co/bosonai/higgs-audio-v2-tokenizer/blob/main/LICENSE"&gt;their license&lt;/a&gt;:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Additional Commercial Terms. If the annual active users of the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 100,000 annual active users in the preceding calendar year, you must request an expanded license from Boson AI, which Boson AI may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Boson AI otherwise expressly grants you such rights.&lt;/li&gt; &lt;/ol&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/HelpfulHand3"&gt; /u/HelpfulHand3 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt; &lt;img alt="Gemma time! What are your wishes ?" src="https://preview.redd.it/fcz39ejjznsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8979b10bc8f7c4b11013ea5baba8ca04fde3f130" title="Gemma time! What are your wishes ?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gamma 4 drops most likely tomorrow! what will it take to make it a good release for you?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Specter_Origin"&gt; /u/Specter_Origin &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/fcz39ejjznsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:33:25+00:00</published>
+    <published>2026-04-01T23:36:38+00:00</published>
   </entry>
   <entry>
     <id>t3_1sadadw</id>
@@ -268,17 +268,17 @@
     <published>2026-04-02T10:09:12+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sa16q9</id>
-    <title>Gemma time! What are your wishes ?</title>
-    <updated>2026-04-01T23:36:38+00:00</updated>
+    <id>t3_1saeuv2</id>
+    <title>Omnivoice - 600+ Language Open-Source TTS with Voice Cloning and Design</title>
+    <updated>2026-04-02T11:33:25+00:00</updated>
     <author>
-      <name>/u/Specter_Origin</name>
-      <uri>https://old.reddit.com/user/Specter_Origin</uri>
+      <name>/u/HelpfulHand3</name>
+      <uri>https://old.reddit.com/user/HelpfulHand3</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt; &lt;img alt="Gemma time! What are your wishes ?" src="https://preview.redd.it/fcz39ejjznsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8979b10bc8f7c4b11013ea5baba8ca04fde3f130" title="Gemma time! What are your wishes ?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gamma 4 drops most likely tomorrow! what will it take to make it a good release for you?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Specter_Origin"&gt; /u/Specter_Origin &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/fcz39ejjznsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;OmniVoice is a state-of-the-art zero-shot multilingual TTS model supporting more than 600 languages. Built on a novel diffusion language model architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;600+ Languages Supported&lt;/strong&gt;: The broadest language coverage among zero-shot TTS models&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Cloning&lt;/strong&gt;: State-of-the-art voice cloning quality.&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Design&lt;/strong&gt;: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Fast Inference&lt;/strong&gt;: RTF as low as 0.025 (40x faster than real-time).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Diffusion Language Model Architecture&lt;/strong&gt;: A clean, streamlined, and scalable design that delivers both quality and speed.&lt;/p&gt; &lt;p&gt;Demo: &lt;a href="https://huggingface.co/spaces/k2-fsa/OmniVoice"&gt;https://huggingface.co/spaces/k2-fsa/OmniVoice&lt;/a&gt;&lt;br /&gt; HuggingFace: &lt;a href="https://huggingface.co/k2-fsa/OmniVoice"&gt;https://huggingface.co/k2-fsa/OmniVoice&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Model card claims Apache-2.0 but the tokenizer is Higgs Audio and so inherits &lt;a href="https://huggingface.co/bosonai/higgs-audio-v2-tokenizer/blob/main/LICENSE"&gt;their license&lt;/a&gt;:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Additional Commercial Terms. If the annual active users of the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 100,000 annual active users in the preceding calendar year, you must request an expanded license from Boson AI, which Boson AI may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Boson AI otherwise expressly grants you such rights.&lt;/li&gt; &lt;/ol&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/HelpfulHand3"&gt; /u/HelpfulHand3 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T23:36:38+00:00</published>
+    <published>2026-04-02T11:33:25+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9zumi</id>
