@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T09:53:00+00:00</updated>
+  <updated>2026-04-02T10:24:51+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1sa49w8</id>
-    <title>local natural language based video blurring/anonymization tool runs on 4K at 76 fps</title>
-    <updated>2026-04-02T01:53:36+00:00</updated>
-    <author>
-      <name>/u/Honest-Debate-6863</name>
-      <uri>https://old.reddit.com/user/Honest-Debate-6863</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa49w8/local_natural_language_based_video/"&gt; &lt;img alt="local natural language based video blurring/anonymization tool runs on 4K at 76 fps" src="https://preview.redd.it/xovej28rnosg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=c732ddcecf78ea5b7ef2b15ae35fc3aa42a1d86e" title="local natural language based video blurring/anonymization tool runs on 4K at 76 fps" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;It's not just a text-prompt wrapper though. I benchmarked 168 combinations (7 detectors × 3 trackers × 4 skip rates × 2 resolutions) on 4K footage:&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;Model&lt;/th&gt; &lt;th align="left"&gt;Effective FPS on 4K&lt;/th&gt; &lt;th align="left"&gt;What it does&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;RF-DETR Nano Det + skip=4&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;76 fps&lt;/strong&gt;&lt;/td&gt; &lt;td align="left"&gt;Auto-detect faces/people, real-time on 4K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;RF-DETR Med Seg + skip=2&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;9 fps&lt;/strong&gt;&lt;/td&gt; &lt;td align="left"&gt;Pixel-precise instance segmentation masks&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Grounding DINO&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;~2 fps&lt;/strong&gt;&lt;/td&gt; &lt;td align="left"&gt;Text-prompted — describe what to blur&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Florence-2&lt;/td&gt; &lt;td align="left"&gt;&lt;strong&gt;~2 fps&lt;/strong&gt;&lt;/td&gt; &lt;td align="left"&gt;Visual grounding with natural language&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;SAM2&lt;/td&gt; &lt;td align="left"&gt;varies&lt;/td&gt; &lt;td align="left"&gt;Click or draw box to select what to blur&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;The text-prompted models (GDINO, Florence-2) are slower (~2 fps) but the flexibility is worth it — you don't need to retrain anything, just describe what you want gone.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;How it works locally:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Grounding DINO takes your text prompt → runs zero-shot detection on each frame → ByteTrack tracks detections across frames → blur/pixelate applied with custom shapes&lt;/li&gt; &lt;li&gt;Skip-frame tracking: run detection every Nth frame, tracker interpolates the rest. Skip=4 → 4× speedup with no visible quality loss&lt;/li&gt; &lt;li&gt;All weights download automatically on first run, everything stays local&lt;/li&gt; &lt;li&gt;Browser UI (Flask) — upload video, type your prompt, process, download&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Other stuff:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;8 total detection models (RF-DETR, YOLO, Grounding DINO, Florence-2, SAM2, MediaPipe, Cascade)&lt;/li&gt; &lt;li&gt;360° equirectangular video support (Insta360 X5 / GoPro Max up to 8K)&lt;/li&gt; &lt;li&gt;Custom blur shapes — lasso, polygon, star, circle drawn on detected bounding boxes&lt;/li&gt; &lt;li&gt;Instance segmentation for pixel-precise masks, not just bounding boxes&lt;/li&gt; &lt;li&gt;3 interfaces: full studio editor, simple upload-and-process, real-time MJPEG streaming demo&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;#8203;&lt;/p&gt; &lt;pre&gt;&lt;code&gt;python -m privacy_blur.web_app --port 5001 &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Runs entirely local. Repo has GIFs comparing all the model approaches side by side on the same 4K frame.&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/Manojbhat09/privacy-blur"&gt;Github link&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Curious what text prompts people would want to use for anonymization; the Grounding DINO integration can detect basically anything you can describe. &lt;/p&gt; &lt;p&gt;Yet user preferences are different so what would be most usecases and would it help if hosted a website like &lt;strong&gt;Photopea&lt;/strong&gt; is there a demand for this?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Honest-Debate-6863"&gt; /u/Honest-Debate-6863 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/xovej28rnosg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa49w8/local_natural_language_based_video/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa49w8/local_natural_language_based_video/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T01:53:36+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s9zfg6</id>
     <title>Turbo Quant on weight x2 speed</title>
@@ -47,19 +34,6 @@
     <published>2026-04-02T08:09:17+00:00</published>
   </entry>
   <entry>
-    <id>t3_1s9whv7</id>
-    <title>Bonsai 1-Bit + Turboquant?</title>
-    <updated>2026-04-01T20:32:05+00:00</updated>
-    <author>
-      <name>/u/rm-rf-rm</name>
-      <uri>https://old.reddit.com/user/rm-rf-rm</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just been playing around with PrismML's 1-bit 8B LLM and its legit. Now the question is can turboquant be used with it? seemingly yes? &lt;/p&gt; &lt;p&gt;(If so, then I'm really not seeing any real hurdles to agentic tasks done on device on today's smartphones..)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/rm-rf-rm"&gt; /u/rm-rf-rm &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T20:32:05+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sabs64</id>
     <title>Small (0.1B params) Spam Detection model optimized for Italian text</title>
     <updated>2026-04-02T08:38:49+00:00</updated>
@@ -71,6 +45,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabs64/small_01b_params_spam_detection_model_optimized/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T08:38:49+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9whv7</id>
+    <title>Bonsai 1-Bit + Turboquant?</title>
+    <updated>2026-04-01T20:32:05+00:00</updated>
+    <author>
+      <name>/u/rm-rf-rm</name>
+      <uri>https://old.reddit.com/user/rm-rf-rm</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just been playing around with PrismML's 1-bit 8B LLM and its legit. Now the question is can turboquant be used with it? seemingly yes? &lt;/p&gt; &lt;p&gt;(If so, then I'm really not seeing any real hurdles to agentic tasks done on device on today's smartphones..)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/rm-rf-rm"&gt; /u/rm-rf-rm &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9whv7/bonsai_1bit_turboquant/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T20:32:05+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9lge6</id>
@@ -125,17 +112,17 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sacbi6</id>
-    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
-    <updated>2026-04-02T09:11:14+00:00</updated>
+    <id>t3_1sad0kg</id>
+    <title>SOTA Language Models Under 14B?</title>
+    <updated>2026-04-02T09:53:44+00:00</updated>
     <author>
-      <name>/u/LH-Tech_AI</name>
-      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
+      <name>/u/No-Mud-1902</name>
+      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:11:14+00:00</published>
+    <published>2026-04-02T09:53:44+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9nri7</id>
@@ -177,19 +164,6 @@
     <published>2026-04-02T04:28:30+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sab5zy</id>
-    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
-    <updated>2026-04-02T08:00:05+00:00</updated>
-    <author>
-      <name>/u/zdy132</name>
-      <uri>https://old.reddit.com/user/zdy132</uri>
-    </author>
-    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:00:05+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9pe0w</id>
     <title>arcee-ai/Trinity-Large-Thinking · Hugging Face</title>
     <updated>2026-04-01T16:24:31+00:00</updated>
@@ -216,6 +190,19 @@
     <published>2026-04-01T21:22:51+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sacbi6</id>
+    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
+    <updated>2026-04-02T09:11:14+00:00</updated>
+    <author>
+      <name>/u/LH-Tech_AI</name>
+      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T09:11:14+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1sabiux</id>
     <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
     <updated>2026-04-02T08:22:01+00:00</updated>
@@ -240,6 +227,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9ig5r/turboquant_isnt_just_for_kv_qwen3527b_at_nearq4_0/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T11:58:02+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sab5zy</id>
+    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
+    <updated>2026-04-02T08:00:05+00:00</updated>
+    <author>
+      <name>/u/zdy132</name>
+      <uri>https://old.reddit.com/user/zdy132</uri>
+    </author>
+    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:00:05+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa4lzt</id>
