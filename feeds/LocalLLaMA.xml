@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T14:13:38+00:00</updated>
+  <updated>2026-04-02T14:41:22+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -21,17 +21,17 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sagsk1</id>
-    <title>[New Model] - FaceGen v1 - generate 128px images of human faces with this GAN</title>
-    <updated>2026-04-02T13:02:45+00:00</updated>
+    <id>t3_1sacgwt</id>
+    <title>Any Pantheon (TV Show) fans here?</title>
+    <updated>2026-04-02T09:20:39+00:00</updated>
     <author>
-      <name>/u/LH-Tech_AI</name>
-      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
+      <name>/u/immi_song</name>
+      <uri>https://old.reddit.com/user/immi_song</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"&gt; &lt;img alt="[New Model] - FaceGen v1 - generate 128px images of human faces with this GAN" src="https://preview.redd.it/ure1qrdtxrsg1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=94133899a867eff0bd48b96781d849771f5b4bec" title="[New Model] - FaceGen v1 - generate 128px images of human faces with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="https://www.reddit.com/r/LocalLLaMA/"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - another GAN!&lt;/p&gt; &lt;p&gt;It is called FaceGen v1 and it generates 128x128px of human faces.&lt;/p&gt; &lt;p&gt;This model is trained on the same architecture like my previous model from today - CatGen v2 (&lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;).&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/FaceGen-v1"&gt;https://huggingface.co/LH-Tech-AI/FaceGen-v1&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 250 (trained on my own RTX 5060 Ti 16GB):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/ure1qrdtxrsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=43556d55dde7ac63c6671ce8c8ed7e26d3c6d138"&gt;https://preview.redd.it/ure1qrdtxrsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=43556d55dde7ac63c6671ce8c8ed7e26d3c6d138&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/new-model-catgen-v2-generate-128px-images-of-cats-with-this-v0-t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=8b3d13743a36afb49427e27ffeb004df235e5ba7"&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;p&gt;Feel free to tell me, what you think about it.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacgwt/any_pantheon_tv_show_fans_here/"&gt; &lt;img alt="Any Pantheon (TV Show) fans here?" src="https://external-preview.redd.it/NXAyZDRiNzB3cXNnMbDEjuUcP4bOF02w1Z9g8YV8E9FcHWp-85mhzq_z2SeE.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=619a3120f3d9cb87ec36e6f1bbab087bf826ef46" title="Any Pantheon (TV Show) fans here?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Would you like to chat with a UI? &lt;a href="https://huggingface.co/spaces/shreyask/pantheon-ui"&gt;https://huggingface.co/spaces/shreyask/pantheon-ui&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Fine-tuned LiquidAI’s LFM2.5-1.2B-Thinking running 100% in-browser via WebGPU + HuggingFace Transformers.js.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/immi_song"&gt; /u/immi_song &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/5um9fn90wqsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacgwt/any_pantheon_tv_show_fans_here/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacgwt/any_pantheon_tv_show_fans_here/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T13:02:45+00:00</published>
+    <published>2026-04-02T09:20:39+00:00</published>
   </entry>
   <entry>
     <id>t3_1saf6dd</id>
@@ -112,6 +112,19 @@
     <published>2026-04-01T16:24:31+00:00</published>
   </entry>
   <entry>
+    <id>t3_1saizts</id>
+    <title>Vulkan backend much easier on the CPU and GPU memory than CUDA.</title>
+    <updated>2026-04-02T14:30:33+00:00</updated>
+    <author>
+      <name>/u/Im_Still_Here12</name>
+      <uri>https://old.reddit.com/user/Im_Still_Here12</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;On linux and compiled my own llama.cpp with CUDA support, &lt;code&gt;top&lt;/code&gt; would always show one pegged CPU core at 100% when running Qwen3.5-9B-GGUF:Q4_K_M on my potato like RTX A2000 12GB. Also, &lt;code&gt;nvidia-smi&lt;/code&gt; would show 11GB+ of GPU memory usage. Speed is ~30 tokens per second. My system fans would spin up when this single core gets pegged which was annoying to listen to.&lt;/p&gt; &lt;p&gt;Decided to compile llama.cpp again with Vulkan backend to see if anything would be different. Well it was a big difference when using the exact same model Now, &lt;code&gt;top&lt;/code&gt; is only showing one CPU core at about 30% usage and &lt;code&gt;nvidia-smi&lt;/code&gt; is only showing 7.2GB of GPU memory usage. Speed is the same at ~30 tokens per second. No longer have my system fan spinning up when running inferencing.&lt;/p&gt; &lt;p&gt;Just curious why the GPU memory footprint is lower and CPU usage is lower when using Vulkan vs CUDA.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Im_Still_Here12"&gt; /u/Im_Still_Here12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saizts/vulkan_backend_much_easier_on_the_cpu_and_gpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saizts/vulkan_backend_much_easier_on_the_cpu_and_gpu/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saizts/vulkan_backend_much_easier_on_the_cpu_and_gpu/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T14:30:33+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9xvtb</id>
     <title>64Gb ram mac falls right into the local llm dead zone</title>
     <updated>2026-04-01T21:22:51+00:00</updated>
@@ -190,19 +203,6 @@
     <published>2026-04-02T02:08:28+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sagulj</id>
-    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
-    <updated>2026-04-02T13:05:09+00:00</updated>
-    <author>
-      <name>/u/Infrared12</name>
-      <uri>https://old.reddit.com/user/Infrared12</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T13:05:09+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sa24tl</id>
     <title>Gemma</title>
     <updated>2026-04-02T00:17:37+00:00</updated>
@@ -214,6 +214,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa24tl/gemma/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T00:17:37+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sagulj</id>
+    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
+    <updated>2026-04-02T13:05:09+00:00</updated>
+    <author>
+      <name>/u/Infrared12</name>
+      <uri>https://old.reddit.com/user/Infrared12</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T13:05:09+00:00</published>
   </entry>
   <entry>
     <id>t3_1safc5d</id>
@@ -266,19 +279,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadadw/is_1bit_and_turboquant_the_future_of_oss_a/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T10:09:12+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1saeuv2</id>
-    <title>Omnivoice - 600+ Language Open-Source TTS with Voice Cloning and Design</title>
-    <updated>2026-04-02T11:33:25+00:00</updated>
-    <author>
-      <name>/u/HelpfulHand3</name>
-      <uri>https://old.reddit.com/user/HelpfulHand3</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;OmniVoice is a state-of-the-art zero-shot multilingual TTS model supporting more than 600 languages. Built on a novel diffusion language model architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;600+ Languages Supported&lt;/strong&gt;: The broadest language coverage among zero-shot TTS models&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Cloning&lt;/strong&gt;: State-of-the-art voice cloning quality.&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Design&lt;/strong&gt;: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Fast Inference&lt;/strong&gt;: RTF as low as 0.025 (40x faster than real-time).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Diffusion Language Model Architecture&lt;/strong&gt;: A clean, streamlined, and scalable design that delivers both quality and speed.&lt;/p&gt; &lt;p&gt;Demo: &lt;a href="https://huggingface.co/spaces/k2-fsa/OmniVoice"&gt;https://huggingface.co/spaces/k2-fsa/OmniVoice&lt;/a&gt;&lt;br /&gt; HuggingFace: &lt;a href="https://huggingface.co/k2-fsa/OmniVoice"&gt;https://huggingface.co/k2-fsa/OmniVoice&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Model card claims Apache-2.0 but the tokenizer is Higgs Audio and so inherits &lt;a href="https://huggingface.co/bosonai/higgs-audio-v2-tokenizer/blob/main/LICENSE"&gt;their license&lt;/a&gt;:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Additional Commercial Terms. If the annual active users of the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 100,000 annual active users in the preceding calendar year, you must request an expanded license from Boson AI, which Boson AI may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Boson AI otherwise expressly grants you such rights.&lt;/li&gt; &lt;/ol&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/HelpfulHand3"&gt; /u/HelpfulHand3 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:33:25+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9zumi</id>
