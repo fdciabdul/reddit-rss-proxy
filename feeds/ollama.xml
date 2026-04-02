@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/ollama/.rss</id>
   <title>ollama</title>
-  <updated>2026-04-02T13:36:39+00:00</updated>
+  <updated>2026-04-02T14:13:39+00:00</updated>
   <link href="https://old.reddit.com/r/ollama/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Atom feed for r/ollama</subtitle>
-  <entry>
-    <id>t3_1s9v52k</id>
-    <title>Tesla M10 drivers?</title>
-    <updated>2026-04-01T19:42:51+00:00</updated>
-    <author>
-      <name>/u/Nakatomi2010</name>
-      <uri>https://old.reddit.com/user/Nakatomi2010</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;This is clearly an older video card, but I'm just trying to fiddle around with Ollama more before trying to commit more funds to it.&lt;/p&gt; &lt;p&gt;Is someone able to link to which drivers they ran their Tesla M10 on?&lt;/p&gt; &lt;p&gt;Bonus points if you can show me the results of nvidia-smi.&lt;/p&gt; &lt;p&gt;Mine keeps saying that there's no valid drivers installed, and I'm getting tired of playing whack a mole trying to find the right mix.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Nakatomi2010"&gt; /u/Nakatomi2010 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9v52k/tesla_m10_drivers/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1s9v52k/tesla_m10_drivers/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1s9v52k/tesla_m10_drivers/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-04-01T19:42:51+00:00</published>
-  </entry>
   <entry>
     <id>t3_1s9escc</id>
     <title>Ollama Pro is a game changer for my OpenClaw journey</title>
@@ -305,6 +292,19 @@
     <link href="https://old.reddit.com/r/ollama/comments/1sagwrt/is_there_any_small_llm_capable_of_implying/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-04-02T13:07:39+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sai49e</id>
+    <title>Built a repo-memory tool for Claude Code workflows looking for feedback</title>
+    <updated>2026-04-02T13:57:02+00:00</updated>
+    <author>
+      <name>/u/FunNewspaper5161</name>
+      <uri>https://old.reddit.com/user/FunNewspaper5161</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/ollama/comments/1sai49e/built_a_repomemory_tool_for_claude_code_workflows/"&gt; &lt;img alt="Built a repo-memory tool for Claude Code workflows looking for feedback" src="https://external-preview.redd.it/2cmdIZpdkAIw86Vo2Jswraj-64YkuB03rY9k1WHLMAQ.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=e27789758f672988f54924ed1a7692a9f17e9e65" title="Built a repo-memory tool for Claude Code workflows looking for feedback" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/FunNewspaper5161"&gt; /u/FunNewspaper5161 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="/r/ClaudeCode/comments/1sacnkj/built_a_repomemory_tool_for_claude_code_workflows/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sai49e/built_a_repomemory_tool_for_claude_code_workflows/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1sai49e/built_a_repomemory_tool_for_claude_code_workflows/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-04-02T13:57:02+00:00</published>
   </entry>
   <entry>
     <id>t3_1saaral</id>

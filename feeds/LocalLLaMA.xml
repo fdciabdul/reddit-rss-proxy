@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T13:36:38+00:00</updated>
+  <updated>2026-04-02T14:13:38+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -21,43 +21,17 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sagzql</id>
-    <title>I analyzed 2,181 remote MCP server endpoints — here's the state of MCP reliability in April 2026</title>
-    <updated>2026-04-02T13:11:07+00:00</updated>
+    <id>t3_1sagsk1</id>
+    <title>[New Model] - FaceGen v1 - generate 128px images of human faces with this GAN</title>
+    <updated>2026-04-02T13:02:45+00:00</updated>
     <author>
-      <name>/u/avibouhadana</name>
-      <uri>https://old.reddit.com/user/avibouhadana</uri>
+      <name>/u/LH-Tech_AI</name>
+      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;With all the &amp;quot;MCP is dead&amp;quot; discourse lately, I got curious about what the actual data looks like. So I set up automated health checks against every remote-capable MCP server I could find across the official registry, &lt;a href="http://mcp.so"&gt;mcp.so&lt;/a&gt;, PulseMCP, and Smithery.&lt;/p&gt; &lt;p&gt;Results from checking 2,181 remote endpoints:&lt;/p&gt; &lt;p&gt;- 52% are completely dead (timeout, connection refused, 404)&lt;/p&gt; &lt;p&gt;- 37% respond but require authentication (401/403)&lt;/p&gt; &lt;p&gt;- 9% are confirmed up and healthy&lt;/p&gt; &lt;p&gt;- 1.5% are degraded (slow or intermittent errors)&lt;/p&gt; &lt;p&gt;- Among the live ones, 516 maintain 99%+ uptime&lt;/p&gt; &lt;p&gt;- 58% of servers with GitHub repos haven't had a commit in 30 days&lt;/p&gt; &lt;p&gt;The category breakdown is interesting too — dev-tools has the most servers (1,238) but finance has the worst avg latency (2,558ms). Security servers have the lowest avg uptime at 27%.&lt;/p&gt; &lt;p&gt;Fastest servers I found: GitHub MCP (101ms), Timescale pg-aiguide (104ms), Supabase (109ms).&lt;/p&gt; &lt;p&gt;I'm publishing the full data if anyone wants to dig in. Happy to answer questions about methodology or specific servers.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/avibouhadana"&gt; /u/avibouhadana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagzql/i_analyzed_2181_remote_mcp_server_endpoints_heres/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagzql/i_analyzed_2181_remote_mcp_server_endpoints_heres/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagzql/i_analyzed_2181_remote_mcp_server_endpoints_heres/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"&gt; &lt;img alt="[New Model] - FaceGen v1 - generate 128px images of human faces with this GAN" src="https://preview.redd.it/ure1qrdtxrsg1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=94133899a867eff0bd48b96781d849771f5b4bec" title="[New Model] - FaceGen v1 - generate 128px images of human faces with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="https://www.reddit.com/r/LocalLLaMA/"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - another GAN!&lt;/p&gt; &lt;p&gt;It is called FaceGen v1 and it generates 128x128px of human faces.&lt;/p&gt; &lt;p&gt;This model is trained on the same architecture like my previous model from today - CatGen v2 (&lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;).&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/FaceGen-v1"&gt;https://huggingface.co/LH-Tech-AI/FaceGen-v1&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 250 (trained on my own RTX 5060 Ti 16GB):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/ure1qrdtxrsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=43556d55dde7ac63c6671ce8c8ed7e26d3c6d138"&gt;https://preview.redd.it/ure1qrdtxrsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=43556d55dde7ac63c6671ce8c8ed7e26d3c6d138&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/new-model-catgen-v2-generate-128px-images-of-cats-with-this-v0-t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=8b3d13743a36afb49427e27ffeb004df235e5ba7"&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;p&gt;Feel free to tell me, what you think about it.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagsk1/new_model_facegen_v1_generate_128px_images_of/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T13:11:07+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9nri7</id>
-    <title>attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp</title>
-    <updated>2026-04-01T15:27:20+00:00</updated>
-    <author>
-      <name>/u/Dany0</name>
-      <uri>https://old.reddit.com/user/Dany0</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"&gt; &lt;img alt="attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp" src="https://external-preview.redd.it/MvMDhsA8KXFPShfQIgal9H3tHP44JKz6t3JaGnM0Exc.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a39e1fd05edbcf7defcdf02c1578f1d5870d6d31" title="attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;80% of the benefit of TQ with almost no downsides. Q8 is now ≈ F16&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Dany0"&gt; /u/Dany0 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/pull/21038#issue-4146294463"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T15:27:20+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sad0kg</id>
-    <title>SOTA Language Models Under 14B?</title>
-    <updated>2026-04-02T09:53:44+00:00</updated>
-    <author>
-      <name>/u/No-Mud-1902</name>
-      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:53:44+00:00</published>
+    <published>2026-04-02T13:02:45+00:00</published>
   </entry>
   <entry>
     <id>t3_1saf6dd</id>
@@ -71,6 +45,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T11:49:15+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1s9nri7</id>
+    <title>attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp</title>
+    <updated>2026-04-01T15:27:20+00:00</updated>
+    <author>
+      <name>/u/Dany0</name>
+      <uri>https://old.reddit.com/user/Dany0</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"&gt; &lt;img alt="attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp" src="https://external-preview.redd.it/MvMDhsA8KXFPShfQIgal9H3tHP44JKz6t3JaGnM0Exc.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a39e1fd05edbcf7defcdf02c1578f1d5870d6d31" title="attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;80% of the benefit of TQ with almost no downsides. Q8 is now ≈ F16&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Dany0"&gt; /u/Dany0 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/pull/21038#issue-4146294463"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T15:27:20+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa7jo2</id>
@@ -97,6 +84,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T01:10:09+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sad0kg</id>
+    <title>SOTA Language Models Under 14B?</title>
+    <updated>2026-04-02T09:53:44+00:00</updated>
+    <author>
+      <name>/u/No-Mud-1902</name>
+      <uri>https://old.reddit.com/user/No-Mud-1902</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey guys, &lt;/p&gt; &lt;p&gt;I was wondering what recent state-of-the-art small language models are the best for general question-answering task (diverse topics including math)?&lt;/p&gt; &lt;p&gt;Any good/bad experience with specific models? &lt;/p&gt; &lt;p&gt;Thank you!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/No-Mud-1902"&gt; /u/No-Mud-1902 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sad0kg/sota_language_models_under_14b/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T09:53:44+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9pe0w</id>
@@ -138,30 +138,17 @@
     <published>2026-04-01T11:58:02+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sagulj</id>
-    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
-    <updated>2026-04-02T13:05:09+00:00</updated>
+    <id>t3_1sabiux</id>
+    <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
+    <updated>2026-04-02T08:22:01+00:00</updated>
     <author>
-      <name>/u/Infrared12</name>
-      <uri>https://old.reddit.com/user/Infrared12</uri>
+      <name>/u/RecognitionFlat1470</name>
+      <uri>https://old.reddit.com/user/RecognitionFlat1470</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve got SmolLM2‑360M running on a Samsung Galaxy Watch 4 Classic (about 380MB free RAM) by tweaking llama.cpp and the underlying ggml memory model. By default, the model was being loaded twice in RAM: once via the APK’s mmap page cache and again via ggml’s tensor allocations, peaking at 524MB for a 270MB model.&lt;/p&gt; &lt;p&gt;The fix: I pass &lt;code&gt;host_ptr&lt;/code&gt; into &lt;code&gt;llama_model_params&lt;/code&gt;, so CPU tensors point directly into the mmap region and only Vulkan tensors are copied. On real hardware this gives:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Peak RAM: &lt;strong&gt;524MB → 142MB&lt;/strong&gt; (74% reduction)&lt;/li&gt; &lt;li&gt;First boot: &lt;strong&gt;19s → 11s&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;Second boot: &lt;strong&gt;~2.5s&lt;/strong&gt; (mmap + KV cache warm)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Code:&lt;br /&gt; &lt;a href="https://github.com/Perinban/llama.cpp/tree/axon%E2%80%91dev"&gt;https://github.com/Perinban/llama.cpp/tree/axon‑dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Longer write‑up with &lt;code&gt;VmRSS&lt;/code&gt; traces and design notes:&lt;br /&gt; &lt;a href="https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o"&gt;https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I’m planning a PR to &lt;code&gt;ggml‑org/llama.cpp&lt;/code&gt;; feedback on the host‑ptr / mmap pattern is welcome.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RecognitionFlat1470"&gt; /u/RecognitionFlat1470 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T13:05:09+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sadvqq</id>
-    <title>new AI agent just got API access to our stack and nobody can tell me what it can write to</title>
-    <updated>2026-04-02T10:42:21+00:00</updated>
-    <author>
-      <name>/u/KarmaChameleon07</name>
-      <uri>https://old.reddit.com/user/KarmaChameleon07</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;got pulled into a meeting today. apparently we're adding an Agentic AI to the team. it will learn our environment, handle tasks autonomously, and integrate via API. it does not need onboarding, a desk, or health insurance. Great.&lt;/p&gt; &lt;p&gt;i have one question nobody in that meeting could answer. how does it actually work?&lt;br /&gt; not philosophically. like what is the system. because from what i can tell it's an LLM with tools strapped to it, some kind of memory layer nobody can fully explain, and a control loop that lets it run without a human saying yes to every step. which means somewhere in my company's stack there is now a process with access to our tools, our data, and apparently a better performance review than me, and i genuinely do not understand the architecture.&lt;br /&gt; the memory part especially. is it reading our docs at runtime, is it storing embeddings somewhere, is it getting fine tuned on our internal data. these feel like important questions. my manager said &amp;quot;it learns over time&amp;quot; and moved on to the next slide.&lt;br /&gt; can someone who actually understands how these systems are built explain it to me like i'm a senior engineer who is totally fine and not at all spiraling.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/KarmaChameleon07"&gt; /u/KarmaChameleon07 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T10:42:21+00:00</published>
+    <published>2026-04-02T08:22:01+00:00</published>
   </entry>
   <entry>
     <id>t3_1sacbi6</id>
@@ -177,17 +164,17 @@
     <published>2026-04-02T09:11:14+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sabiux</id>
-    <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
-    <updated>2026-04-02T08:22:01+00:00</updated>
+    <id>t3_1sadvqq</id>
+    <title>new AI agent just got API access to our stack and nobody can tell me what it can write to</title>
+    <updated>2026-04-02T10:42:21+00:00</updated>
     <author>
-      <name>/u/RecognitionFlat1470</name>
-      <uri>https://old.reddit.com/user/RecognitionFlat1470</uri>
+      <name>/u/KarmaChameleon07</name>
+      <uri>https://old.reddit.com/user/KarmaChameleon07</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve got SmolLM2‑360M running on a Samsung Galaxy Watch 4 Classic (about 380MB free RAM) by tweaking llama.cpp and the underlying ggml memory model. By default, the model was being loaded twice in RAM: once via the APK’s mmap page cache and again via ggml’s tensor allocations, peaking at 524MB for a 270MB model.&lt;/p&gt; &lt;p&gt;The fix: I pass &lt;code&gt;host_ptr&lt;/code&gt; into &lt;code&gt;llama_model_params&lt;/code&gt;, so CPU tensors point directly into the mmap region and only Vulkan tensors are copied. On real hardware this gives:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Peak RAM: &lt;strong&gt;524MB → 142MB&lt;/strong&gt; (74% reduction)&lt;/li&gt; &lt;li&gt;First boot: &lt;strong&gt;19s → 11s&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;Second boot: &lt;strong&gt;~2.5s&lt;/strong&gt; (mmap + KV cache warm)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Code:&lt;br /&gt; &lt;a href="https://github.com/Perinban/llama.cpp/tree/axon%E2%80%91dev"&gt;https://github.com/Perinban/llama.cpp/tree/axon‑dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Longer write‑up with &lt;code&gt;VmRSS&lt;/code&gt; traces and design notes:&lt;br /&gt; &lt;a href="https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o"&gt;https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I’m planning a PR to &lt;code&gt;ggml‑org/llama.cpp&lt;/code&gt;; feedback on the host‑ptr / mmap pattern is welcome.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RecognitionFlat1470"&gt; /u/RecognitionFlat1470 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;got pulled into a meeting today. apparently we're adding an Agentic AI to the team. it will learn our environment, handle tasks autonomously, and integrate via API. it does not need onboarding, a desk, or health insurance. Great.&lt;/p&gt; &lt;p&gt;i have one question nobody in that meeting could answer. how does it actually work?&lt;br /&gt; not philosophically. like what is the system. because from what i can tell it's an LLM with tools strapped to it, some kind of memory layer nobody can fully explain, and a control loop that lets it run without a human saying yes to every step. which means somewhere in my company's stack there is now a process with access to our tools, our data, and apparently a better performance review than me, and i genuinely do not understand the architecture.&lt;br /&gt; the memory part especially. is it reading our docs at runtime, is it storing embeddings somewhere, is it getting fine tuned on our internal data. these feel like important questions. my manager said &amp;quot;it learns over time&amp;quot; and moved on to the next slide.&lt;br /&gt; can someone who actually understands how these systems are built explain it to me like i'm a senior engineer who is totally fine and not at all spiraling.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/KarmaChameleon07"&gt; /u/KarmaChameleon07 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:22:01+00:00</published>
+    <published>2026-04-02T10:42:21+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa4lzt</id>
@@ -203,17 +190,17 @@
     <published>2026-04-02T02:08:28+00:00</published>
   </entry>
   <entry>
-    <id>t3_1safc5d</id>
-    <title>Why does Qwen struggle so much with coding SVGs?</title>
-    <updated>2026-04-02T11:57:08+00:00</updated>
+    <id>t3_1sagulj</id>
+    <title>In anticipation of Gemma 4's release, how was your experience with previous gemma models (at their times)</title>
+    <updated>2026-04-02T13:05:09+00:00</updated>
     <author>
-      <name>/u/Repulsive-Mall-2665</name>
-      <uri>https://old.reddit.com/user/Repulsive-Mall-2665</uri>
+      <name>/u/Infrared12</name>
+      <uri>https://old.reddit.com/user/Infrared12</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt; &lt;img alt="Why does Qwen struggle so much with coding SVGs?" src="https://preview.redd.it/1o3mv8hsnrsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a67ff165e6486bc526595a1f9483be37338f1e58" title="Why does Qwen struggle so much with coding SVGs?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Repulsive-Mall-2665"&gt; /u/Repulsive-Mall-2665 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/1o3mv8hsnrsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Pretty much the title, given that gemma 4 should be released ~today/tomorrow, I'm curious if anyone has used the previous models and has good reasons to be excited (or pessimistic) about the new model&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Infrared12"&gt; /u/Infrared12 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sagulj/in_anticipation_of_gemma_4s_release_how_was_your/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:57:08+00:00</published>
+    <published>2026-04-02T13:05:09+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa24tl</id>
@@ -227,6 +214,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa24tl/gemma/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T00:17:37+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1safc5d</id>
+    <title>Why does Qwen struggle so much with coding SVGs?</title>
+    <updated>2026-04-02T11:57:08+00:00</updated>
+    <author>
+      <name>/u/Repulsive-Mall-2665</name>
+      <uri>https://old.reddit.com/user/Repulsive-Mall-2665</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt; &lt;img alt="Why does Qwen struggle so much with coding SVGs?" src="https://preview.redd.it/1o3mv8hsnrsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a67ff165e6486bc526595a1f9483be37338f1e58" title="Why does Qwen struggle so much with coding SVGs?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Repulsive-Mall-2665"&gt; /u/Repulsive-Mall-2665 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/1o3mv8hsnrsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T11:57:08+00:00</published>
   </entry>
   <entry>
     <id>t3_1sab5zy</id>
