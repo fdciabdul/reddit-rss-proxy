@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T12:27:07+00:00</updated>
+  <updated>2026-04-02T12:52:48+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -47,19 +47,6 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1saf6dd</id>
-    <title>best option for chunking data</title>
-    <updated>2026-04-02T11:49:15+00:00</updated>
-    <author>
-      <name>/u/Immediate_Occasion69</name>
-      <uri>https://old.reddit.com/user/Immediate_Occasion69</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;large body of text, multiple files, inconsistent format. llms seem to be hit or miss when it comes to chunking. is there a application that I don't know about that can make it happen? the text is academic medical articles with tons of content. I want to chunk it for embedding purposes&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Immediate_Occasion69"&gt; /u/Immediate_Occasion69 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:49:15+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9nri7</id>
     <title>attn-rot (TurboQuant-like KV cache trick) lands in llama.cpp</title>
     <updated>2026-04-01T15:27:20+00:00</updated>
@@ -71,6 +58,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9nri7/attnrot_turboquantlike_kv_cache_trick_lands_in/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T15:27:20+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1saf6dd</id>
+    <title>best option for chunking data</title>
+    <updated>2026-04-02T11:49:15+00:00</updated>
+    <author>
+      <name>/u/Immediate_Occasion69</name>
+      <uri>https://old.reddit.com/user/Immediate_Occasion69</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;large body of text, multiple files, inconsistent format. llms seem to be hit or miss when it comes to chunking. is there a application that I don't know about that can make it happen? the text is academic medical articles with tons of content. I want to chunk it for embedding purposes&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Immediate_Occasion69"&gt; /u/Immediate_Occasion69 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saf6dd/best_option_for_chunking_data/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T11:49:15+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa7jo2</id>
@@ -164,17 +164,17 @@
     <published>2026-04-02T11:57:08+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sacbi6</id>
-    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
-    <updated>2026-04-02T09:11:14+00:00</updated>
+    <id>t3_1sadvqq</id>
+    <title>new AI agent just got API access to our stack and nobody can tell me what it can write to</title>
+    <updated>2026-04-02T10:42:21+00:00</updated>
     <author>
-      <name>/u/LH-Tech_AI</name>
-      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
+      <name>/u/KarmaChameleon07</name>
+      <uri>https://old.reddit.com/user/KarmaChameleon07</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;got pulled into a meeting today. apparently we're adding an Agentic AI to the team. it will learn our environment, handle tasks autonomously, and integrate via API. it does not need onboarding, a desk, or health insurance. Great.&lt;/p&gt; &lt;p&gt;i have one question nobody in that meeting could answer. how does it actually work?&lt;br /&gt; not philosophically. like what is the system. because from what i can tell it's an LLM with tools strapped to it, some kind of memory layer nobody can fully explain, and a control loop that lets it run without a human saying yes to every step. which means somewhere in my company's stack there is now a process with access to our tools, our data, and apparently a better performance review than me, and i genuinely do not understand the architecture.&lt;br /&gt; the memory part especially. is it reading our docs at runtime, is it storing embeddings somewhere, is it getting fine tuned on our internal data. these feel like important questions. my manager said &amp;quot;it learns over time&amp;quot; and moved on to the next slide.&lt;br /&gt; can someone who actually understands how these systems are built explain it to me like i'm a senior engineer who is totally fine and not at all spiraling.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/KarmaChameleon07"&gt; /u/KarmaChameleon07 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:11:14+00:00</published>
+    <published>2026-04-02T10:42:21+00:00</published>
   </entry>
   <entry>
     <id>t3_1sabiux</id>
@@ -190,43 +190,17 @@
     <published>2026-04-02T08:22:01+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sadvqq</id>
-    <title>new AI agent just got API access to our stack and nobody can tell me what it can write to</title>
-    <updated>2026-04-02T10:42:21+00:00</updated>
+    <id>t3_1sacbi6</id>
+    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
+    <updated>2026-04-02T09:11:14+00:00</updated>
     <author>
-      <name>/u/KarmaChameleon07</name>
-      <uri>https://old.reddit.com/user/KarmaChameleon07</uri>
+      <name>/u/LH-Tech_AI</name>
+      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;got pulled into a meeting today. apparently we're adding an Agentic AI to the team. it will learn our environment, handle tasks autonomously, and integrate via API. it does not need onboarding, a desk, or health insurance. Great.&lt;/p&gt; &lt;p&gt;i have one question nobody in that meeting could answer. how does it actually work?&lt;br /&gt; not philosophically. like what is the system. because from what i can tell it's an LLM with tools strapped to it, some kind of memory layer nobody can fully explain, and a control loop that lets it run without a human saying yes to every step. which means somewhere in my company's stack there is now a process with access to our tools, our data, and apparently a better performance review than me, and i genuinely do not understand the architecture.&lt;br /&gt; the memory part especially. is it reading our docs at runtime, is it storing embeddings somewhere, is it getting fine tuned on our internal data. these feel like important questions. my manager said &amp;quot;it learns over time&amp;quot; and moved on to the next slide.&lt;br /&gt; can someone who actually understands how these systems are built explain it to me like i'm a senior engineer who is totally fine and not at all spiraling.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/KarmaChameleon07"&gt; /u/KarmaChameleon07 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sadvqq/new_ai_agent_just_got_api_access_to_our_stack_and/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T10:42:21+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1saeuv2</id>
-    <title>Omnivoice - 600+ Language Open-Source TTS with Voice Cloning and Design</title>
-    <updated>2026-04-02T11:33:25+00:00</updated>
-    <author>
-      <name>/u/HelpfulHand3</name>
-      <uri>https://old.reddit.com/user/HelpfulHand3</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;OmniVoice is a state-of-the-art zero-shot multilingual TTS model supporting more than 600 languages. Built on a novel diffusion language model architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;600+ Languages Supported&lt;/strong&gt;: The broadest language coverage among zero-shot TTS models&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Cloning&lt;/strong&gt;: State-of-the-art voice cloning quality.&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Design&lt;/strong&gt;: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Fast Inference&lt;/strong&gt;: RTF as low as 0.025 (40x faster than real-time).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Diffusion Language Model Architecture&lt;/strong&gt;: A clean, streamlined, and scalable design that delivers both quality and speed.&lt;/p&gt; &lt;p&gt;Demo: &lt;a href="https://huggingface.co/spaces/k2-fsa/OmniVoice"&gt;https://huggingface.co/spaces/k2-fsa/OmniVoice&lt;/a&gt;&lt;br /&gt; HuggingFace: &lt;a href="https://huggingface.co/k2-fsa/OmniVoice"&gt;https://huggingface.co/k2-fsa/OmniVoice&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Model card claims Apache-2.0 but the tokenizer is Higgs Audio and so inherits &lt;a href="https://huggingface.co/bosonai/higgs-audio-v2-tokenizer/blob/main/LICENSE"&gt;their license&lt;/a&gt;:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Additional Commercial Terms. If the annual active users of the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 100,000 annual active users in the preceding calendar year, you must request an expanded license from Boson AI, which Boson AI may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Boson AI otherwise expressly grants you such rights.&lt;/li&gt; &lt;/ol&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/HelpfulHand3"&gt; /u/HelpfulHand3 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:33:25+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sab5zy</id>
-    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
-    <updated>2026-04-02T08:00:05+00:00</updated>
-    <author>
-      <name>/u/zdy132</name>
-      <uri>https://old.reddit.com/user/zdy132</uri>
-    </author>
-    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:00:05+00:00</published>
+    <published>2026-04-02T09:11:14+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa4lzt</id>
@@ -253,6 +227,32 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa24tl/gemma/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T00:17:37+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sab5zy</id>
+    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
+    <updated>2026-04-02T08:00:05+00:00</updated>
+    <author>
+      <name>/u/zdy132</name>
+      <uri>https://old.reddit.com/user/zdy132</uri>
+    </author>
+    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:00:05+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1saeuv2</id>
+    <title>Omnivoice - 600+ Language Open-Source TTS with Voice Cloning and Design</title>
+    <updated>2026-04-02T11:33:25+00:00</updated>
+    <author>
+      <name>/u/HelpfulHand3</name>
+      <uri>https://old.reddit.com/user/HelpfulHand3</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;OmniVoice is a state-of-the-art zero-shot multilingual TTS model supporting more than 600 languages. Built on a novel diffusion language model architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;600+ Languages Supported&lt;/strong&gt;: The broadest language coverage among zero-shot TTS models&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Cloning&lt;/strong&gt;: State-of-the-art voice cloning quality.&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Voice Design&lt;/strong&gt;: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Fast Inference&lt;/strong&gt;: RTF as low as 0.025 (40x faster than real-time).&lt;/p&gt; &lt;p&gt;- &lt;strong&gt;Diffusion Language Model Architecture&lt;/strong&gt;: A clean, streamlined, and scalable design that delivers both quality and speed.&lt;/p&gt; &lt;p&gt;Demo: &lt;a href="https://huggingface.co/spaces/k2-fsa/OmniVoice"&gt;https://huggingface.co/spaces/k2-fsa/OmniVoice&lt;/a&gt;&lt;br /&gt; HuggingFace: &lt;a href="https://huggingface.co/k2-fsa/OmniVoice"&gt;https://huggingface.co/k2-fsa/OmniVoice&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Model card claims Apache-2.0 but the tokenizer is Higgs Audio and so inherits &lt;a href="https://huggingface.co/bosonai/higgs-audio-v2-tokenizer/blob/main/LICENSE"&gt;their license&lt;/a&gt;:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Additional Commercial Terms. If the annual active users of the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 100,000 annual active users in the preceding calendar year, you must request an expanded license from Boson AI, which Boson AI may grant to you in its sole discretion, and you are not authorized to exercise any of the rights under this Agreement unless or until Boson AI otherwise expressly grants you such rights.&lt;/li&gt; &lt;/ol&gt; &lt;/blockquote&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/HelpfulHand3"&gt; /u/HelpfulHand3 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saeuv2/omnivoice_600_language_opensource_tts_with_voice/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T11:33:25+00:00</published>
   </entry>
   <entry>
     <id>t3_1sadadw</id>
