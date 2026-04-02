@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T20:00:34+00:00</updated>
+  <updated>2026-04-02T20:27:23+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -34,30 +34,17 @@
     <published>2026-04-02T19:13:46+00:00</published>
   </entry>
   <entry>
-    <id>t3_1safc5d</id>
-    <title>Why does Qwen struggle so much with coding SVGs?</title>
-    <updated>2026-04-02T11:57:08+00:00</updated>
+    <id>t3_1sao3w9</id>
+    <title>Gemma 4 is available on HuggingChat (26B-A4B &amp; 31B dense)</title>
+    <updated>2026-04-02T17:37:06+00:00</updated>
     <author>
-      <name>/u/Repulsive-Mall-2665</name>
-      <uri>https://old.reddit.com/user/Repulsive-Mall-2665</uri>
+      <name>/u/paf1138</name>
+      <uri>https://old.reddit.com/user/paf1138</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt; &lt;img alt="Why does Qwen struggle so much with coding SVGs?" src="https://preview.redd.it/1o3mv8hsnrsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a67ff165e6486bc526595a1f9483be37338f1e58" title="Why does Qwen struggle so much with coding SVGs?" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Repulsive-Mall-2665"&gt; /u/Repulsive-Mall-2665 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/1o3mv8hsnrsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1safc5d/why_does_qwen_struggle_so_much_with_coding_svgs/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"&gt; &lt;img alt="Gemma 4 is available on HuggingChat (26B-A4B &amp;amp; 31B dense)" src="https://external-preview.redd.it/N4Dua8HwXot-9evIcJtop16GdFXLX4UFPWYqHL77uCg.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=17e41bcef3d703630900a506c674c43a14b9c632" title="Gemma 4 is available on HuggingChat (26B-A4B &amp;amp; 31B dense)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/paf1138"&gt; /u/paf1138 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/chat/models/google/gemma-4-26B-A4B-it"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sao3w9/gemma_4_is_available_on_huggingchat_26ba4b_31b/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T11:57:08+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1samd3m</id>
-    <title>Gemma 4 WebGPU: Run Google's new open model locally in your browser</title>
-    <updated>2026-04-02T16:34:26+00:00</updated>
-    <author>
-      <name>/u/xenovatech</name>
-      <uri>https://old.reddit.com/user/xenovatech</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"&gt; &lt;img alt="Gemma 4 WebGPU: Run Google's new open model locally in your browser" src="https://external-preview.redd.it/bjg3MWt5NTAxdHNnMbtlB0yGtUW4GLvnl5qtvYBHusWVhFLtnb3YCpzVwszq.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=2cb0a4d788ff8289c9e46c5cec0c46ddb9b4b4b5" title="Gemma 4 WebGPU: Run Google's new open model locally in your browser" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Link to the demo: &lt;a href="https://huggingface.co/spaces/webml-community/Gemma-4-WebGPU"&gt;https://huggingface.co/spaces/webml-community/Gemma-4-WebGPU&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/xenovatech"&gt; /u/xenovatech &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/m8md4q501tsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T16:34:26+00:00</published>
+    <published>2026-04-02T17:37:06+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa16q9</id>
@@ -71,6 +58,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa16q9/gemma_time_what_are_your_wishes/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T23:36:38+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1samd3m</id>
+    <title>Gemma 4 WebGPU: Run Google's new open model locally in your browser</title>
+    <updated>2026-04-02T16:34:26+00:00</updated>
+    <author>
+      <name>/u/xenovatech</name>
+      <uri>https://old.reddit.com/user/xenovatech</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"&gt; &lt;img alt="Gemma 4 WebGPU: Run Google's new open model locally in your browser" src="https://external-preview.redd.it/bjg3MWt5NTAxdHNnMbtlB0yGtUW4GLvnl5qtvYBHusWVhFLtnb3YCpzVwszq.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=2cb0a4d788ff8289c9e46c5cec0c46ddb9b4b4b5" title="Gemma 4 WebGPU: Run Google's new open model locally in your browser" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Link to the demo: &lt;a href="https://huggingface.co/spaces/webml-community/Gemma-4-WebGPU"&gt;https://huggingface.co/spaces/webml-community/Gemma-4-WebGPU&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/xenovatech"&gt; /u/xenovatech &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/m8md4q501tsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1samd3m/gemma_4_webgpu_run_googles_new_open_model_locally/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T16:34:26+00:00</published>
   </entry>
   <entry>
     <id>t3_1sagulj</id>
@@ -110,19 +110,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sajwnx/step_35_flash_2603_launched/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T15:04:41+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sarlb8</id>
-    <title>Gemma 4 running on Raspberry Pi5</title>
-    <updated>2026-04-02T19:44:50+00:00</updated>
-    <author>
-      <name>/u/jslominski</name>
-      <uri>https://old.reddit.com/user/jslominski</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt; &lt;img alt="Gemma 4 running on Raspberry Pi5" src="https://external-preview.redd.it/ZHI2ZnhoNnl5dHNnMQUamWUJMmuaaFY497OR6QB91XSFgpNp7CSXVLLkfDVE.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=12083c12569c7959e98fddc732cf583842c075c3" title="Gemma 4 running on Raspberry Pi5" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;To be specific: RP5 8GB with SSD (but the speed is the same on the non-ssd one), running &lt;a href="https://github.com/slomin/potato-os"&gt;Potato OS&lt;/a&gt; with latest llama.cpp branch compiled. This is Gemma 4 e2b, the Unsloth variety. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/jslominski"&gt; /u/jslominski &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/fxjr1y5yytsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T19:44:50+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9zumi</id>
@@ -177,17 +164,17 @@
     <published>2026-04-02T18:15:47+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sapl6k</id>
-    <title>My first impression after testing Gemma 4 against Qwen 3.5</title>
-    <updated>2026-04-02T18:30:42+00:00</updated>
+    <id>t3_1sakcjw</id>
+    <title>GEMMA 4 Release about to happen: ggml-org/llama.cpp adds support for Gemma 4</title>
+    <updated>2026-04-02T15:20:59+00:00</updated>
     <author>
-      <name>/u/ConfidentDinner6648</name>
-      <uri>https://old.reddit.com/user/ConfidentDinner6648</uri>
+      <name>/u/Dry_Theme_7508</name>
+      <uri>https://old.reddit.com/user/Dry_Theme_7508</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"&gt; &lt;img alt="My first impression after testing Gemma 4 against Qwen 3.5" src="https://external-preview.redd.it/NG5uN2Y2MjVtdHNnMVR_w3EilO-DNtDcPmfGkctsHLhMfZMEdRu5f0yCbBUV.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=61f55ab4aa799e454da1eedcb641048e73fa1a60" title="My first impression after testing Gemma 4 against Qwen 3.5" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&amp;#x200b;&lt;/p&gt; &lt;p&gt;I have been doing some early comparisons between Gemma 4 and Qwen 3.5, including a frontend generation task and a broader look at the benchmark picture.&lt;/p&gt; &lt;p&gt;My overall impression is that Gemma 4 is good. It feels clearly improved and the frontend results were actually solid. The model can produce attractive layouts, follow the structure of the prompt well, and deliver usable output. So this is definitely not a case of Gemma being bad.&lt;/p&gt; &lt;p&gt;That said, I still came away feeling that Qwen 3.5 was better in these preliminary tests. In the frontend task, both models did well, but Qwen seemed to have a more consistent edge in overall quality, especially in polish, coherence, and execution of the design requirements.&lt;/p&gt; &lt;p&gt;The prompt was not trivial. It asked for a landing page in English for an advanced AI assistant, with Tailwind CSS, glassmorphism, parallax effects, scroll triggered animations, micro interactions, and a stronger aesthetic direction instead of generic AI looking design. Under those conditions, Gemma 4 performed well, but Qwen 3.5 still felt slightly ahead.&lt;/p&gt; &lt;p&gt;Looking at the broader picture, that impression also seems to match the benchmark trend. The two families are relatively close in the larger model tier, but Qwen 3.5 appears stronger on core text and coding benchmarks overall. Gemma 4 seems more competitive in multilingual tasks and some vision related areas, which is a real strength, but in reasoning, coding, and general output quality, Qwen still looks stronger to me right now.&lt;/p&gt; &lt;p&gt;Another practical point is model size. Gemma 4 is good, but the stronger variants are also larger, which makes them less convenient for people trying to run models on more limited local hardware. For example, if someone is working with a machine that has around 8 GB of VRAM, that becomes a much more important factor in real use. In practice, this makes Qwen feel a bit more accessible in some setups.&lt;/p&gt; &lt;p&gt;So my first impression is simple. Gemma 4 is a strong release and a real improvement, but Qwen 3.5 still seems better overall in my early testing, and it keeps an advantage in frontend generation quality as well.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ConfidentDinner6648"&gt; /u/ConfidentDinner6648 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/ddst4q15mtsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/pull/21309"&gt;https://github.com/ggml-org/llama.cpp/pull/21309&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Dry_Theme_7508"&gt; /u/Dry_Theme_7508 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakcjw/gemma_4_release_about_to_happen_ggmlorgllamacpp/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakcjw/gemma_4_release_about_to_happen_ggmlorgllamacpp/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sakcjw/gemma_4_release_about_to_happen_ggmlorgllamacpp/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T18:30:42+00:00</published>
+    <published>2026-04-02T15:20:59+00:00</published>
   </entry>
   <entry>
     <id>t3_1sakndu</id>
@@ -203,17 +190,30 @@
     <published>2026-04-02T15:31:54+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sakcjw</id>
-    <title>GEMMA 4 Release about to happen: ggml-org/llama.cpp adds support for Gemma 4</title>
-    <updated>2026-04-02T15:20:59+00:00</updated>
+    <id>t3_1sapl6k</id>
+    <title>My first impression after testing Gemma 4 against Qwen 3.5</title>
+    <updated>2026-04-02T18:30:42+00:00</updated>
     <author>
-      <name>/u/Dry_Theme_7508</name>
-      <uri>https://old.reddit.com/user/Dry_Theme_7508</uri>
+      <name>/u/ConfidentDinner6648</name>
+      <uri>https://old.reddit.com/user/ConfidentDinner6648</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/pull/21309"&gt;https://github.com/ggml-org/llama.cpp/pull/21309&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Dry_Theme_7508"&gt; /u/Dry_Theme_7508 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakcjw/gemma_4_release_about_to_happen_ggmlorgllamacpp/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sakcjw/gemma_4_release_about_to_happen_ggmlorgllamacpp/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sakcjw/gemma_4_release_about_to_happen_ggmlorgllamacpp/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"&gt; &lt;img alt="My first impression after testing Gemma 4 against Qwen 3.5" src="https://external-preview.redd.it/NG5uN2Y2MjVtdHNnMVR_w3EilO-DNtDcPmfGkctsHLhMfZMEdRu5f0yCbBUV.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=61f55ab4aa799e454da1eedcb641048e73fa1a60" title="My first impression after testing Gemma 4 against Qwen 3.5" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&amp;#x200b;&lt;/p&gt; &lt;p&gt;I have been doing some early comparisons between Gemma 4 and Qwen 3.5, including a frontend generation task and a broader look at the benchmark picture.&lt;/p&gt; &lt;p&gt;My overall impression is that Gemma 4 is good. It feels clearly improved and the frontend results were actually solid. The model can produce attractive layouts, follow the structure of the prompt well, and deliver usable output. So this is definitely not a case of Gemma being bad.&lt;/p&gt; &lt;p&gt;That said, I still came away feeling that Qwen 3.5 was better in these preliminary tests. In the frontend task, both models did well, but Qwen seemed to have a more consistent edge in overall quality, especially in polish, coherence, and execution of the design requirements.&lt;/p&gt; &lt;p&gt;The prompt was not trivial. It asked for a landing page in English for an advanced AI assistant, with Tailwind CSS, glassmorphism, parallax effects, scroll triggered animations, micro interactions, and a stronger aesthetic direction instead of generic AI looking design. Under those conditions, Gemma 4 performed well, but Qwen 3.5 still felt slightly ahead.&lt;/p&gt; &lt;p&gt;Looking at the broader picture, that impression also seems to match the benchmark trend. The two families are relatively close in the larger model tier, but Qwen 3.5 appears stronger on core text and coding benchmarks overall. Gemma 4 seems more competitive in multilingual tasks and some vision related areas, which is a real strength, but in reasoning, coding, and general output quality, Qwen still looks stronger to me right now.&lt;/p&gt; &lt;p&gt;Another practical point is model size. Gemma 4 is good, but the stronger variants are also larger, which makes them less convenient for people trying to run models on more limited local hardware. For example, if someone is working with a machine that has around 8 GB of VRAM, that becomes a much more important factor in real use. In practice, this makes Qwen feel a bit more accessible in some setups.&lt;/p&gt; &lt;p&gt;So my first impression is simple. Gemma 4 is a strong release and a real improvement, but Qwen 3.5 still seems better overall in my early testing, and it keeps an advantage in frontend generation quality as well.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ConfidentDinner6648"&gt; /u/ConfidentDinner6648 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/ddst4q15mtsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sapl6k/my_first_impression_after_testing_gemma_4_against/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T15:20:59+00:00</published>
+    <published>2026-04-02T18:30:42+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sarlb8</id>
+    <title>Gemma 4 running on Raspberry Pi5</title>
+    <updated>2026-04-02T19:44:50+00:00</updated>
+    <author>
+      <name>/u/jslominski</name>
+      <uri>https://old.reddit.com/user/jslominski</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt; &lt;img alt="Gemma 4 running on Raspberry Pi5" src="https://external-preview.redd.it/ZHI2ZnhoNnl5dHNnMQUamWUJMmuaaFY497OR6QB91XSFgpNp7CSXVLLkfDVE.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=12083c12569c7959e98fddc732cf583842c075c3" title="Gemma 4 running on Raspberry Pi5" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;To be specific: RP5 8GB with SSD (but the speed is the same on the non-ssd one), running &lt;a href="https://github.com/slomin/potato-os"&gt;Potato OS&lt;/a&gt; with latest llama.cpp branch compiled. This is Gemma 4 e2b, the Unsloth variety. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/jslominski"&gt; /u/jslominski &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/fxjr1y5yytsg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sarlb8/gemma_4_running_on_raspberry_pi5/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T19:44:50+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa7sfw</id>
@@ -242,19 +242,6 @@
     <published>2026-04-02T15:17:46+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sanln7</id>
-    <title>p-e-w/gemma-4-E2B-it-heretic-ara: Gemma 4's defenses shredded by Heretic's new ARA method 90 minutes after the official release</title>
-    <updated>2026-04-02T17:19:07+00:00</updated>
-    <author>
-      <name>/u/-p-e-w-</name>
-      <uri>https://old.reddit.com/user/-p-e-w-</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Google's Gemma models have long been known for their strong &amp;quot;alignment&amp;quot; (censorship). I am happy to report that even the latest iteration, Gemma 4, is not immune to Heretic's new &lt;a href="https://github.com/p-e-w/heretic/pull/211"&gt;Arbitrary-Rank Ablation (ARA)&lt;/a&gt; method, which uses matrix optimization to suppress refusals.&lt;/p&gt; &lt;p&gt;Here is the result: &lt;a href="https://huggingface.co/p-e-w/gemma-4-E2B-it-heretic-ara"&gt;https://huggingface.co/p-e-w/gemma-4-E2B-it-heretic-ara&lt;/a&gt;&lt;/p&gt; &lt;p&gt;And yes, it absolutely does work. It answers questions properly, few if any evasions as far as I can tell. And there is no obvious model damage either.&lt;/p&gt; &lt;p&gt;What you need to reproduce (and, presumably, process the other models as well):&lt;/p&gt; &lt;pre&gt;&lt;code&gt;git clone -b ara https://github.com/p-e-w/heretic.git cd heretic pip install . pip install git+https://github.com/huggingface/transformers.git heretic google/gemma-4-E2B-it &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;From my limited experiments (hey, it's only been 90 minutes), abliteration appears to work better if you remove &lt;code&gt;mlp.down_proj&lt;/code&gt; from &lt;code&gt;target_components&lt;/code&gt; in the configuration.&lt;/p&gt; &lt;p&gt;Please note that ARA remains experimental and is not available in the PyPI version of Heretic yet.&lt;/p&gt; &lt;p&gt;Always a pleasure to serve this community :)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/-p-e-w-"&gt; /u/-p-e-w- &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T17:19:07+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sabx6b</id>
     <title>Can we block fresh accounts from posting?</title>
     <updated>2026-04-02T08:47:17+00:00</updated>
@@ -266,6 +253,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T08:47:17+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sanln7</id>
+    <title>p-e-w/gemma-4-E2B-it-heretic-ara: Gemma 4's defenses shredded by Heretic's new ARA method 90 minutes after the official release</title>
+    <updated>2026-04-02T17:19:07+00:00</updated>
+    <author>
+      <name>/u/-p-e-w-</name>
+      <uri>https://old.reddit.com/user/-p-e-w-</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Google's Gemma models have long been known for their strong &amp;quot;alignment&amp;quot; (censorship). I am happy to report that even the latest iteration, Gemma 4, is not immune to Heretic's new &lt;a href="https://github.com/p-e-w/heretic/pull/211"&gt;Arbitrary-Rank Ablation (ARA)&lt;/a&gt; method, which uses matrix optimization to suppress refusals.&lt;/p&gt; &lt;p&gt;Here is the result: &lt;a href="https://huggingface.co/p-e-w/gemma-4-E2B-it-heretic-ara"&gt;https://huggingface.co/p-e-w/gemma-4-E2B-it-heretic-ara&lt;/a&gt;&lt;/p&gt; &lt;p&gt;And yes, it absolutely does work. It answers questions properly, few if any evasions as far as I can tell. And there is no obvious model damage either.&lt;/p&gt; &lt;p&gt;What you need to reproduce (and, presumably, process the other models as well):&lt;/p&gt; &lt;pre&gt;&lt;code&gt;git clone -b ara https://github.com/p-e-w/heretic.git cd heretic pip install . pip install git+https://github.com/huggingface/transformers.git heretic google/gemma-4-E2B-it &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;From my limited experiments (hey, it's only been 90 minutes), abliteration appears to work better if you remove &lt;code&gt;mlp.down_proj&lt;/code&gt; from &lt;code&gt;target_components&lt;/code&gt; in the configuration.&lt;/p&gt; &lt;p&gt;Please note that ARA remains experimental and is not available in the PyPI version of Heretic yet.&lt;/p&gt; &lt;p&gt;Always a pleasure to serve this community :)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/-p-e-w-"&gt; /u/-p-e-w- &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sanln7/pewgemma4e2bithereticara_gemma_4s_defenses/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T17:19:07+00:00</published>
   </entry>
   <entry>
     <id>t3_1san4kd</id>
