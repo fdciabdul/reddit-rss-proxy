@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-02T09:27:12+00:00</updated>
+  <updated>2026-04-02T09:53:00+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -19,19 +19,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa49w8/local_natural_language_based_video/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T01:53:36+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9hdye</id>
-    <title>Falcon-OCR and Falcon-Perception</title>
-    <updated>2026-04-01T11:05:58+00:00</updated>
-    <author>
-      <name>/u/Automatic_Truth_6666</name>
-      <uri>https://old.reddit.com/user/Automatic_Truth_6666</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"&gt; &lt;img alt="Falcon-OCR and Falcon-Perception" src="https://external-preview.redd.it/cnF6aWtmcGw5a3NnMUU0NqX5owReaZu6hbuChPHa9iIytAh9FproC0TRXtsR.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b5a933e82ed2d1d8c28342b5a1b81ff2afa4fad7" title="Falcon-OCR and Falcon-Perception" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;blogpost: &lt;a href="https://huggingface.co/blog/tiiuae/falcon-perception"&gt;https://huggingface.co/blog/tiiuae/falcon-perception&lt;/a&gt; &lt;/p&gt; &lt;p&gt;HF collection: &lt;a href="https://huggingface.co/collections/tiiuae/falcon-perception"&gt;https://huggingface.co/collections/tiiuae/falcon-perception&lt;/a&gt; &lt;/p&gt; &lt;p&gt;Ongoing llama.cpp support: &lt;a href="https://github.com/ggml-org/llama.cpp/pull/21045"&gt;https://github.com/ggml-org/llama.cpp/pull/21045&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Automatic_Truth_6666"&gt; /u/Automatic_Truth_6666 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/i9vlaiol9ksg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9hdye/falconocr_and_falconperception/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T11:05:58+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9zfg6</id>
@@ -73,6 +60,19 @@
     <published>2026-04-01T20:32:05+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sabs64</id>
+    <title>Small (0.1B params) Spam Detection model optimized for Italian text</title>
+    <updated>2026-04-02T08:38:49+00:00</updated>
+    <author>
+      <name>/u/Ok_Hold_5385</name>
+      <uri>https://old.reddit.com/user/Ok_Hold_5385</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://huggingface.co/tanaos/tanaos-spam-detection-italian"&gt;https://huggingface.co/tanaos/tanaos-spam-detection-italian&lt;/a&gt;&lt;/p&gt; &lt;p&gt;A small Spam Detection model specifically fine-tuned to recognize spam content from text in Italian. The following types of content are considered spam:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Unsolicited commercial advertisement or non-commercial proselytizing.&lt;/li&gt; &lt;li&gt;Fraudulent schemes. including get-rich-quick and pyramid schemes.&lt;/li&gt; &lt;li&gt;Phishing attempts. unrealistic offers or announcements.&lt;/li&gt; &lt;li&gt;Content with deceptive or misleading information.&lt;/li&gt; &lt;li&gt;Malware or harmful links.&lt;/li&gt; &lt;li&gt;Adult content or explicit material.&lt;/li&gt; &lt;li&gt;Excessive use of capitalization or punctuation to grab attention.&lt;/li&gt; &lt;/ol&gt; &lt;h1&gt;How to use&lt;/h1&gt; &lt;p&gt;Use this model through the &lt;a href="https://https://github.com/tanaos/artifex"&gt;Artifex library&lt;/a&gt;:&lt;/p&gt; &lt;p&gt;install Artifex with&lt;/p&gt; &lt;pre&gt;&lt;code&gt;pip install artifex &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;use the model with&lt;/p&gt; &lt;pre&gt;&lt;code&gt;from artifex import Artifex spam_detection = Artifex().spam_detection(language=&amp;quot;italian&amp;quot;) print(spam_detection(&amp;quot;Hai vinto un iPhone 16! Clicca qui per ottenere il tuo premio.&amp;quot;)) # &amp;gt;&amp;gt;&amp;gt; [{'label': 'spam', 'score': 0.9989}] &lt;/code&gt;&lt;/pre&gt; &lt;h1&gt;Intended Uses&lt;/h1&gt; &lt;p&gt;This model is intended to:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Serve as a first-layer spam filter for email systems, messaging applications, or any other text-based communication platform, if the text is in Italian.&lt;/li&gt; &lt;li&gt;Help reduce unwanted or harmful messages by classifying text as spam or not spam.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Not intended for:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Use in high-stakes scenarios where misclassification could lead to significant consequences without further human review.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Ok_Hold_5385"&gt; /u/Ok_Hold_5385 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabs64/small_01b_params_spam_detection_model_optimized/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabs64/small_01b_params_spam_detection_model_optimized/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabs64/small_01b_params_spam_detection_model_optimized/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:38:49+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9lge6</id>
     <title>llama : rotate activations for better quantization by ggerganov · Pull Request #21038 · ggml-org/llama.cpp</title>
     <updated>2026-04-01T14:01:52+00:00</updated>
@@ -84,32 +84,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9lge6/llama_rotate_activations_for_better_quantization/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T14:01:52+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sacbi6</id>
-    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
-    <updated>2026-04-02T09:11:14+00:00</updated>
-    <author>
-      <name>/u/LH-Tech_AI</name>
-      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T09:11:14+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1s9y9rn</id>
-    <title>Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯</title>
-    <updated>2026-04-01T21:37:38+00:00</updated>
-    <author>
-      <name>/u/clem59480</name>
-      <uri>https://old.reddit.com/user/clem59480</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"&gt; &lt;img alt="Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯" src="https://external-preview.redd.it/adbenqsgGIjZCxZJrsgwfbPuvL2IWQfbI_Q9dBRZfl4.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=51e4ea32daa23aad0c40caca20fd84a055ba23ce" title="Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/clem59480"&gt; /u/clem59480 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/blog/trl-v1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-01T21:37:38+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9kf23</id>
@@ -125,6 +99,19 @@
     <published>2026-04-01T13:21:30+00:00</published>
   </entry>
   <entry>
+    <id>t3_1s9y9rn</id>
+    <title>Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯</title>
+    <updated>2026-04-01T21:37:38+00:00</updated>
+    <author>
+      <name>/u/clem59480</name>
+      <uri>https://old.reddit.com/user/clem59480</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"&gt; &lt;img alt="Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯" src="https://external-preview.redd.it/adbenqsgGIjZCxZJrsgwfbPuvL2IWQfbI_Q9dBRZfl4.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=51e4ea32daa23aad0c40caca20fd84a055ba23ce" title="Hugging Face released TRL v1.0, 75+ methods, SFT, DPO, GRPO, async RL to post-train open-source. 6 years from first commit to V1 🤯" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/clem59480"&gt; /u/clem59480 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/blog/trl-v1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9y9rn/hugging_face_released_trl_v10_75_methods_sft_dpo/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-01T21:37:38+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1s9vzry</id>
     <title>APEX MoE quantized models boost with 33% faster inference and TurboQuant (14% of speedup in prompt processing)</title>
     <updated>2026-04-01T20:13:55+00:00</updated>
@@ -138,43 +125,17 @@
     <published>2026-04-01T20:13:55+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sab5zy</id>
-    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
-    <updated>2026-04-02T08:00:05+00:00</updated>
+    <id>t3_1sacbi6</id>
+    <title>[New Model] - CatGen v2 - generate 128px images of cats with this GAN</title>
+    <updated>2026-04-02T09:11:14+00:00</updated>
     <author>
-      <name>/u/zdy132</name>
-      <uri>https://old.reddit.com/user/zdy132</uri>
+      <name>/u/LH-Tech_AI</name>
+      <uri>https://old.reddit.com/user/LH-Tech_AI</uri>
     </author>
-    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt; &lt;img alt="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" src="https://external-preview.redd.it/fC2fRSP_OWy5RuDbLNvQAg0sAWBf_cH5RSNIELsurYY.png?width=140&amp;amp;height=75&amp;amp;auto=webp&amp;amp;s=b701a0c0e4a43529d64b0d532d2ac0a8e61f3404" title="[New Model] - CatGen v2 - generate 128px images of cats with this GAN" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey, &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt; !&lt;/p&gt; &lt;p&gt;I am back with a new model - no transformer but a GAN!&lt;/p&gt; &lt;p&gt;It is called CatGen v2 and it generates 128x128px of cats.&lt;/p&gt; &lt;p&gt;You can find the full source code, samples and the final model here: &lt;a href="https://huggingface.co/LH-Tech-AI/CatGen-v2"&gt;https://huggingface.co/LH-Tech-AI/CatGen-v2&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Look at this sample after epoch 165 (trained on a single Kaggle T4 GPU):&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e"&gt;https://preview.redd.it/t1k3v71auqsg1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=26b4639eb7f9635d8b58a24633f8e4125859fd9e&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is very welcome :D&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/LH-Tech_AI"&gt; /u/LH-Tech_AI &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sacbi6/new_model_catgen_v2_generate_128px_images_of_cats/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:00:05+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sabiux</id>
-    <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
-    <updated>2026-04-02T08:22:01+00:00</updated>
-    <author>
-      <name>/u/RecognitionFlat1470</name>
-      <uri>https://old.reddit.com/user/RecognitionFlat1470</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve got SmolLM2‑360M running on a Samsung Galaxy Watch 4 Classic (about 380MB free RAM) by tweaking llama.cpp and the underlying ggml memory model. By default, the model was being loaded twice in RAM: once via the APK’s mmap page cache and again via ggml’s tensor allocations, peaking at 524MB for a 270MB model.&lt;/p&gt; &lt;p&gt;The fix: I pass &lt;code&gt;host_ptr&lt;/code&gt; into &lt;code&gt;llama_model_params&lt;/code&gt;, so CPU tensors point directly into the mmap region and only Vulkan tensors are copied. On real hardware this gives:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Peak RAM: &lt;strong&gt;524MB → 142MB&lt;/strong&gt; (74% reduction)&lt;/li&gt; &lt;li&gt;First boot: &lt;strong&gt;19s → 11s&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;Second boot: &lt;strong&gt;~2.5s&lt;/strong&gt; (mmap + KV cache warm)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Code:&lt;br /&gt; &lt;a href="https://github.com/Perinban/llama.cpp/tree/axon%E2%80%91dev"&gt;https://github.com/Perinban/llama.cpp/tree/axon‑dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Longer write‑up with &lt;code&gt;VmRSS&lt;/code&gt; traces and design notes:&lt;br /&gt; &lt;a href="https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o"&gt;https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I’m planning a PR to &lt;code&gt;ggml‑org/llama.cpp&lt;/code&gt;; feedback on the host‑ptr / mmap pattern is welcome.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RecognitionFlat1470"&gt; /u/RecognitionFlat1470 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:22:01+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sa3b9n</id>
-    <title>Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)</title>
-    <updated>2026-04-02T01:10:09+00:00</updated>
-    <author>
-      <name>/u/MLPhDStudent</name>
-      <uri>https://old.reddit.com/user/MLPhDStudent</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt; &lt;img alt="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" src="https://external-preview.redd.it/L7SdqDjqfOukg9Olyn3nDbFIlrzS1itmXC4ncj-dIHE.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f749a2aba8dfe37d675b1ac9aa82793cbea5b37f" title="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Tl;dr: One of Stanford's hottest AI seminar courses. We open the course to the public. Lectures start tomorrow (Thursdays), 4:30-5:50pm PDT, at Skilling Auditorium and&lt;/strong&gt; &lt;strong&gt;Zoom&lt;/strong&gt;&lt;strong&gt;. Talks will be&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/recordings/"&gt;recorded&lt;/a&gt;&lt;strong&gt;. Course website:&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/"&gt;&lt;strong&gt;https://web.stanford.edu/class/cs25/&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Interested in Transformers, the deep learning model that has taken the world by storm? Want to have intimate discussions with researchers? If so, this course is for you!&lt;/p&gt; &lt;p&gt;Each week, we invite folks at the forefront of Transformers research to discuss the latest breakthroughs, from LLM architectures like GPT and Gemini to creative use cases in generating art (e.g. DALL-E and Sora), biology and neuroscience applications, robotics, and more!&lt;/p&gt; &lt;p&gt;CS25 has become one of Stanford's hottest AI courses. We invite the coolest speakers such as &lt;strong&gt;Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani&lt;/strong&gt;, and folks from &lt;strong&gt;OpenAI, Anthropic, Google, NVIDIA&lt;/strong&gt;, etc.&lt;/p&gt; &lt;p&gt;Our class has a global audience, and millions of total views on &lt;a href="https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM"&gt;YouTube&lt;/a&gt;. Our class with Andrej Karpathy was the second most popular &lt;a href="https://www.youtube.com/watch?v=XfpMkf4rD6E&amp;amp;ab_channel=StanfordOnline"&gt;YouTube video&lt;/a&gt; uploaded by Stanford in 2023!&lt;/p&gt; &lt;p&gt;Livestreaming and auditing (in-person or &lt;a href="https://stanford.zoom.us/j/92196729352?pwd=Z2hX1bsP2HvjolPX4r23mbHOof5Y9f.1"&gt;Zoom&lt;/a&gt;) are available to all! And join our 6000+ member Discord server (link on website).&lt;/p&gt; &lt;p&gt;Thanks to Modal, AGI House, and MongoDB for sponsoring this iteration of the course.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLPhDStudent"&gt; /u/MLPhDStudent &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://web.stanford.edu/class/cs25/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T01:10:09+00:00</published>
+    <published>2026-04-02T09:11:14+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9nri7</id>
@@ -190,6 +151,19 @@
     <published>2026-04-01T15:27:20+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sa3b9n</id>
+    <title>Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)</title>
+    <updated>2026-04-02T01:10:09+00:00</updated>
+    <author>
+      <name>/u/MLPhDStudent</name>
+      <uri>https://old.reddit.com/user/MLPhDStudent</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt; &lt;img alt="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" src="https://external-preview.redd.it/L7SdqDjqfOukg9Olyn3nDbFIlrzS1itmXC4ncj-dIHE.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f749a2aba8dfe37d675b1ac9aa82793cbea5b37f" title="Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Tl;dr: One of Stanford's hottest AI seminar courses. We open the course to the public. Lectures start tomorrow (Thursdays), 4:30-5:50pm PDT, at Skilling Auditorium and&lt;/strong&gt; &lt;strong&gt;Zoom&lt;/strong&gt;&lt;strong&gt;. Talks will be&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/recordings/"&gt;recorded&lt;/a&gt;&lt;strong&gt;. Course website:&lt;/strong&gt; &lt;a href="https://web.stanford.edu/class/cs25/"&gt;&lt;strong&gt;https://web.stanford.edu/class/cs25/&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Interested in Transformers, the deep learning model that has taken the world by storm? Want to have intimate discussions with researchers? If so, this course is for you!&lt;/p&gt; &lt;p&gt;Each week, we invite folks at the forefront of Transformers research to discuss the latest breakthroughs, from LLM architectures like GPT and Gemini to creative use cases in generating art (e.g. DALL-E and Sora), biology and neuroscience applications, robotics, and more!&lt;/p&gt; &lt;p&gt;CS25 has become one of Stanford's hottest AI courses. We invite the coolest speakers such as &lt;strong&gt;Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani&lt;/strong&gt;, and folks from &lt;strong&gt;OpenAI, Anthropic, Google, NVIDIA&lt;/strong&gt;, etc.&lt;/p&gt; &lt;p&gt;Our class has a global audience, and millions of total views on &lt;a href="https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM"&gt;YouTube&lt;/a&gt;. Our class with Andrej Karpathy was the second most popular &lt;a href="https://www.youtube.com/watch?v=XfpMkf4rD6E&amp;amp;ab_channel=StanfordOnline"&gt;YouTube video&lt;/a&gt; uploaded by Stanford in 2023!&lt;/p&gt; &lt;p&gt;Livestreaming and auditing (in-person or &lt;a href="https://stanford.zoom.us/j/92196729352?pwd=Z2hX1bsP2HvjolPX4r23mbHOof5Y9f.1"&gt;Zoom&lt;/a&gt;) are available to all! And join our 6000+ member Discord server (link on website).&lt;/p&gt; &lt;p&gt;Thanks to Modal, AGI House, and MongoDB for sponsoring this iteration of the course.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLPhDStudent"&gt; /u/MLPhDStudent &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://web.stanford.edu/class/cs25/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa3b9n/stanford_cs_25_transformers_course_open_to_all/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T01:10:09+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1sa7jo2</id>
     <title>Has anyone used Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled for agents? How did it fair?</title>
     <updated>2026-04-02T04:28:30+00:00</updated>
@@ -201,6 +175,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sa7jo2/has_anyone_used/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T04:28:30+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sab5zy</id>
+    <title>Mac support for external Nvidia GPU available now through TinyGPU</title>
+    <updated>2026-04-02T08:00:05+00:00</updated>
+    <author>
+      <name>/u/zdy132</name>
+      <uri>https://old.reddit.com/user/zdy132</uri>
+    </author>
+    <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/zdy132"&gt; /u/zdy132 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://docs.tinygrad.org/tinygpu/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sab5zy/mac_support_for_external_nvidia_gpu_available_now/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:00:05+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9pe0w</id>
@@ -227,6 +214,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9xvtb/64gb_ram_mac_falls_right_into_the_local_llm_dead/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T21:22:51+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sabiux</id>
+    <title>Running SmolLM2‑360M on a Samsung Galaxy Watch 4 (380MB RAM) – 74% RAM reduction in llama.cpp</title>
+    <updated>2026-04-02T08:22:01+00:00</updated>
+    <author>
+      <name>/u/RecognitionFlat1470</name>
+      <uri>https://old.reddit.com/user/RecognitionFlat1470</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve got SmolLM2‑360M running on a Samsung Galaxy Watch 4 Classic (about 380MB free RAM) by tweaking llama.cpp and the underlying ggml memory model. By default, the model was being loaded twice in RAM: once via the APK’s mmap page cache and again via ggml’s tensor allocations, peaking at 524MB for a 270MB model.&lt;/p&gt; &lt;p&gt;The fix: I pass &lt;code&gt;host_ptr&lt;/code&gt; into &lt;code&gt;llama_model_params&lt;/code&gt;, so CPU tensors point directly into the mmap region and only Vulkan tensors are copied. On real hardware this gives:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Peak RAM: &lt;strong&gt;524MB → 142MB&lt;/strong&gt; (74% reduction)&lt;/li&gt; &lt;li&gt;First boot: &lt;strong&gt;19s → 11s&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;Second boot: &lt;strong&gt;~2.5s&lt;/strong&gt; (mmap + KV cache warm)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Code:&lt;br /&gt; &lt;a href="https://github.com/Perinban/llama.cpp/tree/axon%E2%80%91dev"&gt;https://github.com/Perinban/llama.cpp/tree/axon‑dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Longer write‑up with &lt;code&gt;VmRSS&lt;/code&gt; traces and design notes:&lt;br /&gt; &lt;a href="https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o"&gt;https://www.linkedin.com/posts/perinban-parameshwaran_machinelearning-llm-embeddedai-activity-7445374117987373056-xDj9?utm_source=share&amp;amp;utm_medium=member_desktop&amp;amp;rcm=ACoAAA1J2KoBHgKFnrEIUchmbOoZTpAqKKxKK7o&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I’m planning a PR to &lt;code&gt;ggml‑org/llama.cpp&lt;/code&gt;; feedback on the host‑ptr / mmap pattern is welcome.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RecognitionFlat1470"&gt; /u/RecognitionFlat1470 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabiux/running_smollm2360m_on_a_samsung_galaxy_watch_4/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:22:01+00:00</published>
   </entry>
   <entry>
     <id>t3_1s9ig5r</id>
@@ -281,19 +281,6 @@
     <published>2026-04-01T23:36:38+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sabx6b</id>
-    <title>Can we block fresh accounts from posting?</title>
-    <updated>2026-04-02T08:47:17+00:00</updated>
-    <author>
-      <name>/u/king_of_jupyter</name>
-      <uri>https://old.reddit.com/user/king_of_jupyter</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Flood of useless vibe coded projects is getting out of hand...&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/king_of_jupyter"&gt; /u/king_of_jupyter &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-02T08:47:17+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1s9zumi</id>
     <title>The Bonsai 1-bit models are very good</title>
     <updated>2026-04-01T22:40:29+00:00</updated>
@@ -305,6 +292,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1s9zumi/the_bonsai_1bit_models_are_very_good/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-01T22:40:29+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sabx6b</id>
+    <title>Can we block fresh accounts from posting?</title>
+    <updated>2026-04-02T08:47:17+00:00</updated>
+    <author>
+      <name>/u/king_of_jupyter</name>
+      <uri>https://old.reddit.com/user/king_of_jupyter</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Flood of useless vibe coded projects is getting out of hand...&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/king_of_jupyter"&gt; /u/king_of_jupyter &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sabx6b/can_we_block_fresh_accounts_from_posting/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-02T08:47:17+00:00</published>
   </entry>
   <entry>
     <id>t3_1sa7sfw</id>
