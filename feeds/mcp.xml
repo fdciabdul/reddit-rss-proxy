@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/mcp/.rss</id>
   <title>Model Context Protocol (MCP)</title>
-  <updated>2026-04-03T07:10:54+00:00</updated>
+  <updated>2026-04-03T07:42:59+00:00</updated>
   <link href="https://old.reddit.com/r/mcp/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>The Model Context Protocol is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools</subtitle>
-  <entry>
-    <id>t3_1satl52</id>
-    <title>Shibui Finance – Screen 5,200 US stocks across 64 years of daily prices, quarterly financials, and 56 technical indicators. Describe what you're looking for in plain English and Shibui finds the companies that match.</title>
-    <updated>2026-04-02T21:00:04+00:00</updated>
-    <author>
-      <name>/u/modelcontextprotocol</name>
-      <uri>https://old.reddit.com/user/modelcontextprotocol</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/mcp/comments/1satl52/shibui_finance_screen_5200_us_stocks_across_64/"&gt; &lt;img alt="Shibui Finance – Screen 5,200 US stocks across 64 years of daily prices, quarterly financials, and 56 technical indicators. Describe what you're looking for in plain English and Shibui finds the companies that match." src="https://external-preview.redd.it/WHPqiythF3Z0h81ObDTY7470Suxsg9aV-kN3ee-76FU.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=ef66d900787b1693ed6eb73bb9636563f46bf1c6" title="Shibui Finance – Screen 5,200 US stocks across 64 years of daily prices, quarterly financials, and 56 technical indicators. Describe what you're looking for in plain English and Shibui finds the companies that match." /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/modelcontextprotocol"&gt; /u/modelcontextprotocol &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://glama.ai/mcp/connectors/finance.shibui.mcp/shibui-finance"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1satl52/shibui_finance_screen_5200_us_stocks_across_64/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1satl52/shibui_finance_screen_5200_us_stocks_across_64/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-02T21:00:04+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sav5tu</id>
-    <title>I built DocForge — generate invoices, quotes, proposals as PDF from Claude Desktop</title>
-    <updated>2026-04-02T22:00:40+00:00</updated>
-    <author>
-      <name>/u/Crazy_Leading_</name>
-      <uri>https://old.reddit.com/user/Crazy_Leading_</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey! I built DocForge, an MCP server that generates professional business documents directly from Claude, Cursor, or any MCP client.&lt;/p&gt; &lt;p&gt;What it does:&lt;/p&gt; &lt;p&gt;- Invoices, receipts, quotes, proposals, SOWs, delivery notes, credit notes&lt;/p&gt; &lt;p&gt;- Multi-currency (EUR, USD, GBP) and bilingual (EN/ES)&lt;/p&gt; &lt;p&gt;- AI enhancement for proposals — Claude improves your text automatically&lt;/p&gt; &lt;p&gt;- Professional PDF output&lt;/p&gt; &lt;p&gt;Free tier: 3 docs/day&lt;/p&gt; &lt;p&gt;Pro: $19/mo for all features&lt;/p&gt; &lt;p&gt;Try it: &lt;a href="https://mcpize.com/mcp/docforge"&gt;https://mcpize.com/mcp/docforge&lt;/a&gt;&lt;/p&gt; &lt;p&gt;GitHub: &lt;a href="https://github.com/zhorex02/docforge"&gt;https://github.com/zhorex02/docforge&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happy to answer questions or take feedback!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Crazy_Leading_"&gt; /u/Crazy_Leading_ &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sav5tu/i_built_docforge_generate_invoices_quotes/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sav5tu/i_built_docforge_generate_invoices_quotes/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/mcp/comments/1sav5tu/i_built_docforge_generate_invoices_quotes/"/>
-    <category term="mcp" label="r/mcp"/>
-    <published>2026-04-02T22:00:40+00:00</published>
-  </entry>
   <entry>
     <id>t3_1sapisw</id>
     <title>Help please! Utilizing PDF files between MCP servers?</title>
@@ -253,6 +227,32 @@
     <link href="https://old.reddit.com/r/mcp/comments/1sb6hu6/built_a_multiagent_mcp_server_for_genomic/"/>
     <category term="mcp" label="r/mcp"/>
     <published>2026-04-03T07:05:48+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sb6v69</id>
+    <title>MCP to help agents browse the web</title>
+    <updated>2026-04-03T07:28:31+00:00</updated>
+    <author>
+      <name>/u/AxelKrantz</name>
+      <uri>https://old.reddit.com/user/AxelKrantz</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://www.npmjs.com/package/scuttle-browser"&gt;https://www.npmjs.com/package/scuttle-browser&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://www.npmjs.com/package/scuttle-browser#scuttle"&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Browser bridge for LLMs. Lets AI agents browse the web by converting pages into compact, annotated accessibility trees — no screenshots or raw HTML required.&lt;/p&gt; &lt;p&gt;Scuttle runs as an &lt;a href="https://modelcontextprotocol.io/"&gt;MCP&lt;/a&gt; (Model Context Protocol) server. Any MCP-compatible client (Claude Code, Claude Desktop, Cursor, etc.) can use it to navigate, read, and interact with web pages.&lt;/p&gt; &lt;h1&gt;How it works&lt;/h1&gt; &lt;p&gt;&lt;a href="https://www.npmjs.com/package/scuttle-browser#how-it-works"&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Instead of feeding raw HTML (too many tokens, too much noise) or screenshots (unreliable for spatial reasoning), Scuttle extracts the browser's &lt;strong&gt;accessibility tree&lt;/strong&gt; — the same semantic structure used by screen readers. It then:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;&lt;strong&gt;Prunes&lt;/strong&gt; invisible and decorative nodes&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Assigns numeric IDs&lt;/strong&gt; to every interactable element (&lt;code&gt;[1] button &amp;quot;Submit&amp;quot;&lt;/code&gt;, &lt;code&gt;[2] textbox &amp;quot;Search&amp;quot;&lt;/code&gt;)&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Labels unnamed elements&lt;/strong&gt; using a fallback chain: visible text → aria-label → placeholder → nearby heading → positional description&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Accepts actions&lt;/strong&gt; by element ID — &lt;code&gt;click(1)&lt;/code&gt;, &lt;code&gt;type(2, &amp;quot;hello&amp;quot;)&lt;/code&gt;&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;The result is a compact, token-efficient representation that LLMs can reason about and act on.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AxelKrantz"&gt; /u/AxelKrantz &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sb6v69/mcp_to_help_agents_browse_the_web/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sb6v69/mcp_to_help_agents_browse_the_web/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1sb6v69/mcp_to_help_agents_browse_the_web/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-03T07:28:31+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sb6wa3</id>
+    <title>pen Brain Server: open-source MCP memory server with 14 tools — hybrid search, entity extraction, knowledge graph, auto-dedup, multi-tenant</title>
+    <updated>2026-04-03T07:30:23+00:00</updated>
+    <author>
+      <name>/u/midgyrakk</name>
+      <uri>https://old.reddit.com/user/midgyrakk</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I'm releasing an MCP memory server I've been building for the past few months. It started from &lt;a href="https://github.com/NateBJones-Projects/OB1"&gt;OB1&lt;/a&gt; by Nate B. Jones and evolved into something significantly different. MIT licensed.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;14 MCP tools:&lt;/strong&gt;&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th&gt;Tool&lt;/th&gt; &lt;th&gt;Purpose&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;search_thoughts&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Hybrid BM25 + vector search&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;list_thoughts&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Browse with filters, salience-ordered&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;capture_thought&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Store with auto-embed, auto-link, entity extraction&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;thought_stats&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Aggregate counts, type/theme/source breakdown&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;get_connections&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Graph traversal (typed links)&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;list_entities&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Browse extracted entities by frequency&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;weekly_review&lt;/code&gt;&lt;/td&gt; &lt;td&gt;LLM synthesis of themes, open loops, next steps&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;analyze&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Graph analysis: hubs, density, sources&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;dedup_review&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Duplicate candidates + zone histogram&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;refresh_salience&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Recompute all salience scores&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;update_thought&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Rewrite content (re-embeds, re-extracts)&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;delete_thought&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Permanent delete (cascades connections)&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;migration_guide&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Import runbook for external platforms&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;code&gt;serendipity_digest&lt;/code&gt;&lt;/td&gt; &lt;td&gt;Surface unexpected cross-topic connections&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt; Capture: Source -&amp;gt; Edge Function -&amp;gt; OpenRouter (embed + extract) -&amp;gt; Supabase insert -&amp;gt; auto-link -&amp;gt; entities Retrieval: MCP Client -&amp;gt; Edge Function -&amp;gt; tool execution -&amp;gt; JSON response Storage: Supabase Postgres + pgvector, 1536-dim embeddings, JSONB metadata Auth: x-brain-key header -&amp;gt; SHA-256 hash -&amp;gt; brain_api_keys lookup -&amp;gt; brain_id scoping &lt;/code&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What makes it different from other memory servers:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Hybrid search&lt;/strong&gt; — BM25 keyword + vector cosine, not just vector similarity&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Auto-dedup&lt;/strong&gt; — 0.92+ similarity auto-merges with merge count as convergence signal&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Knowledge graph&lt;/strong&gt; — typed connections classified by LLM at 0.80+ similarity (extends, contradicts, is-evidence-for)&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Entity extraction&lt;/strong&gt; — automatic resolution of people, tools, projects, organizations&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Salience ranking&lt;/strong&gt; — multi-factor scoring (recency decay, access count, connections, merges, source weight, pin multiplier)&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Multi-tenant&lt;/strong&gt; — brain_id isolation with RLS on all 9 tables, SHA-256 hashed API keys&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Automated pipelines&lt;/strong&gt; — Reddit, RSS, HuggingFace Papers, Emergent Mind ingestion via GitHub Actions&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Key thresholds:&lt;/strong&gt; 0.92+ = auto-merge, 0.80+ = typed connections, 0.75+ = connection linking, 0.70 = search floor, 0.40 = quality gate.&lt;/p&gt; &lt;p&gt;Stack: Supabase free tier + Deno Edge Functions + OpenRouter. Includes a full security audit, MCP cookbook with composition recipes, and 138+ unit tests.&lt;/p&gt; &lt;p&gt;GitHub: &lt;a href="https://github.com/Bobby-cell-commits/open-brain-server"&gt;https://github.com/Bobby-cell-commits/open-brain-server&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/midgyrakk"&gt; /u/midgyrakk &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sb6wa3/pen_brain_server_opensource_mcp_memory_server/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/mcp/comments/1sb6wa3/pen_brain_server_opensource_mcp_memory_server/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/mcp/comments/1sb6wa3/pen_brain_server_opensource_mcp_memory_server/"/>
+    <category term="mcp" label="r/mcp"/>
+    <published>2026-04-03T07:30:23+00:00</published>
   </entry>
   <entry>
     <id>t3_1sb185b</id>
