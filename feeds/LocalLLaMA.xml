@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-03T10:30:48+00:00</updated>
+  <updated>2026-04-03T11:03:28+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -73,19 +73,6 @@
     <published>2026-04-02T18:30:42+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sb98b2</id>
-    <title>I think most "agent memory" demos are just RAG with better branding</title>
-    <updated>2026-04-03T09:53:04+00:00</updated>
-    <author>
-      <name>/u/sbktmkc</name>
-      <uri>https://old.reddit.com/user/sbktmkc</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Short-term context, long-term knowledge, user prefs, and runtime state keep getting collapsed into one word: memory.That's part of why so many local agents feel smart for 20 minutes and confused after that.I went down a repo rabbit hole yesterday, and one thing I liked in the Repo was that it does not treat those as the same job. It's an OSS desktop/runtime stack for AI workers, but the interesting part here is the memory model, not the pitch.Their README splits memory into 3 layers:- session continuity in runtime-owned artifacts- operational projections under a separate runtime memory surface- durable recalled memory under workspace knowledge + user preferenceThat middle layer is the part I don't see enough.A lot of memory posts jump straight from &amp;quot;chat history&amp;quot; to &amp;quot;vector DB&amp;quot;. But if you're actually running multi-step local workflows, inspection/debug state is its own problem. Mixing it into durable memory just makes the whole system harder to reason about.The practical benefit is pretty simple:- less re-explaining background and preferences every run- clearer boundaries around what is temporary vs durable- more human-readable memory than the usual black-box storeThe tradeoff is obvious, too: once you make the memory model explicit, you also have to govern it. Freshness, contradictions, bad recalls, pruning, all of that becomes a first-class problem instead of something you handwave away.Still, I'd take that over &amp;quot;infinite transcript + retrieval&amp;quot; any day.Repo if anyone wants to read the memory section: &lt;a href="https://github.com/holaboss-ai/holaboss-aiIf"&gt;https://github.com/holaboss-ai/holaboss-aiIf&lt;/a&gt; you're building on local models, where are you drawing the line between RAG, session continuity, and actual memory?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/sbktmkc"&gt; /u/sbktmkc &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb98b2/i_think_most_agent_memory_demos_are_just_rag_with/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb98b2/i_think_most_agent_memory_demos_are_just_rag_with/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb98b2/i_think_most_agent_memory_demos_are_just_rag_with/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T09:53:04+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sanln7</id>
     <title>p-e-w/gemma-4-E2B-it-heretic-ara: Gemma 4's defenses shredded by Heretic's new ARA method 90 minutes after the official release</title>
     <updated>2026-04-02T17:19:07+00:00</updated>
@@ -112,19 +99,6 @@
     <published>2026-04-02T17:02:13+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sb34d0</id>
-    <title>qwen3.6 medium size will be open soon</title>
-    <updated>2026-04-03T03:59:20+00:00</updated>
-    <author>
-      <name>/u/mickeyandkaka</name>
-      <uri>https://old.reddit.com/user/mickeyandkaka</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://x.com/ChujieZheng/status/2039909486153089250"&gt;https://x.com/ChujieZheng/status/2039909486153089250&lt;/a&gt;&lt;/p&gt; &lt;p&gt;We are planning to open-source the Qwen3.6 models (particularly medium-sized versions) to facilitate local deployment and customization for developers. Please vote for the model size you are **most** anticipating—the community’s voice is vital to us!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/mickeyandkaka"&gt; /u/mickeyandkaka &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb34d0/qwen36_medium_size_will_be_open_soon/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb34d0/qwen36_medium_size_will_be_open_soon/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb34d0/qwen36_medium_size_will_be_open_soon/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T03:59:20+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sazp6w</id>
     <title>Google strongly implies the existence of large Gemma 4 models</title>
     <updated>2026-04-03T01:16:37+00:00</updated>
@@ -136,6 +110,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sazp6w/google_strongly_implies_the_existence_of_large/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-03T01:16:37+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sb34d0</id>
+    <title>qwen3.6 medium size will be open soon</title>
+    <updated>2026-04-03T03:59:20+00:00</updated>
+    <author>
+      <name>/u/mickeyandkaka</name>
+      <uri>https://old.reddit.com/user/mickeyandkaka</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://x.com/ChujieZheng/status/2039909486153089250"&gt;https://x.com/ChujieZheng/status/2039909486153089250&lt;/a&gt;&lt;/p&gt; &lt;p&gt;We are planning to open-source the Qwen3.6 models (particularly medium-sized versions) to facilitate local deployment and customization for developers. Please vote for the model size you are **most** anticipating—the community’s voice is vital to us!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/mickeyandkaka"&gt; /u/mickeyandkaka &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb34d0/qwen36_medium_size_will_be_open_soon/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb34d0/qwen36_medium_size_will_be_open_soon/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb34d0/qwen36_medium_size_will_be_open_soon/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T03:59:20+00:00</published>
   </entry>
   <entry>
     <id>t3_1sarlb8</id>
@@ -190,17 +177,17 @@
     <published>2026-04-02T23:54:50+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sb7avr</id>
-    <title>I asked Gemma 4 26b to code a simple single page breakout game to test its coding abilities and it just started going full schizophrenic</title>
-    <updated>2026-04-03T07:55:36+00:00</updated>
+    <id>t3_1sba46z</id>
+    <title>llama.cpp Gemma4 Tokenizer Fix Was Merged Into Main Branch</title>
+    <updated>2026-04-03T10:43:11+00:00</updated>
     <author>
-      <name>/u/stopaskingforloginn</name>
-      <uri>https://old.reddit.com/user/stopaskingforloginn</uri>
+      <name>/u/Ancient-Field-9480</name>
+      <uri>https://old.reddit.com/user/Ancient-Field-9480</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb7avr/i_asked_gemma_4_26b_to_code_a_simple_single_page/"&gt; &lt;img alt="I asked Gemma 4 26b to code a simple single page breakout game to test its coding abilities and it just started going full schizophrenic" src="https://preview.redd.it/h8d9x28ilxsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b91850288fa0ac15a7945482ede02636bd3b50d3" title="I asked Gemma 4 26b to code a simple single page breakout game to test its coding abilities and it just started going full schizophrenic" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gotta say my first experience with the model didn't go that well.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/stopaskingforloginn"&gt; /u/stopaskingforloginn &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/h8d9x28ilxsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb7avr/i_asked_gemma_4_26b_to_code_a_simple_single_page/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb7avr/i_asked_gemma_4_26b_to_code_a_simple_single_page/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sba46z/llamacpp_gemma4_tokenizer_fix_was_merged_into/"&gt; &lt;img alt="llama.cpp Gemma4 Tokenizer Fix Was Merged Into Main Branch" src="https://external-preview.redd.it/87Jyj9TkVMccUVIJmff8scRRYgNr7IXxsFKjwCw9cxQ.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=9d5ecfe7a77105a941decde3ef5d757b2c14eb16" title="llama.cpp Gemma4 Tokenizer Fix Was Merged Into Main Branch" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Another day another git pull&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Ancient-Field-9480"&gt; /u/Ancient-Field-9480 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://github.com/ggml-org/llama.cpp/pull/21343"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sba46z/llamacpp_gemma4_tokenizer_fix_was_merged_into/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sba46z/llamacpp_gemma4_tokenizer_fix_was_merged_into/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T07:55:36+00:00</published>
+    <published>2026-04-03T10:43:11+00:00</published>
   </entry>
   <entry>
     <id>t3_1sav9wg</id>
@@ -214,6 +201,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sav9wg/gemma_4_is_efficient_with_thinking_tokens_but_it/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T22:05:05+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sb7avr</id>
+    <title>I asked Gemma 4 26b to code a simple single page breakout game to test its coding abilities and it just started going full schizophrenic</title>
+    <updated>2026-04-03T07:55:36+00:00</updated>
+    <author>
+      <name>/u/stopaskingforloginn</name>
+      <uri>https://old.reddit.com/user/stopaskingforloginn</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb7avr/i_asked_gemma_4_26b_to_code_a_simple_single_page/"&gt; &lt;img alt="I asked Gemma 4 26b to code a simple single page breakout game to test its coding abilities and it just started going full schizophrenic" src="https://preview.redd.it/h8d9x28ilxsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b91850288fa0ac15a7945482ede02636bd3b50d3" title="I asked Gemma 4 26b to code a simple single page breakout game to test its coding abilities and it just started going full schizophrenic" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gotta say my first experience with the model didn't go that well.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/stopaskingforloginn"&gt; /u/stopaskingforloginn &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/h8d9x28ilxsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb7avr/i_asked_gemma_4_26b_to_code_a_simple_single_page/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb7avr/i_asked_gemma_4_26b_to_code_a_simple_single_page/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T07:55:36+00:00</published>
   </entry>
   <entry>
     <id>t3_1sb80yv</id>
@@ -255,19 +255,6 @@
     <published>2026-04-02T21:46:20+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sb5vu4</id>
-    <title>Gemma 4 have enough ;)</title>
-    <updated>2026-04-03T06:30:01+00:00</updated>
-    <author>
-      <name>/u/AdamLangePL</name>
-      <uri>https://old.reddit.com/user/AdamLangePL</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb5vu4/gemma_4_have_enough/"&gt; &lt;img alt="Gemma 4 have enough ;)" src="https://preview.redd.it/7p4z5f5h6xsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=ca2b6b6a3387bae5fe67d1c1b0028d17c0aaba8a" title="Gemma 4 have enough ;)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AdamLangePL"&gt; /u/AdamLangePL &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7p4z5f5h6xsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb5vu4/gemma_4_have_enough/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb5vu4/gemma_4_have_enough/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T06:30:01+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1saoyj7</id>
     <title>Gemma 4 and Qwen3.5 on shared benchmarks</title>
     <updated>2026-04-02T18:07:30+00:00</updated>
@@ -279,6 +266,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1saoyj7/gemma_4_and_qwen35_on_shared_benchmarks/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T18:07:30+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sb5vu4</id>
+    <title>Gemma 4 have enough ;)</title>
+    <updated>2026-04-03T06:30:01+00:00</updated>
+    <author>
+      <name>/u/AdamLangePL</name>
+      <uri>https://old.reddit.com/user/AdamLangePL</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb5vu4/gemma_4_have_enough/"&gt; &lt;img alt="Gemma 4 have enough ;)" src="https://preview.redd.it/7p4z5f5h6xsg1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=ca2b6b6a3387bae5fe67d1c1b0028d17c0aaba8a" title="Gemma 4 have enough ;)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AdamLangePL"&gt; /u/AdamLangePL &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7p4z5f5h6xsg1.jpeg"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb5vu4/gemma_4_have_enough/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb5vu4/gemma_4_have_enough/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T06:30:01+00:00</published>
   </entry>
   <entry>
     <id>t3_1sb4gzj</id>
