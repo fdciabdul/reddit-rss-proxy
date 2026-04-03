@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-03T16:20:14+00:00</updated>
+  <updated>2026-04-03T16:48:08+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1sbdark</id>
-    <title>I patched the open-source Claude Code reimplementation to actually work with Ollama and local models</title>
-    <updated>2026-04-03T13:14:45+00:00</updated>
-    <author>
-      <name>/u/raveschwert</name>
-      <uri>https://old.reddit.com/user/raveschwert</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbdark/i_patched_the_opensource_claude_code/"&gt; &lt;img alt="I patched the open-source Claude Code reimplementation to actually work with Ollama and local models" src="https://preview.redd.it/g47wf3rm6zsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=2e200dc2070025346b61d33810f5c87ed20983f2" title="I patched the open-source Claude Code reimplementation to actually work with Ollama and local models" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Forked claw code couldnt get it running with my local models cause there was hardcoded Anthropic client ,so now the CLI auto-detects the provider from the model name and env vars.&lt;/p&gt; &lt;p&gt;Ollama, LM Studio, OpenAI, xAI, or any OpenAI-compatible endpoint works&lt;/p&gt; &lt;p&gt;Also fixed multiple rendering bugs that were appearing in powershell( also added powershell functionality)&lt;/p&gt; &lt;p&gt;Tested on Windows 11 with Ollama in Docker.&lt;br /&gt; Should work on Linux/macOS too (the Rust build is cross-platform, some tests use Unix-only APIs but the binary itself runs fine).&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/codetwentyfive/claw-code-local"&gt;https://github.com/codetwentyfive/claw-code-local&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happy Singularity&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/raveschwert"&gt; /u/raveschwert &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/g47wf3rm6zsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbdark/i_patched_the_opensource_claude_code/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbdark/i_patched_the_opensource_claude_code/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T13:14:45+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sbbin3</id>
-    <title>Gemma 4 E2B as a multi-agent coordinator: task decomposition, tool-calling, multi-turn — it works</title>
-    <updated>2026-04-03T11:55:43+00:00</updated>
-    <author>
-      <name>/u/JackChen02</name>
-      <uri>https://old.reddit.com/user/JackChen02</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbbin3/gemma_4_e2b_as_a_multiagent_coordinator_task/"&gt; &lt;img alt="Gemma 4 E2B as a multi-agent coordinator: task decomposition, tool-calling, multi-turn — it works" src="https://preview.redd.it/y3cs90pbzysg1.png?width=140&amp;amp;height=71&amp;amp;auto=webp&amp;amp;s=9f397fc9234dc97e009288ccc0bb19acbca89252" title="Gemma 4 E2B as a multi-agent coordinator: task decomposition, tool-calling, multi-turn — it works" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Wanted to see if Gemma 4 E2B could handle the coordinator role in a multi-agent setup — not just chat, but the actual hard part: take a goal, break it into a task graph, assign agents, call tools, and stitch results together.&lt;/p&gt; &lt;p&gt;Short answer: it works. Tested with my framework &lt;a href="https://github.com/JackChen-me/open-multi-agent"&gt;open-multi-agent&lt;/a&gt; (TypeScript, open-source, Ollama via OpenAI-compatible API).&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What the coordinator has to do:&lt;/strong&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Receive a natural language goal + agent roster&lt;/li&gt; &lt;li&gt;Output a JSON task array (title, description, assignee, dependencies)&lt;/li&gt; &lt;li&gt;Each agent executes with tool-calling (bash, file read/write)&lt;/li&gt; &lt;li&gt;Coordinator synthesizes all results&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;strong&gt;Quick note on E2B&lt;/strong&gt;: &amp;quot;Effective 2B&amp;quot; — 2.3B effective params, 5.1B total. The extra ~2.8B is the embedding layer for 140+ language / multimodal support. So the actual compute is 2.3B.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What I tested:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Gave it this goal:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;&amp;quot;Check this machine's Node.js version, npm version, and OS info, then write a short Markdown summary report to /tmp/report.md&amp;quot; &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;E2B correctly:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Broke it into 2 tasks with a dependency (researcher → summarizer)&lt;/li&gt; &lt;li&gt;Assigned each to the right agent&lt;/li&gt; &lt;li&gt;Used bash to run system commands&lt;/li&gt; &lt;li&gt;Used file_write to save the report&lt;/li&gt; &lt;li&gt;Synthesized the final output&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Both &lt;code&gt;runTasks()&lt;/code&gt; (explicit pipeline) and &lt;code&gt;runTeam()&lt;/code&gt; (model plans everything autonomously) worked.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Performance on M1 16GB:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://preview.redd.it/y3cs90pbzysg1.png?width=1040&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2f8169affe76ea5018fc9fb7e2286e00ead6e224"&gt;https://preview.redd.it/y3cs90pbzysg1.png?width=1040&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2f8169affe76ea5018fc9fb7e2286e00ead6e224&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;code&gt;runTasks()&lt;/code&gt; (explicit pipeline) finished in ~80s. &lt;code&gt;runTeam()&lt;/code&gt; (model plans everything) took ~3.5 min — the extra time is the coordinator planning the task graph and synthesizing results at the end. The model is 7.2 GB on disk — fits on 16 GB but doesn't leave a ton of headroom.&lt;/p&gt; &lt;p&gt;Haven't tested e4b or 26B yet — went with the smallest variant first to find the floor.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What held up, what didn't:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;JSON output&lt;/strong&gt; — coordinator needs to produce a specific schema for task decomposition. E2B got it right in my runs. The framework does have tolerant parsing (tries fenced block first, falls back to bare array extraction), so that helps too.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Tool-calling&lt;/strong&gt; — works through the OpenAI-compatible endpoint. Correctly decides when to call, parses args, handles multi-turn results.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Output quality&lt;/strong&gt; — it works, but you can tell it's a 2.3B model. The task decomposition and tool use are solid, but the prose in the final synthesis is noticeably weaker than what you'd get form a larger model. Functional, not polished.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Reproduce it:&lt;/strong&gt;&lt;/p&gt; &lt;pre&gt;&lt;code&gt;ollama pull gemma4:e2b git clone https://github.com/JackChen-me/open-multi-agent cd open-multi-agent &amp;amp;&amp;amp; npm install no_proxy=localhost npx tsx examples/08-gemma4-local.ts &lt;/code&gt;&lt;/pre&gt; &lt;p&gt;~190 lines, full source: &lt;a href="https://github.com/JackChen-me/open-multi-agent/blob/main/examples/08-gemma4-local.ts"&gt;examples/08-gemma4-local.ts&lt;/a&gt;&lt;/p&gt; &lt;p&gt;(&lt;code&gt;no_proxy=localhost&lt;/code&gt; only needed if you have an HTTP proxy configured)&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/JackChen02"&gt; /u/JackChen02 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbbin3/gemma_4_e2b_as_a_multiagent_coordinator_task/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbbin3/gemma_4_e2b_as_a_multiagent_coordinator_task/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbbin3/gemma_4_e2b_as_a_multiagent_coordinator_task/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T11:55:43+00:00</published>
-  </entry>
   <entry>
     <id>t3_1sb1rb9</id>
     <title>Gemma 4 26b a4b - MacBook Pro M5 MAX. Averaging around 81tok/sec</title>
@@ -45,6 +19,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb1rb9/gemma_4_26b_a4b_macbook_pro_m5_max_averaging/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-03T02:52:07+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sbdark</id>
+    <title>I patched the open-source Claude Code reimplementation to actually work with Ollama and local models</title>
+    <updated>2026-04-03T13:14:45+00:00</updated>
+    <author>
+      <name>/u/raveschwert</name>
+      <uri>https://old.reddit.com/user/raveschwert</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbdark/i_patched_the_opensource_claude_code/"&gt; &lt;img alt="I patched the open-source Claude Code reimplementation to actually work with Ollama and local models" src="https://preview.redd.it/g47wf3rm6zsg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=2e200dc2070025346b61d33810f5c87ed20983f2" title="I patched the open-source Claude Code reimplementation to actually work with Ollama and local models" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Forked claw code couldnt get it running with my local models cause there was hardcoded Anthropic client ,so now the CLI auto-detects the provider from the model name and env vars.&lt;/p&gt; &lt;p&gt;Ollama, LM Studio, OpenAI, xAI, or any OpenAI-compatible endpoint works&lt;/p&gt; &lt;p&gt;Also fixed multiple rendering bugs that were appearing in powershell( also added powershell functionality)&lt;/p&gt; &lt;p&gt;Tested on Windows 11 with Ollama in Docker.&lt;br /&gt; Should work on Linux/macOS too (the Rust build is cross-platform, some tests use Unix-only APIs but the binary itself runs fine).&lt;/p&gt; &lt;p&gt;&lt;a href="https://github.com/codetwentyfive/claw-code-local"&gt;https://github.com/codetwentyfive/claw-code-local&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happy Singularity&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/raveschwert"&gt; /u/raveschwert &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/g47wf3rm6zsg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbdark/i_patched_the_opensource_claude_code/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbdark/i_patched_the_opensource_claude_code/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T13:14:45+00:00</published>
   </entry>
   <entry>
     <id>t3_1saxvw2</id>
@@ -86,6 +73,19 @@
     <published>2026-04-03T13:33:44+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sbekgc</id>
+    <title>Gemma 4 26B-A4B MoE running at 45-60 tok/s on DGX Spark — here's how</title>
+    <updated>2026-04-03T14:06:15+00:00</updated>
+    <author>
+      <name>/u/CoconutMario</name>
+      <uri>https://old.reddit.com/user/CoconutMario</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Spent half the night on getting google/gemma-4-26B-A4B-it running fast on a single NVIDIA DGX Spark (128GB unified memory, GB10 Blackwell). Some things I learned that might save others time:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;NVFP4 quantization&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The 26B MoE model is ~49GB in BF16 — runs but slowly. NVFP4 brings it down to 16.5GB with 3x compression. The catch: Google stores MoE expert weights as fused 3D tensors that no existing quantization tool handles. NVIDIA's modelopt silently skips them (91% of the model!). I wrote a custom plugin that unfuses the experts into individual layers, quantizes them, then re-exports. Both W4A4 and W4A16 variants work.&lt;/p&gt; &lt;p&gt;Published here:&lt;/p&gt; &lt;p&gt;- W4A4: &lt;a href="https://huggingface.co/bg-digitalservices/Gemma-4-26B-A4B-it-NVFP4"&gt;https://huggingface.co/bg-digitalservices/Gemma-4-26B-A4B-it-NVFP4&lt;/a&gt;&lt;/p&gt; &lt;p&gt;- W4A16: &lt;a href="https://huggingface.co/bg-digitalservices/Gemma-4-26B-A4B-it-NVFP4A16"&gt;https://huggingface.co/bg-digitalservices/Gemma-4-26B-A4B-it-NVFP4A16&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;vLLM serving — what you need&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;You can't just `vllm serve` this model out of the box. Here's what's needed:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;**transformers &amp;gt;= 5.4** — every existing container (NGC vLLM, TensorRT-LLM) ships with 4.57 which doesn't know gemma4. If you're on Spark, use [spark-vllm-docker](&lt;a href="https://github.com/eugr/spark-vllm-docker"&gt;https://github.com/eugr/spark-vllm-docker&lt;/a&gt;) with `--tf5` flag.&lt;/li&gt; &lt;li&gt;**`--moe-backend marlin`** — without this, the MoE expert computation produces wrong results on SM 12.1. This flag is separate from `VLLM_NVFP4_GEMM_BACKEND=marlin` which handles the non-MoE layers.&lt;/li&gt; &lt;li&gt;**`--quantization modelopt`** — tells vLLM to read the NVFP4 checkpoint format.&lt;/li&gt; &lt;li&gt;**A patched gemma4.py** — vLLM's weight loader has a bug mapping NVFP4 scale keys for MoE experts (dot vs underscore in parameter names). Patch included in the HF repo. Mount it with `-v`.&lt;/li&gt; &lt;li&gt;**Use the chat endpoint, not completions** — this is an instruct model. `/v1/completions` with raw text produces repetition loops. Use `/v1/chat/completions` with a messages array. Obvious in hindsight, cost me hours of debugging.&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;Full serving command:&lt;/p&gt; &lt;p&gt;```bash&lt;/p&gt; &lt;p&gt;docker run -d \&lt;/p&gt; &lt;p&gt; --gpus all --ipc=host --network host \&lt;/p&gt; &lt;p&gt; -e VLLM_NVFP4_GEMM_BACKEND=marlin \&lt;/p&gt; &lt;p&gt; -v ~/.cache/huggingface:/root/.cache/huggingface \&lt;/p&gt; &lt;p&gt; -v ./gemma4_patched.py:/usr/local/lib/python3.12/dist-packages/vllm/model_executor/models/gemma4.py \&lt;/p&gt; &lt;p&gt; &amp;lt;your-vllm-tf5-image&amp;gt; \&lt;/p&gt; &lt;p&gt; vllm serve bg-digitalservices/Gemma-4-26B-A4B-it-NVFP4 \&lt;/p&gt; &lt;p&gt;--served-model-name gemma-4 \&lt;/p&gt; &lt;p&gt;--host &lt;a href="http://0.0.0.0"&gt;0.0.0.0&lt;/a&gt; --port 8888 \&lt;/p&gt; &lt;p&gt;--quantization modelopt \&lt;/p&gt; &lt;p&gt;--dtype auto --kv-cache-dtype fp8 \&lt;/p&gt; &lt;p&gt;--gpu-memory-utilization 0.40 \&lt;/p&gt; &lt;p&gt;--max-model-len 262144 \&lt;/p&gt; &lt;p&gt;--moe-backend marlin \&lt;/p&gt; &lt;p&gt;--enable-auto-tool-choice \&lt;/p&gt; &lt;p&gt;--tool-call-parser gemma4 \&lt;/p&gt; &lt;p&gt;--trust-remote-code&lt;/p&gt; &lt;p&gt;```&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;On DGX Spark: ~45-60 tok/s, 16.5GB VRAM, 256K context fits with room to spare. Chat, jokes, reasoning all work well. Tool calling works with the gemma4 parser. Coding is mediocre (that's a base model issue, not quantization — BF16 has the same problem).&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Issues filed&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;- NVIDIA Model Optimizer: [#1173](&lt;a href="https://github.com/NVIDIA/Model-Optimizer/issues/1173"&gt;https://github.com/NVIDIA/Model-Optimizer/issues/1173&lt;/a&gt;) — add native Gemma 4 MoE expert support&lt;/p&gt; &lt;p&gt;- vLLM: [#38912](&lt;a href="https://github.com/vllm-project/vllm/issues/38912"&gt;https://github.com/vllm-project/vllm/issues/38912&lt;/a&gt;) — fix NVFP4 MoE scale key mapping&lt;/p&gt; &lt;p&gt;Quantization script and vLLM patch are both included in the HF repos.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/CoconutMario"&gt; /u/CoconutMario &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbekgc/gemma_4_26ba4b_moe_running_at_4560_toks_on_dgx/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbekgc/gemma_4_26ba4b_moe_running_at_4560_toks_on_dgx/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbekgc/gemma_4_26ba4b_moe_running_at_4560_toks_on_dgx/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T14:06:15+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1sbeoka</id>
     <title>I’m surprised Nemotron OCR V2 isn’t getting more attention</title>
     <updated>2026-04-03T14:10:41+00:00</updated>
@@ -110,19 +110,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sav9wg/gemma_4_is_efficient_with_thinking_tokens_but_it/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-02T22:05:05+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sbec70</id>
-    <title>Qwen3.5 vs Gemma 4: Benchmarks vs real world use?</title>
-    <updated>2026-04-03T13:57:26+00:00</updated>
-    <author>
-      <name>/u/AppealSame4367</name>
-      <uri>https://old.reddit.com/user/AppealSame4367</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just tested Gemma 4 2B locally on old rtx2060 6GB VRAM and used Qwen3.5 in all sizes intensively, in customer projects before.&lt;/p&gt; &lt;p&gt;First impression from Gemma 4 2B: It's better, faster, uses less memory than q3.5 2B. More agentic, better mermaid charts, better chat output, better structured output.&lt;/p&gt; &lt;p&gt;It seems like either q3.5 are benchmaxed (although they really were much better than the competition) or google is playing it down. Gemma 4 2B &amp;quot;seems&amp;quot; / &amp;quot;feels&amp;quot; more like Q3.5 9B to me.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AppealSame4367"&gt; /u/AppealSame4367 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T13:57:26+00:00</published>
   </entry>
   <entry>
     <id>t3_1saoyj7</id>
@@ -151,6 +138,19 @@
     <published>2026-04-02T21:46:20+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sbec70</id>
+    <title>Qwen3.5 vs Gemma 4: Benchmarks vs real world use?</title>
+    <updated>2026-04-03T13:57:26+00:00</updated>
+    <author>
+      <name>/u/AppealSame4367</name>
+      <uri>https://old.reddit.com/user/AppealSame4367</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just tested Gemma 4 2B locally on old rtx2060 6GB VRAM and used Qwen3.5 in all sizes intensively, in customer projects before.&lt;/p&gt; &lt;p&gt;First impression from Gemma 4 2B: It's better, faster, uses less memory than q3.5 2B. More agentic, better mermaid charts, better chat output, better structured output.&lt;/p&gt; &lt;p&gt;It seems like either q3.5 are benchmaxed (although they really were much better than the competition) or google is playing it down. Gemma 4 2B &amp;quot;seems&amp;quot; / &amp;quot;feels&amp;quot; more like Q3.5 9B to me.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AppealSame4367"&gt; /u/AppealSame4367 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbec70/qwen35_vs_gemma_4_benchmarks_vs_real_world_use/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T13:57:26+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1sbaack</id>
     <title>Gemma-4 26B-A4B + Opencode on M5 MacBook is *actually good*</title>
     <updated>2026-04-03T10:52:19+00:00</updated>
@@ -162,19 +162,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbaack/gemma4_26ba4b_opencode_on_m5_macbook_is_actually/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-03T10:52:19+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sbcqad</id>
-    <title>Intel Pro B70 in stock at Newegg - $949</title>
-    <updated>2026-04-03T12:50:55+00:00</updated>
-    <author>
-      <name>/u/Altruistic_Call_3023</name>
-      <uri>https://old.reddit.com/user/Altruistic_Call_3023</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just wanted to make folks aware as I just grabbed one and it says delivers less than a week. &lt;a href="https://www.newegg.com/intel-arc-pro-b70-32gb-graphics-card/p/N82E16814883008"&gt;https://www.newegg.com/intel-arc-pro-b70-32gb-graphics-card/p/N82E16814883008&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Altruistic_Call_3023"&gt; /u/Altruistic_Call_3023 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbcqad/intel_pro_b70_in_stock_at_newegg_949/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbcqad/intel_pro_b70_in_stock_at_newegg_949/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbcqad/intel_pro_b70_in_stock_at_newegg_949/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T12:50:55+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbd1t7</id>
@@ -190,17 +177,17 @@
     <published>2026-04-03T13:04:15+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sb80yv</id>
-    <title>VRAM optimization for gemma 4</title>
-    <updated>2026-04-03T08:40:26+00:00</updated>
+    <id>t3_1sbcqad</id>
+    <title>Intel Pro B70 in stock at Newegg - $949</title>
+    <updated>2026-04-03T12:50:55+00:00</updated>
     <author>
-      <name>/u/Sadman782</name>
-      <uri>https://old.reddit.com/user/Sadman782</uri>
+      <name>/u/Altruistic_Call_3023</name>
+      <uri>https://old.reddit.com/user/Altruistic_Call_3023</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;TLDR: add -np 1 to your llama.cpp launch command if you are the only user, cuts SWA cache VRAM by 3x instantly&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So I was messing around with Gemma 4 and noticed the dense model hogs a massive chunk of VRAM before you even start generating anything. If you are on 16GB you might be hitting OOM and wondering why.&lt;/p&gt; &lt;p&gt;The culprit is the SWA (Sliding Window Attention) KV cache. It allocates in F16 and does not get quantized like the rest of the KV cache. A couple days ago ggerganov merged a PR that accidentally made this worse by keeping the SWA portion unquantized even when you have KV cache quantization enabled. It got reverted about 2 hours later here &lt;a href="https://github.com/ggml-org/llama.cpp/pull/21332"&gt;https://github.com/ggml-org/llama.cpp/pull/21332&lt;/a&gt; so make sure you are on a recent build.&lt;/p&gt; &lt;p&gt;A few things that actually help with VRAM:&lt;/p&gt; &lt;p&gt;The SWA cache size is calculated as roughly (sliding window size × number of parallel sequences) + micro batch size. So if your server is defaulting to 4 parallel slots you are paying 3x the memory compared to a single user setup. Adding &lt;strong&gt;-np 1&lt;/strong&gt; to your launch command if you are just chatting solo cuts the SWA cache from around &lt;strong&gt;900MB down to about 300MB&lt;/strong&gt; on the 26B model and &lt;strong&gt;3200MB to just 1200MB&lt;/strong&gt; for the 31B dense model&lt;/p&gt; &lt;p&gt;Also watch out for &lt;strong&gt;-ub&lt;/strong&gt; (ubatch size). The default is 512 and that is fine. If you or some guide told you to set -ub 4096 for speed, that bloats the SWA buffer massively. Just leave it at default unless you have VRAM to burn.&lt;/p&gt; &lt;p&gt;On 16GB with the dense 31B model you can still run decent context with IQ3 or Q3_K quantization but you will likely need to drop the mmproj (vision) to fit 30K+ context(fp16). With -np 1 and default ubatch it becomes much more manageable.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Sadman782"&gt; /u/Sadman782 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb80yv/vram_optimization_for_gemma_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb80yv/vram_optimization_for_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb80yv/vram_optimization_for_gemma_4/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Just wanted to make folks aware as I just grabbed one and it says delivers less than a week. &lt;a href="https://www.newegg.com/intel-arc-pro-b70-32gb-graphics-card/p/N82E16814883008"&gt;https://www.newegg.com/intel-arc-pro-b70-32gb-graphics-card/p/N82E16814883008&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Altruistic_Call_3023"&gt; /u/Altruistic_Call_3023 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbcqad/intel_pro_b70_in_stock_at_newegg_949/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbcqad/intel_pro_b70_in_stock_at_newegg_949/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbcqad/intel_pro_b70_in_stock_at_newegg_949/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T08:40:26+00:00</published>
+    <published>2026-04-03T12:50:55+00:00</published>
   </entry>
   <entry>
     <id>t3_1salgre</id>
@@ -216,17 +203,17 @@
     <published>2026-04-02T16:01:58+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sbe40t</id>
-    <title>My biggest Issue with the Gemma-4 Models is the Massive KV Cache!!</title>
-    <updated>2026-04-03T13:48:13+00:00</updated>
+    <id>t3_1sb80yv</id>
+    <title>VRAM optimization for gemma 4</title>
+    <updated>2026-04-03T08:40:26+00:00</updated>
     <author>
-      <name>/u/Iory1998</name>
-      <uri>https://old.reddit.com/user/Iory1998</uri>
+      <name>/u/Sadman782</name>
+      <uri>https://old.reddit.com/user/Sadman782</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I mean, I have 40GB of Vram and I still cannot fit the entire Unsloth Gemma-4-31B-it-UD-Q8 (35GB) even at 2K context size unless I quantize KV to Q4 with 2K context size? WTF? For comparison, I can fit the entire UD-Q8 Qwen3.5-27B at full context without KV quantization! &lt;/p&gt; &lt;p&gt;If I have to run a Q4 Gemma-4-31B-it-UD with a Q8 KV cache, then I am better off just using Qwen3.5-27B. After all, the latter beats the former in basically all benchmarks.&lt;/p&gt; &lt;p&gt;What's your experience with the Gemma-4 models so far?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Iory1998"&gt; /u/Iory1998 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;TLDR: add -np 1 to your llama.cpp launch command if you are the only user, cuts SWA cache VRAM by 3x instantly&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So I was messing around with Gemma 4 and noticed the dense model hogs a massive chunk of VRAM before you even start generating anything. If you are on 16GB you might be hitting OOM and wondering why.&lt;/p&gt; &lt;p&gt;The culprit is the SWA (Sliding Window Attention) KV cache. It allocates in F16 and does not get quantized like the rest of the KV cache. A couple days ago ggerganov merged a PR that accidentally made this worse by keeping the SWA portion unquantized even when you have KV cache quantization enabled. It got reverted about 2 hours later here &lt;a href="https://github.com/ggml-org/llama.cpp/pull/21332"&gt;https://github.com/ggml-org/llama.cpp/pull/21332&lt;/a&gt; so make sure you are on a recent build.&lt;/p&gt; &lt;p&gt;A few things that actually help with VRAM:&lt;/p&gt; &lt;p&gt;The SWA cache size is calculated as roughly (sliding window size × number of parallel sequences) + micro batch size. So if your server is defaulting to 4 parallel slots you are paying 3x the memory compared to a single user setup. Adding &lt;strong&gt;-np 1&lt;/strong&gt; to your launch command if you are just chatting solo cuts the SWA cache from around &lt;strong&gt;900MB down to about 300MB&lt;/strong&gt; on the 26B model and &lt;strong&gt;3200MB to just 1200MB&lt;/strong&gt; for the 31B dense model&lt;/p&gt; &lt;p&gt;Also watch out for &lt;strong&gt;-ub&lt;/strong&gt; (ubatch size). The default is 512 and that is fine. If you or some guide told you to set -ub 4096 for speed, that bloats the SWA buffer massively. Just leave it at default unless you have VRAM to burn.&lt;/p&gt; &lt;p&gt;On 16GB with the dense 31B model you can still run decent context with IQ3 or Q3_K quantization but you will likely need to drop the mmproj (vision) to fit 30K+ context(fp16). With -np 1 and default ubatch it becomes much more manageable.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Sadman782"&gt; /u/Sadman782 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb80yv/vram_optimization_for_gemma_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sb80yv/vram_optimization_for_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb80yv/vram_optimization_for_gemma_4/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-03T13:48:13+00:00</published>
+    <published>2026-04-03T08:40:26+00:00</published>
   </entry>
   <entry>
     <id>t3_1sb4gzj</id>
@@ -266,6 +253,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sb73ar/gemma_4_is_good/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-03T07:42:18+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sbe40t</id>
+    <title>My biggest Issue with the Gemma-4 Models is the Massive KV Cache!!</title>
+    <updated>2026-04-03T13:48:13+00:00</updated>
+    <author>
+      <name>/u/Iory1998</name>
+      <uri>https://old.reddit.com/user/Iory1998</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I mean, I have 40GB of Vram and I still cannot fit the entire Unsloth Gemma-4-31B-it-UD-Q8 (35GB) even at 2K context size unless I quantize KV to Q4 with 2K context size? WTF? For comparison, I can fit the entire UD-Q8 Qwen3.5-27B at full context without KV quantization! &lt;/p&gt; &lt;p&gt;If I have to run a Q4 Gemma-4-31B-it-UD with a Q8 KV cache, then I am better off just using Qwen3.5-27B. After all, the latter beats the former in basically all benchmarks.&lt;/p&gt; &lt;p&gt;What's your experience with the Gemma-4 models so far?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Iory1998"&gt; /u/Iory1998 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T13:48:13+00:00</published>
   </entry>
   <entry>
     <id>t3_1sba46z</id>
