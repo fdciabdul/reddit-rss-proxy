@@ -2,37 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-04T19:02:36+00:00</updated>
+  <updated>2026-04-04T19:26:51+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1sce6j2</id>
-    <title>GGUF · AWQ · EXL2, DISSECTED</title>
-    <updated>2026-04-04T16:48:40+00:00</updated>
-    <author>
-      <name>/u/RoamingOmen</name>
-      <uri>https://old.reddit.com/user/RoamingOmen</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sce6j2/gguf_awq_exl2_dissected/"&gt; &lt;img alt="GGUF · AWQ · EXL2, DISSECTED" src="https://external-preview.redd.it/jBJjfLUD7cgHqRph5c3wALxbsmK0Fd2C_yvcnzfu5Bg.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=a6d3845761f47ca8e09f61bc82c2a808efe2496c" title="GGUF · AWQ · EXL2, DISSECTED" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;You search HuggingFace for Qwen3-8B. The results page shows GGUF, AWQ, EXL2 — three downloads, same model, completely different internals. One is a single self-describing binary. One is a directory of safetensors with external configs. One carries a per-column error map that lets you dial precision to the tenth of a bit. This article opens all three.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/RoamingOmen"&gt; /u/RoamingOmen &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://femiadeniran.com/blog/gguf-awq-exl2-model-files-decoded.html"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sce6j2/gguf_awq_exl2_dissected/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sce6j2/gguf_awq_exl2_dissected/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T16:48:40+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1scd562</id>
-    <title>Am I misunderstanding RAG? I thought it basically meant separate retrieval + generation</title>
-    <updated>2026-04-04T16:08:02+00:00</updated>
-    <author>
-      <name>/u/shironekoooo</name>
-      <uri>https://old.reddit.com/user/shironekoooo</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Disclaimer: sorry if this post comes out weirdly worded, English is not my main language.&lt;/p&gt; &lt;p&gt;I’m a bit confused by how people use the term RAG.&lt;/p&gt; &lt;p&gt;I thought the basic idea was:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;use an embedding model / retriever to find relevant chunks&lt;/li&gt; &lt;li&gt;maybe rerank them&lt;/li&gt; &lt;li&gt;pass those chunks into the main LLM&lt;/li&gt; &lt;li&gt;let the LLM generate the final answer&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;So in my head, RAG is mostly about having a retrieval component and a generator component, often with different models doing different jobs.&lt;/p&gt; &lt;p&gt;But then I see people talk about RAG as if it also implies extra steps like summarization, compression, query rewriting, context fusion, etc.&lt;/p&gt; &lt;p&gt;So what’s the practical definition people here use?&lt;/p&gt; &lt;p&gt;Is “normal RAG” basically just:&lt;br /&gt; retrieve --&amp;gt; rerank --&amp;gt; stuff chunks into prompt --&amp;gt; answer&lt;/p&gt; &lt;p&gt;And are the other things just enhancements on top?&lt;/p&gt; &lt;p&gt;Also, if a model just searches the web or calls tools, does that count as RAG too, or not really?&lt;/p&gt; &lt;p&gt;Curious what people who actually build local setups consider the real baseline.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/shironekoooo"&gt; /u/shironekoooo &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scd562/am_i_misunderstanding_rag_i_thought_it_basically/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scd562/am_i_misunderstanding_rag_i_thought_it_basically/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scd562/am_i_misunderstanding_rag_i_thought_it_basically/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T16:08:02+00:00</published>
-  </entry>
   <entry>
     <id>t3_1scdwqo</id>
     <title>Gemma 4 small model comparison</title>
@@ -45,6 +19,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scdwqo/gemma_4_small_model_comparison/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T16:38:06+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1schgvs</id>
+    <title>Harmonic-9B - Two-stage Qwen3.5-9B fine-tune (Stage 2 still training)</title>
+    <updated>2026-04-04T18:55:56+00:00</updated>
+    <author>
+      <name>/u/Crampappydime</name>
+      <uri>https://old.reddit.com/user/Crampappydime</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey &lt;a href="/r/LocalLLaMA"&gt;r/LocalLLaMA&lt;/a&gt;,&lt;/p&gt; &lt;p&gt;I just uploaded Harmonic-9B, my latest Qwen3.5-9B fine-tune aimed at agent use.&lt;/p&gt; &lt;p&gt;Current status:&lt;/p&gt; &lt;p&gt;• Stage 1 (heavy reasoning training) is complete&lt;/p&gt; &lt;p&gt;• Stage 2 (light tool-calling / agent fine-tune) is still training right now&lt;/p&gt; &lt;p&gt;The plan is to combine strong structured reasoning with clean, reliable tool use while trying to avoid making normal chat feel stiff or overly verbose.&lt;/p&gt; &lt;p&gt;Filtered dataset for Stage 2: I open-sourced the filtered version of the Hermes agent traces I’m using for the second stage:&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/datasets/DJLougen/hermes-agent-traces-filtered"&gt;https://huggingface.co/datasets/DJLougen/hermes-agent-traces-filtered&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Key improvements after filtering:&lt;/p&gt; &lt;p&gt;• Self-correction: 6% → 63%&lt;/p&gt; &lt;p&gt;• Verification steps: 26% → 96%&lt;/p&gt; &lt;p&gt;• Thinking depth: +40%&lt;/p&gt; &lt;p&gt;• Valid JSON/tool calls: 100%&lt;/p&gt; &lt;p&gt;GGUF quants are already available here:&lt;/p&gt; &lt;p&gt;&lt;a href="https://huggingface.co/DJLougen/Harmonic-9B-GGUF"&gt;https://huggingface.co/DJLougen/Harmonic-9B-GGUF&lt;/a&gt;&lt;/p&gt; &lt;p&gt;I haven’t run proper benchmarks yet because Stage 2 is still training. Early checks on the Stage 1 checkpoint looked good for reasoning structure. Will share numbers once Stage 2 finishes and I can do real agent evals.&lt;/p&gt; &lt;p&gt;If you give it a spin, I’d appreciate any feedback — especially how it behaves in agent harnesses (OpenClaw, LangGraph, ReAct, etc.).&lt;/p&gt; &lt;p&gt;This is part of my ongoing work on high-signal data curation and staged fine-tuning. More updates coming soon.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Crampappydime"&gt; /u/Crampappydime &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1schgvs/harmonic9b_twostage_qwen359b_finetune_stage_2/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1schgvs/harmonic9b_twostage_qwen359b_finetune_stage_2/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1schgvs/harmonic9b_twostage_qwen359b_finetune_stage_2/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T18:55:56+00:00</published>
   </entry>
   <entry>
     <id>t3_1scf6oh</id>
@@ -99,17 +86,17 @@
     <published>2026-04-03T12:25:09+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sc1bhe</id>
-    <title>Quantizers appriciation post</title>
-    <updated>2026-04-04T05:59:39+00:00</updated>
+    <id>t3_1sci5h6</id>
+    <title>Gemma 4 31B beats several frontier models on the FoodTruck Bench</title>
+    <updated>2026-04-04T19:22:55+00:00</updated>
     <author>
-      <name>/u/Kahvana</name>
-      <uri>https://old.reddit.com/user/Kahvana</uri>
+      <name>/u/Nindaleth</name>
+      <uri>https://old.reddit.com/user/Nindaleth</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;Yesterday I decided to try and learn how to quantize ggufs myself with reasonable quality, in order to understand the magic behind the curtain.&lt;/p&gt; &lt;p&gt;Holy... I did not expect how much work it is, how long it takes, and requires A LOT (500GB!) of storage space for just Gemma-4-26B-A4B in various sizes. There really is an art to configuring them too, with variations between architectures and quant types.&lt;/p&gt; &lt;p&gt;Thanks to unsloth releasing their imatrix file and huggingface showing the weight types inside their viewer, I managed to cobble something together without LLM assistance. I ran into a few hiccups and some of the information is a bit confusing, so I documented my process in the hopes of making it easier for someone else to learn and experiment.&lt;/p&gt; &lt;p&gt;My recipe and full setup guide can be found here, in case you want to try it too:&lt;br /&gt; &lt;a href="https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md"&gt;https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is much appriciated, I still have a lot to learn!&lt;/p&gt; &lt;p&gt;So yeah, I really want to thank:&lt;br /&gt; - mradenmacher for inspiring and encouraging me to actually attempt this in one of the model requests&lt;br /&gt; - unsloth for the resources they released&lt;br /&gt; - bartowski, ubergarm, aessedai for their recipes and/or information&lt;br /&gt; - thebloke for the OG quants&lt;br /&gt; - ...and everyone else who puts the time and effort in to release their quants!&lt;/p&gt; &lt;p&gt;I can really recommend you give it a try to make your own quants at least once, I ended up learning a lot from it and appriciate the work others do more.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Kahvana"&gt; /u/Kahvana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"&gt; &lt;img alt="Gemma 4 31B beats several frontier models on the FoodTruck Bench" src="https://preview.redd.it/dzatb00148tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f78f0643c483455208134fbeb76dfc09e43131e1" title="Gemma 4 31B beats several frontier models on the FoodTruck Bench" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gemma 4 31B takes an incredible 3rd place on FoodTruck Bench, beating GLM 5, Qwen 3.5 397B and all Claude Sonnets!&lt;/p&gt; &lt;p&gt;I'm looking forward to how they'll explain the result. Based on the previous models that failed to finish the run, it would seem that Gemma 4 handles long horizon tasks better and actually listens to its own advice when planning for the next day of the run.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Nindaleth"&gt; /u/Nindaleth &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/dzatb00148tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T05:59:39+00:00</published>
+    <published>2026-04-04T19:22:55+00:00</published>
   </entry>
   <entry>
     <id>t3_1sc9s1x</id>
@@ -123,6 +110,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc9s1x/tutorial_how_to_toggle_onoff_the_thinking_mode/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T13:51:15+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sc1bhe</id>
+    <title>Quantizers appriciation post</title>
+    <updated>2026-04-04T05:59:39+00:00</updated>
+    <author>
+      <name>/u/Kahvana</name>
+      <uri>https://old.reddit.com/user/Kahvana</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;Yesterday I decided to try and learn how to quantize ggufs myself with reasonable quality, in order to understand the magic behind the curtain.&lt;/p&gt; &lt;p&gt;Holy... I did not expect how much work it is, how long it takes, and requires A LOT (500GB!) of storage space for just Gemma-4-26B-A4B in various sizes. There really is an art to configuring them too, with variations between architectures and quant types.&lt;/p&gt; &lt;p&gt;Thanks to unsloth releasing their imatrix file and huggingface showing the weight types inside their viewer, I managed to cobble something together without LLM assistance. I ran into a few hiccups and some of the information is a bit confusing, so I documented my process in the hopes of making it easier for someone else to learn and experiment.&lt;/p&gt; &lt;p&gt;My recipe and full setup guide can be found here, in case you want to try it too:&lt;br /&gt; &lt;a href="https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md"&gt;https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is much appriciated, I still have a lot to learn!&lt;/p&gt; &lt;p&gt;So yeah, I really want to thank:&lt;br /&gt; - mradenmacher for inspiring and encouraging me to actually attempt this in one of the model requests&lt;br /&gt; - unsloth for the resources they released&lt;br /&gt; - bartowski, ubergarm, aessedai for their recipes and/or information&lt;br /&gt; - thebloke for the OG quants&lt;br /&gt; - ...and everyone else who puts the time and effort in to release their quants!&lt;/p&gt; &lt;p&gt;I can really recommend you give it a try to make your own quants at least once, I ended up learning a lot from it and appriciate the work others do more.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Kahvana"&gt; /u/Kahvana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T05:59:39+00:00</published>
   </entry>
   <entry>
     <id>t3_1sc9ucc</id>
@@ -229,19 +229,6 @@
     <published>2026-04-04T03:45:40+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scb558</id>
-    <title>Why Struggle this Much, Just to say "Hi"</title>
-    <updated>2026-04-04T14:48:24+00:00</updated>
-    <author>
-      <name>/u/Hell_L0rd</name>
-      <uri>https://old.reddit.com/user/Hell_L0rd</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt; &lt;img alt="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" src="https://preview.redd.it/7i2k7g9ur6tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8d6a7adbff03bfcb345193804738914c75629b32" title="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; Say Hi to me&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Hell_L0rd"&gt; /u/Hell_L0rd &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7i2k7g9ur6tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T14:48:24+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sbwkou</id>
     <title>FINALLY GEMMA 4 KV CACHE IS FIXED</title>
     <updated>2026-04-04T01:56:37+00:00</updated>
@@ -253,6 +240,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbwkou/finally_gemma_4_kv_cache_is_fixed/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T01:56:37+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scb558</id>
+    <title>Why Struggle this Much, Just to say "Hi"</title>
+    <updated>2026-04-04T14:48:24+00:00</updated>
+    <author>
+      <name>/u/Hell_L0rd</name>
+      <uri>https://old.reddit.com/user/Hell_L0rd</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt; &lt;img alt="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" src="https://preview.redd.it/7i2k7g9ur6tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8d6a7adbff03bfcb345193804738914c75629b32" title="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; Say Hi to me&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Hell_L0rd"&gt; /u/Hell_L0rd &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7i2k7g9ur6tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T14:48:24+00:00</published>
   </entry>
   <entry>
     <id>t3_1sc4gui</id>
