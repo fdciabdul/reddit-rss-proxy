@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-04T19:26:51+00:00</updated>
+  <updated>2026-04-04T19:44:39+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
@@ -34,19 +34,6 @@
     <published>2026-04-04T18:55:56+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scf6oh</id>
-    <title>What counts as RAG?</title>
-    <updated>2026-04-04T17:27:18+00:00</updated>
-    <author>
-      <name>/u/cmdr-William-Riker</name>
-      <uri>https://old.reddit.com/user/cmdr-William-Riker</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I have always considered the term RAG to be a hype term. to me Retrieval Augmented Generation just means the model retrieves the data, interprets it based on what you requested and responds with the data in context, meaning any agentic system that has and uses a tool to read data from a source (weather it's a database or a filesystem) and interprets that data and returns a response is technically augmenting the data and generating a result, thus it is RAG. Mainly just trying to figure out how to communicate with those that seem to live on the hype cycle&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/cmdr-William-Riker"&gt; /u/cmdr-William-Riker &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scf6oh/what_counts_as_rag/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scf6oh/what_counts_as_rag/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scf6oh/what_counts_as_rag/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T17:27:18+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sbtr5i</id>
     <title>Gemma 4 31B sweeps the floor with GLM 5.1</title>
     <updated>2026-04-03T23:48:10+00:00</updated>
@@ -60,17 +47,17 @@
     <published>2026-04-03T23:48:10+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scawa3</id>
-    <title>Claude Code replacement</title>
-    <updated>2026-04-04T14:38:16+00:00</updated>
+    <id>t3_1scf6oh</id>
+    <title>What counts as RAG?</title>
+    <updated>2026-04-04T17:27:18+00:00</updated>
     <author>
-      <name>/u/NoTruth6718</name>
-      <uri>https://old.reddit.com/user/NoTruth6718</uri>
+      <name>/u/cmdr-William-Riker</name>
+      <uri>https://old.reddit.com/user/cmdr-William-Riker</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I'm looking to build a local setup for coding since using Claude Code has been kind of poor experience last 2 weeks.&lt;/p&gt; &lt;p&gt;I'm pondering between 2 or 4 V100 (32GB) and 2 or 4 MI50 (32GB) GPUs to support this. I understand V100 should be snappier to respond but MI50 is newer.&lt;/p&gt; &lt;p&gt;What would be best way to go here?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/NoTruth6718"&gt; /u/NoTruth6718 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scawa3/claude_code_replacement/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scawa3/claude_code_replacement/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scawa3/claude_code_replacement/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I have always considered the term RAG to be a hype term. to me Retrieval Augmented Generation just means the model retrieves the data, interprets it based on what you requested and responds with the data in context, meaning any agentic system that has and uses a tool to read data from a source (weather it's a database or a filesystem) and interprets that data and returns a response is technically augmenting the data and generating a result, thus it is RAG. Mainly just trying to figure out how to communicate with those that seem to live on the hype cycle&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/cmdr-William-Riker"&gt; /u/cmdr-William-Riker &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scf6oh/what_counts_as_rag/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scf6oh/what_counts_as_rag/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scf6oh/what_counts_as_rag/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T14:38:16+00:00</published>
+    <published>2026-04-04T17:27:18+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbc5ij</id>
@@ -86,17 +73,17 @@
     <published>2026-04-03T12:25:09+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sci5h6</id>
-    <title>Gemma 4 31B beats several frontier models on the FoodTruck Bench</title>
-    <updated>2026-04-04T19:22:55+00:00</updated>
+    <id>t3_1scawa3</id>
+    <title>Claude Code replacement</title>
+    <updated>2026-04-04T14:38:16+00:00</updated>
     <author>
-      <name>/u/Nindaleth</name>
-      <uri>https://old.reddit.com/user/Nindaleth</uri>
+      <name>/u/NoTruth6718</name>
+      <uri>https://old.reddit.com/user/NoTruth6718</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"&gt; &lt;img alt="Gemma 4 31B beats several frontier models on the FoodTruck Bench" src="https://preview.redd.it/dzatb00148tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f78f0643c483455208134fbeb76dfc09e43131e1" title="Gemma 4 31B beats several frontier models on the FoodTruck Bench" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gemma 4 31B takes an incredible 3rd place on FoodTruck Bench, beating GLM 5, Qwen 3.5 397B and all Claude Sonnets!&lt;/p&gt; &lt;p&gt;I'm looking forward to how they'll explain the result. Based on the previous models that failed to finish the run, it would seem that Gemma 4 handles long horizon tasks better and actually listens to its own advice when planning for the next day of the run.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Nindaleth"&gt; /u/Nindaleth &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/dzatb00148tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I'm looking to build a local setup for coding since using Claude Code has been kind of poor experience last 2 weeks.&lt;/p&gt; &lt;p&gt;I'm pondering between 2 or 4 V100 (32GB) and 2 or 4 MI50 (32GB) GPUs to support this. I understand V100 should be snappier to respond but MI50 is newer.&lt;/p&gt; &lt;p&gt;What would be best way to go here?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/NoTruth6718"&gt; /u/NoTruth6718 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scawa3/claude_code_replacement/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scawa3/claude_code_replacement/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scawa3/claude_code_replacement/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T19:22:55+00:00</published>
+    <published>2026-04-04T14:38:16+00:00</published>
   </entry>
   <entry>
     <id>t3_1sc9s1x</id>
@@ -203,19 +190,6 @@
     <published>2026-04-04T12:40:12+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scbpmo</id>
-    <title>so…. Qwen3.5 or Gemma 4?</title>
-    <updated>2026-04-04T15:11:02+00:00</updated>
-    <author>
-      <name>/u/MLExpert000</name>
-      <uri>https://old.reddit.com/user/MLExpert000</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Is there a winner yet?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLExpert000"&gt; /u/MLExpert000 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T15:11:02+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sbyte4</id>
     <title>We gave 12 LLMs a startup to run for a year. GLM-5 nearly matched Claude Opus 4.6 at 11× lower cost.</title>
     <updated>2026-04-04T03:45:40+00:00</updated>
@@ -227,6 +201,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbyte4/we_gave_12_llms_a_startup_to_run_for_a_year_glm5/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T03:45:40+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scbpmo</id>
+    <title>so…. Qwen3.5 or Gemma 4?</title>
+    <updated>2026-04-04T15:11:02+00:00</updated>
+    <author>
+      <name>/u/MLExpert000</name>
+      <uri>https://old.reddit.com/user/MLExpert000</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Is there a winner yet?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLExpert000"&gt; /u/MLExpert000 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T15:11:02+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbwkou</id>
@@ -279,6 +266,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc8kdg/running_gemma4_26b_a4b_on_the_rockchip_npu_using/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T12:56:55+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sci5h6</id>
+    <title>Gemma 4 31B beats several frontier models on the FoodTruck Bench</title>
+    <updated>2026-04-04T19:22:55+00:00</updated>
+    <author>
+      <name>/u/Nindaleth</name>
+      <uri>https://old.reddit.com/user/Nindaleth</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"&gt; &lt;img alt="Gemma 4 31B beats several frontier models on the FoodTruck Bench" src="https://preview.redd.it/dzatb00148tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f78f0643c483455208134fbeb76dfc09e43131e1" title="Gemma 4 31B beats several frontier models on the FoodTruck Bench" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Gemma 4 31B takes an incredible 3rd place on FoodTruck Bench, beating GLM 5, Qwen 3.5 397B and all Claude Sonnets!&lt;/p&gt; &lt;p&gt;I'm looking forward to how they'll explain the result. Based on the previous models that failed to finish the run, it would seem that Gemma 4 handles long horizon tasks better and actually listens to its own advice when planning for the next day of the run.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Nindaleth"&gt; /u/Nindaleth &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/dzatb00148tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T19:22:55+00:00</published>
   </entry>
   <entry>
     <id>t3_1sccpbj</id>
