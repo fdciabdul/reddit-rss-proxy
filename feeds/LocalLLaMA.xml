@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-04T16:16:28+00:00</updated>
+  <updated>2026-04-04T16:46:51+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
+  <entry>
+    <id>t3_1sbik5l</id>
+    <title>Visual Guide to Gemma 4</title>
+    <updated>2026-04-03T16:36:46+00:00</updated>
+    <author>
+      <name>/u/jacek2023</name>
+      <uri>https://old.reddit.com/user/jacek2023</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbik5l/visual_guide_to_gemma_4/"&gt; &lt;img alt="Visual Guide to Gemma 4" src="https://preview.redd.it/nbsmjvho60tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=33d08d5f997d53e7e6fbc9abf8f50b46c57e7163" title="Visual Guide to Gemma 4" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;source: &lt;a href="https://x.com/osanseviero/status/2040105484061954349"&gt;https://x.com/osanseviero/status/2040105484061954349&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-gemma-4"&gt;https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-gemma-4&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/jacek2023"&gt; /u/jacek2023 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/nbsmjvho60tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sbik5l/visual_guide_to_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbik5l/visual_guide_to_gemma_4/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-03T16:36:46+00:00</published>
+  </entry>
   <entry>
     <id>t3_1sccjq2</id>
     <title>Is Turboquant really a game changer?</title>
@@ -60,19 +73,6 @@
     <published>2026-04-04T08:38:39+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scbpmo</id>
-    <title>so…. Qwen3.5 or Gemma 4?</title>
-    <updated>2026-04-04T15:11:02+00:00</updated>
-    <author>
-      <name>/u/MLExpert000</name>
-      <uri>https://old.reddit.com/user/MLExpert000</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Is there a winner yet?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLExpert000"&gt; /u/MLExpert000 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T15:11:02+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sbtr5i</id>
     <title>Gemma 4 31B sweeps the floor with GLM 5.1</title>
     <updated>2026-04-03T23:48:10+00:00</updated>
@@ -84,32 +84,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbtr5i/gemma_4_31b_sweeps_the_floor_with_glm_51/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-03T23:48:10+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sc3leb</id>
-    <title>Kokoro TTS running on-device, CPU-only, 20x realtime!!!</title>
-    <updated>2026-04-04T08:13:07+00:00</updated>
-    <author>
-      <name>/u/aminsweiti</name>
-      <uri>https://old.reddit.com/user/aminsweiti</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc3leb/kokoro_tts_running_ondevice_cpuonly_20x_realtime/"&gt; &lt;img alt="Kokoro TTS running on-device, CPU-only, 20x realtime!!!" src="https://external-preview.redd.it/ZzloM3JnenlxNHRnMWS5x6r93bqcZHy_7cUbj3DuFSSVPCcpRCkom44Ijsr6.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=ed64f93815465baea79718b86e53eaa074c6c635" title="Kokoro TTS running on-device, CPU-only, 20x realtime!!!" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I wanted a reading app where you could read, read and listen or just listen to books with word-by-word highlighting synced to TTS and i wanted the voice to actually sound good. &lt;/p&gt; &lt;p&gt;This turned out to be a really hard challenge with Kokoro on iOS, here's what I ran into:&lt;/p&gt; &lt;p&gt;Using MLX Swift is great but uses Metal. iOS kills Metal access the moment you background the app. If your use case needs background audio, this is a dead end.&lt;/p&gt; &lt;p&gt;ONNX Runtime on CPU fixes the background problem, but the monolithic Kokoro model only runs at 2-3x realtime. After 30 minutes of sustained generation my phone was scorching hot.&lt;/p&gt; &lt;p&gt;What actually worked: I split the monolithic model into a multi-stage pipeline and replaced part of the synthesis with native code on Apple's Accelerate framework. That got it to 20x realtime on CPU with no thermal issues.&lt;/p&gt; &lt;p&gt;Also quantization actually tends to make rt slower. So unless your concerned with app size id leave it unquantizied. &lt;/p&gt; &lt;p&gt;Happy to answer questions about any of this if you're working on something similar.&lt;/p&gt; &lt;p&gt;I built an EPUB reader around it called Morph Books if you wanted to test it out. &lt;a href="https://apps.apple.com/us/app/morph-books/id6760332618"&gt;https://apps.apple.com/us/app/morph-books/id6760332618&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/aminsweiti"&gt; /u/aminsweiti &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/l5ymm7zyq4tg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc3leb/kokoro_tts_running_ondevice_cpuonly_20x_realtime/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc3leb/kokoro_tts_running_ondevice_cpuonly_20x_realtime/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T08:13:07+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1scb558</id>
-    <title>Why Struggle this Much, Just to say "Hi"</title>
-    <updated>2026-04-04T14:48:24+00:00</updated>
-    <author>
-      <name>/u/Hell_L0rd</name>
-      <uri>https://old.reddit.com/user/Hell_L0rd</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt; &lt;img alt="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" src="https://preview.redd.it/7i2k7g9ur6tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8d6a7adbff03bfcb345193804738914c75629b32" title="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; Say Hi to me&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Hell_L0rd"&gt; /u/Hell_L0rd &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7i2k7g9ur6tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T14:48:24+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbc5ij</id>
@@ -151,17 +125,43 @@
     <published>2026-04-04T13:51:15+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sc87tk</id>
-    <title>Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp; Custom Cooling</title>
-    <updated>2026-04-04T12:40:12+00:00</updated>
+    <id>t3_1sc1bhe</id>
+    <title>Quantizers appriciation post</title>
+    <updated>2026-04-04T05:59:39+00:00</updated>
     <author>
-      <name>/u/AncientWin9492</name>
-      <uri>https://old.reddit.com/user/AncientWin9492</uri>
+      <name>/u/Kahvana</name>
+      <uri>https://old.reddit.com/user/Kahvana</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"&gt; &lt;img alt="Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp;amp; Custom Cooling" src="https://external-preview.redd.it/YjExM3FueWU1NnRnMXg93cwjfmsNfjmFPOvIvCBVZU7DYrhInAfuRQjtuAQB.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=0c6ddaa65d150136648fca9acefbb0b524355176" title="Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp;amp; Custom Cooling" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Finally got the Gemma 4 (E4B) model running on my Raspberry Pi 5 (8GB). Since the model requires about 9.6GB of RAM, I had to get creative with memory management.&lt;/p&gt; &lt;p&gt;The Setup:&lt;/p&gt; &lt;p&gt;Raspberry Pi OS.&lt;/p&gt; &lt;p&gt;Lexar SSD (Essential for fast Swap).&lt;/p&gt; &lt;p&gt;Memory Management: Combined ZRAM and RAM Swap to bridge the gap. It's a bit slow, but it works stably!&lt;/p&gt; &lt;p&gt;Overclock: Pushed to 2.8GHz&lt;/p&gt; &lt;p&gt;(arm_freq=2800) to help with the heavy lifting.&lt;/p&gt; &lt;p&gt;Thermal Success:&lt;/p&gt; &lt;p&gt;Using a custom DIY &amp;quot;stacked fan&amp;quot; cooling rig. Even under 100% load during long generations, temps stay solid between 50°C and 55°C.&lt;/p&gt; &lt;p&gt;It's not the fastest Al rig, but seeing a Pi 5 handle a model larger than its physical RAM is amazing!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AncientWin9492"&gt; /u/AncientWin9492 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/xdl7kwxe56tg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;Yesterday I decided to try and learn how to quantize ggufs myself with reasonable quality, in order to understand the magic behind the curtain.&lt;/p&gt; &lt;p&gt;Holy... I did not expect how much work it is, how long it takes, and requires A LOT (500GB!) of storage space for just Gemma-4-26B-A4B in various sizes. There really is an art to configuring them too, with variations between architectures and quant types.&lt;/p&gt; &lt;p&gt;Thanks to unsloth releasing their imatrix file and huggingface showing the weight types inside their viewer, I managed to cobble something together without LLM assistance. I ran into a few hiccups and some of the information is a bit confusing, so I documented my process in the hopes of making it easier for someone else to learn and experiment.&lt;/p&gt; &lt;p&gt;My recipe and full setup guide can be found here, in case you want to try it too:&lt;br /&gt; &lt;a href="https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md"&gt;https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is much appriciated, I still have a lot to learn!&lt;/p&gt; &lt;p&gt;So yeah, I really want to thank:&lt;br /&gt; - mradenmacher for inspiring and encouraging me to actually attempt this in one of the model requests&lt;br /&gt; - unsloth for the resources they released&lt;br /&gt; - bartowski, ubergarm, aessedai for their recipes and/or information&lt;br /&gt; - thebloke for the OG quants&lt;br /&gt; - ...and everyone else who puts the time and effort in to release their quants!&lt;/p&gt; &lt;p&gt;I can really recommend you give it a try to make your own quants at least once, I ended up learning a lot from it and appriciate the work others do more.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Kahvana"&gt; /u/Kahvana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T12:40:12+00:00</published>
+    <published>2026-04-04T05:59:39+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scbpmo</id>
+    <title>so…. Qwen3.5 or Gemma 4?</title>
+    <updated>2026-04-04T15:11:02+00:00</updated>
+    <author>
+      <name>/u/MLExpert000</name>
+      <uri>https://old.reddit.com/user/MLExpert000</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Is there a winner yet?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/MLExpert000"&gt; /u/MLExpert000 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scbpmo/so_qwen35_or_gemma_4/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T15:11:02+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scb558</id>
+    <title>Why Struggle this Much, Just to say "Hi"</title>
+    <updated>2026-04-04T14:48:24+00:00</updated>
+    <author>
+      <name>/u/Hell_L0rd</name>
+      <uri>https://old.reddit.com/user/Hell_L0rd</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt; &lt;img alt="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" src="https://preview.redd.it/7i2k7g9ur6tg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8d6a7adbff03bfcb345193804738914c75629b32" title="Why Struggle this Much, Just to say &amp;quot;Hi&amp;quot;" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; Say Hi to me&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Hell_L0rd"&gt; /u/Hell_L0rd &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7i2k7g9ur6tg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scb558/why_struggle_this_much_just_to_say_hi/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T14:48:24+00:00</published>
   </entry>
   <entry>
     <id>t3_1sc9ucc</id>
@@ -177,32 +177,6 @@
     <published>2026-04-04T13:53:57+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sc1bhe</id>
-    <title>Quantizers appriciation post</title>
-    <updated>2026-04-04T05:59:39+00:00</updated>
-    <author>
-      <name>/u/Kahvana</name>
-      <uri>https://old.reddit.com/user/Kahvana</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hey everyone,&lt;/p&gt; &lt;p&gt;Yesterday I decided to try and learn how to quantize ggufs myself with reasonable quality, in order to understand the magic behind the curtain.&lt;/p&gt; &lt;p&gt;Holy... I did not expect how much work it is, how long it takes, and requires A LOT (500GB!) of storage space for just Gemma-4-26B-A4B in various sizes. There really is an art to configuring them too, with variations between architectures and quant types.&lt;/p&gt; &lt;p&gt;Thanks to unsloth releasing their imatrix file and huggingface showing the weight types inside their viewer, I managed to cobble something together without LLM assistance. I ran into a few hiccups and some of the information is a bit confusing, so I documented my process in the hopes of making it easier for someone else to learn and experiment.&lt;/p&gt; &lt;p&gt;My recipe and full setup guide can be found here, in case you want to try it too:&lt;br /&gt; &lt;a href="https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md"&gt;https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/blob/main/REPRODUCE.md&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Feedback is much appriciated, I still have a lot to learn!&lt;/p&gt; &lt;p&gt;So yeah, I really want to thank:&lt;br /&gt; - mradenmacher for inspiring and encouraging me to actually attempt this in one of the model requests&lt;br /&gt; - unsloth for the resources they released&lt;br /&gt; - bartowski, ubergarm, aessedai for their recipes and/or information&lt;br /&gt; - thebloke for the OG quants&lt;br /&gt; - ...and everyone else who puts the time and effort in to release their quants!&lt;/p&gt; &lt;p&gt;I can really recommend you give it a try to make your own quants at least once, I ended up learning a lot from it and appriciate the work others do more.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Kahvana"&gt; /u/Kahvana &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc1bhe/quantizers_appriciation_post/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T05:59:39+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sccpbj</id>
-    <title>We absolutely need Qwen3.6-397B-A17B to be open source</title>
-    <updated>2026-04-04T15:50:40+00:00</updated>
-    <author>
-      <name>/u/True_Requirement_891</name>
-      <uri>https://old.reddit.com/user/True_Requirement_891</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The benchmarks may not show it but it's a substantial improvement over 3.5 for real world tasks. This model is performing better than GLM-5.1 and Kimi-k2.5 for me, and the biggest area of improvement has been reliability. &lt;/p&gt; &lt;p&gt;It feels as reliable as claude in getting shit done end to end and not mess up half way and waste hours. This is the first OS model that has actually felt like I can compare it to Claude Sonnet.&lt;/p&gt; &lt;p&gt;We have been comparing OS models with claude sonnet and opus left and right months now, they do show that they are close in benchmarks but fall apart in the real world, the models that are claimed to be close to opus haven't even been able to achieve Sonnet level quality in my real world usage.&lt;/p&gt; &lt;p&gt;This is the first model I can confidently say very closely matches Sonnet.&lt;br /&gt; And before some of you come at me that nobody will be able to run it locally yes, most of us might not be able to run it on our laptops, but &lt;/p&gt; &lt;p&gt;- there are us who rent gpus in the cloud to do things we would never be able to with the closed models &lt;/p&gt; &lt;p&gt;- you get 50 other inference providers hosting the model for dirt cheap prices&lt;/p&gt; &lt;p&gt;- Removing censorship and freedom to use this mode and modify it however you want&lt;/p&gt; &lt;p&gt;- and many other things&lt;/p&gt; &lt;p&gt;Big open source models that are actually decent are necessary.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/True_Requirement_891"&gt; /u/True_Requirement_891 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T15:50:40+00:00</published>
-  </entry>
-  <entry>
     <id>t3_1sc8mwc</id>
     <title>Recently I did a little performance test of several LLMs on PC with 16GB VRAM</title>
     <updated>2026-04-04T13:00:12+00:00</updated>
@@ -214,6 +188,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc8mwc/recently_i_did_a_little_performance_test_of/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T13:00:12+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sc87tk</id>
+    <title>Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp; Custom Cooling</title>
+    <updated>2026-04-04T12:40:12+00:00</updated>
+    <author>
+      <name>/u/AncientWin9492</name>
+      <uri>https://old.reddit.com/user/AncientWin9492</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"&gt; &lt;img alt="Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp;amp; Custom Cooling" src="https://external-preview.redd.it/YjExM3FueWU1NnRnMXg93cwjfmsNfjmFPOvIvCBVZU7DYrhInAfuRQjtuAQB.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=0c6ddaa65d150136648fca9acefbb0b524355176" title="Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp;amp; Custom Cooling" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Finally got the Gemma 4 (E4B) model running on my Raspberry Pi 5 (8GB). Since the model requires about 9.6GB of RAM, I had to get creative with memory management.&lt;/p&gt; &lt;p&gt;The Setup:&lt;/p&gt; &lt;p&gt;Raspberry Pi OS.&lt;/p&gt; &lt;p&gt;Lexar SSD (Essential for fast Swap).&lt;/p&gt; &lt;p&gt;Memory Management: Combined ZRAM and RAM Swap to bridge the gap. It's a bit slow, but it works stably!&lt;/p&gt; &lt;p&gt;Overclock: Pushed to 2.8GHz&lt;/p&gt; &lt;p&gt;(arm_freq=2800) to help with the heavy lifting.&lt;/p&gt; &lt;p&gt;Thermal Success:&lt;/p&gt; &lt;p&gt;Using a custom DIY &amp;quot;stacked fan&amp;quot; cooling rig. Even under 100% load during long generations, temps stay solid between 50°C and 55°C.&lt;/p&gt; &lt;p&gt;It's not the fastest Al rig, but seeing a Pi 5 handle a model larger than its physical RAM is amazing!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AncientWin9492"&gt; /u/AncientWin9492 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/xdl7kwxe56tg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T12:40:12+00:00</published>
   </entry>
   <entry>
     <id>t3_1sccci2</id>
@@ -253,6 +240,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sbwdxr/running_gemma_4_on_my_macbook_air_from_2020/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T01:47:52+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sccpbj</id>
+    <title>We absolutely need Qwen3.6-397B-A17B to be open source</title>
+    <updated>2026-04-04T15:50:40+00:00</updated>
+    <author>
+      <name>/u/True_Requirement_891</name>
+      <uri>https://old.reddit.com/user/True_Requirement_891</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The benchmarks may not show it but it's a substantial improvement over 3.5 for real world tasks. This model is performing better than GLM-5.1 and Kimi-k2.5 for me, and the biggest area of improvement has been reliability. &lt;/p&gt; &lt;p&gt;It feels as reliable as claude in getting shit done end to end and not mess up half way and waste hours. This is the first OS model that has actually felt like I can compare it to Claude Sonnet.&lt;/p&gt; &lt;p&gt;We have been comparing OS models with claude sonnet and opus left and right months now, they do show that they are close in benchmarks but fall apart in the real world, the models that are claimed to be close to opus haven't even been able to achieve Sonnet level quality in my real world usage.&lt;/p&gt; &lt;p&gt;This is the first model I can confidently say very closely matches Sonnet.&lt;br /&gt; And before some of you come at me that nobody will be able to run it locally yes, most of us might not be able to run it on our laptops, but &lt;/p&gt; &lt;p&gt;- there are us who rent gpus in the cloud to do things we would never be able to with the closed models &lt;/p&gt; &lt;p&gt;- you get 50 other inference providers hosting the model for dirt cheap prices&lt;/p&gt; &lt;p&gt;- Removing censorship and freedom to use this mode and modify it however you want&lt;/p&gt; &lt;p&gt;- and many other things&lt;/p&gt; &lt;p&gt;Big open source models that are actually decent are necessary.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/True_Requirement_891"&gt; /u/True_Requirement_891 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T15:50:40+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbyte4</id>
