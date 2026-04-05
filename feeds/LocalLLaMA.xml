@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-05T04:40:08+00:00</updated>
+  <updated>2026-04-05T05:25:03+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1sc87tk</id>
-    <title>Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp; Custom Cooling</title>
-    <updated>2026-04-04T12:40:12+00:00</updated>
-    <author>
-      <name>/u/AncientWin9492</name>
-      <uri>https://old.reddit.com/user/AncientWin9492</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"&gt; &lt;img alt="Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp;amp; Custom Cooling" src="https://external-preview.redd.it/YjExM3FueWU1NnRnMXg93cwjfmsNfjmFPOvIvCBVZU7DYrhInAfuRQjtuAQB.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=0c6ddaa65d150136648fca9acefbb0b524355176" title="Running Gemma 4 e4b (9.6GB RAM req) on RPi 5 8GB! Stable 2.8GHz Overclock &amp;amp; Custom Cooling" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Finally got the Gemma 4 (E4B) model running on my Raspberry Pi 5 (8GB). Since the model requires about 9.6GB of RAM, I had to get creative with memory management.&lt;/p&gt; &lt;p&gt;The Setup:&lt;/p&gt; &lt;p&gt;Raspberry Pi OS.&lt;/p&gt; &lt;p&gt;Lexar SSD (Essential for fast Swap).&lt;/p&gt; &lt;p&gt;Memory Management: Combined ZRAM and RAM Swap to bridge the gap. It's a bit slow, but it works stably!&lt;/p&gt; &lt;p&gt;Overclock: Pushed to 2.8GHz&lt;/p&gt; &lt;p&gt;(arm_freq=2800) to help with the heavy lifting.&lt;/p&gt; &lt;p&gt;Thermal Success:&lt;/p&gt; &lt;p&gt;Using a custom DIY &amp;quot;stacked fan&amp;quot; cooling rig. Even under 100% load during long generations, temps stay solid between 50°C and 55°C.&lt;/p&gt; &lt;p&gt;It's not the fastest Al rig, but seeing a Pi 5 handle a model larger than its physical RAM is amazing!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AncientWin9492"&gt; /u/AncientWin9492 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/xdl7kwxe56tg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sc87tk/running_gemma_4_e4b_96gb_ram_req_on_rpi_5_8gb/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T12:40:12+00:00</published>
-  </entry>
   <entry>
     <id>t3_1schgvs</id>
     <title>Harmonic-9B - Two-stage Qwen3.5-9B fine-tune (Stage 2 still training)</title>
@@ -32,19 +19,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1schgvs/harmonic9b_twostage_qwen359b_finetune_stage_2/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T18:55:56+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1scs0tp</id>
-    <title>Signals – finding the most informative agent traces without LLM judges (arxiv.org)</title>
-    <updated>2026-04-05T02:37:52+00:00</updated>
-    <author>
-      <name>/u/AdditionalWeb107</name>
-      <uri>https://old.reddit.com/user/AdditionalWeb107</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scs0tp/signals_finding_the_most_informative_agent_traces/"&gt; &lt;img alt="Signals – finding the most informative agent traces without LLM judges (arxiv.org)" src="https://preview.redd.it/7fdtvbjkaatg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=e2f5760ea21f488c740262282281c6e1c61fa658" title="Signals – finding the most informative agent traces without LLM judges (arxiv.org)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hello Peeps Salman, Shuguang and Adil here from Katanemo Labs (a DigitalOcean company).&lt;/p&gt; &lt;p&gt;Wanted to introduce our latest research on agentic systems called Signals. If you've been building agents, you've probably noticed that there are far too many agent traces/trajectories to review one by one, and using humans or extra LLM calls to inspect all of them gets expensive really fast. The paper proposes a lightweight way to compute structured “signals” from live agent interactions so you can surface the trajectories most worth looking at, without changing the agent’s online behavior. Computing Signals doesn't require a GPU.&lt;/p&gt; &lt;p&gt;Signals are grouped into a simple taxonomy across interaction, execution, and environment patterns, including things like misalignment, stagnation, disengagement, failure, looping, and exhaustion. In an annotation study on τ-bench, signal-based sampling reached an 82% informativeness rate versus 54% for random sampling, which translated to a 1.52x efficiency gain per informative trajectory.&lt;/p&gt; &lt;p&gt;Paper: arXiv 2604.00356. &lt;a href="https://arxiv.org/abs/2604.00356"&gt;https://arxiv.org/abs/2604.00356&lt;/a&gt;&lt;br /&gt; Project where Signals are already implemented: &lt;a href="https://github.com/katanemo/plano"&gt;https://github.com/katanemo/plano&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happy to answer questions on the taxonomy, implementation details, or where this breaks down.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AdditionalWeb107"&gt; /u/AdditionalWeb107 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7fdtvbjkaatg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scs0tp/signals_finding_the_most_informative_agent_traces/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scs0tp/signals_finding_the_most_informative_agent_traces/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T02:37:52+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbyte4</id>
@@ -60,17 +34,30 @@
     <published>2026-04-04T03:45:40+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scs2vh</id>
-    <title>How to design capacity for running LLMs locally? Asking for a startup</title>
-    <updated>2026-04-05T02:40:45+00:00</updated>
+    <id>t3_1scv46p</id>
+    <title>Improved markdown quality, code intelligence for 248 languages, and more in Kreuzberg v4.7.0</title>
+    <updated>2026-04-05T05:17:04+00:00</updated>
     <author>
-      <name>/u/Final-Batz</name>
-      <uri>https://old.reddit.com/user/Final-Batz</uri>
+      <name>/u/Eastern-Surround7763</name>
+      <uri>https://old.reddit.com/user/Eastern-Surround7763</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hello everyone. I'm at a startup of a team of less than 10 ppl. Everyone in our team wants to use AI to speed up their work and iron out issues faster, which LLMs can be used for.&lt;br /&gt; The purposes we use LLMs can be coding, sales presentations, pitch preparations, and designs.&lt;br /&gt; The focus for us from this exercise is to ensure the IP/ sensitive data is not trained or fed into the closed LLMs, for the reason being that it could be a compromise. Hence, we are looking to host LLMs locally like Qwen, Kimi, Gemma, Deepseek, Llama (happy to know if there are better open source models). Also, have the capacity to replace the model with the latest launched and performing one, when needed.&lt;/p&gt; &lt;p&gt;Can you advise us on a couple of things below based on your experiences:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Which models are good for a. coding b. text generation for reports/ ppts c. image/ video generations?&lt;/li&gt; &lt;li&gt; What hardware capacities should we host on? Say, should we use a mix of EPYC 7763 + 1TB 3200MHz DDR4 + 2x3090?&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;For local hosting on hardware, we would want to start with the minimum possible budget but build it in such a way that it supports scale when required.&lt;/p&gt; &lt;p&gt;Happy to hear any other suggestions too.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Final-Batz"&gt; /u/Final-Batz &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scs2vh/how_to_design_capacity_for_running_llms_locally/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scs2vh/how_to_design_capacity_for_running_llms_locally/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scs2vh/how_to_design_capacity_for_running_llms_locally/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Kreuzberg v4.7.0 is here. Kreuzberg is a Rust-core document intelligence library that works with Python, TypeScript/Node.js, Go, Ruby, Java, C#, PHP, Elixir, R, C, and WASM. &lt;/p&gt; &lt;p&gt;We’ve added several features, integrated OpenWEBUI, and made a big improvement in quality across all formats. There is also a new markdown rendering layer and new HTML output, which we now support. And much more (which you can find in our &lt;a href="https://github.com/kreuzberg-dev/kreuzberg/releases"&gt;the release notes&lt;/a&gt;).&lt;/p&gt; &lt;p&gt;The main highlight is &lt;strong&gt;code intelligence and extraction.&lt;/strong&gt; Kreuzberg now supports 248 formats through our &lt;a href="https://github.com/kreuzberg-dev/tree-sitter-language-pack"&gt;tree-sitter-language-pack library&lt;/a&gt;. This is a step toward making Kreuzberg an engine for agents too. You can efficiently parse code, allowing direct integration as a library for agents and via MCP. Agents work with code repositories, review pull requests, index codebases, and analyze source files. Kreuzberg now extracts functions, classes, imports, exports, symbols, and docstrings at the AST level, with code chunking that respects scope boundaries. &lt;/p&gt; &lt;p&gt;Regarding &lt;strong&gt;markdown quality&lt;/strong&gt;, poor document extraction can lead to further issues down the pipeline. We created a benchmark harness using Structural F1 and Text F1 scoring across over 350 documents and 23 formats, then optimized based on that. LaTeX improved from 0% to 100% SF1. XLSX increased from 30% to 100%. PDF table SF1 went from 15.5% to 53.7%. All 23 formats are now at over 80% SF1. The output pipelines receive is now structurally correct by default. &lt;/p&gt; &lt;p&gt;Kreuzberg is now available as a document extraction backend for OpenWebUI (by popular request!), with options for docling-serve compatibility or direct connection. &lt;/p&gt; &lt;p&gt;In this release, we’ve added &lt;strong&gt;unified architecture&lt;/strong&gt; where every extractor creates a standard typed document representation. We also included TOON wire format, which is a compact document encoding that reduces LLM prompt token usage by 30 to 50%, semantic chunk labeling, JSON output, strict configuration validation, and improved security. GitHub: &lt;a href="https://github.com/kreuzberg-dev/kreuzberg"&gt;https://github.com/kreuzberg-dev/kreuzberg&lt;/a&gt;. &lt;/p&gt; &lt;p&gt;And- &lt;a href="https://kreuzberg.dev/"&gt;Kreuzberg Cloud&lt;/a&gt; out soon, this will be the hosted version is for teams that want the same extraction quality without managing infrastructure. more here: &lt;a href="https://kreuzberg.dev"&gt;https://kreuzberg.dev&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Contributions are always very welcome&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Eastern-Surround7763"&gt; /u/Eastern-Surround7763 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scv46p/improved_markdown_quality_code_intelligence_for/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scv46p/improved_markdown_quality_code_intelligence_for/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scv46p/improved_markdown_quality_code_intelligence_for/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T02:40:45+00:00</published>
+    <published>2026-04-05T05:17:04+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scs0tp</id>
+    <title>Signals – finding the most informative agent traces without LLM judges (arxiv.org)</title>
+    <updated>2026-04-05T02:37:52+00:00</updated>
+    <author>
+      <name>/u/AdditionalWeb107</name>
+      <uri>https://old.reddit.com/user/AdditionalWeb107</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scs0tp/signals_finding_the_most_informative_agent_traces/"&gt; &lt;img alt="Signals – finding the most informative agent traces without LLM judges (arxiv.org)" src="https://preview.redd.it/7fdtvbjkaatg1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=e2f5760ea21f488c740262282281c6e1c61fa658" title="Signals – finding the most informative agent traces without LLM judges (arxiv.org)" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hello Peeps Salman, Shuguang and Adil here from Katanemo Labs (a DigitalOcean company).&lt;/p&gt; &lt;p&gt;Wanted to introduce our latest research on agentic systems called Signals. If you've been building agents, you've probably noticed that there are far too many agent traces/trajectories to review one by one, and using humans or extra LLM calls to inspect all of them gets expensive really fast. The paper proposes a lightweight way to compute structured “signals” from live agent interactions so you can surface the trajectories most worth looking at, without changing the agent’s online behavior. Computing Signals doesn't require a GPU.&lt;/p&gt; &lt;p&gt;Signals are grouped into a simple taxonomy across interaction, execution, and environment patterns, including things like misalignment, stagnation, disengagement, failure, looping, and exhaustion. In an annotation study on τ-bench, signal-based sampling reached an 82% informativeness rate versus 54% for random sampling, which translated to a 1.52x efficiency gain per informative trajectory.&lt;/p&gt; &lt;p&gt;Paper: arXiv 2604.00356. &lt;a href="https://arxiv.org/abs/2604.00356"&gt;https://arxiv.org/abs/2604.00356&lt;/a&gt;&lt;br /&gt; Project where Signals are already implemented: &lt;a href="https://github.com/katanemo/plano"&gt;https://github.com/katanemo/plano&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happy to answer questions on the taxonomy, implementation details, or where this breaks down.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/AdditionalWeb107"&gt; /u/AdditionalWeb107 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://i.redd.it/7fdtvbjkaatg1.png"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scs0tp/signals_finding_the_most_informative_agent_traces/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scs0tp/signals_finding_the_most_informative_agent_traces/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-05T02:37:52+00:00</published>
   </entry>
   <entry>
     <id>t3_1sbwkou</id>
@@ -203,6 +190,19 @@
     <published>2026-04-04T20:47:03+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sccpbj</id>
+    <title>We absolutely need Qwen3.6-397B-A17B to be open source</title>
+    <updated>2026-04-04T15:50:40+00:00</updated>
+    <author>
+      <name>/u/True_Requirement_891</name>
+      <uri>https://old.reddit.com/user/True_Requirement_891</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The benchmarks may not show it but it's a substantial improvement over 3.5 for real world tasks. This model is performing better than GLM-5.1 and Kimi-k2.5 for me, and the biggest area of improvement has been reliability. &lt;/p&gt; &lt;p&gt;It feels as reliable as claude in getting shit done end to end and not mess up half way and waste hours. This is the first OS model that has actually felt like I can compare it to Claude Sonnet.&lt;/p&gt; &lt;p&gt;We have been comparing OS models with claude sonnet and opus left and right months now, they do show that they are close in benchmarks but fall apart in the real world, the models that are claimed to be close to opus haven't even been able to achieve Sonnet level quality in my real world usage.&lt;/p&gt; &lt;p&gt;This is the first model I can confidently say very closely matches Sonnet.&lt;br /&gt; And before some of you come at me that nobody will be able to run it locally yes, most of us might not be able to run it on our laptops, but &lt;/p&gt; &lt;p&gt;- there are us who rent gpus in the cloud to do things we would never be able to with the closed models &lt;/p&gt; &lt;p&gt;- you get 50 other inference providers hosting the model for dirt cheap prices&lt;/p&gt; &lt;p&gt;- Removing censorship and freedom to use this mode and modify it however you want&lt;/p&gt; &lt;p&gt;- and many other things&lt;/p&gt; &lt;p&gt;Big open source models that are actually decent are necessary.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/True_Requirement_891"&gt; /u/True_Requirement_891 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-04T15:50:40+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1scpwa5</id>
     <title>Are ocr engines like tesseract still valid or do people just use image recognition models now.</title>
     <updated>2026-04-05T00:54:09+00:00</updated>
@@ -227,19 +227,6 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scrnzm/local_claude_code_with_qwen35_27b/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-05T02:19:54+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1sccpbj</id>
-    <title>We absolutely need Qwen3.6-397B-A17B to be open source</title>
-    <updated>2026-04-04T15:50:40+00:00</updated>
-    <author>
-      <name>/u/True_Requirement_891</name>
-      <uri>https://old.reddit.com/user/True_Requirement_891</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;The benchmarks may not show it but it's a substantial improvement over 3.5 for real world tasks. This model is performing better than GLM-5.1 and Kimi-k2.5 for me, and the biggest area of improvement has been reliability. &lt;/p&gt; &lt;p&gt;It feels as reliable as claude in getting shit done end to end and not mess up half way and waste hours. This is the first OS model that has actually felt like I can compare it to Claude Sonnet.&lt;/p&gt; &lt;p&gt;We have been comparing OS models with claude sonnet and opus left and right months now, they do show that they are close in benchmarks but fall apart in the real world, the models that are claimed to be close to opus haven't even been able to achieve Sonnet level quality in my real world usage.&lt;/p&gt; &lt;p&gt;This is the first model I can confidently say very closely matches Sonnet.&lt;br /&gt; And before some of you come at me that nobody will be able to run it locally yes, most of us might not be able to run it on our laptops, but &lt;/p&gt; &lt;p&gt;- there are us who rent gpus in the cloud to do things we would never be able to with the closed models &lt;/p&gt; &lt;p&gt;- you get 50 other inference providers hosting the model for dirt cheap prices&lt;/p&gt; &lt;p&gt;- Removing censorship and freedom to use this mode and modify it however you want&lt;/p&gt; &lt;p&gt;- and many other things&lt;/p&gt; &lt;p&gt;Big open source models that are actually decent are necessary.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/True_Requirement_891"&gt; /u/True_Requirement_891 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sccpbj/we_absolutely_need_qwen36397ba17b_to_be_open/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-04T15:50:40+00:00</published>
   </entry>
   <entry>
     <id>t3_1scrksf</id>
@@ -268,17 +255,17 @@
     <published>2026-04-04T12:22:13+00:00</published>
   </entry>
   <entry>
-    <id>t3_1scr78z</id>
-    <title>Gemma 4 vs Qwen3.5 on SVG style</title>
-    <updated>2026-04-05T01:56:43+00:00</updated>
+    <id>t3_1scucfg</id>
+    <title>Gemma 4 26b is the perfect all around local model and I'm surprised how well it does.</title>
+    <updated>2026-04-05T04:36:07+00:00</updated>
     <author>
-      <name>/u/iChrist</name>
-      <uri>https://old.reddit.com/user/iChrist</uri>
+      <name>/u/pizzaisprettyneato</name>
+      <uri>https://old.reddit.com/user/pizzaisprettyneato</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scr78z/gemma_4_vs_qwen35_on_svg_style/"&gt; &lt;img alt="Gemma 4 vs Qwen3.5 on SVG style" src="https://preview.redd.it/89qncddj3atg1.jpg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=8e2a5da148e8b6ddee2255adba86e4a716dc51c1" title="Gemma 4 vs Qwen3.5 on SVG style" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Some quick test using Gemma4-31B and Qwen3.5-27B, both Q4 quants from unsloth.&lt;/p&gt; &lt;p&gt;I was already expecting Gemma 4 to be excellent at creative writing and better at translations for more obscure languages, but I didn’t expected to be that good at function calling and general coding tasks, and even in creating SVGs!&lt;/p&gt; &lt;p&gt;Did you find any areas when Qwen3.5 beats Gemma4 ?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/iChrist"&gt; /u/iChrist &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://www.reddit.com/gallery/1scr78z"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scr78z/gemma_4_vs_qwen35_on_svg_style/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scr78z/gemma_4_vs_qwen35_on_svg_style/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I got a 64gb memory mac about a month ago and I've been trying to find a model that is reasonably quick, decently good at coding, and doesn't overload my system. My test I've been running is having it create a doom style raycaster in html and js&lt;/p&gt; &lt;p&gt;I've been told qwen 3 coder next was the king, and while its good, the 4bit variant always put my system near the edge. Also I don't know if it was because it was the 4bit variant, but it always would miss tool uses and get stuck in a loop guessing the right params. In the doom test it would usually get it and make something decent, but not after getting stuck in a loop of bad tool calls for a while.&lt;/p&gt; &lt;p&gt;Qwen 3.5 (the near 30b moe variant) could never do it in my experience. It always got stuck on a thinking loop and then would become so unsure of itself it would just end up rewriting the same file over and over and never finish.&lt;/p&gt; &lt;p&gt;But gemma 4 just crushed it, making something working after only 3 prompts. It was very fast too. It also limited its thinking and didn't get too lost in details, it just did it. It's the first time I've ran a local model and been actually surprised that it worked great, without any weirdness.&lt;/p&gt; &lt;p&gt;It makes me excited about the future of local models, and I wouldn't be surprised if in 2-3 years we'll be able to use very capable local models that can compete with the sonnets of the world.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/pizzaisprettyneato"&gt; /u/pizzaisprettyneato &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scucfg/gemma_4_26b_is_the_perfect_all_around_local_model/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scucfg/gemma_4_26b_is_the_perfect_all_around_local_model/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scucfg/gemma_4_26b_is_the_perfect_all_around_local_model/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T01:56:43+00:00</published>
+    <published>2026-04-05T04:36:07+00:00</published>
   </entry>
   <entry>
     <id>t3_1scf1x8</id>
@@ -292,6 +279,19 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scf1x8/dont_buy_the_dgx_spark_nvfp4_still_missing_after/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-04T17:22:19+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scr78z</id>
+    <title>Gemma 4 vs Qwen3.5 on SVG style</title>
+    <updated>2026-04-05T01:56:43+00:00</updated>
+    <author>
+      <name>/u/iChrist</name>
+      <uri>https://old.reddit.com/user/iChrist</uri>
+    </author>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scr78z/gemma_4_vs_qwen35_on_svg_style/"&gt; &lt;img alt="Gemma 4 vs Qwen3.5 on SVG style" src="https://preview.redd.it/89qncddj3atg1.jpg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=8e2a5da148e8b6ddee2255adba86e4a716dc51c1" title="Gemma 4 vs Qwen3.5 on SVG style" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Some quick test using Gemma4-31B and Qwen3.5-27B, both Q4 quants from unsloth.&lt;/p&gt; &lt;p&gt;I was already expecting Gemma 4 to be excellent at creative writing and better at translations for more obscure languages, but I didn’t expected to be that good at function calling and general coding tasks, and even in creating SVGs!&lt;/p&gt; &lt;p&gt;Did you find any areas when Qwen3.5 beats Gemma4 ?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/iChrist"&gt; /u/iChrist &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://www.reddit.com/gallery/1scr78z"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scr78z/gemma_4_vs_qwen35_on_svg_style/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scr78z/gemma_4_vs_qwen35_on_svg_style/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-05T01:56:43+00:00</published>
   </entry>
   <entry>
     <id>t3_1scovb5</id>
