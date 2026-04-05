@@ -2,50 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/LocalLLaMA/.rss</id>
   <title>LocalLlama</title>
-  <updated>2026-04-05T18:00:25+00:00</updated>
+  <updated>2026-04-05T18:27:52+00:00</updated>
   <link href="https://old.reddit.com/r/LocalLLaMA/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Subreddit to discuss locally hostable AI</subtitle>
-  <entry>
-    <id>t3_1sd9hzb</id>
-    <title>Running a GPT-OSS-120B model on 64GB unified memory — observations on quantization + MoE data access</title>
-    <updated>2026-04-05T17:26:19+00:00</updated>
-    <author>
-      <name>/u/manjunath_shiva</name>
-      <uri>https://old.reddit.com/user/manjunath_shiva</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve been experimenting with running large MoE models locally on Apple Silicon and ran into an interesting set of constraints around memory and throughput.&lt;/p&gt; &lt;p&gt;The main issue is obvious: 120B-scale models don’t fit into 64GB unified memory in their original form.&lt;/p&gt; &lt;p&gt;I tried a 3-bit quantization approach using:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;randomized Hadamard rotations (to normalize weight distributions)&lt;/li&gt; &lt;li&gt;Lloyd–Max quantization (for better codebook efficiency)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This brought a GPT-OSS 120B MoE model down to ~48 GB, with ~52 GB peak memory usage.&lt;/p&gt; &lt;p&gt;What surprised me more was the performance side.&lt;/p&gt; &lt;p&gt;Initial generation speed was extremely low (~1.7 tok/s), even after quantization.&lt;/p&gt; &lt;p&gt;The bottleneck turned out to be &lt;strong&gt;data access&lt;/strong&gt;, not compute.&lt;/p&gt; &lt;p&gt;Since MoE models only activate a few experts per token, I changed the execution pattern to gather only the active experts instead of touching all experts during dequantization.&lt;/p&gt; &lt;p&gt;After doing this (via a fused Metal kernel), generation speed increased to ~44 tok/s on 120B and ~73 tok/s on a 20B MoE model.&lt;/p&gt; &lt;p&gt;This feels like an under-discussed aspect of running MoE locally — quantization alone isn’t enough, access patterns matter just as much.&lt;/p&gt; &lt;p&gt;Curious if others working on local MoE inference have seen similar bottlenecks or tried different approaches here?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/manjunath_shiva"&gt; /u/manjunath_shiva &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9hzb/running_a_gptoss120b_model_on_64gb_unified_memory/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9hzb/running_a_gptoss120b_model_on_64gb_unified_memory/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9hzb/running_a_gptoss120b_model_on_64gb_unified_memory/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T17:26:19+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1scrksf</id>
-    <title>I made a 35% REAP of 397B with potentially usable quality in 96GB GPU</title>
-    <updated>2026-04-05T02:15:28+00:00</updated>
-    <author>
-      <name>/u/Goldkoron</name>
-      <uri>https://old.reddit.com/user/Goldkoron</uri>
-    </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scrksf/i_made_a_35_reap_of_397b_with_potentially_usable/"&gt; &lt;img alt="I made a 35% REAP of 397B with potentially usable quality in 96GB GPU" src="https://external-preview.redd.it/X4cszlxFADJXguBOflU9e42nBeyyooPEzKLHFm8EIvg.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=fbb627e78c21c568678ad6022abf8fa59eacd806" title="I made a 35% REAP of 397B with potentially usable quality in 96GB GPU" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Goldkoron"&gt; /u/Goldkoron &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://huggingface.co/Goldkoron/Qwen3.5-397B-A17B-REAP35"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scrksf/i_made_a_35_reap_of_397b_with_potentially_usable/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scrksf/i_made_a_35_reap_of_397b_with_potentially_usable/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T02:15:28+00:00</published>
-  </entry>
-  <entry>
-    <id>t3_1scpwa5</id>
-    <title>Are ocr engines like tesseract still valid or do people just use image recognition models now.</title>
-    <updated>2026-04-05T00:54:09+00:00</updated>
-    <author>
-      <name>/u/optipuss</name>
-      <uri>https://old.reddit.com/user/optipuss</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;had this thought when someone just used qwen3.5 to read the content of a pdf file very accurately even the signature. so this question arose in my mind.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/optipuss"&gt; /u/optipuss &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scpwa5/are_ocr_engines_like_tesseract_still_valid_or_do/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1scpwa5/are_ocr_engines_like_tesseract_still_valid_or_do/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1scpwa5/are_ocr_engines_like_tesseract_still_valid_or_do/"/>
-    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T00:54:09+00:00</published>
-  </entry>
   <entry>
     <id>t3_1sd8wgd</id>
     <title>Gemma 4 E4B on Android via ChatterUI</title>
@@ -60,30 +21,30 @@
     <published>2026-04-05T17:03:03+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sd9d7m</id>
-    <title>What happened to MLX-LM? What are the alternatives?</title>
-    <updated>2026-04-05T17:21:08+00:00</updated>
+    <id>t3_1sd9hzb</id>
+    <title>Running a GPT-OSS-120B model on 64GB unified memory — observations on quantization + MoE data access</title>
+    <updated>2026-04-05T17:26:19+00:00</updated>
     <author>
-      <name>/u/Solus23451</name>
-      <uri>https://old.reddit.com/user/Solus23451</uri>
+      <name>/u/manjunath_shiva</name>
+      <uri>https://old.reddit.com/user/manjunath_shiva</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Support seems non-existent and the last proper release was over a month ago. Comparing with llama.cpp, they are just miles different in activity and support. Is there an alternative or should just use llama.cpp for my macbook?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Solus23451"&gt; /u/Solus23451 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9d7m/what_happened_to_mlxlm_what_are_the_alternatives/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9d7m/what_happened_to_mlxlm_what_are_the_alternatives/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9d7m/what_happened_to_mlxlm_what_are_the_alternatives/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;I’ve been experimenting with running large MoE models locally on Apple Silicon and ran into an interesting set of constraints around memory and throughput.&lt;/p&gt; &lt;p&gt;The main issue is obvious: 120B-scale models don’t fit into 64GB unified memory in their original form.&lt;/p&gt; &lt;p&gt;I tried a 3-bit quantization approach using:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;randomized Hadamard rotations (to normalize weight distributions)&lt;/li&gt; &lt;li&gt;Lloyd–Max quantization (for better codebook efficiency)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This brought a GPT-OSS 120B MoE model down to ~48 GB, with ~52 GB peak memory usage.&lt;/p&gt; &lt;p&gt;What surprised me more was the performance side.&lt;/p&gt; &lt;p&gt;Initial generation speed was extremely low (~1.7 tok/s), even after quantization.&lt;/p&gt; &lt;p&gt;The bottleneck turned out to be &lt;strong&gt;data access&lt;/strong&gt;, not compute.&lt;/p&gt; &lt;p&gt;Since MoE models only activate a few experts per token, I changed the execution pattern to gather only the active experts instead of touching all experts during dequantization.&lt;/p&gt; &lt;p&gt;After doing this (via a fused Metal kernel), generation speed increased to ~44 tok/s on 120B and ~73 tok/s on a 20B MoE model.&lt;/p&gt; &lt;p&gt;This feels like an under-discussed aspect of running MoE locally — quantization alone isn’t enough, access patterns matter just as much.&lt;/p&gt; &lt;p&gt;Curious if others working on local MoE inference have seen similar bottlenecks or tried different approaches here?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/manjunath_shiva"&gt; /u/manjunath_shiva &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9hzb/running_a_gptoss120b_model_on_64gb_unified_memory/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9hzb/running_a_gptoss120b_model_on_64gb_unified_memory/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9hzb/running_a_gptoss120b_model_on_64gb_unified_memory/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T17:21:08+00:00</published>
+    <published>2026-04-05T17:26:19+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sda3r6</id>
-    <title>Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B</title>
-    <updated>2026-04-05T17:49:35+00:00</updated>
+    <id>t3_1sdagz7</id>
+    <title>I wrote a fused MoE dispatch kernel in pure Triton that beats Megablocks on Mixtral and DeepSeek at inference batch sizes</title>
+    <updated>2026-04-05T18:03:37+00:00</updated>
     <author>
-      <name>/u/ffinzy</name>
-      <uri>https://old.reddit.com/user/ffinzy</uri>
+      <name>/u/bassrehab</name>
+      <uri>https://old.reddit.com/user/bassrehab</uri>
     </author>
-    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sda3r6/realtime_ai_audiovideo_in_voice_out_on_an_m3_pro/"&gt; &lt;img alt="Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B" src="https://external-preview.redd.it/bTdlMnJ2MHlzZXRnMVw0-9mlHJJCuGVz1fDctqTWn_Y7phjc873o_SWb_RO3.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=3d12f596b0eba6ff630021b719ffbbb9b925cf19" title="Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Sure you can't do agentic coding with the Gemma 4 E2B, but this model is a game-changer for people learning a new language. &lt;/p&gt; &lt;p&gt;Imagine a few years from now that people can run this locally on their phones. They can point their camera at objects and talk about them. And this model is multi-lingual, so people can always fallback to their native language if they want. This is essentially what OpenAI demoed a few years ago.&lt;/p&gt; &lt;p&gt;Repo: &lt;a href="https://github.com/fikrikarim/parlor"&gt;https://github.com/fikrikarim/parlor&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ffinzy"&gt; /u/ffinzy &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/jdurdr0ysetg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sda3r6/realtime_ai_audiovideo_in_voice_out_on_an_m3_pro/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sda3r6/realtime_ai_audiovideo_in_voice_out_on_an_m3_pro/"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Been working on custom Triton kernels for LLM inference for a while. My latest project: a fused MoE dispatch pipeline that handles the full forward pass in 5 kernel launches instead of 24+ in the naive approach.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Results on Mixtral-8x7B (A100):&lt;/strong&gt;&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;Tokens&lt;/th&gt; &lt;th align="left"&gt;vs PyTorch&lt;/th&gt; &lt;th align="left"&gt;vs Megablocks&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;32&lt;/td&gt; &lt;td align="left"&gt;4.9x&lt;/td&gt; &lt;td align="left"&gt;131%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;128&lt;/td&gt; &lt;td align="left"&gt;5.8x&lt;/td&gt; &lt;td align="left"&gt;124%&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;512&lt;/td&gt; &lt;td align="left"&gt;6.5x&lt;/td&gt; &lt;td align="left"&gt;89%&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;At 32 and 128 tokens (where most inference serving actually happens), it's faster than Stanford's CUDA-optimized Megablocks. At 512+ Megablocks pulls ahead with its hand-tuned block-sparse matmul.&lt;/p&gt; &lt;p&gt;The key trick is fusing the gate+up projection so both GEMMs share the same input tile from L2 cache, and the SiLU activation happens in registers without ever hitting global memory. Saves ~470MB of memory traffic per forward pass on Mixtral.&lt;/p&gt; &lt;p&gt;Also tested on DeepSeek-V3 (256 experts) and Qwen2-MoE. Ran the full suite on AMD MI300X with zero code changes, all 162 tests passing.&lt;/p&gt; &lt;p&gt;Code: &lt;a href="https://github.com/bassrehab/triton-kernels"&gt;https://github.com/bassrehab/triton-kernels&lt;/a&gt; &lt;/p&gt; &lt;p&gt;Full writeup with roofline analysis: &lt;a href="https://subhadipmitra.com/blog/2026/fused-moe-dispatch-triton/"&gt;https://subhadipmitra.com/blog/2026/fused-moe-dispatch-triton/&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/bassrehab"&gt; /u/bassrehab &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sdagz7/i_wrote_a_fused_moe_dispatch_kernel_in_pure/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sdagz7/i_wrote_a_fused_moe_dispatch_kernel_in_pure/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sdagz7/i_wrote_a_fused_moe_dispatch_kernel_in_pure/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T17:49:35+00:00</published>
+    <published>2026-04-05T18:03:37+00:00</published>
   </entry>
   <entry>
     <id>t3_1sd1pkq</id>
@@ -97,6 +58,32 @@
     <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd1pkq/fastest_qwen_coder_80b_next/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
     <published>2026-04-05T11:55:03+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sd99su</id>
+    <title>Why are proprietary frontier models (like Opus and GPT-5.4) so much better at long-running tasks than proprietary open-source models?</title>
+    <updated>2026-04-05T17:17:31+00:00</updated>
+    <author>
+      <name>/u/asian_tea_man</name>
+      <uri>https://old.reddit.com/user/asian_tea_man</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;This is something that I don't quite understand, I'm hoping maybe someone can steer me in the right direction here?&lt;/p&gt; &lt;p&gt;Why is it that the proprietary closed source models like Opus 4.6 and GPT 5.4 are so much better in long-running agentic tasks vs open source leaders like GLM 5 and Kimi 2.5? &lt;/p&gt; &lt;p&gt;In benchmarks, the open source models are quite close to their proprietary counterparts. Like, in the first 60k tokens, quality of output from models like GLM 5.1 is on par with output from Opus 4.6 (and in some cases I've found GLM's output to be better, especially with front-end stuff).&lt;/p&gt; &lt;p&gt;Yet, with GPT 5.4, I can give it a complex feature story, and have it work for 1.5 hours (I've done this before), and then come back and see its built a fully complete complex feature.&lt;/p&gt; &lt;p&gt;&lt;em&gt;Another example: I wanted GPT 5.4 to build me an engine that converts HTML/CSS into a complex proprietary Application Data schema for a no-code web dev platform. I provided a few references, i.e the HTML/CSS and its corresponding schema, and had it keep running until it built me a converter that reliably converts between the two, took 2 hours and got a 100% working version. This really shocked me.&lt;/em&gt; &lt;/p&gt; &lt;p&gt;The same can't be said about even GLM 5.1. With the open source models (I know GLM 5.1 isn't open source yet) they seem to be great but after a compaction it all falls apart.&lt;/p&gt; &lt;p&gt;The thing is the closed source models are not higher-context than the open source ones. And Codex/Claude Code frequently auto-compacts.&lt;/p&gt; &lt;p&gt;I've seen GPT 5.4-High undergo like 10 compactions and still maintain focus.&lt;/p&gt; &lt;p&gt;So I'm assuming it's the memory layer, then? But the memory layer isn't dependent on the LLM, right? So does this mean that the harness is doing the heavy lifting with re: to long-running tasks?&lt;/p&gt; &lt;p&gt;But then if it's the harness doing the auto-compaction and guiding the model, wouldn't that mean we'd expect similarly good performance from say GLM 5 running in Claude Code or codex? &lt;/p&gt; &lt;p&gt;I guess I'm confused about how the memory layer and auto-compaction works in Claude Code and Codex. If there are any good videos or readings on the application/auto-compaction side of things specifically, I'd love to learn more. Thanks! &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/asian_tea_man"&gt; /u/asian_tea_man &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd99su/why_are_proprietary_frontier_models_like_opus_and/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd99su/why_are_proprietary_frontier_models_like_opus_and/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd99su/why_are_proprietary_frontier_models_like_opus_and/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-05T17:17:31+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1sd9d7m</id>
+    <title>What happened to MLX-LM? What are the alternatives?</title>
+    <updated>2026-04-05T17:21:08+00:00</updated>
+    <author>
+      <name>/u/Solus23451</name>
+      <uri>https://old.reddit.com/user/Solus23451</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Support seems non-existent and the last proper release was over a month ago. Comparing with llama.cpp, they are just miles different in activity and support. Is there an alternative or should just use llama.cpp for my macbook?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Solus23451"&gt; /u/Solus23451 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9d7m/what_happened_to_mlxlm_what_are_the_alternatives/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9d7m/what_happened_to_mlxlm_what_are_the_alternatives/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd9d7m/what_happened_to_mlxlm_what_are_the_alternatives/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-05T17:21:08+00:00</published>
   </entry>
   <entry>
     <id>t3_1sd3e83</id>
@@ -216,6 +203,19 @@
     <published>2026-04-05T06:48:04+00:00</published>
   </entry>
   <entry>
+    <id>t3_1sd0be8</id>
+    <title>Comparing Qwen3.5 vs Gemma4 for Local Agentic Coding</title>
+    <updated>2026-04-05T10:34:32+00:00</updated>
+    <author>
+      <name>/u/garg-aayush</name>
+      <uri>https://old.reddit.com/user/garg-aayush</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://deepmind.google/models/gemma/gemma-4/"&gt;Gemma4&lt;/a&gt; was relased by Google on April 2nd earlier this week and I wanted to see how it performs against Qwen3.5 for local agentic coding. This post is my notes on benchmarking the two model families. I ran two types of tests:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Standard llama-bench benchmarks&lt;/strong&gt; for raw prefill and generation speed&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Single-shot agentic coding tasks&lt;/strong&gt; using &lt;a href="https://opencode.ai"&gt;Open Code&lt;/a&gt; to see how these models actually perform on real multi-step coding workflows&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;My pick is Qwen3.5-27B which is still the best model for local agentic coding&lt;/strong&gt; on an 24GB card (RTX 3090/4090). It is reliable, efficient, produces the cleanest code and fits comfortably on a 4090.&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;Model&lt;/th&gt; &lt;th align="left"&gt;Gen tok/s&lt;/th&gt; &lt;th align="left"&gt;Turn(correct)&lt;/th&gt; &lt;th align="left"&gt;Code Quality&lt;/th&gt; &lt;th align="left"&gt;VRAM&lt;/th&gt; &lt;th align="left"&gt;Max Context&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;Gemma4-26B-A4B&lt;/td&gt; &lt;td align="left"&gt;~135&lt;/td&gt; &lt;td align="left"&gt;3rd&lt;/td&gt; &lt;td align="left"&gt;Weakest&lt;/td&gt; &lt;td align="left"&gt;~21 GB&lt;/td&gt; &lt;td align="left"&gt;256K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-35B-A3B&lt;/td&gt; &lt;td align="left"&gt;~136&lt;/td&gt; &lt;td align="left"&gt;2nd&lt;/td&gt; &lt;td align="left"&gt;Best structure, wrong API&lt;/td&gt; &lt;td align="left"&gt;~23 GB&lt;/td&gt; &lt;td align="left"&gt;200K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-27B&lt;/td&gt; &lt;td align="left"&gt;~45&lt;/td&gt; &lt;td align="left"&gt;1st&lt;/td&gt; &lt;td align="left"&gt;Cleanest and best overall&lt;/td&gt; &lt;td align="left"&gt;~21 GB&lt;/td&gt; &lt;td align="left"&gt;130K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Gemma4-31B&lt;/td&gt; &lt;td align="left"&gt;~38&lt;/td&gt; &lt;td align="left"&gt;1st&lt;/td&gt; &lt;td align="left"&gt;Clean but shallow&lt;/td&gt; &lt;td align="left"&gt;~24 GB&lt;/td&gt; &lt;td align="left"&gt;65K&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Max Context&lt;/strong&gt; is the largest context size that fits in VRAM with acceptable generation speed.&lt;/p&gt; &lt;/blockquote&gt; &lt;ul&gt; &lt;li&gt;MoE models are ~3x faster at generation (~135 tok/s vs ~45 tok/s) but both dense models got the complex task right on the first try. Both the MoE models needed retries.&lt;/li&gt; &lt;li&gt;Qwen3.5-35B-A3B is seems to be the most verbose (32K tokens on the complex task).&lt;/li&gt; &lt;li&gt;Gemma4-31B dense is context-limited in comparison to others on a 4090. Had to drop to 65K context to maintain acceptable generation speed.&lt;/li&gt; &lt;li&gt;None of the models actually followed TDD despite being asked to. All claimed red-green methodology but wrote integration tests hitting the real API.&lt;/li&gt; &lt;li&gt;Qwen3.5-27B produced the cleanest code (correct API model name, type hints, docstrings, pathlib). Qwen3.5-35B-A3B had the best structure but hardcoded an API key in tests and used the wrong model name.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;You can find the detailed analysis notes here: &lt;a href="https://aayushgarg.dev/posts/2026-04-05-qwen35-vs-gemma4/index.html"&gt;https://aayushgarg.dev/posts/2026-04-05-qwen35-vs-gemma4/index.html&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happpy to discuss and understand other folks experience too.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/garg-aayush"&gt; /u/garg-aayush &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://aayushgarg.dev/posts/2026-04-05-qwen35-vs-gemma4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd0be8/comparing_qwen35_vs_gemma4_for_local_agentic/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd0be8/comparing_qwen35_vs_gemma4_for_local_agentic/"/>
+    <category term="LocalLLaMA" label="r/LocalLLaMA"/>
+    <published>2026-04-05T10:34:32+00:00</published>
+  </entry>
+  <entry>
     <id>t3_1sd54v3</id>
     <title>I'm shocked (Gemma 4 results)</title>
     <updated>2026-04-05T14:32:41+00:00</updated>
@@ -229,17 +229,17 @@
     <published>2026-04-05T14:32:41+00:00</published>
   </entry>
   <entry>
-    <id>t3_1sd0be8</id>
-    <title>Comparing Qwen3.5 vs Gemma4 for Local Agentic Coding</title>
-    <updated>2026-04-05T10:34:32+00:00</updated>
+    <id>t3_1sda3r6</id>
+    <title>Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B</title>
+    <updated>2026-04-05T17:49:35+00:00</updated>
     <author>
-      <name>/u/garg-aayush</name>
-      <uri>https://old.reddit.com/user/garg-aayush</uri>
+      <name>/u/ffinzy</name>
+      <uri>https://old.reddit.com/user/ffinzy</uri>
     </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;&lt;a href="https://deepmind.google/models/gemma/gemma-4/"&gt;Gemma4&lt;/a&gt; was relased by Google on April 2nd earlier this week and I wanted to see how it performs against Qwen3.5 for local agentic coding. This post is my notes on benchmarking the two model families. I ran two types of tests:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Standard llama-bench benchmarks&lt;/strong&gt; for raw prefill and generation speed&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Single-shot agentic coding tasks&lt;/strong&gt; using &lt;a href="https://opencode.ai"&gt;Open Code&lt;/a&gt; to see how these models actually perform on real multi-step coding workflows&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;My pick is Qwen3.5-27B which is still the best model for local agentic coding&lt;/strong&gt; on an 24GB card (RTX 3090/4090). It is reliable, efficient, produces the cleanest code and fits comfortably on a 4090.&lt;/p&gt; &lt;table&gt;&lt;thead&gt; &lt;tr&gt; &lt;th align="left"&gt;Model&lt;/th&gt; &lt;th align="left"&gt;Gen tok/s&lt;/th&gt; &lt;th align="left"&gt;Turn(correct)&lt;/th&gt; &lt;th align="left"&gt;Code Quality&lt;/th&gt; &lt;th align="left"&gt;VRAM&lt;/th&gt; &lt;th align="left"&gt;Max Context&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td align="left"&gt;Gemma4-26B-A4B&lt;/td&gt; &lt;td align="left"&gt;~135&lt;/td&gt; &lt;td align="left"&gt;3rd&lt;/td&gt; &lt;td align="left"&gt;Weakest&lt;/td&gt; &lt;td align="left"&gt;~21 GB&lt;/td&gt; &lt;td align="left"&gt;256K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-35B-A3B&lt;/td&gt; &lt;td align="left"&gt;~136&lt;/td&gt; &lt;td align="left"&gt;2nd&lt;/td&gt; &lt;td align="left"&gt;Best structure, wrong API&lt;/td&gt; &lt;td align="left"&gt;~23 GB&lt;/td&gt; &lt;td align="left"&gt;200K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Qwen3.5-27B&lt;/td&gt; &lt;td align="left"&gt;~45&lt;/td&gt; &lt;td align="left"&gt;1st&lt;/td&gt; &lt;td align="left"&gt;Cleanest and best overall&lt;/td&gt; &lt;td align="left"&gt;~21 GB&lt;/td&gt; &lt;td align="left"&gt;130K&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td align="left"&gt;Gemma4-31B&lt;/td&gt; &lt;td align="left"&gt;~38&lt;/td&gt; &lt;td align="left"&gt;1st&lt;/td&gt; &lt;td align="left"&gt;Clean but shallow&lt;/td&gt; &lt;td align="left"&gt;~24 GB&lt;/td&gt; &lt;td align="left"&gt;65K&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt;&lt;/table&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Max Context&lt;/strong&gt; is the largest context size that fits in VRAM with acceptable generation speed.&lt;/p&gt; &lt;/blockquote&gt; &lt;ul&gt; &lt;li&gt;MoE models are ~3x faster at generation (~135 tok/s vs ~45 tok/s) but both dense models got the complex task right on the first try. Both the MoE models needed retries.&lt;/li&gt; &lt;li&gt;Qwen3.5-35B-A3B is seems to be the most verbose (32K tokens on the complex task).&lt;/li&gt; &lt;li&gt;Gemma4-31B dense is context-limited in comparison to others on a 4090. Had to drop to 65K context to maintain acceptable generation speed.&lt;/li&gt; &lt;li&gt;None of the models actually followed TDD despite being asked to. All claimed red-green methodology but wrote integration tests hitting the real API.&lt;/li&gt; &lt;li&gt;Qwen3.5-27B produced the cleanest code (correct API model name, type hints, docstrings, pathlib). Qwen3.5-35B-A3B had the best structure but hardcoded an API key in tests and used the wrong model name.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;You can find the detailed analysis notes here: &lt;a href="https://aayushgarg.dev/posts/2026-04-05-qwen35-vs-gemma4/index.html"&gt;https://aayushgarg.dev/posts/2026-04-05-qwen35-vs-gemma4/index.html&lt;/a&gt;&lt;/p&gt; &lt;p&gt;Happpy to discuss and understand other folks experience too.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/garg-aayush"&gt; /u/garg-aayush &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://aayushgarg.dev/posts/2026-04-05-qwen35-vs-gemma4/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sd0be8/comparing_qwen35_vs_gemma4_for_local_agentic/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sd0be8/comparing_qwen35_vs_gemma4_for_local_agentic/"/>
+    <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sda3r6/realtime_ai_audiovideo_in_voice_out_on_an_m3_pro/"&gt; &lt;img alt="Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B" src="https://external-preview.redd.it/bTdlMnJ2MHlzZXRnMVw0-9mlHJJCuGVz1fDctqTWn_Y7phjc873o_SWb_RO3.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=3d12f596b0eba6ff630021b719ffbbb9b925cf19" title="Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B" /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Sure you can't do agentic coding with the Gemma 4 E2B, but this model is a game-changer for people learning a new language. &lt;/p&gt; &lt;p&gt;Imagine a few years from now that people can run this locally on their phones. They can point their camera at objects and talk about them. And this model is multi-lingual, so people can always fallback to their native language if they want. This is essentially what OpenAI demoed a few years ago.&lt;/p&gt; &lt;p&gt;Repo: &lt;a href="https://github.com/fikrikarim/parlor"&gt;https://github.com/fikrikarim/parlor&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/ffinzy"&gt; /u/ffinzy &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://v.redd.it/jdurdr0ysetg1"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/LocalLLaMA/comments/1sda3r6/realtime_ai_audiovideo_in_voice_out_on_an_m3_pro/"&gt;[comments]&lt;/a&gt;&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://old.reddit.com/r/LocalLLaMA/comments/1sda3r6/realtime_ai_audiovideo_in_voice_out_on_an_m3_pro/"/>
     <category term="LocalLLaMA" label="r/LocalLLaMA"/>
-    <published>2026-04-05T10:34:32+00:00</published>
+    <published>2026-04-05T17:49:35+00:00</published>
   </entry>
   <entry>
     <id>t3_1sd9ebl</id>
