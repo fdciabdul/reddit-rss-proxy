@@ -2,24 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>/r/ollama/.rss</id>
   <title>ollama</title>
-  <updated>2026-04-05T05:25:04+00:00</updated>
+  <updated>2026-04-05T06:01:33+00:00</updated>
   <link href="https://old.reddit.com/r/ollama/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <icon>https://www.redditstatic.com/icon.png/</icon>
   <subtitle>Atom feed for r/ollama</subtitle>
-  <entry>
-    <id>t3_1sbkfns</id>
-    <title>MLX Local LLM for M5 Pro 15C 16G 24GB Ram (coding)</title>
-    <updated>2026-04-03T17:44:54+00:00</updated>
-    <author>
-      <name>/u/utnapistim99</name>
-      <uri>https://old.reddit.com/user/utnapistim99</uri>
-    </author>
-    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Hi there!&lt;/p&gt; &lt;p&gt;I have M5 Pro 15C 16G 24GB Ram setup, and i need to find the best choice for me.&lt;/p&gt; &lt;p&gt;I think we can now run MLX versions with Ollama. That's great! I actively write code and the agents I use are Opus 4.6, Sonnet, Flash, and Gemini 3.1 Pro. While not as good as those agents (ideally close), I need a similar local LLM recommendation. I found a few but couldn't get them to work. Could you please provide a direct link to the ideal MLX or non-MLX versions for this setup below? Or if there's another way to install it, please explain it.&lt;/p&gt; &lt;p&gt;I'm running the model by `continue` and `vsCode`. If there's a better method, please share it with me. I open Ollama in the terminal and run it using `run &amp;lt;localllm&amp;gt;`.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/utnapistim99"&gt; /u/utnapistim99 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sbkfns/mlx_local_llm_for_m5_pro_15c_16g_24gb_ram_coding/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1sbkfns/mlx_local_llm_for_m5_pro_15c_16g_24gb_ram_coding/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
-    <link href="https://old.reddit.com/r/ollama/comments/1sbkfns/mlx_local_llm_for_m5_pro_15c_16g_24gb_ram_coding/"/>
-    <category term="ollama" label="r/ollama"/>
-    <published>2026-04-03T17:44:54+00:00</published>
-  </entry>
   <entry>
     <id>t3_1sc0dd5</id>
     <title>Local llms for coding im running i5 11th gen 16gb ram and rtx 4060ti 8gb</title>
@@ -305,6 +292,19 @@
     <link href="https://old.reddit.com/r/ollama/comments/1sci25b/openstitch_opensource_ai_ui_prototyping_tool_that/"/>
     <category term="ollama" label="r/ollama"/>
     <published>2026-04-04T19:19:12+00:00</published>
+  </entry>
+  <entry>
+    <id>t3_1scvc1y</id>
+    <title>OpenWebUI integration, code intelligence for 248 languages, and more in Kreuzberg v4.7.0</title>
+    <updated>2026-04-05T05:29:31+00:00</updated>
+    <author>
+      <name>/u/Eastern-Surround7763</name>
+      <uri>https://old.reddit.com/user/Eastern-Surround7763</uri>
+    </author>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Kreuzberg is an open-source Rust-core document intelligence library that works with Python, TypeScript/Node.js, Go, Ruby, Java, C#, PHP, Elixir, R, C, and WASM. &lt;br /&gt; We’ve added several features, integrated OpenWEBUI, and made a big improvement in quality across all formats. There is also a new markdown rendering layer and new HTML output, which we now support. And much more (which you can find in our &lt;a href="https://github.com/kreuzberg-dev/kreuzberg/releases"&gt;the release notes&lt;/a&gt;).&lt;/p&gt; &lt;p&gt;The main highlight is &lt;strong&gt;code intelligence and extraction.&lt;/strong&gt; Kreuzberg now supports 248 formats through our &lt;a href="https://github.com/kreuzberg-dev/tree-sitter-language-pack"&gt;tree-sitter-language-pack library&lt;/a&gt;. This is a step toward making Kreuzberg an engine for agents too. You can efficiently parse code, allowing direct integration as a library for agents and via MCP. Agents work with code repositories, review pull requests, index codebases, and analyze source files. Kreuzberg now extracts functions, classes, imports, exports, symbols, and docstrings at the AST level, with code chunking that respects scope boundaries. &lt;/p&gt; &lt;p&gt;Kreuzberg is now available as a document extraction backend for OpenWebUI (by popular request!), with options for docling-serve compatibility or direct connection.&lt;/p&gt; &lt;p&gt;Regarding &lt;strong&gt;markdown quality&lt;/strong&gt;, poor document extraction can lead to further issues down the pipeline. We created a benchmark harness using Structural F1 and Text F1 scoring across over 350 documents and 23 formats, then optimized based on that. LaTeX improved from 0% to 100% SF1. XLSX increased from 30% to 100%. PDF table SF1 went from 15.5% to 53.7%. All 23 formats are now at over 80% SF1. The output pipelines receive is now structurally correct by default. &lt;/p&gt; &lt;p&gt;In this release, we’ve added &lt;strong&gt;unified architecture&lt;/strong&gt; where every extractor creates a standard typed document representation. We also included TOON wire format, which is a compact document encoding that reduces LLM prompt token usage by 30 to 50%, semantic chunk labeling, JSON output, strict configuration validation, and improved security. GitHub: &lt;a href="https://github.com/kreuzberg-dev/kreuzberg"&gt;https://github.com/kreuzberg-dev/kreuzberg&lt;/a&gt;. &lt;/p&gt; &lt;p&gt;Contributions are always very welcome!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href="https://old.reddit.com/user/Eastern-Surround7763"&gt; /u/Eastern-Surround7763 &lt;/a&gt; &lt;br /&gt; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1scvc1y/openwebui_integration_code_intelligence_for_248/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href="https://old.reddit.com/r/ollama/comments/1scvc1y/openwebui_integration_code_intelligence_for_248/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+    <link href="https://old.reddit.com/r/ollama/comments/1scvc1y/openwebui_integration_code_intelligence_for_248/"/>
+    <category term="ollama" label="r/ollama"/>
+    <published>2026-04-05T05:29:31+00:00</published>
   </entry>
   <entry>
     <id>t3_1sc6q5t</id>
